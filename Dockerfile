@@ -12,20 +12,20 @@ RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so
 ENV NOTVISIBLE "in users profile"
 RUN echo "export VISIBLE=now" >> /etc/profile
 
-RUN mkdir -p /var/www/page1.com/html/ \
-	&& mkdir -p /var/www/page2.com/html/ \
-	&& mkdir -p /var/www/page3.com/html/ \
+#RUN mkdir -p /var/www/page1.com/html/ \
+#	&& mkdir -p /var/www/page2.com/html/ \
+#	&& mkdir -p /var/www/page3.com/html/ \
 #	&& chown -R apache:apache /var/www/ \
-	&& chmod -R 755 /var/www/
+RUN	chmod -R 755 /var/www/
 
 #COPY index/  /var/www/html/
-COPY index/  /var/www/page1/html/
-COPY index2/  /var/www/page2/html/
-COPY index3/  /var/www/page3/html/
+COPY index/  /var/www/page1.com/html/
+COPY index2/  /var/www/page2.com/html/
+COPY index3/  /var/www/page3.com/html/
 
-RUN echo '192.168.0.1 page1' >> /etc/hosts \
-	&& echo '192.168.0.2 page2' >> /etc/hosts \
-	&& echo '192.168.0.3 page3' >> /etc/hosts 
+#RUN /bin/echo '192.168.0.1 page1.com' >> /etc/hosts \
+#	&& /bin/echo '192.168.0.2 page2.com' >> /etc/hosts \
+#	&& /bin/echo '192.168.0.3 page3.com' >> /etc/hosts 
 
 #RUN cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/page1.conf \
 #	&& cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/page2.conf \
@@ -52,7 +52,10 @@ RUN a2ensite page1.conf \
 
 EXPOSE 80
 EXPOSE 22
-CMD service ssh start && /home/server/ifaces_config/./start_ifaces.sh start \
+CMD service ssh start && echo '192.168.0.1 page1.com' >> /etc/hosts \
+	&& echo '192.168.0.2 page2.com' >> /etc/hosts \
+	&& echo '192.168.0.3 page3.com' >> /etc/hosts \
+	&& /home/server/ifaces_config/./start_ifaces.sh start \
 	&& /usr/sbin/apache2ctl -D FOREGROUND
 
 
