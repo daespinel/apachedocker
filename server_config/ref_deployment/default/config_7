@@ -1,0 +1,23 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	DocumentRoot /home/server/apache2-007
+
+	ErrorLog /error.log
+	CustomLog /access.log combined
+</VirtualHost>
+
+
+<VirtualHost *:443>
+	ServerAdmin webmaster@localhost
+	DocumentRoot /home/server/apache2-007
+
+	ErrorLog /error.log
+	CustomLog /access.log combined
+
+	Protocols http/1.1 h2
+
+	SSLEngine on
+	SSLCertificateFile /etc/apache2-007/ssl/apache-007.crt
+	SSLCertificateKeyFile /etc/apache2-007/ssl/apache-007.key
+</VirtualHost>
+

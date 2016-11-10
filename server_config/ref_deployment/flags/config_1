@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	DocumentRoot /home/server/apache2-001
+
+	ErrorLog /error.log
+	CustomLog /access.log combined
+</VirtualHost>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+

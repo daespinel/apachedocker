@@ -1,0 +1,59 @@
+<VirtualHost *:443>
+	DocumentRoot /home/server/apache2-001
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	Protocols h2 http/1.1
+
+	SSLEngine on
+	SSLCertificateFile /etc/apache2-001/ssl/apache-001.crt
+	SSLCertificateKeyFile /etc/apache2-001/ssl/apache-001.key
+</VirtualHost>
+
+
+<VirtualHost *:443>
+	ServerName cstatic.weborama.fr
+	DocumentRoot /home/server/apache2-001/cstatic.weborama.fr
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	Protocols h2 http/1.1
+
+	SSLEngine on
+	SSLCertificateFile /etc/apache2-001/ssl/apache-001.crt
+	SSLCertificateKeyFile /etc/apache2-001/ssl/apache-001.key
+</VirtualHost>
+
+
+<VirtualHost *:443>
+	ServerName wam.solution.weborama.fr
+	DocumentRoot /home/server/apache2-001/wam.solution.weborama.fr
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	Protocols h2 http/1.1
+
+	SSLEngine on
+	SSLCertificateFile /etc/apache2-001/ssl/apache-001.crt
+	SSLCertificateKeyFile /etc/apache2-001/ssl/apache-001.key
+</VirtualHost>
+
+
+<VirtualHost *:443>
+	ServerName static.ak.facebook.com
+	DocumentRoot /home/server/apache2-001/static.ak.facebook.com
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	Protocols h2 http/1.1
+
+	SSLEngine on
+	SSLCertificateFile /etc/apache2-001/ssl/apache-001.crt
+	SSLCertificateKeyFile /etc/apache2-001/ssl/apache-001.key
+</VirtualHost>
+
+

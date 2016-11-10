@@ -1,0 +1,15 @@
+<VirtualHost *:443>
+	ServerAdmin webmaster@localhost
+	DocumentRoot /home/server/apache2-002
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	Protocols http/1.1 h2
+
+	SSLEngine on
+	SSLCertificateFile /etc/apache2-002/ssl/apache-002.crt
+	SSLCertificateKeyFile /etc/apache2-002/ssl/apache-002.key
+</VirtualHost>
+
+
