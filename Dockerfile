@@ -19,7 +19,7 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 RUN	chmod -R 755 /var/www/
 
 #COPY index/  /var/www/html/
-COPY index/  /var/www/page1.com/html/
+COPY flags/  /var/www/page1.com/html/
 COPY index2/  /var/www/page2.com/html/
 COPY amazon/  /var/www/page3.com/html/
 
