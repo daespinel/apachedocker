@@ -21,7 +21,7 @@ RUN	chmod -R 755 /var/www/
 #COPY index/  /var/www/html/
 COPY index/  /var/www/page1.com/html/
 COPY index2/  /var/www/page2.com/html/
-COPY index3/  /var/www/page3.com/html/
+COPY amazon/  /var/www/page3.com/html/
 
 #RUN /bin/echo '192.168.0.1 page1.com' >> /etc/hosts \
 #	&& /bin/echo '192.168.0.2 page2.com' >> /etc/hosts \
@@ -51,6 +51,7 @@ RUN a2ensite page1.conf \
 	&& a2ensite page3.conf
 
 EXPOSE 80
+EXPOSE 443
 EXPOSE 22
 CMD service ssh start && echo '192.168.0.1 page1.com' >> /etc/hosts \
 	&& echo '192.168.0.2 page2.com' >> /etc/hosts \
