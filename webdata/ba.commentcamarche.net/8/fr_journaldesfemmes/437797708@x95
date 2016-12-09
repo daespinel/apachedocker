@@ -1,0 +1,38 @@
+function OAS_RICH(position) {
+if (position == 'x95') {
+document.write ('<div id="jNativeAds"></div>\n');
+document.write ('<script type="application/x-jet-extend" data-target=');
+document.write ("'");
+document.write ('jQuery.jet.startList.global');
+document.write ("'");
+document.write (' data-load=');
+document.write ("'");
+document.write ('init');
+document.write ("'");
+document.write (' data-parse="true">\n');
+document.write ('[{\n');
+document.write ('"name" : "nativeAds" \n');
+document.write (',"priority" : 1\n');
+document.write (',"group" : "global" \n');
+document.write (',"refresh" : false\n');
+document.write (',"fn" : ":=>function(){$.proxyLoader({load: $data.common.staticDomain + ');
+document.write ("'");
+document.write ('/asset/js?m=nativeAds&v=201506231800&lang=fr');
+document.write ("'");
+document.write (',complete:function(){jQuery(');
+document.write ("'");
+document.write ('#jNativeAds');
+document.write ("'");
+document.write (').nativeAds({');
+document.write ("'");
+document.write ('partner');
+document.write ("'");
+document.write (': ');
+document.write ("'");
+document.write ('brandt');
+document.write ("'");
+document.write ('});}});}" \n');
+document.write ('}]\n');
+document.write ('</script>\n');
+}
+}

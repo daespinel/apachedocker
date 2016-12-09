@@ -1,0 +1,140 @@
+<div class="diply-explore-shelf" ng-controller="ExploreController">
+    <div class="diply-explore-inner">
+    <a class="diply-explore-close" href="javascript:void(0)"><i class="fa fa-fw fa-times"></i></a>
+        <!-- Left Side: Trending -->
+        <div class="diply-explore-left">
+            <a href="{{content.shelf.articles[0].Url}}" class="left-image hidden-xs" style="background-image: url({{content.shelf.articles[0].ThumbUrl}});">
+                <div class="left-image-overlay">
+                    <span class="h3 white image-overlay-text">{{content.shelf.articles[0].Title}}</span>
+                </div>
+            </a>
+            <a href="{{content.shelf.articles[1].Url}}" class="left-image hidden-xs" style="background-image: url({{content.shelf.articles[1].ThumbUrl}});">
+                <div class="left-image-overlay">
+                    <span class="h3 white image-overlay-text">{{content.shelf.articles[1].Title}}</span>
+                </div>
+            </a>
+            <!-- Would like to remove hidden-xs from two above if possible -->
+            <a href="{{content.shelf.articles[2].Url}}" class="left-image hidden-xs" style="background-image: url({{content.shelf.articles[2].ThumbUrl}});">
+                <div class="left-image-overlay">
+                    <span class="h3 white image-overlay-text">{{content.shelf.articles[2].Title}}</span>
+                </div>
+            </a>
+            <a href="{{content.shelf.articles[3].Url}}" class="left-image hidden-xs" style="background-image: url({{content.shelf.articles[3].ThumbUrl}});">
+                <div class="left-image-overlay">
+                    <span class="h3 white image-overlay-text">{{content.shelf.articles[3].Title}}</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Right Side: Cats(Meow)/Search -->
+        <div class="diply-explore-right">
+            <div class="top-row">
+                <h3 class="explore-heading">Looking for Something?</h3>
+            </div>
+            <div class="middle-row">
+                <div class="right-col">
+                    <ul class="cat-list">
+                        <li>
+                            <a href="/c/life/animals">
+                                <i class="fa fa-fw fa-paw"></i>
+                                Animals
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/c/life/diy">
+                                <i class="fa fa-fw fa-paint-brush"></i>
+                                DIY
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/c/life/entertainment-life">
+                                <i class="fa fa-fw fa-star"></i>
+                                Entertainment
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/c/culture/food-life">
+                                <i class="fa fa-fw fa-cutlery"></i>
+                                Food
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-col">
+                    <ul class="cat-list">
+                        <li>
+                            <a href="/c/life/inspirational">
+                                <i class="fa fa-fw fa-lightbulb-o"></i>
+                                Inspire
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/c/life/fun">
+                                <i class="fa fa-fw fa-smile-o"></i>
+                                Laugh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/c/life">
+                                <i class="fa fa-fw fa-heart"></i>
+                                Life
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/c/news">
+                                <i class="fa fa-fw fa-newspaper-o"></i>
+                                News
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-col">
+                    <ul class="cat-list">
+                        <li>
+                            <a href="/c/culture/photography">
+                                <i class="fa fa-fw fa-camera"></i>
+                                Photography
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/c/style">
+                                <i class="fa fa-fw fa-group"></i>
+                                Style
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/shop">
+                                <i class="fa fa-fw fa-shopping-cart"></i>
+                                Shop
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/c/culture/tech">
+                                <i class="fa fa-fw fa-desktop"></i>
+                                Technology
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom-row">
+                <input class="diply-search" type="text" placeholder="Search Articles" ng-model="form.search" ng-enter="search()" />
+                <a class="diply-search-btn" href="javascript:void(0)" ng-click="search()">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Bottom: Legal -->
+        <div class="diply-explore-bottom hidden-xs">
+            <hr />
+            <a class="link-right" href="/static/privacy">Privacy Policy</a>
+            <a class="link-right" href="/static/terms">Terms of Use</a>
+            <a class="link-right" href="/static/help">Help</a><!-- Replace this with fancy modal ASAP -->
+
+            <a href="/static/about">About Us</a>
+            <a href="/static/advertise">Advertise</a>
+        </div>
+    </div>
+</div>

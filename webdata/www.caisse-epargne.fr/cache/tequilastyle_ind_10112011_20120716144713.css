@@ -1,0 +1,1752 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font: 62.5%/150% Arial,Helvetica,Verdana,sans-serif;
+}
+
+.tPushblock900 {
+	height: 378px;
+	overflow: hidden;
+	padding: 0;
+	width: 980px;
+}
+.tPushblock900 .tLinkess {
+	color: #FFF;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 980px;
+	height: 378px;
+	*background-color: transparent;
+}
+.tPushblock900 a {
+	cursor: pointer;
+	color: #FFF;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 980px;
+	height: 378px;
+	*background-color: transparent;
+}
+.tPushblock900 a *,
+.tPushblock900 a:hover {
+	cursor: pointer;
+	color: #FFF;
+	text-decoration: none;
+}
+.tPushblock900 .tHeadWrapper {
+	color: #59595e;
+	display: table-cell;
+	height: 378px;
+	vertical-align: middle;
+	width: 980px;
+}
+.tPushblock900 .tHeadWrapper a {
+	display: block !important;
+	float: left;
+	height: auto !important;
+	width: auto !important;
+}
+.tPushblock900 .tHspreader {
+	vertical-align: middle;
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+}
+.tPushblock900 .tPushWrap {
+	vertical-align: middle;
+	display: inline-block;
+	padding: 0 524px 0 15px;
+	width: 415px;
+	_display: inline !important;
+	_padding-right: 0 !important;
+}
+.tPushblock900 .tPushTitle {
+	clear: both;
+	display: block;
+	font: normal normal 2.6em/1.17em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+.tPushblock900 .tPushSubTitle {
+	clear: both;
+	display: block;
+	font: normal bold 1.2em/1.22em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+.tPushblock900 .tPushParagraph {
+	clear: both;
+	display: block;
+	font: normal normal 1.2em/1.22em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+.tPushblock900 .tPushLink {
+	background: url(10112011_ind_bullet_white15.png) no-repeat left center;
+	clear: both;
+	display: block;
+	font: normal normal 1.2em/1.22em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 4px 0 4px 22px;
+	text-transform: uppercase;
+}
+.tPushList {
+	clear: both;
+	display: block;
+	font: normal normal 1.2em/1.22em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+.tCenteredPush .tPushParagraph,
+.tCenteredPush .tPushSubTitle,
+.tCenteredPush .tPushTitle,
+.tCenteredPush  {
+	text-align: center;
+}
+.tCenteredPush .tPushLink {
+	text-align: left !important;
+}
+.mL85 {
+	margin-left: 85px !important;
+}
+.mL115 {
+	margin-left: 115px !important;
+}
+.mL150 {
+	margin-left: 150px !important;
+}
+/******************/
+.tContainer737 {
+	padding: 0;
+	width: 732px;
+}
+.tPushblock732 {
+	overflow: hidden;
+	padding: 0;
+	width: 732px;
+}
+.tPushblock732 .tHeadWrapper {
+	color: #59595e;
+	display: table-cell;
+	vertical-align: middle;
+	width: 732px;
+}
+.t378 .tHeadWrapper  {
+	height: 378px;
+}
+.tPushblock732 a {
+	cursor: pointer;
+	color: #59595e;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 732px;
+}
+.tPushblock732 .tHeadWrapper a {
+	display: block !important;
+	float: left;
+	height: auto !important;
+	width: auto !important;
+}
+.tPushblock732 a *,
+.tPushblock732 a:hover {
+	cursor: pointer;
+	color: #59595e;
+	text-decoration: none;
+}
+.tPushblock732 .tHspreader {
+	vertical-align: middle;
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+}
+.tPushblock732 .tPushWrap {
+	vertical-align: middle;
+	display: inline-block;
+	padding: 0 306px 0 27px;
+	width: 394px;
+}
+.tPushblock732 .tWider {
+	padding: 0 270px 0 25px;
+	width: 432px;
+}
+.tPushblock732 .tPushTitle {
+	clear: both;
+	display: block;
+	font: normal normal 1.8em/1.22em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+.tPushblock732 .tPushSubTitle {
+	clear: both;
+	display: block;
+	font: normal bold 1.2em/1.25em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+.tPushblock732 .tPushParagraph {
+	clear: both;
+	display: block;
+	font: normal normal 1.2em/1.25em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+.tPushblock732 .tPushLink {
+	background: url(10112011_ind_bullet_gray15.png) no-repeat left center;
+	clear: both;
+	display: block;
+	font: normal normal 1.4em/1.2em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 4px 0 4px 22px;
+	text-transform: uppercase;
+}
+.tPushblock732 .tPushLinkInner {
+	background: url(17112011_ind_downArrow.png) no-repeat left 6px;
+	clear: both;
+	display: block;
+	font: normal normal 1.2em/1.33em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 4px 0 4px 22px;
+	text-transform: uppercase;
+}
+/**********************/
+.tPushSubTitlePartPro {
+	clear: both;
+	display: block;
+	font: normal normal 1.88px/1.1em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+.tInfoBlock900 {
+	height: 590px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 980px;
+}
+
+/******** backgrounds and heights ********/
+.t378, .t378 a {
+	height: 378px;
+}
+.tProffesionals {
+	background: url(10112011_ind_pross900.jpg) no-repeat left top;
+}
+.tEnterprises {
+	background: url(10112011_ind_enterprises900.jpg) no-repeat left top;
+}
+.tImmoProfessionnels {
+	background: url(10112011_ind_home_immo_professionnels900.jpg) no-repeat left top;
+}
+.tSecteurPublique {
+	background: url(10112011_ind_secteur_publique900.jpg) no-repeat left top;
+}
+.tLogementSocial {
+	background: url(10112011_ind_logement_social900.jpg) no-repeat left top;
+}
+.tAssociationsMandataires {
+	background: url(10112011_ind_associations_mandataires900.jpg) no-repeat left top;
+}
+.tProffesionals1 {
+	background: url(10112011_ind_pross1.jpg) no-repeat left top;
+}
+.tProffesionals2 {
+	background: url(10112011_ind_pross2.jpg) no-repeat left top;
+}
+.tProffesionals3 {
+	background: url(10112011_ind_pross3.jpg) no-repeat left top;
+}
+.tProffesionals4 {
+	background: url(10112011_ind_pross4.jpg) no-repeat left top;
+}
+.tPartenariatProfessionnel {
+	background: url(10112011_ind_partenariat_professionnel.jpg) no-repeat left top;
+}
+.tInvestissemenRegion {
+	background: url(10112011_ind_investissement_region.jpg) no-repeat left top;
+}
+.tEmprunter1 {
+	background: url(10112011_ind_emprunter1.jpg) no-repeat left top;
+}
+.tEmprunter2 {
+	background: url(10112011_ind_emprunter2.jpg) no-repeat left top;
+}
+.tEmprunter3 {
+	background: url(10112011_ind_emprunter3.jpg) no-repeat left top;
+}
+.tEmprunter4 {
+	background: url(10112011_ind_emprunter4.jpg) no-repeat left top;
+}
+.tEmprunter5 {
+	background: url(10112011_ind_emprunter5.jpg) no-repeat left top;
+}
+.tEmprunter6 {
+	background: url(10112011_ind_emprunter6.jpg) no-repeat left top;
+}
+.tEmprunter7 {
+	background: url(10112011_ind_emprunter7.jpg) no-repeat left top;
+}
+.tEmprunter8 {
+	background: url(10112011_ind_emprunter8.jpg) no-repeat left top;
+}
+.tEmprunter9 {
+	background: url(10112011_ind_emprunter9.jpg) no-repeat left top;
+}
+.tEmprunter10 {
+	background: url(10112011_ind_emprunter10.jpg) no-repeat left top;
+}
+.tSassurer1 {
+	background: url(11112011_ind_sassurer1.jpg) no-repeat left top;
+}
+.tSassurer2 {
+	background: url(11112011_ind_sassurer2.jpg) no-repeat left top;
+}
+.tSassurer3 {
+	background: url(11112011_ind_sassurer3.jpg) no-repeat left top;
+}
+.tSassurer4 {
+	background: url(11112011_ind_sassurer4.jpg) no-repeat left top;
+}
+.tSassurer5 {
+	background: url(11112011_ind_sassurer5.jpg) no-repeat left top;
+}
+.tEntreprise1 {
+	background: url(11112011_ind_entreprise1.jpg) no-repeat left top;
+}
+.tEntreprise2 {
+	background: url(11112011_ind_entreprise2.jpg) no-repeat left top;
+}
+.tEntreprise3 {
+	background: url(11112011_ind_entreprise3.jpg) no-repeat left top;
+}
+.tCado {
+	background: url(11112011_ind_cado.jpg) no-repeat left top;
+}
+.tAssociationsMandatairesHomePart {
+	background: url(16112011_ind_associations_mandataires900.jpg) no-repeat left top;
+}
+.tEnterprisesHomePart {
+	background: url(16112011_ind_enterprises900.jpg) no-repeat left top;
+}
+.tImmoProfessionnelsHomePart {
+	background: url(16112011_ind_home_immo_professionnels900.jpg) no-repeat left top;
+}
+.tLogementSocialHomePart  {
+	background: url(16112011_ind_logement_social900.jpg) no-repeat left top;
+}
+.tParticuliersHomePart {
+background: url(16112011_ind_particuliers_social900.jpg) no-repeat left top;
+}
+.tProfessionalesHomePart {
+	background: url(16112011_ind_professionales_social900.jpg) no-repeat left top;
+}
+.tSecteurPubliqueHomePart {
+	background: url(16112011_ind_secteurPublique_social900.jpg) no-repeat left top;
+}
+.tAssociationsMandataires2 {
+	background: url(16112011_ind_part_associations_mandataires_2.jpg) no-repeat left top;
+}
+.tImmoProfessionnels2 {
+	background: url(16112011_ind_part_immo_professionnels_2.jpg) no-repeat left top;
+}
+.tEnterprises2 {
+	background: url(16112011_ind_part_entreprises_2.jpg) no-repeat left top;
+}
+.tParticuliers2 {
+	background: url(16112011_ind_part_particuliers_2.jpg) no-repeat left top;
+}
+.tSecteurPublique2 {
+	background: url(16112011_ind_part_secteur_publique_2.jpg) no-repeat left top;
+}
+.tLogementSocial2 {
+	background: url(16112011_ind_part_logement_social_2.jpg) no-repeat left top;
+}
+.tProfessionnels2 {
+	background: url(16112011_ind_part_professionnels_2.jpg) no-repeat left top;
+}
+.tHomePartParticuliers {
+	background: url(16112011_ind_home_particuliers900.jpg) no-repeat left top;
+	position: relative;
+}
+.tDei {
+	background: url(16112011_ind_dei900.jpg) no-repeat left top;
+}
+.tGpHomePage
+{
+	background: url(21112011_gp_home_page.jpg) no-repeat left top;
+}
+.tGpPage
+{
+	background: url(21112011_gp_page_bg.jpg) no-repeat left top;
+}
+.tBAQ1 {
+	background: url(21112011_ind_baq_1.jpg) no-repeat left top;
+}
+.tBAQ2 {
+	background: url(21112011_ind_baq_2.jpg) no-repeat left top;
+}
+.tBAQ3 {
+	background: url(21112011_ind_baq_3.jpg) no-repeat left top;
+}
+.tBAQ4 {
+	background: url(21112011_ind_baq_4.jpg) no-repeat left top;
+}
+.tBAQ5 {
+	background: url(21112011_ind_baq_5.jpg) no-repeat left top;
+}
+.tBAQ6 {
+	background: url(21112011_ind_baq_6.jpg) no-repeat left top;
+}
+.tBAQ7 {
+	background: url(30112011_ind_baq_7.jpg) no-repeat left top;
+}
+.tBAQ8 {
+	background: url(30112011_ind_baq_8.jpg) no-repeat left top;
+}
+.tBAQ9 {
+	background: url(30112011_ind_baq_9.jpg) no-repeat left top;
+}
+.tBAQ10 {
+	background: url(30112011_ind_baq_10.jpg) no-repeat left top;
+}
+.tBAQ11 {
+	background: url(30112011_ind_baq_11.jpg) no-repeat left top;
+}
+.tBAQ12 {
+	background: url(30112011_ind_baq_12.jpg) no-repeat left top;
+}
+.tBAQ13 {
+	background: url(30112011_ind_baq_13.jpg) no-repeat left top;
+}
+.tBAQ14 {
+	background: url(30112011_ind_baq_14.jpg) no-repeat left top;
+}
+.tBAQ15 {
+	background: url(21112011_ind_baq_15.jpg) no-repeat left top;
+}
+.tBAQ16 {
+	background: url(30112011_ind_baq_16.jpg) no-repeat left top;
+}
+.tBAQ17 {
+	background: url(30112011_ind_baq_17.jpg) no-repeat left top;
+}
+.tBAQ18 {
+	background: url(30112011_ind_baq_18.jpg) no-repeat left top;
+}
+.tBAQ19 {
+	background: url(01122011_ind_baq_19.jpg) no-repeat left top;
+}
+.tBAQ20 {
+	background: url(01122011_ind_baq_20.jpg) no-repeat left top;
+}
+.tBAQ21 {
+	background: url(01122011_ind_baq_21.jpg) no-repeat left top;
+}
+.tBAQ22 {
+	background: url(01122011_ind_baq_22.jpg) no-repeat left top;
+}
+.tDevenirClient
+{
+	background: url(22112011_ind_devenir_client.jpg) no-repeat left top;
+}
+.tMecanat {
+	background: url(23112011_ind_mecanat_bg.jpg) no-repeat left top;
+}
+.tPrevoyance {
+	background: url(23112011_ind_prevoyance_bg.jpg) no-repeat left top;
+}
+.tSassurer {
+	background: url(23112011_ind_sassurer_bg.jpg) no-repeat left top;
+}
+
+/*************** txts *******/
+.tDei * {
+	color: #666 !important;
+}
+.tDei .tPushLink {
+	background: url(10112011_ind_bullet_gray15.png) no-repeat left center;
+	font-size: 1.4em;
+	line-height: 1.2em;
+}
+.t737Texts {
+	margin: 0;
+	padding: 15px  0 0 0;
+}
+.t737Texts .tPseudoListTitle737 {
+	color: #595a5e;
+	font: normal bold 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 15px 0 0 0;
+}
+.t737Texts .tPseudoListTitleLarge737 {
+	color: #595a5e;
+	font: normal bold 1.2em/1.33em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 15px 0 0 0;
+}
+.t737Texts .tPseudoList {
+	background: url(10112011_ind_graydash.gif) no-repeat left 7px;
+	color: #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 15px 10px;
+}
+.tP12t18 {
+	color: #595a5e;
+	font: normal normal 1.2em/1.33em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 18px 0 0 0;
+}
+.t737Texts .tPseudoListNoSpace {
+	background: url(10112011_ind_graydash.gif) no-repeat left 7px;
+	color: #595a5e;
+	font: normal normal 1.2em/1.33em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+.t737Texts .tPseudoListWrapperHspace {
+	padding: 15px 0;
+}
+.t737Texts .tPseudoListWrapperNoSpace {
+	padding: 0;
+}
+.tInitRed {
+	color: #e30019;
+}
+.tInitRed .tPseudoList {
+	background: url(10112011_ind_reddash.gif) no-repeat left 7px;
+	color: #e30019;
+}
+.tInitRed .tPseudoListNoSpace {
+	background: url(10112011_ind_reddash.gif) no-repeat left 7px;
+	color: #e30019;
+}
+.tInitRed .tPseudoListNoSpace a,
+.tInitRed .tPseudoList a {
+	color: #e30019;
+}
+.tMultiSection {
+	color: #595a5e;
+	margin: 0;
+	padding: 0 110px 0 0;
+	position: relative;
+	width: 622px;
+}
+.tStrapLine
+{
+	margin-top: 20px;
+}
+.tMultiSection h4 {
+	color: #595a5e;
+	font: normal normal 1.6em/1.25em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 15px 0 4px 0;
+	text-align: left;
+	text-indent: 0;
+	text-transform: uppercase;
+}
+.tMsection {
+	color: #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 15px 0;
+	text-align: left;
+	text-indent: 0;
+}
+.tMultiSection p.tHeading {
+	color: #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 20px 0 0 0;
+	text-align: left;
+	text-indent: 0;
+}
+.tMultiSection .tMsection p.tInitRed,
+.tMultiSection h4.tInitRed {
+	color: #e30019;
+}
+.tUpWrap {
+	bottom: 12px;
+	right: 0;
+	position: absolute;
+	width: 100px;
+}
+.tINDtoTop {
+	background: url(10112011_ind_topbutton.gif) no-repeat left top;
+	display: block;
+	height:23px;
+	margin: auto;
+	overflow: hidden;
+	outline: none;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: -9999px;
+	width: 99px;
+}
+.tINDdef {
+	margin: 0;
+	padding: 16px 0 0 0;
+}
+.tINDdef dt {
+	background: url(10112011_ind_graydot.gif) no-repeat left 6px;
+	color: #595a5e;
+	font: normal bold 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 1px 0;
+	text-align: left;
+	text-indent: 10px;
+	text-transform: uppercase;
+}
+.tINDdef.tINDdefSmall dt {
+	text-transform: none;
+}
+.tINDdef dd {
+	color: #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-indent: 0;
+}
+.tINDdef dd p {
+	color: #595a5e;
+/*	font: normal normal 11px/16px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif; */
+	margin: 0;
+	padding: 0 0 15px 0;
+	text-align: left;
+	text-indent: 0;
+}
+.tDashList {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+.tMultiSection .tDashList .tDashListInside
+{
+	list-style-position: outside;
+}
+.tDashList .tDashListNoneDecoration
+{
+	background: none;
+	margin-left: -10px;
+}	
+.tDashList li {
+	background: url(10112011_ind_graydash.gif) no-repeat left 7px;
+	color: #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+.tINDdef dd .tDashList li {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.tDashListNoSpace li {
+	padding:0;
+	text-align:left;
+	text-indent:10px;
+}
+.tDashListNoSpace li.tDashListNoneDecoration
+{
+	margin:0;
+	text-indent:0;
+}
+.tDotList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tDotList li {
+	background: url(10112011_ind_graydot4x4.gif) no-repeat left 7px;
+	color: #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+.tINDdef dd .tDotList li {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.scheme {
+	background: url(11112011_ind_entreprise1_scheme.jpg) no-repeat left 30px;
+	height:325px;
+	overflow: hidden;
+	padding: 30px 0 14px 0;
+	text-align: left;
+	text-indent: -9999px;
+	width: 620px;
+}
+.tContentButton {
+	background: url(11112011_ind_contentbutton.gif)	no-repeat top left;
+	display:block;
+	height:22px;
+	margin: auto auto auto 0;
+	overflow: hidden;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: -9999px;
+	width:79px;
+}
+.tLogoList {
+	margin: 0;
+	padding: 25px 0 0 0;
+	list-style: none;
+}
+.tLogoList li {
+	color:  #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 24px 106px;
+}
+.tINDdef dd .tLogoList li {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.tCra {
+	background: url(11112011_ind_logo_cra.jpg) no-repeat left top;
+}
+.tReseau {
+	background: url(11112011_ind_logo_reseau.jpg) no-repeat left top;
+}
+.tHec{
+	background: url(11112011_ind_logo_hec.jpg) no-repeat left top;
+}
+.tLogoList li p {
+	background: url(10112011_ind_graydot4x4.gif) no-repeat left 6px;
+	color:  #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 12px 0;
+	text-indent:10px;
+}
+.tINDdef dd .tLogoList li p {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.tEnterpriseTable {
+	color:  #595a5e;
+	border: 0 none;
+	border-collapse:collapse;
+	margin: 25px auto 0 0;
+	width: 620px;
+}
+.tEnterpriseTable th,
+.tEnterpriseTable td {
+	font: 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 12px 22px 12px 9px;
+}
+.tINDdef dd th,
+.tINDdef dd td {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.tEnterpriseTable th {
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+}
+.tEnterpriseTable td {
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+.tHistoricTableFooterGpPage
+{
+	background: url(11112011_ind_gray2x2.gif) repeat-x left 5px;
+}
+
+.tHistoricTableFooterGpPage tr,
+.tEnterpriseTable tbody tr {
+	background: url(11112011_ind_gray2x2.gif) repeat-x left bottom;
+}
+.tEnterpriseTable ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tEnterpriseTable ul li {
+	background: url(10112011_ind_graydot4x4.gif) no-repeat left 6px;
+	color:  #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 0 11px;
+}
+.tINDdef .tEnterpriseTable ul li {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.tEnterpriseTable .tGray1 {
+	background-color: #ccc;
+	width: 50%;
+}
+.tEnterpriseTable .tGray2 {
+	background-color: #e4e4e4;
+}
+.tEnterpriseTable p {
+	color:  #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.tINDdef .tEnterpriseTable p {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.tContainer737 sup,
+.tContainer737 sub {
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+	font-weight: normal;
+}
+.tContainer737 sup {
+	bottom: 1ex;
+	font-size: 65%;
+}
+.tContainer737 sub {
+	top: .5ex;
+}
+.tNote {
+	font-size: 10px;
+	line-height: 15px;
+}
+.tMultiRow {
+	background-position: left 6px !important;
+}
+.tRowSpaced li {
+	padding-bottom: 12px !important;
+}
+.tGray3 {
+	color: #595a5e;
+}
+/****************************/
+.tInfoBlock900 h3 {
+	color: #59595e;
+	display: block;
+	font: normal normal 2.6em/1.19em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	left: 32px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 28px;
+}
+.tInfoBlock900 .tBlock1 {
+	color: #59595e;
+	font: normal normal 1.4em/1.2em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	position: absolute;
+	right: 781px;
+	text-align: right;
+	top: 169px;
+	width: 188px;
+}
+.tInfoBlock900 .tBlock2 {
+	color: #59595e;
+	font: normal normal 1.4em/1.2em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	left: 772px;
+	position: absolute;
+	text-align: left;
+	top: 162px;
+	width: 188px;
+}
+.tInfoBlock900 .tBlock3 {
+	color: #59595e;
+	font: normal normal 1.4em/1.2em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	position: absolute;
+	right: 781px;
+	text-align: right;
+	top: 243px;
+	width: 188px;
+}
+.tInfoBlock900 .tBlock4 {
+	color: #59595e;
+	font: normal normal 1.4em/1.21em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	left: 772px;
+	position: absolute;
+	text-align: left;
+	top: 253px;
+	width: 188px;
+}
+.tInfoBlock900 .tBlock5 {
+	color: #59595e;
+	font: normal normal 1.4em/1.2em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	left: 772px;
+	position: absolute;
+	text-align: left;
+	top: 416px;
+	width: 188px;
+}
+.tInfoBlock900 .tBlock6 {
+	color: #59595e;
+	font: normal normal 1.3em/1.23em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	position: absolute;
+	right: 781px;
+	text-align: right;
+	top: 169px;
+	width: 188px;
+}
+.tInfoBlock900 .tBlock7 {
+	color: #59595e;
+	font: normal normal 1.3em/1.23em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	left: 772px;
+	position: absolute;
+	text-align: left;
+	top: 162px;
+	width: 200px;
+}
+.tInfoBlock900 .tBlock8 {
+	color: #59595e;
+	font: normal normal 1.3em/1.23em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	position: absolute;
+	right: 781px;
+	text-align: right;
+	top: 243px;
+	width: 188px;
+}
+.tInfoBlock900 .tBlock9 {
+	color: #59595e;
+	font: normal normal 1.3em/1.23em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	left: 772px;
+	position: absolute;
+	text-align: left;
+	top: 270px;
+	width: 188px;
+}
+.tInfoBlock900 .tBlock10 {
+	color: #59595e;
+	font: normal normal 1.3em/1.23em "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	position: absolute;
+	right: 781px;
+	text-align: right;
+	top: 485px;
+	width: 188px;
+}
+.tInfoBlock900 .tCloserWrapper {
+	height: 22px;
+	position: absolute;
+	right: 28px;
+	top: 28px;
+	width: 80px;
+}
+.tInfoBlock900 .tCloserWrapper a {
+	background: url(16112011_ind_button_fermer.png) no-repeat left top;
+	color: #59595e;
+	display: block;
+	height: 22px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: -9999px;
+	width: 80px;
+}
+/**********************/
+.tHomePartParticuliers a {
+	display: block;
+	height: 378px;
+	width: 980px;
+}
+.tHomePartParticuliers .tPushTitle {
+	color: #59595e;
+	left: 18px;
+	position: absolute;
+	top: 121px;
+}
+.tHomePartParticuliers .tInitRed {
+	color: #e30019;
+}
+.tHomePartParticuliers .tPushParagraph {
+	font: 1.8em/1.22em "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+	left: 18px;
+	position: absolute;
+	top: 298px;
+}
+.tHomePartParticuliers .tPushLink {
+	bottom: 11px;
+	font-size: 14px;
+	left: 18px;
+	line-height: 17px;
+	position: absolute;
+}
+
+/********Epargner Page********/
+.tEpargner1
+{
+	background: url(17112011_ind_epargner_1.jpg) no-repeat left top;
+}
+.tEpargner2
+{
+	background: url(17112011_ind_epargner_2.jpg) no-repeat left top;
+}
+.tEpargner3
+{
+	background: url(17112011_ind_epargner_3.jpg) no-repeat left top;
+}
+
+.tEpargner4
+{
+	background: url(17112011_ind_epargner_4.jpg) no-repeat left top;
+}
+
+.tEpargner5
+{
+	background: url(17112011_ind_epargner_5.jpg) no-repeat left top;
+}
+.tEpargner6
+{
+	background: url(17112011_ind_epargner_6.jpg) no-repeat left top;
+}
+.tEpargner7
+{
+	background: url(17112011_ind_epargner_7.jpg) no-repeat left top;
+}
+.tEpargner8
+{
+	background: url(17112011_ind_epargner_8.jpg) no-repeat left top;
+}
+.tEpargner11
+{
+	background: url(17112011_ind_epargner_11.jpg) no-repeat left top;
+}
+.tEpargner12
+{
+	background: url(17112011_ind_epargner_12.jpg) no-repeat left top;
+}
+.tEpargner13
+{
+	background: url(17112011_ind_epargner_13.jpg) no-repeat left top;
+}
+.tEpargner14
+{
+	background: url(17112011_ind_epargner_14.jpg) no-repeat left top;
+}
+.tEpargner17
+{
+	background: url(17112011_ind_epargner_17.jpg) no-repeat left top;
+}
+.tEpargner18
+{
+	background: url(17112011_ind_epargner_18.jpg) no-repeat left top;
+}
+.tEpargner16
+{
+	background: url(17112011_ind_epargner_16.jpg) no-repeat left top;
+}
+.tEpargner10
+{
+	background: url(17112011_ind_epargner_10.jpg) no-repeat left top;
+}
+.tEpargner9
+{
+	background: url(17112011_ind_epargner_9.jpg) no-repeat left top;
+}
+.tIntermediaire {
+	background: url(21112011_ind_intermediaire.jpg) no-repeat left top;
+}
+
+
+
+.tContentTopList
+{
+	font: normal normal 1.1em/1.18em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	list-style-image: url:(10112011_ind_graydot4x4.gif);
+	list-style-position: inside;
+	padding: 0px;
+	margin: 0 0 25px 0;
+}
+
+.tContentTopListNoneStyle
+{
+	list-style: none;
+}
+
+.tMsectionItalic
+{
+	font-style: italic;
+}
+.tMsectionDoted
+{	display: block;
+	background: url(10112011_ind_graydot4x4.gif) left 6px no-repeat;
+	padding-left: 10px;
+}
+
+.tMultiSesionBottomBox
+{
+	width: 532px;
+	height: 427px;
+	margin-top: 40px;
+}
+
+.tStrongTitleWithoutDot
+{
+	display: block;
+	font: normal bold 1.2em/1.33em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.tStrongTitleWithoutDotPadding
+{
+	padding-bottom: 15px;
+}
+.tLink
+{
+	color: #595a5e;
+	font: normal normal 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	font-weight: bold;	
+}
+.tSmallDot
+{
+	background: url("10112011_ind_graydot4x4.gif") no-repeat scroll left 6px transparent;
+	text-align:left;
+	text-indent: 8px;
+	display:block;
+}
+
+.tMultiSectionContentAnchor
+{
+	font: normal normal 1.2em/1.16em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #59595e;
+	display: block;
+	padding: 5px 0 5px 15px;
+	background: url("17112011_ind_downArrow.png") no-repeat scroll left 6px transparent;
+}
+.tINDdef dd .tMultiSectionContentAnchor {
+	font-size: 1.1em;
+	line-height: 1.16em;
+}
+.tMultiSectionContentAnchorFirst
+{
+	margin-top: 10px;
+}
+
+.tMultiSectionContentAnchorLast
+{
+	margin-bottom: 15px;
+}
+
+.tMultiSectionInsideContentAnchor
+{
+	font: normal normal 1.2em/1.16em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #59595e;
+	display: block;
+	padding: 5px 0 5px 15px;
+	background: url("17112011_ind_leftArrow.png") no-repeat scroll left 6px transparent;
+	margin-bottom: 25px;
+}
+.tINDdef dd .tMultiSectionContentAnchor {
+	font-size: 1.1em;
+	line-height: 1.16em;
+}
+.tINDdef .tINDdefDDpaddingBottom
+{
+	padding-bottom: 15px;
+}
+.tSoloHeading {
+	color:  #595a5e;
+	font: normal bold 1.2em/1.16em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 18px 0;
+}
+.tINDdef dd .tSoloHeading {
+	font-size: 1.1em;
+	line-height: 1.16em;
+}
+.tHistoricTable {
+	border-style: none;
+	border-collapse: collapse;
+	border-width: 0;
+	margin-bottom: 12px;
+}
+.tHistoricTableGpPage
+{
+	width: 732px;
+}
+
+.tHistoricTable .tHistoricTableGpPage th,
+.tHistoricTable .tHistoricTableGpPage td
+{
+	width: 104px;
+	font: 1em/1.6em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+.tINDdef dd .tHistoricTable .tHistoricTableGpPage th,
+.tINDdef dd .tHistoricTable .tHistoricTableGpPage td {
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+.tHistoricTable th,
+.tHistoricTable td {
+	color: #595a5e;
+	font: 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 12px 17px 12px 9px;
+}
+.tINDdef dd .tHistoricTable th,
+.tINDdef dd .tHistoricTable td {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.tHistoricTable th {
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+}
+.tHistoricTableGpPage th a {
+	color: #595a5e;
+}
+.tHistoricTable .tHistoricTableColSpan  {
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+}
+.tHistoricTable td {
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+.tHistoricTable tbody tr {
+	background: url(11112011_ind_gray2x2.gif) repeat-x left bottom;
+}
+.tHistoricTable .tHistoricTableLineNone
+{
+	background: none;
+}
+
+.tHistoricTable .tHistoricTableLineBgGray
+{
+	background-color: #f2f2f2;
+}
+
+.tHistoricTable .tHistoricTableLineNone
+{
+	background: none;
+}
+.tHistoricTable td.tCenteredTd {
+	text-align: center;
+}
+.tHistoricTable td.tCenteredTdGpPage {
+	text-align: left;
+	vertical-align: middle;
+}
+.tHistoricTable .tGray1 {
+	background-color: #ccc;
+}
+.tHistoricTable .tGray2 {
+	background-color: #e4e4e4;
+}
+.tDepositsTable {
+	border-style: none;
+	border-collapse: collapse;
+	border-width: 0;
+	margin-bottom: 12px;
+}
+.tDepositsTable th,
+.tDepositsTable td {
+	color: #595a5e;
+	font: 1.1em/1.45em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 12px 12px 12px 9px;
+}
+.tINDdef dd .tDepositsTable th,
+.tINDdef dd  .tDepositsTable td {
+	font-size: 1em;
+	line-height: 1.45em;
+}
+.tDepositsTable th {
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+}
+.tDepositsTable td {
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+.tDepositsTable tbody tr {
+	background: url(11112011_ind_gray2x2.gif) repeat-x left bottom;
+}
+.tDepositsTable td.tCenteredTd {
+	text-align: center;
+}
+.tDepositsTable .tGray1 {
+	background-color: #ccc;
+}
+.tDepositsTable .tGray2 {
+	background-color: #e4e4e4;
+}
+.tDefT15 dt {
+	margin-bottom: 14px;
+}
+/*****OP DEI PAGE TUMBNAILS******/
+.tOpDeiTumbnails
+{
+	width: 980px;
+	float: left;
+	padding: 30px 0 15px 0;
+}
+.tOpDeiTumbnailLeft
+{
+	width: 732px;
+	height: 168px;
+	float: left;
+	background: url(16112011_ind_dei900_left_tumbnail.jpg) left top no-repeat;
+}
+.tOpDeiTumbnailRight
+{
+	width: 236px;
+	height: 168px;
+	background: url(16112011_ind_dei900_right_tumbnail.jpg) left top no-repeat;
+	float: right;
+}
+.tOpDeiTumbnailLeftAnchor
+{
+	width: 732px;
+	height: 168px;
+	text-decoration: none;
+	display: block;
+}
+.tOpDeiTumbnailRightAnchor
+{
+	width: 236px;
+	height: 168px;
+	text-decoration: none;
+	display: block;
+}
+.tOpDeiTumbnailLeftAnchor,.tOpDeiTumbnailRightAnchor
+{
+	background: url(16112011_ind_dei900_EnSavoir_button.png) 10px 129px no-repeat transparent;
+}
+.tOpDeiTumbnailAnchorHeading
+{
+	color: #cc0000;
+	font: bold normal 1.6px/1.25em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	display: block;
+	padding: 10px 0 20px 10px;
+	word-spacing: -3px;
+}
+.tINDdef dd .tOpDeiTumbnailAnchorHeading {
+	font-size: 1.45em;
+	line-height: 1.25em;
+}
+.tOpDeiTumbnailAnchorDescription
+{
+	color:#666666;
+	font: bold normal 1.1em/1.27em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	display: block;
+}
+.tINDdef dd .tOpDeiTumbnailAnchorDescription {
+	font-size: 1em;
+	line-height: 1.27em;
+}
+.tOpDeiTumbnailAnchorButtonNoneDisp
+{
+	display: none;
+}
+/******************************/
+.tNoBottomSpace {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+.tF12 {
+	font-size: 12px;
+}
+.tUpper {
+	text-transform: uppercase;
+}
+/******************************/
+/*******GP pages******/
+
+.tGpHomePageLeftSide
+{
+	width: 466px;
+	float: left;
+	padding: 141px 0 0 18px;
+}
+.tGpHomePageRightSide
+{
+	width: 496px;
+	float: left;
+	padding-top: 70px;
+}
+.tGpHomePageLeftSide h6
+{
+	width: 123px;
+	height: 23px;
+	background: url(21112011_gp_home_page_logo.jpg) left top no-repeat;
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+.tGpHomePageLeftSide h6 span
+{
+	display: none;
+}
+.tGpHomePageLeftSide h3
+{
+	font: bold normal 2.8em/1.14em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+.tINDdef dd .tGpHomePageLeftSide h3 {
+	font-size: 2.54em;
+}
+.tGpHomePageLeftSideHeadingFirstLine
+{
+	color: #988d7d;
+}
+
+.tGpHomePageLeftSideHeadingSecondLine
+{
+	color: #d00019;
+}
+.tGpHomePageVideoContainer
+{
+	width: 320px;
+	height: 240px;
+	margin: 0 auto;
+}
+.tMultiSectionGpPage
+{
+	padding-top: 20px;
+}
+.tGpPageBottomLegend
+{
+	font: normal normal .9px/1.4em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	padding-bottom: 10px;
+}
+
+/***************************/
+.tInnerPushes {
+	clear: both;
+	overflow: hidden;
+	padding: 16px 0 0 0;
+}
+.tInnerPush {
+	float: left;
+	height: 168px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 12px 11px 0;
+	width: 236px;
+}
+.tInnerPush a {
+	color:#e2001a;
+	display: block;
+	font: normal normal 1.8em/1.17em "Myriad Pro","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	height: 42px;
+	margin: 0;
+	overflow: hidden;
+	padding: 9px 31px 117px 11px;
+	text-align: left;
+	text-decoration: none;
+	width: 194px;
+}
+.tINDdef dd .tInnerPush a {
+	font-size: 1.63em;
+}
+.tHome {
+	background: url(21112011_ind_intermediaire_push1.jpg) no-repeat left top;
+}
+.tAuto {
+	background: url(21112011_ind_intermediaire_push2.jpg) no-repeat left top;
+}
+.tObject {
+	background: url(21112011_ind_intermediaire_push3.jpg) no-repeat left top;
+}
+.tHealth {
+	background: url(21112011_ind_intermediaire_push4.jpg) no-repeat left top;
+}
+.tInjury {
+	background: url(21112011_ind_intermediaire_push5.jpg) no-repeat left top;
+}
+.tLaw {
+	background: url(21112011_ind_intermediaire_push6.jpg) no-repeat left top;
+}
+.tRelatives {
+	background: url(21112011_ind_intermediaire_push7.jpg) no-repeat left top;
+}
+.tSoloLinkWraper {
+	padding: 20px 0 12px 0;
+}
+.tSoloBulleted {
+	background: url("10112011_ind_bullet_gray15.png") no-repeat scroll left center transparent;
+	clear: both;
+	color: #59595E;
+	display: block;
+	float: left;
+	font: 1.4em/1.21em "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 4px 0 4px 22px;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.tINDdef dd .tSoloBulleted  {
+	font-size: 1.27em;
+}
+.tWider a.tPushLinkInner {
+	width: 412px !important;
+}
+.tIEclear {
+	clear: both;
+	display: block;
+	line-height: 0 !important;
+	overflow: hidden;
+}
+/********Devenir Client Page**********/
+.tDevenirClientHeaderLeft
+{
+	width: 454px;
+	float: left;
+	padding-left: 20px;
+
+}
+.tDevenirClientHeaderLeftContent
+{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.tPushblock900  .tDevenirClientHeaderLeft .tPushTitle {
+	color: #666666;
+	clear: both;
+	display: block;
+	font: normal normal 2.6em/1.54em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+
+.tPushblock900  .tDevenirClientHeaderLeft .tPushDevenirClientSubTitle {
+	color: #666666;
+	clear: both;
+	display: block;
+	font: normal normal 1.1em/1.18em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+
+.tDevenirClientHeaderRight
+{
+	width: 218px;
+	float: left;
+	padding: 75px 0 0 40px;
+}
+
+.tPushblock900  .tDevenirClientHeaderRight ul
+{
+	margin: 0;
+	padding-left: 10px;
+}
+.tPushblock900  .tDevenirClientHeaderRight ul li
+{
+	color: #666666;
+	font: normal normal 1.1em/1.18em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	list-style-image: url(10112011_ind_graydot4x4.gif);
+	text-transform: uppercase;
+	padding-bottom: 22px;
+}
+
+.tDevenirClientBottomLegend
+{
+	color: #666666;
+	font: normal normal .9em/1.4em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+/********************/
+.tPushblock900 .tHeadWrapper {
+	display: table-cell;
+	vertical-align: middle;
+	width: 980px;
+}
+.tPushblock900 div.tPushWrap {
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto !important;
+	padding: 0 !important;
+	width: 805px !important;
+	*display: inline !important;
+}
+
+/*******Mecanat Page********/
+.tPushblock900 .tMecanatPushLink, .tPushblock900 .tMecanatPushLink:hover  {
+	color: #666666;
+	background: url(10112011_ind_bullet_gray15.png) no-repeat left 4px;
+	height: 17px;
+	clear: both;
+	display: block;
+	font: normal normal 1.4em/1.21em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 4px 0 4px 22px;
+	text-transform: uppercase;
+}
+.tMecanat .tPushTitle, .tMecanat .tPushSubTitle , .tMecanat .tPushParagraph
+{
+	color: #666666;
+}
+.tPushParagraphMecenat{
+	color:#666666;
+	clear: both;
+	display: block;
+	font: normal normal 1.1em/1.36em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+.tMecanatTumbnails
+{
+	width: 980px;
+	float: left;
+	padding: 30px 0 15px 0;
+}
+.tMecanatTumbnails2
+{
+	width: 980px;
+	float: left;
+	padding: 0 0 15px 0;
+	clear: both;
+}
+.tMecanatTumbnail
+{
+	width: 236px;
+	height: 168px;
+	
+	float: left;
+}
+.tMecanatTumbnailAnchorHeading
+{
+	color: #cc0000;
+	font: bold normal 1.6em/1.25em "Myriad Pro", "Myriad Pro Sans Unicode", Arial, Helvetica, sans-serif;
+	display: block;
+	padding: 10px 0 10px 10px;
+}
+.tMecanatTumbnailAnchorDescription
+{
+	color:#666666;
+	font: normal normal 1.1em/1.27em "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	display: block;
+}
+.tMecanatTumbnailAnchor
+{
+	width: 236px;
+	height: 168px;
+	text-decoration: none;
+	display: block;
+	background: url(16112011_ind_dei900_EnSavoir_button.png) 10px 137px no-repeat transparent;
+}
+.tMecanatTumbnail1, .tMecanatTumbnail2, .tMecanatTumbnail3,
+.tMecanatTumbnail5, .tMecanatTumbnail6, .tMecanatTumbnail7
+{
+	margin-right: 12px
+}
+.tMecanatTumbnail1{
+	background: url(23112011_ind_mecanat_skiTumb.jpg) left top no-repeat;
+}
+.tMecanatTumbnail2{
+	background: url(23112011_ind_mecanat_ticketTumb.jpg) left top no-repeat;
+}
+.tMecanatTumbnail3{
+	background: url(23112011_ind_mecanat_boatTumb.jpg) left top no-repeat;
+}
+.tMecanatTumbnail4{
+	background: url(23112011_ind_mecanat_blankTumb.jpg) left top no-repeat;
+}
+.tMecanatTumbnail5{
+	background: url(23112011_ind_mecanat_blankTumb.jpg) left top no-repeat;
+}
+.tMecanatTumbnail6{
+	background: url(23112011_ind_mecanat_legTumb.jpg) left top no-repeat;
+}
+.tMecanatTumbnail7{
+	background: url(23112011_ind_mecanat_catTumb.jpg) left top no-repeat;
+}
+.tMecanatTumbnail8{
+	background: url(23112011_ind_mecanat_blankTumb.jpg) left top no-repeat;
+}
+.tGreyBackgroundImages {
+	background-color: #efefef;
+	width: 580px;
+	height: 141px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.tGreyBackgroundImages li {
+	float: left;
+	width: 146px;
+	background: url(30112011_ind_graySeparator.gif) no-repeat top right;
+}
+.tGreyBackgroundImages li.tLast {
+	background: none;
+	width: 142px;
+}
+.tGreyBackgroundImages li p {
+	font: normal normal .9em/1.22em "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+	padding: 0 10px;
+	margin-top: 0;
+}
+.tINDdef dd .tGreyBackgroundImages li p {
+	font-size: 1.22em;
+}
+.tGreyBackgroundImages li p span {
+	color: #e60000;
+}
+.tFloatedImage {
+	float: left;
+	padding-right: 13px;	
+}
+.tTopNoBottom {
+	padding: 15px 0 0 0 !important;
+}
+.tTopBottom {
+	padding: 15px 0 15px 0 !important;
+}
+.tPush5Bottom {
+	padding: 0 0 5px 0 !important;
+}
+.tBoldGrayUnderline {
+	color: #595A5E;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.tINDdef dd .baq17DDpaddingTop
+{
+	padding-top: 15px;
+	display: block;
+}
+.tStrongTitleBotomPadding
+{
+	padding-bottom: 15px;
+}.tStrongTitleTopPadding
+{
+	padding-top: 15px;
+}
+.tstrongSpan16px
+{
+	font: bold normal 1.6em/1.25em "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+}
+.tINDdef dd .tstrongSpan16px {
+	font-size: 1.45em;
+}
+.tSubTitle12px {
+	font-size: 12px;	
+}

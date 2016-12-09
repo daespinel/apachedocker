@@ -1,0 +1,29 @@
+zanox.cb.GETMS39F33545045AC90B100E0({
+    "adspace": {"id": "577154"},
+    "status": "ACTIVE",
+    "apps": [{
+        "id": "79705CF43EB9982AA0B8",
+        "width": 0,
+        "height": 0,
+        "settings": {
+            "pageType": "home",
+            "debugMode": "0",
+            "merchantName": "darty",
+            "category_categoryId": "categoryid",
+            "product_productId": "productid",
+            "basket_products": "products",
+            "checkout_totalAmount": "totalamount",
+            "checkout_transactionId": "transactionid",
+            "checkout_products": "products"
+        },
+        "connectIds": {
+            "developer": "62428A84FD09D579DE4E",
+            "publisher": "76E2C194E40B7F3B085D"
+        },
+        "renderMode": "iframe"
+    }],
+    "id": "39F33545045AC90B100E",
+    "height": 1,
+    "width": 1
+}
+);

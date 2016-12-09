@@ -1,0 +1,2584 @@
+@charset "utf-8";
+.w980 {
+	width: 980px;
+}
+
+
+.main {
+	padding-top: 17px;
+	overflow: hidden;
+}
+
+.l480 {
+	float: left;
+	width: 480px;
+}
+.w106 {
+	width: 106px;
+}
+
+.w128 {
+	width: 128px;
+}
+
+.w132 {
+	width: 132px;
+}
+.w144 {
+}
+.w158 {
+	width: 158px;
+}
+
+.w165 {
+	width: 165px;
+}
+
+
+
+.w230 {
+	width: 230px;
+}
+.w300 {
+	width: 300px;
+}
+
+
+.w480 {
+	width: 480px;
+}
+.tw_box1 {
+	overflow: hidden;
+}
+.w_box1 {
+	overflow: hidden;
+}
+.w_box2 {
+	position: relative;
+}
+.w_box2 span {
+	height: 30px;
+	position: absolute;
+	display: block;
+	line-height: 30px;
+	background-color: #000;
+	width: 290px;
+	padding-left: 10px;
+	left: 0px;
+	top: 164px;
+	filter: Alpha(Opacity=60, Style=0);
+	opacity: 0.60;
+}
+.tyz_txt {
+	height: 30px;
+	position: absolute;
+	display: block;
+	line-height: 30px;
+	background-color: #000;
+	width: 290px;
+	padding-left: 10px;
+	left: 0px;
+	filter: Alpha(Opacity=60, Style=0);
+	opacity: 0.60;
+	bottom: 0px;
+}
+.w_box2 span a {color: #FFF;}
+.tw_bt1 {
+	line-height: 26px;
+	height: 26px;
+	background-color: #eaeaea;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	margin-bottom: 10px;
+}
+.tw_bt1 h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	color: #004272;
+	float: left;
+}
+.more1 {
+	float: right;
+	padding-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.more1 a {
+	color: #666666;
+}
+.w_cont1 {
+	float: left;
+}
+.w76 {
+	width: 76px;
+}
+.w83 {
+	width: 83px;
+}
+
+
+.w90 {
+	width: 90px;
+}
+.w100 {
+	width: 98px;
+}
+.w143 {
+	width: 143px;
+}
+.w155 {
+	width: 155px;
+}
+
+
+
+
+
+.w145 {
+	width: 145px;
+}
+.w155 {
+	width: 155px;
+}
+.w160 {
+	width: 160px;
+}
+
+.w182 {
+	width: 182px;
+}
+
+.w220 {
+	width: 220px;
+}
+
+
+.w138 {
+	width: 138px;
+}
+
+.w960 {
+	width: 960px;
+}
+
+
+
+.w_cont1 span{
+	padding-left: 5px;
+	float: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+}
+.w_cont1 .v_ico{background: url(https://www.chinadaily.com.cn/image_e/2013/ico1.gif) no-repeat left 7px;}
+.v_ico a {
+	font-family: Verdana, Geneva, sans-serif;
+	padding-left: 10px;
+}
+
+.tw_bt2 {
+	line-height: 35px;
+	height: 35px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ee2000;
+	border-bottom-color: #ee2000;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #ee2000;
+	margin-bottom: 10px;
+}
+.tw_bt2 a{color: #ee2000;}
+.tw_bt2_2 {
+	line-height: 35px;
+	height: 35px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #e90552;
+	border-bottom-color: #e90552;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #e90552;
+	margin-bottom: 10px;
+}
+.tw_bt2_2 a{#e90552;}
+.tw_bt4 {
+	line-height: 35px;
+	height: 35px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #8eaf00;
+	border-bottom-color: #8eaf00;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #8eaf00;
+	margin-bottom: 10px;
+}
+.tw_bt4 a{color: #8eaf00;}
+.tw_bt5 {
+	line-height: 35px;
+	height: 35px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #dfdfdf;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #a3a3a3;
+}
+.tw_bt5 a{color: #a3a3a3;}
+.tw_bt6 {
+	line-height: 35px;
+	height: 35px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #077da5;
+	border-bottom-color: #077da5;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #077da5;
+	margin-bottom: 10px;
+}
+.tw_bt6 a{color: #077da5;}
+.tw_bt7 {
+	line-height: 35px;
+	height: 35px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #1fad00;
+	border-bottom-color: #1fad00;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #1fad00;
+	margin-bottom: 10px;
+}
+.tw_bt7 a{color: #1fad00;}
+.tw_bt8 {
+	line-height: 35px;
+	height: 35px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #0290a8;
+	border-bottom-color: #0290a8;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #0290a8;
+	margin-bottom: 10px;
+}
+.tw_bt8 a{color: #0290a8;}
+.tw_bt9 {
+	line-height: 35px;
+	height: 35px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #00b690;
+	border-bottom-color: #00b690;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #00b690;
+	margin-bottom: 10px;
+}
+.tw_bt9 a{color: #00b690;}
+
+
+
+
+.tw_txt_bt h2 {
+	float: left;
+	padding-left: 2px;
+	font-size: 26px;
+}
+.lis_box1 {
+	margin-top: 10px;
+}
+.lis_box1_2 {
+	margin-top: 0;
+}
+
+.lis_box1 h2,.lis_box1_2 h2 {
+	font-size: 18px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #cbcbcb;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico3.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 10px;
+	display: inline-block;
+	width: 290px;
+}
+.lineBg2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CBCBCB;
+}
+.tw_box3 {
+	border: 1px solid #cbcbcb;
+}
+.tw_box2 {
+	overflow: hidden;
+}
+
+.tw_bt3 {
+	line-height: 26px;
+	background-color: #eaeaea;
+	height: 26px;
+	padding-left: 12px;
+	color: #fb0919;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tw_cont3 {
+	padding: 12px;
+}
+
+.pic_box1 {
+	background-color: #e3e3e3;
+	overflow: hidden;
+	padding-right: 5px;
+}
+
+
+.pic_box1 h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+.pic_box2 {
+	background-color: #e3e3e3;
+	overflow: hidden;
+}
+
+.pic_box1 p {
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.tw_cont3 {
+	overflow: hidden;
+}
+.lis_box2 {
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+
+.lis_box2 span a {
+	float: left;
+	width: 110px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico2.gif);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.booking {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.tw_box4 {
+	margin-bottom: 5px;
+}
+.r160 {
+	float: right;
+	width: 160px;
+}
+.bord1 {
+	border: 1px solid #cbcbcb;
+}
+.pic_box2 h3 {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	display: block;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+.pic_box2 h3 a {
+	font-size: 14px;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+/*fcous-begin*/
+.focus-out{
+	width: 480px;
+	overflow: hidden;
+}
+.focus-menu{
+	overflow: hidden;
+	display: block;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/f_navBg.gif);
+	background-repeat: no-repeat;
+}
+.focus-menu li{
+	cursor: pointer;
+	float: left;
+	width: 80px;
+	height: 22px;
+	line-height: 17px;
+	text-align: center;
+}
+.focus-menu li.current{
+	color: #fff;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/f_navCurr.gif);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+.focus-main{
+	position: relative;
+	width: 480px;
+	height: 309px;
+	overflow: hidden;
+	z-index: 2;
+}
+.focus-ins{
+	width: 480px;
+	margin-top: 3px;
+}
+.focus-main dt span{position:absolute;top:50%;z-index:99999;cursor:pointer;margin-top:-11px;}
+.arr-lft{left:10px;}
+.arr-rgt{right:10px;}
+.focus-main dd{
+	position: relative;
+	height: 310px;
+	overflow: hidden;
+	margin: 0px;
+}
+.focus-main dd img{
+	width: 480px;
+	height: 310px;
+}
+.focus-main dd span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+	filter: Alpha(Opacity=70, Style=0);
+            opacity: 0.70;
+	background: #000;
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.focus-main dd span em{
+	position: relative;
+	font-style: normal;
+	padding-left: 10px;
+}
+.blue_box1 {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #004578;
+	border-right-color: #004578;
+	border-bottom-color: #004578;
+}
+.blue_box2 {
+	border: 1px solid #004578;
+}
+
+.blue_box1 h3 {
+	text-align: center;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #004578;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.blue_cont {
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	padding-left: 7px;
+}
+.blue_cont2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+.ques_box b {
+	font-size: 14px;
+	color: #004578;
+}
+.ques_box .ques_pic {
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+.ques_box .ques_pic .q_pic1 img {
+	margin-right: 10px;
+	margin-left: 18px;
+}
+.ques_box .ques_pic .q_pic2 {
+	height: 9px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+	display: block;
+}
+
+.q_redBg {
+	background-color: #da5242;
+}
+.q_blueBg {
+	background-color: #43a3dd;
+}
+
+.ques_box .q_btnBox a {
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+.btn1 {
+	background-color: #f2f2f2;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #999894;
+	border-bottom-color: #999894;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #f2f2f2;
+	border-left-color: #f2f2f2;
+	padding: 2px;
+}
+.btn1:hover {
+	color: #FFF;
+	background-color: #B7B6B3;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #797979;
+	border-left-color: #797979;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #b7b6b3;
+	border-bottom-color: #b7b6b3;
+}
+.tw_box5 {
+	overflow: hidden;
+	color: #024677;
+	line-height: 20px;
+	font-weight: bold;
+}
+.tw_box5 .pic5 {
+	border: 1px solid #cbcbcb;
+	float: left;
+	margin-right: 10px;
+}
+.colu_box {
+	padding-bottom: 10px;
+}
+
+
+
+.colu_box p {
+	padding: 3px;
+	background-color: #e9e9e9;
+	display: block;
+	color: #004576;
+	margin-top: 8px;
+}
+.line1 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cbcbcb;
+}
+.line2 {
+	border: 1px solid #919191;
+}
+.line3 {
+	border: 1px solid #004578;
+}
+
+
+.more2 {
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 100%;
+	overflow: hidden;
+	font-size: 10px;
+	display: inline-block;
+}
+.blue_cont2 ul a {
+	color: #666666;
+}
+.blue_cont2 ul a:hover {
+	color: #333;
+}
+
+.blue_cont2 li {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico4.gif);
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	padding-left: 18px;
+	margin-bottom: 10px;
+}
+.ques_pic input {
+}
+.wsBt {
+	font-weight: normal;
+	color: #004477;
+}
+
+
+.wsBtn {
+	overflow: hidden;
+}
+
+.wsBtn span {
+	width: 100%;
+	float: left;
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 5px;
+}
+.wsBtn span a {
+	display: block;
+	float: left;
+}
+.tw_box6 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	width: 460px;
+}
+.tw_box6 h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	margin-bottom: 7px;
+	font-size: 20px;
+}
+
+
+.newsTop h1{
+	font-size: 28px;
+	line-height: 28px;
+	color: #234e7b;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 8px;
+}
+.newsTop {
+	padding-top: 0px;
+}
+
+.tw_box6 .comBox {
+	display: block;
+	overflow: hidden;
+}
+.tw_box6 .comBox a {
+	float: left;
+	margin-left: 2px;
+	margin-right: 15px;
+}
+
+.tw_box6 ul {
+	padding-top: 4px;
+	overflow: hidden;
+}
+
+.tw_box6 ul li {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico6.gif);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	padding-left: 7px;
+	float: left;
+	display: inline-block;
+	margin-right: 2px;
+	min-width:280px;
+}
+.buzzword{
+	width: 420px;
+	float: left;
+
+}
+.buzzword .w_bt{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #004172;
+	margin-bottom: 1px;
+	background-color: #eaeaea;
+	text-align: center;
+	display: block;
+	width: 100%;
+	line-height: 21px;
+	height: 21px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #004172;
+}
+.buzzword h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 37px;
+	font-weight: normal;
+	background-color: #eaeaea;
+	display: block;
+	height: 37px;
+	text-align: center;
+	float: left;
+	margin-right: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	width: 104px;
+}
+.buzzword h2 a:link {
+	text-decoration: none;
+	color: #004172;
+	display: block;
+}
+/*.buzzword h2 a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+}*/
+.buzzword h2 a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	background-color: #004172;
+}
+.shareBox {
+	margin-left: 4px;
+	float: right;
+	width: 56px;
+}
+.shareBox a {
+	float: left;
+}
+.notMiss{
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/line2.gif);
+	background-repeat: repeat-x;
+	background-position: left center;
+	text-align: center;
+}
+.notMiss b {
+	font-size: 14px;
+	display: block;
+	background-color: #FFF;
+	width: 90px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #003466;
+	margin-bottom: 14px;
+}
+.lis_box3 {
+	background-color: #e0f2fc;
+	padding: 7px;
+}
+.lis_box3 li {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+.tw_box7 span {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+}
+.tw_box7 {
+	margin-bottom: 3px;
+}
+.lis_box4 {
+	float: left;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lis_box4 li {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico6.gif);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	padding-left: 7px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+	float:left;
+}
+/*Tab*/
+#item4{
+	font-size: 12px;
+	width: 300px;
+	padding-top: 8px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	margin-top: 10px;
+}
+
+#item4 ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#item4 #tabBar4{
+	padding-left: 10px;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-right: 0px;
+	height: 28px;
+}
+
+.tabTyz a {
+    display: block;
+}
+#tabBar4 li{
+	float: left;
+	height: 27px;
+	line-height: 27px;
+	margin-right: 5px;
+}
+#item4 div{
+	clear: both;
+	display: none;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#item4 .show{
+	display: block;
+}
+#tabBar4 a{
+	background-repeat: no-repeat;
+	height: 27px;
+	display: block;
+	padding-right: 5px;
+	color: #004678;
+	text-decoration: none;
+	position: relative;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+#tabBar4 a span{
+	padding-left: 5px;
+	display: block;
+}
+#item4 div li{
+	background-image: url(https://www.chinadaily.com.cn/2011images/icon-point1.gif);
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-position: left top;
+	margin-bottom: 3px;
+}
+#item4 .box310-list li{
+	font-size: 18px;
+	border-top-width: 1px;
+	border-top-style: double;
+	border-top-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico3.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 290px;
+}
+#item4 .box310-list {
+	width: 300px;
+}
+
+#tabBar4 a.current{
+	background-color: #E1F4FD;
+	padding-right: 5px;
+}
+#tabBar4 a.current span{
+	padding-left: 5px;
+}
+
+
+.cont_style {
+	display: none;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	padding: 2px;
+	margin: 0px 10px 0px 0px;
+}
+
+#world_4{
+	padding-left: 18px;
+	padding-top: 10px;
+}
+#world_3{
+	padding-top: 10px;
+}
+
+.m-photo{
+	float: left;
+	padding: 0px 10px 0px 0px;
+	margin: 0px;
+	width: 130px;
+}
+
+#world_4  h3 {
+	margin: 5px 0px 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 130px;
+ }
+ /*tab-end*/
+.tyz_box {
+	position: relative;
+	height: 192px;
+	width: 300px;
+
+}
+.tyz_txt a {
+	color: #FFF;
+}
+
+a.tyz_txt:link {
+	color: #FFF;
+	font-size: 12px;
+}
+a.tyz_txt:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+a.tyz_txt:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+.pBox {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.pBox li {
+	float: left;
+	width: 140px;
+	padding-right: 11px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+	padding-left: 11px;
+}
+.pBox li b {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	display: block;
+}
+.links {
+	background-color: #ebebeb;
+	overflow: hidden;
+}
+
+.links ul{
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+.links b {
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	display: block;
+}
+.links a{
+	color: #5d5d5d;
+	line-height: 15px;
+}
+.links a:hover {
+	color: #000;
+}
+
+.h206 {
+	height: 206px;
+}
+.h168 {
+	height: 180px;
+}
+
+.partner {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #004678;
+	line-height: 18px;
+	border-top-width: 1px;
+	border-bottom-width: 5px;
+	border-top-style: dashed;
+	border-bottom-style: solid;
+	border-top-color: #E3E4E4;
+	border-bottom-color: #E3E4E4;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 15px;
+	background-color: #f8f8f8;
+}
+.info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 16px;
+}
+.info h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #004678;
+	margin: 0px;
+	padding: 10px 0px 0px;
+}
+.info h2{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	color: #999999;
+	line-height: 12px;
+	margin: 0px;
+	padding: 10px 25px 0px;
+}
+.info h3{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	color: #999999;
+	line-height: 40px;
+	margin: 0px;
+	background-position: center;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	height: 37px;
+	overflow:hidden;
+}
+.info a{font-weight: bold;}
+.map {
+	width: 970px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #E3E4E4;
+	padding-bottom: 10px;
+	overflow:hidden;
+}
+.map h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+.map h2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.select_box ul li {cursor:pointer;}
+.son_ul {
+	border: 1px solid #036;
+	width: 108px;
+	background-color: #FFF;
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	height: 120px;
+
+}
+.son_ul li {
+	display: block;
+	line-height: 20px;
+	padding-left: 10px;
+	width: 99px;
+}
+.son_ul li:hover {
+	color: #F0F;
+}
+.select_box {
+	float: left;
+	width: 110px;
+	position: relative;
+	z-index: 2;
+}
+.select_box span {
+	width: 100%;
+}
+.sh2 {
+	height: 25px;
+	width: 120px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #DFDFDF;
+	border-bottom-color: #DFDFDF;
+	border-left-color: #DFDFDF;
+	line-height: 25px;
+	color: #91908e;
+}
+.BUpdate {
+	color: #004175;
+	overflow: hidden;
+}
+.btn2 {
+	margin-top: 0px;
+	display: block;
+}
+
+.btn2 a {
+	height: 26px;
+	line-height: 26px;
+	background-color: #014073;
+	color: #FFF;
+	text-align: center;
+	display: block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.singnBtn {
+	width: 62px;
+	display: block;
+	text-align: center;
+	background-color: #b6b6b6;
+	margin-left: 10px;
+	margin-top: 5px;
+	line-height: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #fff;
+}
+.singnBtn:hover {
+	background-color:#e6e6e6;
+	color:#666666;
+}
+.BingBtn {
+	width: 39px;
+	display: block;
+	text-align: center;
+	background-color: #b6b6b6;
+	margin-left: 5px;
+	margin-top: 2px;
+	line-height: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #fff;
+}
+.BingBtn:hover {
+	background-color:#e6e6e6;
+	color:#666666;
+}
+.comm-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_com.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: left 2px;
+	padding-left: 17px;
+}
+.comm-2013cpc-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_2013cpc_com.gif);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: left 2px;
+	padding-left: 17px;
+}
+.share-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_share.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: left center;
+	padding-left: 14px;
+}
+.photo-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico8.gif);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: left 2px;
+	padding-left: 16px;
+}
+.video-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico9.gif);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: left 2px;
+	padding-left: 16px;
+}
+.special-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/special-icon.gif);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: left 2px;
+	padding-left: 19px;
+}
+.poll-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_poll.gif);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: left 2px;
+	padding-left: 16px;
+}
+.special-2013cpc-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_2013cpc.gif);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: left 2px;
+	padding-left: 15px;
+}
+.plan-ico {
+background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_plan.gif);
+background-repeat: no-repeat;
+display: block;
+background-position: left 2px;
+padding-left: 19px;
+}
+#Scroll {
+	FONT-SIZE: 12px;
+	WIDTH: 420px;
+	COLOR: #c2130e;
+	LINE-HEIGHT: 23px;
+	HEIGHT: 23px;
+	TEXT-ALIGN: left;
+	margin: 0px;
+	float: left;
+}
+#Scroll A {
+	PADDING-LEFT: 13px;
+	COLOR: #024073;
+	TEXT-DECORATION: none
+}
+#ScrollMe a i {
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#Scroll A.s_end {
+PADDING-RIGHT: 0px; MARGIN-LEFT: 8px
+}
+/**/
+.bt0 {
+	line-height: 23px;
+	height: 23px;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #d0cccd;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d0cccd;
+	padding-left: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #014073;
+	font-weight: bold;
+}
+.list0 ul {
+	padding: 9px 9px 0px 9px;
+}
+.list0 ul li {
+	line-height: 16px;
+	margin-bottom: 3px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/numJh.gif);
+	background-repeat: no-repeat;
+	padding-left: 19px;
+	background-position: left 3px;
+}
+.list0 ul .num2 {
+	background-position: left -37px;
+}
+.list0 ul .num3 {
+	background-position: left -78px;
+}
+.list0 ul .num4 {
+	background-position: left -118px;
+}
+.list0 ul .num5 {
+	background-position: left -159px;
+}
+.redTxt2,.redTxt2 a {
+	color: #ee2000;
+}
+.redTxt2 a:hover {
+	text-decoration: underline;
+}.titleTxt26 {
+	font-size: 26px;
+}
+.lineBg4 {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+}
+.lis_bt1 {
+	line-height: 23px;
+	height: 23px;
+	font-size: 14px;
+	padding-left: 2px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #cbcbcb;
+	border-bottom-color: #cbcbcb;
+}
+.lis_bt1 b {
+	font-size: 16px;
+	color: #024073;
+}
+.tw_box8 {
+	padding-bottom: 10px;
+	overflow: hidden;
+	padding-top: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cbcbcb;
+}
+.tw_box8 h3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #024073;
+}
+.tw_box8 h4 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #024073;
+}
+.tw_box8 p {
+	font-size: 14px;
+	line-height: 20px;
+}
+.lis-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico6.gif);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	display: block;
+	padding-left: 10px;
+}
+
+.l690 {
+	float: left;
+	width: 690px;
+}
+.r280 {
+	float: right;
+	width: 280px;
+}
+.bi-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/bi.png);
+	background-repeat: no-repeat;
+	padding-left: 22px;
+}
+.bi2-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/bi2.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 22px;
+}
+.tw_box09 {
+	overflow: hidden;
+}
+.tw_box09 .time {
+	line-height: 22px;
+	font-weight: bold;
+	color: #024073;
+	padding-left: 5px;
+	background-color: #e8e8e8;
+}
+
+.tw_p09 {
+	float: left;
+	width: 138px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/lispicBg.jpg);
+	height: 90px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+}
+.tw_t09 b {
+	color: #014073;
+	margin-bottom: 5px;
+	display: block;
+	margin-top: 5px;
+}
+
+.tw_t09 {
+	padding-right: 5px;
+}
+.greyBg {
+	background-color: #e8e8e8;
+}
+.more3 {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico3.gif);
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	background-position: left center;
+}
+.r190 {
+	float: right;
+	width: 190px;
+}
+.index_title1 {line-height: 27px;background: #eaeaea;border-top: 1px solid #004677;}
+.index_title2 {
+	line-height: 27px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #4e4e4e;
+	border-bottom-color: #4e4e4e;
+}
+.index_title3 {
+	line-height: 27px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #4d4d4d;
+	border-bottom-color: #4d4d4d;
+}
+
+
+.index_title1 b {
+	color: #004677;
+	padding-left: 10px;
+	font-size: 14px;
+}.index_title2 b {
+	color: #004677;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.index_title3 b {
+	color: #CCCCCC;
+	padding-left: 10px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.index_timesTxt {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #a5a5a5;
+}
+.index_timesTxt h3 {
+	font-family: "Arial Unicode MS";
+	font-size: 12px;
+}
+.lisSty h3 {
+	overflow: hidden;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666;
+	font-family: "Arial Unicode MS";
+	font-size: 12px;
+}
+.pr20 {
+	padding-right: 20px;
+}
+.linkSty a {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.line4 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #3c3c3c;
+}
+
+.greyTxt9_2,.greyTxt9_2 a{
+	color: #999;
+}
+
+.page2 a {
+	float: left;
+	display: block;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	margin-right: 4px;
+	border: 1px solid #ebebeb;
+	color: #989898;
+	font-weight: bold;
+
+}
+.page2 a:hover {
+	text-decoration: none;
+	background-color: #003366;
+	color: #FFF;
+}
+.page3 a {
+	float: left;
+	display: block;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	margin-right: 4px;
+	border: 1px solid #676767;
+	color: #989898;
+	font-weight: bold;
+
+}
+.page3 a:hover {
+	text-decoration: none;
+	background-color: #003366;
+	color: #FFF;
+}
+.links_2 {
+	background-color: #ebebeb;
+	overflow: hidden;
+}
+
+.links_2 a{
+	color: #5d5d5d;
+	line-height: 15px;
+}
+.links_2 a:hover {
+	color: #333;
+}
+.links_3 {
+	background-color: #fff;
+	overflow: hidden;
+}
+.links_2 ul {
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000;
+}
+.links_3 ul {
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #fff;
+}
+.links_2 b,.links_3 b {
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	display: block;
+}
+.links_3 a {
+	color: #5d5d5d;
+	line-height: 15px;
+}
+.links_3 a:hover {
+	color: #000;
+}
+.greyBg_eb2 {
+	background-color: #363636;
+}
+.comm-ico2 {
+	background: url(https://www.chinadaily.com.cn/image_e/2013/ico_com_black.png) no-repeat left center;
+	display: block;
+	padding-left: 17px;
+}
+.share-ico2 {
+	display: block;
+	padding-left: 12px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_share_black.png);
+	background-repeat: no-repeat;
+	background-position: left 4px;
+}
+.full-ico2 {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_full_black.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+}
+.full-ico {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico_full.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+}
+.greyTxtC,.greyTxtC a {
+	color: #ccc;
+}
+
+.white, .white a {
+	color: #FFF;
+}
+.white a:hover {
+	color: #999;
+}
+/*10.16*/
+
+.line5 {
+   	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #cbcbcb;
+}
+.pl20 {
+	padding-left: 20px;
+}
+.w460 {
+	width: 460px;
+}
+
+.hotWords span, .index_hotWords span {
+    background-color: #004679;
+    float: left;
+    line-height: 30px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+}
+.hotWords span a, .index_hotWords span a {
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*opinion blogpeople*/
+.blogpeople{width: 100px;margin: 5px 0px;padding: 0px;float: left;text-align: center;border-top: 0px;}
+
+/*footer css start*/
+.footer-zx{background:#ebebeb;overflow:auto;padding-bottom:15px;}
+.footer-zx dl{float:left;display:inline;margin:10px 0 0 35px;width:125px;font-family: Verdana, Arial, Helvetica, sans-serif;height:225px;}
+.infobox,.footer-zx dl,.partnersbox{font-size:10px;}
+.infobox a,.footer-zx dl dt{font-weight:bold;}
+.footer-zx dl dt{line-height:18px;}
+.footer-zx dl dd{line-height:18px;}
+.partnersbox{width:940px;padding:20px;color:#004678;line-height:16px;font-weight:bold;font-family: Verdana, Arial, Helvetica, sans-serif;}
+.partnersbox a{padding:0px 5px;}
+.foot-info{font-weight:normal;color:#999;}
+
+/*footer css end*/
+
+/*forum css start*/
+.forum_tw1 {
+	float: left;
+	width: 114px;
+	margin-right: 7px;
+}
+.forumBox {
+	width: 275px;
+}
+.forum_twBox {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+.forumBox h2 {
+	height: 27px;
+	background-color: #eaeaea;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #004677;
+	padding-left: 10px;
+}
+.forum_list1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.forum_list1 li {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/f_ico1.jpg);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	line-height: 16px;
+	font-size: 14px;
+}
+.forum_tw1 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+.forum_tw1 span {
+	float: left;
+	width: 100%;
+}
+/*forum css end*/
+.scrBox .bt3 {
+	background-repeat: no-repeat;
+	line-height: 35px;
+	height: 35px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #077da5;
+	border-bottom-color: #077da5;
+}
+.scrBox .bt3 h2 {
+	font-size: 26px;
+	color: #077da5;
+}
+.more4 {
+	float: right;
+	padding-right: 10px;
+}
+.tw115Box {
+	padding-top: 13px;
+	overflow: hidden;
+	padding-right: 13px;
+	padding-left: 13px;
+}
+.tw115 {
+	float: left;
+	width: 115px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.bt1 {
+	line-height: 24px;
+	height: 28px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/Top_discussions.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	color: #014073;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+.listTop ul {
+	padding: 9px;
+}
+.listTop ul li {
+	line-height: 16px;
+	margin-bottom: 3px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/numTop.gif);
+	background-repeat: no-repeat;
+	padding-left: 19px;
+	background-position: left 3px;
+}
+.listTop ul .num2 {
+	background-position: left -29px;
+}
+.listTop ul .num3 {
+	background-position: left -60px;
+}
+.listTop ul .num4 {
+	background-position: left -91px;
+}
+.listTop ul .num5 {
+	background-position: left -126px;
+}
+/*scroll-begin*/
+.pic_show_l {
+	MARGIN-TOP: 0px;
+	FONT-SIZE: 12px;
+	ZOOM: 1;
+	height: 235px;
+	margin-left: 0px;
+/*	background-image: url(https://www.chinadaily.com.cn/image_e/2013/scrBg.gif);	*/
+	background-repeat: repeat-x;
+	padding-bottom: 0px;
+	background-color: #FFFFFF;
+}
+.pic_show_l .pcont {
+	PADDING-LEFT: 5px;
+	OVERFLOW: hidden;
+	WIDTH: 908px;
+	float: left;
+	height: 238px;
+	padding-top: 14px;
+	padding-bottom: 5px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.pic_show_l .ScrCont {
+	MARGIN-LEFT: -5px; WIDTH: 8758px; ZOOM: 1
+}
+.pic_show_l .leftbotton {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	display: block;
+	margin-top: 85px;
+	margin-left: 0px;
+}
+.pic_show_l .rightbotton {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	margin-top: 85px;
+}
+.pic_show_l .leftbotton IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.pic_show_l .rightbotton IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.pic_show_l DIV#list1_1 ul {
+	WIDTH: 154px;
+	LINE-HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+
+#ISL_Cont_1 #list1_1 ul li {
+	display: block;
+	line-height: 14px;
+	margin-bottom: 5px;
+	height:114px;
+}
+
+#ISL_Cont_1 #list2_1 ul li {
+	display: block;
+	line-height: 14px;
+	margin-bottom: 5px;
+	height:114px;
+}
+
+.pic_show_l DIV#list2_1 ul {
+	WIDTH: 154px;
+	height:248px;
+	LINE-HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+.pic_show_l DIV#list1_1 IMG {
+	DISPLAY: block;
+	CURSOR: pointer;
+	margin-top: 2px;
+	margin-bottom: 1px;
+}
+.pic_show_l DIV#list2_1 IMG {
+	DISPLAY: block; MARGIN: 2px auto 1px; CURSOR: pointer
+}
+.pic_show_l #list1_1 {
+	FLOAT: left
+}
+.pic_show_l #list2_1 {
+	FLOAT: left
+}
+.pic_show_l .rightbotton img {
+	margin-left: 9px;
+}
+/*scroll-end*/
+
+/*focus-begin*/
+.picshow {
+	MARGIN: 0;
+	position: relative;
+	width: 480px;
+}
+
+#picarea {
+	MARGIN: 0px 0;
+	BACKGROUND: #fff
+}
+#bigpicarea {
+	POSITION: relative;
+	OVERFLOW: hidden;
+	height: 310px;
+}
+.image {
+	TEXT-ALIGN: center
+}
+.image IMG {
+	BORDER-LEFT: #ececec 1px solid;
+	MARGIN: 0px auto;
+	BORDER-TOP: #ececec 1px solid;
+	BORDER-RIGHT: #ececec 1px solid
+}
+#bigpicarea .word {
+	TEXT-ALIGN: center;
+	HEIGHT: 40px;
+	background-color: #000;
+	position: absolute;
+	width: 100%;
+	float: left;
+	left: 1px;
+	top: 270px;
+	color: #FFF;
+	z-index: 1;
+}
+.word_cont {
+	position: absolute;
+	width: 390px;
+	left: 40px;
+	height: 31px;
+	z-index: 100;
+	top: 270px;
+	text-align: left;
+	padding-top: 8px;
+}
+
+.word_cont H3 {
+	COLOR: #FFF;
+	FONT-SIZE: 14px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.word_cont p {
+	color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#bigpicarea .ui-els-hide {
+	DISPLAY: none
+}
+#thumbs {
+	LIST-STYLE-TYPE: none;
+	MARGIN: 0px 0;
+	HEIGHT: 110px
+}
+* HTML #thumbs {
+	HEIGHT: 100%
+}
+#thumbs LI {
+	MARGIN: 0px 7px; WIDTH: 90px; DISPLAY: inline; FLOAT: left; HEIGHT: 60px
+}
+#thumbs UL {
+	MARGIN-TOP: 3px
+}
+#thumbs LI.last_img {
+	MARGIN-RIGHT: 4px
+}
+#thumbs LI.first {
+	MARGIN: 25px 10px 0px 15px; WIDTH: 9px; HEIGHT: 16px; CURSOR: pointer
+}
+#thumbs LI.last {
+	MARGIN: 25px 10px 0px 15px; WIDTH: 9px; HEIGHT: 16px; CURSOR: pointer
+}
+#thumbs LI A {
+	BORDER-BOTTOM: #fff 2px solid; BORDER-LEFT: #fff 2px solid; WIDTH: 90px; DISPLAY: block; FONT-SIZE: 0px; BORDER-TOP: #fff 2px solid; BORDER-RIGHT: #fff 2px solid
+}
+#thumbs LI A:hover {
+	BORDER-BOTTOM: #000 2px solid; BORDER-LEFT: #000 2px solid; BORDER-TOP: #000 2px solid; BORDER-RIGHT: #000 2px solid
+}
+#thumbs LI A.current {
+	BORDER-BOTTOM: #f8ae0f 2px solid; BORDER-LEFT: #f8ae0f 2px solid; BORDER-TOP: #f8ae0f 2px solid; BORDER-RIGHT: #f8ae0f 2px solid
+}
+.bigbtnPrev {
+	Z-INDEX: 100;
+	POSITION: absolute;
+	WIDTH: 12px;
+	HEIGHT: 24px;
+	TOP: 275px;
+	CURSOR: pointer;
+	LEFT: 1px;
+	margin-left: 10px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/l_arr.png);
+	margin-top: 3px;
+}
+.bigbtnNext {
+	Z-INDEX: 100;
+	POSITION: absolute;
+	WIDTH: 12px;
+	HEIGHT: 24px;
+	TOP: 275px;
+	CURSOR: pointer;
+	RIGHT: 9px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/r_arr.png);
+	background-repeat: no-repeat;
+	margin-top: 3px;
+}
+#big_play_prev {
+	BACKGROUND-IMAGE: url(https://www.chinadaily.com.cn/image_e/2013/l_arr.png);
+	WIDTH: 12px;
+	DISPLAY: block;
+	HEIGHT: 24px;
+	_background: none;
+
+
+
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src='https://www.chinadaily.com.cn/image_e/2013/l_arr.png')
+}
+#big_play_next {
+	BACKGROUND-IMAGE: url(https://www.chinadaily.com.cn/image_e/2013/r_arr.png);
+	WIDTH: 12px;
+	DISPLAY: block;
+	HEIGHT: 24px;
+	_background: none;
+
+
+
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src='https://www.chinadaily.com.cn/image_e/2013/r_arr.png')
+}
+#smallpicarea {
+	MARGIN: 0px 0;
+	PADDING-TOP: 20px
+}
+.focus {
+	width: 480px;
+}
+#image_xixi-02,#image_xixi-03,#image_xixi-04,#image_xixi-05,#image_xixi-06,#image_xixi-07{ display:none;}
+/*focus-end*/
+/*2014612新增*/
+.photos {
+	position: absolute;
+	top: 0px;
+	right: -1px;
+}
+.photos img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#image_xixi-06 {
+	position: relative;
+}
+
+/*首页右侧浮动二维码 start*/
+.nostyle ul,nostyle li{list-style-image:none; display:block;padding:0px; margin:0px;}
+.nostyle li a{display:block;}
+.arr-l {
+	WIDTH: 88px;
+	BOTTOM: 600px;
+	POSITION: fixed;
+	margin-bottom: 26px;
+	right: 50%;
+	margin-right: 540px;
+	padding-right: 14px;
+}
+.arr-r {
+	LEFT: 50%;
+	MARGIN-LEFT: 540px;
+	WIDTH: 88px;
+	BOTTOM: 600px;
+	POSITION: fixed;
+	margin-bottom: 26px;
+	padding-left: 10px;
+}
+#identifier-pannel {
+	LEFT: 50%;
+	MARGIN-LEFT: 540px;
+	WIDTH: 116px;
+	BOTTOM: 430px;
+	POSITION: fixed;
+}
+#identifier-pannel2 {
+	LEFT: 50%;
+	MARGIN-LEFT: 540px;
+	WIDTH: 116px;
+	BOTTOM: 260px;
+	POSITION: fixed;
+}
+#identifier-pannel3 {
+	LEFT: 50%;
+	MARGIN-LEFT: 540px;
+	WIDTH: 116px;
+	BOTTOM: 98px;
+	POSITION: fixed;
+}
+
+/*.bt1 {
+	line-height: 24px;
+	height: 28px;
+	background-image: url(https://www.chinadaily.com.cn/image_lt/2012lt/Top_discussions.gif);
+	background-repeat: no-repeat;	
+	padding-left: 15px;
+	color: #014073;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}*/
+#identifier-pannel A:link,#identifier-pannel2 A:link {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: #f9f9f9; PADDING-BOTTOM: 10px; COLOR: #333; LINE-HEIGHT: 18px; PADDING-TOP: 10px; WHITE-SPACE: nowrap; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#identifier-pannel3 A:link {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: #f9f9f9; PADDING-BOTTOM: 10px; COLOR: #333; LINE-HEIGHT: 14px; PADDING-TOP: 10px; WHITE-SPACE: nowrap; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#identifier-pannel A:visited,#identifier-pannel2 A:visited,#identifier-pannel3 A:visited{
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: #f9f9f9; PADDING-BOTTOM: 10px; COLOR: #333; LINE-HEIGHT: 18px; PADDING-TOP: 10px; WHITE-SPACE: nowrap; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#identifier-pannel3 A:visited{
+	 LINE-HEIGHT: 14px;
+}
+#identifier-pannel A:hover,#identifier-pannel2 A:hover,#identifier-pannel3 A:hover {
+	COLOR: #000;
+	background-color: #EBEBEB;
+}
+#identifier-pannel IMG,#identifier-pannel2 IMG,#identifier-pannel3 IMG {
+	BORDER-TOP-WIDTH: 0px; DISPLAY: block; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 5px auto; BORDER-RIGHT-WIDTH: 0px
+}
+/*erweima-end*/
+/*zd-begin*/
+#zd {
+	position: fixed;
+	_position: absolute;
+
+
+_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight)-34+"px");
+	bottom: 340px;
+	left: 95%;
+	width: 30px;
+	zoom: 1;
+	position: fixed;
+	bottom: 0px;
+	height: 54px;
+	width: 54px;
+	margin-left: 570px;
+	left: 50%;
+	margin-bottom: 12px;
+	margin-top: 13px;
+}
+#zd a{
+	background-image: url(https://www.chinadaily.com.cn/image_lt/2012lt/top01.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	width: 54px;
+	height: 54px;
+	margin-bottom: 2px;
+	overflow: hidden;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#zd a#totop{
+	position: absolute;
+	cursor: pointer;
+}
+#zd a#totop:hover {
+	background-image: url(https://www.chinadaily.com.cn/image_lt/2012lt/top02.jpg);
+	background-repeat: no-repeat;
+}
+
+.arr-l .yydj:hover {
+	display: block;
+}
+/*首页右侧浮动二维码 start*/
+/*box2015-2015.2.12*/
+.box2015-top-l {
+	float: left;
+	width: 420px;
+	font-size: 15px;
+	line-height: 16px;
+}
+
+
+
+.box2015-top-l span {
+	float: left;
+	margin-right: 5px;
+}
+.box2015-top-l span h5 {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.box2015-top-l span img {
+	margin-right: 5px;
+}
+
+
+.box2015-top {
+	overflow: hidden;
+}
+.box2015-top-r {
+	float: right;
+	width: 370px;
+	font-size: 13px;
+	margin-top: 17px;
+}
+.box2015-top-r a {
+	display: block;
+	float: left;
+	padding-left: 5px;
+}
+.box2015-top-r a:hover {
+	text-decoration: underline;
+}
+
+.box2015-top-r .logo_ch {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2015/logo_ch.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 23px;
+	margin-right: 23px;
+}
+.box2015-top-r .logo_mob {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2015/logo_mob.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 23px;
+	margin-right: 23px;
+}
+.box2015-top-r .logo_bili {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2015/logo_bili.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 32px;
+	margin-right: 23px;
+}
+.box2015-top-r .logo_full {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2015/logo_full.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 23px;
+}
+/*2015焦点图*/
+.wrapper{width:960px;margin:0 auto}
+.prize{
+	width: 930px;
+	position: relative;
+	font: 12px Tahoma,sans-serif;
+	padding: 1px;
+	color: #052d30;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.prize h2{height:25px;font:bold 14px/25px Tahoma;background:#0cf;text-indent:10px;text-shadow:1px 1px 1px #fff;}
+.prize-con{
+	overflow: hidden;
+	position: relative;
+	height: 123px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 7px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 2px;
+}
+	.prize-con ul{width:200%;position:absolute;}
+	.prize-con li{
+	float: left;
+	_display: inline;
+	line-height: 25px;
+	text-align: center;
+	margin-right: 20px;
+	width: 465px;
+	margin-right: 8px;
+	width: 304px;
+	height: 123px;
+	background-color: #f6f6f6;
+}
+.prize-con li p {
+	margin: 0px;
+	padding: 8px;
+	color: #0e4473;
+	text-align: left;
+	line-height: 18px;
+	font-size: 15px;
+	display: block;
+	float: left;
+	width: 90px;
+	cursor: pointer;
+}
+.prize-con li img{
+	width: 191px;
+	height: 123px;
+	display: block;
+	border: 0px solid #ccc;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 4px;
+	background-color: #de2119;
+}
+
+.prize span{
+	display: block;
+	position: absolute;
+	top: 8px;
+	width: 31px;
+	height: 12px;
+	cursor: pointer;
+}
+	span.l-bun{
+	left: -23px;
+	text-align: left;
+	height: 123px;
+	width: 17px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2015/l_arr_2015.gif);
+}
+
+	span.r-bun{
+	right: -22px;
+	text-align: right;
+	height: 123px;
+	width: 17px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2015/r_arr_2015.gif);
+}
+	span.l-bun:hover{
+	left: -23px;
+	text-align: left;
+	height: 123px;
+	width: 17px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2015/l_arr_2015_2.gif);
+}
+
+	span.r-bun:hover{
+	right: -22px;
+	text-align: right;
+	height: 123px;
+	width: 17px;
+	background-image: url(https://www.chinadaily.com.cn/image_e/2015/r_arr_2015_2.gif);
+}
+.chart {
+	width: 530px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*8.28*/
+.topMain{
+	width: 980px;
+	padding-top: 25px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+}
+.cenMain {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 27px;
+	overflow: hidden;
+}
+/*轮播图*/
+.cont-roll{
+	padding: 0px;
+	width: 980px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.focus2{
+	width: 980px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}  
+.focus2 img{ width: 748px; height: 440px; margin:0px 0px 0px 0px;} 
+.focus2 .shadow .title{ margin:0px; padding:0px;}
+.focus2 .shadow .title a{ text-decoration:none; color:#000; font-size:14px; font-weight:bolder; overflow:hidden; }
+.focus2 .btn{ bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus2 .btn a{position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }  
+.focus2 .btn a:hover,.focus .btn a.current{  cursor:pointer;background:#fc114a;}  
+.focus2 .fPic{
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 980px;
+}  
+.focus2 .D1fBt{ overflow:hidden; zoom:1;  height:16px; z-index:10;  }  
+.focus2 .shadow{
+	width: 950px;
+	bottom: 0;
+	left: 0px;
+	z-index: 10;
+	display: block;
+	text-align: center;
+}  
+.focus2 .shadow h3{
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	font-size: 60px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 60px;
+}
+.focus2 .shadow h3 a:link,.focus .shadow h3 a:visited{
+	text-decoration: none;
+	color: #004377;
+}
+.focus2 .shadow h3 a:hover{ color:#004377;}
+
+.focus2 .shadow h4{ margin:10px 0px 0px 0px; padding:0px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:20px; font-weight:normal;}
+.focus2 .shadow h4 a:link,.focus .shadow h4 a:visited{ text-decoration:none; color:#000;}
+.focus2 .shadow h4 a:hover{ text-decoration:underline;}
+
+
+.focus2 .fcon{ width:950px; float:left;  display:none;margin:0px; padding:0px; }  
+.focus2 .fcon img{ display:block; }  
+.focus2 .fbg{}  
+.focus2 .fbg div{margin:4px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus2 .D1fBt a{position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; }    
+.focus2 .D1fBt img{display:none}    
+.focus2 .D1fBt i{display:none; font-style:normal; }  
+.focus2 .prev,.focus2 .next{position:absolute;width:40px;height:74px;background: url(https://www.chinadaily.com.cn/image_e/2015/focus_btn.png) no-repeat;}
+.focus2 .prev{background-position:0 -74px; cursor:pointer; margin:180px 0px 0px 110px;    *margin:-380px 0px 0px 110px; }  
+.focus2 .next{background-position: -40px -74px;cursor: pointer;margin-top: 180px;margin-right: 0px;margin-bottom: 0px;margin-left: 817px;*margin:-380px 0px 0px 818px;}  
+.focus2 .prev:hover{  background-position:0 0; }  
+.focus2 .next:hover{  background-position:-40px 0;}  
+.gj{
+	margin:0px auto;
+	padding:0px;
+	width:900px;
+	position:absolute;
+	z-index:33;
+	}
+.gj{
+	margin: 0px auto;
+	padding: 0px;
+	width: 748px;
+	position: absolute;
+	z-index: 33;
+	}
+/*轮播图end*/	
+
+.twBox{
+	margin-bottom: 10px;
+	width: 100%;
+	overflow: hidden;
+}
+.twBox .bt01 {
+	line-height: 36px;
+	height: 40px;
+	background: url(../img/bt01.gif) repeat-x left 2px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.twBox h2 {
+	border-top: 5px solid #003769;
+	float: left;
+	font-size: 16px;
+	color: #003769;
+	padding-right: 8px;
+	margin-bottom: 15px;
+}
+.twBox h3 {
+	padding-top: 15px;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #014073;
+	margin-bottom: 10px;
+}
+.twBox p {
+	color: #333;
+	font-size: 12px;
+	line-height: 15px;
+	padding-bottom: 10px;
+}
+.twBox h4{
+	background: url(../img/p4x4.gif) no-repeat left 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.tw_box6_1{
+	padding-top:0px; 
+	padding-bottom:0px; 
+	margin-left:0px;
+	overflow: hidden;
+	width: 460px;
+}
+.tw_box6_1 ul {
+	padding-top: 4px;
+	overflow: hidden;
+}
+
+.tw_box6_1 ul li {
+	background-image: url(https://www.chinadaily.com.cn/image_e/2013/ico6.gif);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	padding-left: 7px;
+	float: left;
+	display: inline-block;
+	margin-right: 2px;
+	margin-bottom:6px;
+	min-width:280px;
+	width:100%;
+}
+

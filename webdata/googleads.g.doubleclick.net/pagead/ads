@@ -1,0 +1,51 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CeAbgZJQkVtKFAZOfbrzMnoAIq5PdggfjlsDuuwHAjbcBEAEgsZuZHygCYPv5_IKICqAB9ZCsygPIAQGpAgwWizUVD7M-qAMBqgRtT9DOGVFu3u1tX3ltGNHVoAGQNMTlzzWgccuKo3fOM8sWKiRFpYUBtt2PBgXhCASnJd5Re4Zo2GJSLF3y0ublb1YfyCfzKa-CoTZ0xg2X7winC9PfrOsuPbfoJ3hp48Wm2cB7Gyf-65h4wX6WdYgGAYAH8-7TNagHpr4bqAe1wRvYBwHYEwg&amp;num=1&amp;cid=5GhfUTZtmuZBM8B1rmknEDcY&amp;sig=AOD64_0wXaJzjJcEvQu49c92EgRpjSLWig&amp;client=ca-pub-0279800991636024&amp;adurl=http://www.medecine-esthetique-plus.fr/lp/"; 
+google_ad.visible_url = "medecine-esthetique-plus.fr"; 
+google_ad.log_info = "BeQ-JZJQkVtKFAZOfbrzMnoAIAOOWwO67AQAAEAE4AcgBAcITDBj1kKzKAxijxqfQAw";
+google_ad.activeview_cid = "5GhfUTZtmuZBM8B1rmknEDcYLzg";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_js_tos_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "Acide Hyaluronique"; 
+google_ad.line2 = "Soin Visage : Traitement des Rides"; 
+google_ad.line3 = "Alternative Durable et Sans Douleur"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CzP4SZJQkVtKFAZOfbrzMnoAInbmBmwj9l-m3ogHnztGUARACILGbmR8oAmD7-fyCiAqgAaPGp9ADyAEBqQIMFos1FQ-zPqgDAaoEcE_Q_nRVbt3tbV95bRjR1aABkDTE5c81oHHLiqN3zjPLFiokRaWFAbbdjwYF4QgEpyXeUXuGaNhiUixd8tLm5W9WH8gn8ymv-qI2PMan7Gi5169uNEcQnNZcWl5laZlwpd11eB_z_etZfgpPVN7o4tqIBgGAB8W52C-oB6a-G6gHtcEb2AcB&amp;num=2&amp;cid=5GhfUTZtmuZBM8B1rmknEDcY&amp;sig=AOD64_0AuTYodUDQPptVo8faGBwTv5jkLg&amp;client=ca-pub-0279800991636024&amp;adurl=http://agufen10.fr/accueil-agufen10.php%3Fcid%3D168%26f1%3Ddisplay-themes-desktop%26f2%3Dwww.over-blog.com"; 
+google_ad.visible_url = "www.agufen10.fr/gélules"; 
+google_ad.log_info = "BeQ-JZJQkVtKFAZOfbrzMnoAIAOOWwO67AQAAEAE4AcgBAcITDBj1kKzKAxijxqfQAw";
+google_ad.activeview_cid = "5GhfUTZtmuZBM8B1rmknEDcYLzg";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_js_tos_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "J\x26#39;ai perdu 16 kilos"; 
+google_ad.line2 = "et \x26#231;a continue !"; 
+google_ad.line3 = "Satisfait ou rembours\x26#233;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttps://www.over-blog.com/%26gl%3DFR%26hl%3Dfr%26client%3Dca-pub-0279800991636024%26ai0%3DCeAbgZJQkVtKFAZOfbrzMnoAIq5PdggfjlsDuuwHAjbcBEAEgsZuZHygCYPv5_IKICqAB9ZCsygPIAQGpAgwWizUVD7M-qAMBqgRtT9DOGVFu3u1tX3ltGNHVoAGQNMTlzzWgccuKo3fOM8sWKiRFpYUBtt2PBgXhCASnJd5Re4Zo2GJSLF3y0ublb1YfyCfzKa-CoTZ0xg2X7winC9PfrOsuPbfoJ3hp48Wm2cB7Gyf-65h4wX6WdYgGAYAH8-7TNagHpr4bqAe1wRvYBwHYEwg%26ai1%3DCzP4SZJQkVtKFAZOfbrzMnoAInbmBmwj9l-m3ogHnztGUARACILGbmR8oAmD7-fyCiAqgAaPGp9ADyAEBqQIMFos1FQ-zPqgDAaoEcE_Q_nRVbt3tbV95bRjR1aABkDTE5c81oHHLiqN3zjPLFiokRaWFAbbdjwYF4QgEpyXeUXuGaNhiUixd8tLm5W9WH8gn8ymv-qI2PMan7Gi5169uNEcQnNZcWl5laZlwpd11eB_z_etZfgpPVN7o4tqIBgGAB8W52C-oB6a-G6gHtcEb2AcB\x26usg\x3dAFQjCNHOKkXUye8yXfLqPPnXHS9HyHH2pQ";
+var google_attribution_text = "Choisir sa pub";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

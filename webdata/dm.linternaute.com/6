@@ -1,0 +1,45 @@
+			(function(){
+			try{
+			if(document.body)
+			{
+			addIframe();
+			}
+			else
+			{
+			if (window.addEventListener)
+			{
+			window.addEventListener('load', addIframe, false);
+			}
+			else if (window.attachEvent)
+			{
+			window.attachEvent('onload', addIframe);
+			}
+			}
+			}
+			catch(e){}
+
+			function addIframe()
+			{
+			try{
+			var adl_ifr_id = ''+Math.random()+'';
+			adl_content=document.createElement("iframe");
+			adl_content.name=adl_ifr_id;
+			adl_content.id=adl_ifr_id;
+			adl_content.style.cssText="display:none !important";
+			adl_content.style.borderWidth="0px";
+			adl_content.setAttribute("frameBorder","0");
+			adl_content.style.overflow="hidden";
+			adl_content.setAttribute("height",0);
+			adl_content.setAttribute("width",0);
+			adl_content.async="true";
+
+			document.body.insertBefore(adl_content,document.body.firstChild);
+
+			var f=window.frames[adl_ifr_id];
+			f.document.open();
+			// Insert trackers.
+			var template = '<html><head></head><body><scr'+'ipt type="text/javascript" src="https://dm.linternaute.com/js/fps.min.js"></scr'+'ipt><scr'+'ipt type="text/javascr'+'ipt">    try {        var a = document.location.hostname, b = a.lastIndexOf("."), c = null;        b != -1 && (b = a.lastIndexOf(".", b - 1), c = b != -1 ? a.substr(b) : "." + a);        if (c != null) {            var d = document.location.protocol + "//dmtk" + c + "/";            if (typeof window.parent.dmbgclzvi7of != "undefined") {                typeof window.parent.dmbgclzvi7of.signed != "undefined" && (d += window.parent.dmbgclzvi7of.signed);                var e = "";                typeof window.parent.dmbgclzvi7of.data != "undefined" && (e = window.parent.dmbgclzvi7of.data);                (new Image).src = d + "?" + e            }        }    } catch (f) {    }</scr'+'ipt><scr'+'ipt type="text/javascr'+'ipt" src="https://loadr.exelator.com/load/?p=104&g=710"></scr'+'ipt><scr'+'ipt type="text/javascr'+'ipt">(function () {    try {        var currentDomain = document.location.hostname;        var idx = currentDomain.lastIndexOf(\'.\');        var targetDomain = null;        if (idx != -1) {            idx = currentDomain.lastIndexOf(\'.\', idx - 1);            if (idx != -1) {                targetDomain = currentDomain.substr(idx);            }            else {                targetDomain = \'.\' + currentDomain;            }        }        if (targetDomain != null) {            var baseurl = document.location.protocol + \'//dmrs\' + targetDomain + \'/realtime_populate.php\';            var baseurl2 = document.location.protocol + \'//dmrs.ccmbg.com/realtime_populate.php\';            if (typeof window.parent["dmbgclzvi7of"] != \'undefined\') {                if (typeof window.parent["dmbgclzvi7of"]["signed"] != \'undefined\') {                    baseurl = baseurl + window.parent["dmbgclzvi7of"]["signed"];                }                var arg = \'\';                if (typeof window.parent["dmbgclzvi7of"]["data"] != \'undefined\') {                    arg = window.parent["dmbgclzvi7of"]["data"];                }                var img = new Image();                var img2 = new Image();                img.src = baseurl + \'?_pid=ccm&\' + arg;                img2.src = baseurl2 + \'?_pid=ccm&\' + arg;            }        }    }    catch (e) {    }})();</scr'+'ipt><scr'+'ipt type="text/javascript">setTimeout("document.close();", 2000)</scr'+'ipt></body></html>';f.document.write(template);			}
+			catch(e){}
+			}
+			})();
+			

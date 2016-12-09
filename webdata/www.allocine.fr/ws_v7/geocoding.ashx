@@ -1,0 +1,1 @@
+{"georegion":"77","country_code":"FR","city":"PARIS","lat":"48.87","long":"2.33","timezone":"GMT+1","continent":"EU","throughput":"vhigh","bw":"5000","asnum":"1712","location_id":"0","geocode":115755}

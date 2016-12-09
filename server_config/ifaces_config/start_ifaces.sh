@@ -32,9 +32,7 @@ DEFAULTSETTINGS="/home/server/ifaces_config/server_ifaces.settings.defaults"		# 
 DEV=eth0
 MASTER_IP="192.168.0.10"
 DEFAULT_GW="192.168.0.12"
-DNS_PRI="192.168.0.10"
-DNS_SEC="137.194.2.17"
-DNS_TER="137.194.2.34"
+DNS_PRI="127.0.0."
 NET="192.168.0."
 MASK="255.255.255.0"
 

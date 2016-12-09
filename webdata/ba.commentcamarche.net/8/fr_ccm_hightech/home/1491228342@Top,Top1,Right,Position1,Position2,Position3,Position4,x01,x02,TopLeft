@@ -1,0 +1,193 @@
+function OAS_RICH(position) {
+if (position == 'Position1') {
+document.write ('<html>\n');
+document.write ('	<head>\n');
+document.write ('		<meta name="viewport" content="width=device-width, minimum-scale=0.1">\n');
+document.write ('		<title>header ccm responsive</title>\n');
+document.write ('		<style type="text/css">\n');
+document.write ('			.oas_shop_header {height: 28px;background-color: #356bb3;border: 1px solid #ccc;border-bottom-color: #fff;}\n');
+document.write ('			.oas_shop_header img {max-width: 100%;max-height: 100%;}\n');
+document.write ('		</style>\n');
+document.write ('	</head>\n');
+document.write ('	<body>\n');
+document.write ('		<div class="oas_shop_header">\n');
+document.write ('			<img style="-webkit-user-select: none" src="https://cimg.leguide.com/img/partner/ccm/header_ccm_responsive.jpg">\n');
+document.write ('		</div>\n');
+document.write ('	</body>\n');
+document.write ('</html>\n');
+document.write ('\n');
+document.write ('<script language="javascript">\n');
+document.write ('    var lg_box_width = 300;\n');
+document.write ('    var lg_box_height = 202;\n');
+document.write ('    var lg_box_url = "https://redirection.benchmark.fr/50422/";\n');
+document.write ('    document.write(');
+document.write ("'");
+document.write ('<iframe scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="');
+document.write ("'");
+document.write ('+lg_box_url+');
+document.write ("'");
+document.write ('" width="');
+document.write ("'");
+document.write ('+lg_box_width+');
+document.write ("'");
+document.write ('" height="');
+document.write ("'");
+document.write ('+lg_box_height+');
+document.write ("'");
+document.write ('"></iframe>');
+document.write ("'");
+document.write (');\n');
+document.write ('</script> <img src="https://ba.commentcamarche.net/RealMedia/ads/adstream_lx.ads/fr_ccm_hightech/home/L20/1880347325/Position1/OasDefault/ccm_le-guide_box_2015_ok/ccm_le-guide_box_2015.html/69634b6c6431596b6b3859414441526a?_RM_EMPTY_&home=1&ASPQ_9Q84hS=XXAU-li362" width="1" height="1">');
+}
+if (position == 'Position2') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/L20/1161419356/Position2/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5/empty462916466981.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5/empty462916466981.gif"  alt=""  border="0"></a>');
+}
+if (position == 'Position3') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/946336181/Position3/default/empty.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/default/empty.gif"  width="1" height="1" alt="" BORDER=0 border="0"></a>');
+}
+if (position == 'Position4') {
+document.write ('<IMG SRC="https://ad.doubleclick.net/ddm/trackimp/N6600.143975.BENCHMARK.FR/B7985907.8;dc_trk_aid=285863870;dc_trk_cid=60129147;ord=1536026128?" BORDER="0" HEIGHT="1" WIDTH="1" ALT="Advertisement">\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<!-- BOX PARTENAIRES -->\n');
+document.write ('\n');
+document.write ('<div class="asideBox slider">\n');
+document.write ('    <div class="boxTitle">\n');
+document.write ('        Publicit&eacute;s partenaires\n');
+document.write ('    </div>\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<!-- LCL 6031-2 -->\n');
+document.write ('\n');
+document.write ('<div num="0" class="content">\n');
+document.write ('<a class="img" href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/L20/1536026128/Position4/OasDefault/cpc_lcl_perf_res_box-part_rg_8386-2/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023510217510218510219518325.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/49566/" target="_blank" style=" padding:0; width:110px; height:50px; background: transparent url(https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/cpc_lcl_perf_res_box-part_rg_8386-2//110X50-adistance.jpg) no-repeat 50% 50%"> \n');
+document.write ('<img alt="" src="https://www.commentcamarche.net/img/pixeltransparent.gif" /> \n');
+document.write ('</a> \n');
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/L20/1536026128/Position4/OasDefault/cpc_lcl_perf_res_box-part_rg_8386-2/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023510217510218510219518325.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/49566/" target="_blank" style="float:left; padding-top:3px; width:150px"><strong>Joindre un conseiller bancaire jusqu');
+document.write ("'");
+document.write ('&agrave; 22h ?</strong></a> \n');
+document.write ('<div class="clear"></div> \n');
+document.write ('</div>\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('</div>');
+}
+if (position == 'Right') {
+document.write ('<script type="text/javascript">\n');
+document.write ('var adperfobj = {\n');
+document.write ('   account_id           : 1215\n');
+document.write ('  ,tracking_element_id  : 4863\n');
+document.write ('  ,width                : 300\n');
+document.write ('  ,height               : 600\n');
+document.write ('  ,fullhost             : ');
+document.write ("'");
+document.write ('bouyguestelecomfr.solution.weborama.fr');
+document.write ("'");
+document.write ('\n');
+document.write ('  ,random               : ');
+document.write ("'");
+document.write ('253086833');
+document.write ("'");
+document.write ('\n');
+document.write ('  ,burst                : ');
+document.write ("'");
+document.write ('auto');
+document.write ("'");
+document.write ('\n');
+document.write ('  ,imptrackers          : []\n');
+document.write ('  ,clicktrackers        : []\n');
+document.write ('  ,publisherclick       : ');
+document.write ("'");
+document.write ('https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/L20/253086833/Right/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5.html/69634b6c6431596b6b3859414441526a?');
+document.write ("'");
+document.write ('\n');
+document.write ('};\n');
+document.write ('document.write(');
+document.write ("'");
+document.write ('<scr');
+document.write ("'");
+document.write ('+');
+document.write ("'");
+document.write ('ipt language="javascript" src="http');
+document.write ("'");
+document.write ('+(');
+document.write ("'");
+document.write ('https:');
+document.write ("'");
+document.write ('==document.location.protocol?');
+document.write ("'");
+document.write ('s');
+document.write ("'");
+document.write (':');
+document.write ("'");
+document.write ('');
+document.write ("'");
+document.write (')+');
+document.write ("'");
+document.write ('://cstatic.weborama.fr/js/advertiserv2/adperf_launch_1.0.0_scrambled.js"></scr');
+document.write ("'");
+document.write ('+');
+document.write ("'");
+document.write ('ipt>');
+document.write ("'");
+document.write (');\n');
+document.write ('</script>\n');
+document.write ('<noscript><a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/L20/253086833/Right/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5.html/69634b6c6431596b6b3859414441526a?https://bouyguestelecomfr.solution.weborama.fr/fcgi-bin/dispatch.fcgi?a.A=cl&a.si=1215&a.te=4863&a.bk=1&g.ism=0&a.ra=253086833&g.lu=" target=_blank><img src="https://bouyguestelecomfr.solution.weborama.fr/fcgi-bin/dispatch.fcgi?a.A=im&a.si=1215&a.te=4863&a.he=600&a.wi=300&a.hr=R&a.bk=1&g.ism=0&a.ra=253086833" width="300" height="600" style="border:0px"></a></noscript><img src="https://ba.commentcamarche.net/RealMedia/ads/adstream_lx.ads/fr_ccm_hightech/home/L20/253086833/Right/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5.html/69634b6c6431596b6b3859414441526a?_RM_EMPTY_&home=1&ASPQ_9Q84hS=XXAU-li362" width="1" height="1">');
+}
+if (position == 'Top') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/L20/1191255685/Top/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5/empty462916466981466985.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5/empty462916466981466985.gif"  alt=""  border="0"></a>');
+}
+if (position == 'Top1') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/L20/49580732/Top1/OasDefault/ccm_box_edito_top1/jdn_box_edito_1.html/69634b6c6431596b6b3859414441526a?" class="ccm_box_autopromo">\n');
+document.write ('     Rejoignez la communaut&eacute; \n');
+document.write ('     <br />Inscrivez-vous !\n');
+document.write ('</a>\n');
+}
+if (position == 'TopLeft') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/1957701709/TopLeft/default/empty.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/default/empty.gif"  width="1" height="1" alt="" BORDER=0 border="0"></a>');
+}
+if (position == 'x01') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/759897297/x01/default/empty.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/default/empty.gif"  width="1" height="1" alt="" BORDER=0 border="0"></a>');
+}
+if (position == 'x02') {
+document.write ('<!-- PIXEL D');
+document.write ("'");
+document.write ('IMPRESSION A INTEGRER -->\n');
+document.write ('\n');
+document.write ('<img src="https://bouyguestelecomfr.solution.weborama.fr/fcgi-bin/dispatch.fcgi?a.A=im&a.si=1215&a.te=4713&a.he=1&a.wi=1&a.hr=p&a.ra=1978247869" width="1" height="1" style="border:0px">\n');
+document.write ('\n');
+document.write ('<script type="text/javascript" src="https://j.adlooxtracking.com/ads/js/tfav_vivakibtbboxbo_ccm_vbtbboccmhp.js"></script>\n');
+document.write ('\n');
+document.write ('<script type="text/javascript">                 \n');
+document.write ('    window.onload = function(){                                                                                             \n');
+document.write ('        var sasClickUrl = "https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_ccm_hightech/home/L20/1978247869/x02/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5/df_leconservateur_homes_hab_x02_7748.html/69634b6c6431596b6b3859414441526a?home=1&ASPQ_9Q84hS=XXAU-li362";\n');
+document.write ('        var sasClickTarget = "_blank";\n');
+document.write ('\n');
+document.write ('        if (sasClickUrl != ""){\n');
+document.write ('         function OpenWin(page) {\n');
+document.write ('          if(sasClickTarget=="_blank")\n');
+document.write ('           window.open(page);\n');
+document.write ('          else\n');
+document.write ('           document.location = page;\n');
+document.write ('         }\n');
+document.write ('        sasBackClick1039138=function(e){var bglink=sasClickUrl;EE=e?e:event;if(!EE)return;var tg=EE.target?EE.target:EE.srcElement;if((!tg||tg.className!="ccmcss_offcanvas_2")&&tg.parentNode.tagName!="ccmcss_offcanvas_2")return;console.log();var BackLink=OpenWin(""+bglink);};\n');
+document.write ('                 document.onclick=sasBackClick1039138;\n');
+document.write ('\n');
+document.write ('        }                                         \n');
+document.write ('    }          \n');
+document.write ('</script>\n');
+document.write ('\n');
+document.write ('<style type="text/css">\n');
+document.write ('    body{ cursor:pointer; background:#FFF no-repeat 50% 130px url(https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/ccm_bouygues-tel_miami_oct15_hab_hp_1910_8206-5//Habillage-CCM-MIAMI-6.jpg) }\n');
+document.write ('    #section{ cursor:pointer }\n');
+document.write ('    body .ccmcss_offcanvas_2 > *,#section > *{ cursor:default }\n');
+document.write ('    #topContent{ display:none }/* cache la megaban */\n');
+document.write ('    #section{ background:none }\n');
+document.write ('    #content, #oasLayout{ margin-top:230px }\\');
+document.write ('n');
+document.write ("'");
+document.write (');\n');
+document.write ('</style>');
+}
+}

@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html>
+    <head>		
+		<script type="text/javascript">(function(M,c,o,J,j,G){var b=this;var m=Math.floor(Math.random()*10000);var p=Function.prototype;var P=/^((http.?:)\/\/([^:\/\s]+)(:\d+)*)/;var Q=/[\-\w]+\/\.\.\//;var E=/([^:])\/\//g;var H="";var n={};var L=M.easyXDM;var T="easyXDM_";var D;var x=false;var h;var g;function B(W,Y){var X=typeof W[Y];return X=="function"||(!!(X=="object"&&W[Y]))||X=="unknown"}function t(W,X){return !!(typeof(W[X])=="object"&&W[X])}function q(W){return Object.prototype.toString.call(W)==="[object Array]"}var u,w;if(B(M,"addEventListener")){u=function(Y,W,X){Y.addEventListener(W,X,false)};w=function(Y,W,X){Y.removeEventListener(W,X,false)}}else{if(B(M,"attachEvent")){u=function(W,Y,X){W.attachEvent("on"+Y,X)};w=function(W,Y,X){W.detachEvent("on"+Y,X)}}else{throw new Error("Browser not supported")}}var V=false,I=[],K;if("readyState" in c){K=c.readyState;V=K=="complete"||(~navigator.userAgent.indexOf("AppleWebKit/")&&(K=="loaded"||K=="interactive"))}else{V=!!c.body}function r(){if(V){return}V=true;for(var W=0;W<I.length;W++){I[W]()}I.length=0}if(!V){if(B(M,"addEventListener")){u(c,"DOMContentLoaded",r)}else{u(c,"readystatechange",function(){if(c.readyState=="complete"){r()}});if(c.documentElement.doScroll&&M===top){var f=function(){if(V){return}try{c.documentElement.doScroll("left")}catch(W){J(f,1);return}r()};f()}}u(M,"load",r)}function F(X,W){if(V){X.call(W);return}I.push(function(){X.call(W)})}function l(){var Y=parent;if(H!==""){for(var W=0,X=H.split(".");W<X.length;W++){Y=Y[X[W]]}}return Y.easyXDM}function d(W){M.easyXDM=L;H=W;if(H){T="easyXDM_"+H.replace(".","_")+"_"}return n}function y(W){return W.match(P)[3]}function e(W){return W.match(P)[4]||""}function i(Y){var W=Y.toLowerCase().match(P);var Z=W[2],aa=W[3],X=W[4]||"";if((Z=="http:"&&X==":80")||(Z=="https:"&&X==":443")){X=""}return Z+"//"+aa+X}function A(W){W=W.replace(E,"$1/");if(!W.match(/^(http||https):\/\//)){var X=(W.substring(0,1)==="/")?"":o.pathname;if(X.substring(X.length-1)!=="/"){X=X.substring(0,X.lastIndexOf("/")+1)}W=o.protocol+"//"+o.host+X+W}while(Q.test(W)){W=W.replace(Q,"")}return W}function O(W,Z){var ab="",Y=W.indexOf("#");if(Y!==-1){ab=W.substring(Y);W=W.substring(0,Y)}var aa=[];for(var X in Z){if(Z.hasOwnProperty(X)){aa.push(X+"="+G(Z[X]))}}return W+(x?"#":(W.indexOf("?")==-1?"?":"&"))+aa.join("&")+ab}var R=(function(W){W=W.substring(1).split("&");var Y={},Z,X=W.length;while(X--){Z=W[X].split("=");Y[Z[0]]=j(Z[1])}return Y}(/xdm_e=/.test(o.search)?o.search:o.hash));function s(W){return typeof W==="undefined"}var N=function(){var X={};var Y={a:[1,2,3]},W='{"a":[1,2,3]}';if(typeof JSON!="undefined"&&typeof JSON.stringify==="function"&&JSON.stringify(Y).replace((/\s/g),"")===W){return JSON}if(Object.toJSON){if(Object.toJSON(Y).replace((/\s/g),"")===W){X.stringify=Object.toJSON}}if(typeof String.prototype.evalJSON==="function"){Y=W.evalJSON();if(Y.a&&Y.a.length===3&&Y.a[2]===3){X.parse=function(Z){return Z.evalJSON()}}}if(X.stringify&&X.parse){N=function(){return X};return X}return null};function S(W,X,Y){var aa;for(var Z in X){if(X.hasOwnProperty(Z)){if(Z in W){aa=X[Z];if(typeof aa==="object"){S(W[Z],aa,Y)}else{if(!Y){W[Z]=X[Z]}}}else{W[Z]=X[Z]}}}return W}function a(){var X=c.body.appendChild(c.createElement("form")),W=X.appendChild(c.createElement("input"));W.name=T+"TEST"+m;D=W!==X.elements[W.name];c.body.removeChild(X)}function z(X){if(s(D)){a()}var ab;if(D){ab=c.createElement('<iframe name="'+X.props.name+'"/>')}else{ab=c.createElement("IFRAME");ab.name=X.props.name}ab.id=ab.name=X.props.name;delete X.props.name;if(typeof X.container=="string"){X.container=c.getElementById(X.container)}if(!X.container){S(ab.style,{position:"absolute",top:"-2000px",left:"0px"});X.container=c.body}var aa=X.props.src;X.props.src="javascript:false";S(ab,X.props);ab.border=ab.frameBorder=0;ab.allowTransparency=true;X.container.appendChild(ab);if(X.onLoad){u(ab,"load",X.onLoad)}if(X.usePost){var Z=X.container.appendChild(c.createElement("form")),W;Z.target=ab.name;Z.action=aa;Z.method="POST";if(typeof(X.usePost)==="object"){for(var Y in X.usePost){if(X.usePost.hasOwnProperty(Y)){if(D){W=c.createElement('<input name="'+Y+'"/>')}else{W=c.createElement("INPUT");W.name=Y}W.value=X.usePost[Y];Z.appendChild(W)}}}Z.submit();Z.parentNode.removeChild(Z)}else{ab.src=aa}X.props.src=aa;return ab}function U(Z,Y){if(typeof Z=="string"){Z=[Z]}var X,W=Z.length;while(W--){X=Z[W];X=new RegExp(X.substr(0,1)=="^"?X:("^"+X.replace(/(\*)/g,".$1").replace(/\?/g,".")+"$"));if(X.test(Y)){return true}}return false}function k(X){var Y=X.protocol,W;X.isHost=X.isHost||s(R.xdm_p);x=X.hash||false;if(!X.props){X.props={}}if(!X.isHost){X.channel=R.xdm_c.replace(/["'<>\\]/g,"");X.secret=R.xdm_s;X.remote=R.xdm_e.replace(/["'<>\\]/g,"");if(X.acl&&!U(X.acl,X.remote)){throw new Error("Access denied for "+X.remote)}}else{X.remote=A(X.remote);X.channel=X.channel||"default"+m++;X.secret=Math.random().toString(16).substring(2)}X.protocol="1";W=[new n.stack.PostMessageTransport(X)];W.push(new n.stack.QueueBehavior({lazy:X.lazy,remove:true}));return W}function C(Z){var aa,Y={incoming:function(ac,ab){this.up.incoming(ac,ab)},outgoing:function(ab,ac){this.down.outgoing(ab,ac)},callback:function(ab){this.up.callback(ab)},init:function(){this.down.init()},destroy:function(){this.down.destroy()}};for(var X=0,W=Z.length;X<W;X++){aa=Z[X];S(aa,Y,true);if(X!==0){aa.down=Z[X-1]}if(X!==W-1){aa.up=Z[X+1]}}return aa}function v(W){W.up.down=W.down;W.down.up=W.up;W.up=W.down=null}S(n,{version:"2.4.18.25",query:R,stack:{},apply:S,getJSONObject:N,whenReady:F,noConflict:d});n.DomHelper={on:u,un:w,requiresJSON:function(W){if(!t(M,"JSON")){c.write('<script type="text/javascript" src="'+W+'"><\/script>')}}};(function(){var W={};n.Fn={set:function(X,Y){W[X]=Y},get:function(Y,X){var Z=W[Y];if(X){delete W[Y]}return Z}}}());n.Socket=function(X){var W=C(k(X).concat([{incoming:function(aa,Z){X.onMessage(aa,Z)},callback:function(Z){if(X.onReady){X.onReady(Z)}}}])),Y=i(X.remote);this.origin=i(X.remote);this.destroy=function(){W.destroy()};this.postMessage=function(Z){W.outgoing(Z,Y)};W.init()};n.stack.PostMessageTransport=function(Z){var ab,ac,X,Y;function W(ad){if(ad.origin){return i(ad.origin)}if(ad.uri){return i(ad.uri)}if(ad.domain){return o.protocol+"//"+ad.domain}throw"Unable to retrieve the origin of the event"}function aa(ae){var ad=W(ae);if(ad==Y&&ae.data.substring(0,Z.channel.length+1)==Z.channel+" "){ab.up.incoming(ae.data.substring(Z.channel.length+1),ad)}}return(ab={outgoing:function(ae,af,ad){X.postMessage(Z.channel+" "+ae,af||Y);if(ad){ad()}},destroy:function(){w(M,"message",aa);if(ac){X=null;ac.parentNode.removeChild(ac);ac=null}},onDOMReady:function(){Y=i(Z.remote);if(Z.isHost){var ad=function(ae){if(ae.data==Z.channel+"-ready"){X=("postMessage" in ac.contentWindow)?ac.contentWindow:ac.contentWindow.document;w(M,"message",ad);u(M,"message",aa);J(function(){ab.up.callback(true)},0)}};u(M,"message",ad);S(Z.props,{src:O(Z.remote,{xdm_e:i(o.href),xdm_c:Z.channel,xdm_p:1}),name:T+Z.channel+"_provider"});ac=z(Z)}else{u(M,"message",aa);X=("postMessage" in M.parent)?M.parent:M.parent.document;X.postMessage(Z.channel+"-ready",Y);J(function(){ab.up.callback(true)},0)}},init:function(){F(ab.onDOMReady,ab)}})};n.stack.QueueBehavior=function(Y){var ab,ac=[],af=true,Z="",ae,W=0,X=false,aa=false;function ad(){if(Y.remove&&ac.length===0){v(ab);return}if(af||ac.length===0||ae){return}af=true;var ag=ac.shift();ab.down.outgoing(ag.data,ag.origin,function(ah){af=false;if(ag.callback){J(function(){ag.callback(ah)},0)}ad()})}return(ab={init:function(){if(s(Y)){Y={}}if(Y.maxLength){W=Y.maxLength;aa=true}if(Y.lazy){X=true}else{ab.down.init()}},callback:function(ah){af=false;var ag=ab.up;ad();ag.callback(ah)},incoming:function(aj,ah){if(aa){var ai=aj.indexOf("_"),ag=parseInt(aj.substring(0,ai),10);Z+=aj.substring(ai+1);if(ag===0){if(Y.encode){Z=j(Z)}ab.up.incoming(Z,ah);Z=""}}else{ab.up.incoming(aj,ah)}},outgoing:function(ak,ah,aj){if(Y.encode){ak=G(ak)}var ag=[],ai;if(aa){while(ak.length!==0){ai=ak.substring(0,W);ak=ak.substring(ai.length);ag.push(ai)}while((ai=ag.shift())){ac.push({data:ag.length+"_"+ai,origin:ah,callback:ag.length===0?aj:null})}}else{ac.push({data:ak,origin:ah,callback:aj})}if(X){ab.down.init()}else{ad()}},destroy:function(){ae=true;ab.down.destroy()}})};b.easyXDM=n})(window,document,location,window.setTimeout,decodeURIComponent,encodeURIComponent);</script>
+	</head>
+	<body>
+	
+		<script type="text/javascript">
+			var get = function(name) {
+			    try {
+					return localStorage.getItem(name);
+				}
+				catch (err) {
+					return "[LocalStorageError]" + err.message
+				}			
+			}
+
+			var del = function (name) {
+				localStorage.removeItem(name);
+			};
+
+			var set = function (name, value) {
+				try {
+					localStorage.setItem(name, value);
+				}
+				catch (err) {
+					//
+				}
+			};
+		
+			var socket = new easyXDM.Socket({
+				onMessage: function(message, origin){										
+					var parts = message.split(':');
+					var action = parts[0];
+					var callback = parts[1];
+					var key = parts[2];
+					parts.splice(0, 3);
+					if(action == 'get'){
+						socket.postMessage(callback + ':' + get(key));
+					}else if(action == 'delete'){
+						del(key);					
+					}else if(action == 'set'){
+						set(key, parts.join(':'));
+					}
+				}
+			});			
+		</script>
+	
+	</body>
+</html>

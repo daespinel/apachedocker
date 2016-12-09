@@ -1,0 +1,61 @@
+.tClearFloats{
+	width: 100%;
+	display: block;
+	height: 1px;
+	line-height: 1px;
+	overflow: hidden;
+	opacity:.01;
+	-moz-opacity:.01;
+	-webkit-opacity:.01;
+	-o-opacity:.01;
+	-ms-filter: alpha(opacity=1);
+	filter: alpha(opacity=1);
+	clear: both;
+}
+.tPretAutoSansTauxHome{
+	width: 980px;
+	margin: 0 auto;
+}
+.tPretAutoSansTauxHomeHeader{
+	background: url(20082014_pret_auto_national_sans_taux_homeBG.jpg) left top no-repeat;
+	height:378px;
+}
+.tPretAutoSansTauxHomeHeaderCont{
+	float: left;
+    height: 288px;
+    width: 980px;
+	overflow:hidden;
+}
+.tPretAutoSansTauxHomeHeaderCont img {
+	border:none;
+}
+.tPretAutoSansTauxHomeHeaderCont img.tFirst {
+	padding:18px 0 0 298px;	
+	float:left;	
+}
+.tPretAutoSansTauxHomeBtn{
+	width: 950px;
+	float: left;
+	padding: 38px 0 0 30px;
+	
+}
+.tPretAutoSansTauxHomeButton{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: url(20082014_pret_auto_sans_taux_ind_bullet_white1.png) 0 1px no-repeat;
+	padding-left: 23px;
+}
+.tPretAutoSansTauxHome sup {
+	height: 0;
+	line-height: 1;
+	font-size: 0.7em;
+	font-size: 0.8em\9;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+	font-weight: normal;
+	bottom: 1ex;
+}

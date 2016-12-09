@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1252px" height="500px" viewBox="0 0 1252 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>test</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="-6.88044828e-09%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="test-courbe-video2" sketch:type="MSLayerGroup">
+            <path d="M918.685855,0 C888.377082,87.5 851.232362,173.25 806.922254,246.25 C746.387068,345.875 682.639811,432.5 620.127966,500 L1252,500 L1252,0" id="rectangle_blanc" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M910.209327,0 C880.204586,77.375 834.819264,155.875 793.972474,223 C721.103818,342.625 640.418801,430.25 567.213958,500 L582.342399,500 C657.396274,434.625 726.819007,349.625 788.593473,250 C833.810702,177.125 883.90265,87.875 914.831906,0" id="blanc" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-path" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" x="0" y="0" width="261" height="500"></rect>
+        </g>
+    </g>
+</svg>

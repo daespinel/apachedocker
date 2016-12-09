@@ -1,0 +1,219 @@
+<!-- Dat Header -->
+<ng-include src="'/Content/static/diply-new-angular/src/app/header/header.html'"></ng-include>
+<!-- /Dat Header -->
+
+<!-- Dat Nav -->
+<!--<ng-include src="'/Content/static/diply-new-angular/src/app/nav/nav.html'"></ng-include>-->
+        <!-- Moved to _Nav.cshtml -->
+<!-- /Dat Nav -->
+
+<div ui-view></div><!-- this might not be needed -->
+
+<div class="diply-wrapper">
+    <!--<div class="diply-row">-->
+        <!-- Content -->
+        <div class="diply-main">
+            <div class="diply-card-row clearfix">
+                <!-- LARGE CARD -->
+                <div class="diply-card card-wide">
+                    <a class="card-image"
+                       style="background-image: url({{content.posts.top.ThumbUrl}});"
+                       href="{{content.posts.top.Url}}">
+                        <p class="card-tag">{{content.posts.top.PostProperties.CategoryName}}</p>
+                    </a>
+                    <div class="card-info">
+                        <a href="{{content.posts.top.Url}}" class="card-info-headline">{{content.posts.top.Title}}</a>
+                        <div class="card-info-author">
+                            <div class="card-info-author-img" style="background-image: url({{content.posts.top.PostProperties.AuthorImageUrl}})"></div>
+                            <p>
+                               By <a href="/profile/{{content.posts.top.PostProperties.AuthorName}}">{{content.posts.top.PostProperties.AuthorName}}</a><br />For <a href="/{{content.posts.top.PostProperties.PublicationSlug}}">{{content.posts.top.PostProperties.PublicationName}}</a>
+                            </p>
+                        </div>
+                        <p class="card-info-summary">{{content.posts.top.PostProperties.Excerpt}}
+                        </p>
+                        <a class="card-info-more" href="{{content.posts.top.Url}}">Read This <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <!-- END LARGE CARD -->
+            </div>
+            <div class="diply-card-row clearfix">
+                <div class="diply-card-social">
+                    <p class="diply-social-title">Follow Us to Get More Diply</p>
+                    <!--<div class="diply-social-badges">-->
+                        <!--<a href="https://www.facebook.com/diply" target="_blank" alt="Like us on Facebook!" class="social-badge sb-fb"><i class="fa fa-facebook"></i></a>-->
+                        <!--<a href="https://twitter.com/diply" target="_blank" alt="Follow us on Twitter!" class="social-badge sb-tw"><i class="fa fa-twitter"></i></a>-->
+                        <!--<a href="https://plus.google.com/+Diply" target="_blank" alt="Join our Circle!" class="social-badge sb-gp"><i class="fa fa-google-plus"></i></a>-->
+                        <!--&lt;!&ndash;<br class="visible-xs" />&ndash;&gt;-->
+                        <!--<a href="https://instagram.com/diply/" target="_blank" alt="Follow us on Instagram" class="social-badge sb-ig sb-m-f"><i class="fa fa-instagram"></i></a>-->
+                        <!--<a href="https://www.pinterest.com/diply/" alt="Join us on Pinterest" target="_blank" class="social-badge sb-pi"><i class="fa fa-pinterest"></i></a>-->
+                        <!--<a href="https://www.youtube.com/diply" alt="Follow us on YouTube"  target="_blank" class="social-badge sb-yt"><i class="fa fa-youtube"></i></a>-->
+                        <!--&lt;!&ndash;<a href="mailto:info@goviralinc.com" alt="Get in Touch!" class="social-badge sb-em"><i class="fa fa-envelope"></i></a>&ndash;&gt;-->
+                    <!--</div>-->
+                    <div class="diply-sb-holder">
+                        <a class="sb-round sb-fb" href="https://www.facebook.com/diply" target="_blank">
+                            <i class="fa fa-fw fa-facebook"></i>
+                        </a>
+                        <a class="sb-round sb-tw" href="https://twitter.com/diply" target="_blank">
+                            <i class="fa fa-fw fa-twitter"></i>
+                        </a>
+                        <a class="sb-round sb-gp" href="https://plus.google.com/+Diply" target="_blank" >
+                            <i class="fa fa-fw fa-google-plus"></i>
+                        </a>
+                        <a class="sb-round sb-ig" href="https://instagram.com/diply/" target="_blank">
+                            <i class="fa fa-fw fa-instagram"></i>
+                        </a>
+                        <a class="sb-round sb-pi" href="https://www.pinterest.com/diply/"  target="_blank">
+                            <i class="fa fa-fw fa-pinterest"></i>
+                        </a>
+                        <a class="sb-round sb-yt" href="https://www.youtube.com/diply"  target="_blank">
+                            <i class="fa fa-fw fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="diply-card-row clearfix">
+                <!-- SMALL CARD LEFT -->
+                <div class="diply-card card-left">
+                    <a class="card-image"
+                       style="background-image: url({{content.posts.feature_one.ThumbUrl}})"
+                       href="{{content.posts.feature_one.Url}}">
+                        <p class="card-tag">{{content.posts.feature_one.PostProperties.CategoryName}}</p>
+                    </a>
+                    <div class="card-info">
+                        <a href="{{content.posts.feature_one.Url}}" class="card-info-headline">{{content.posts.feature_one.ShortTitle}}</a>
+                        <div class="card-info-author">
+                            <p>
+                                By <a href="/profile/{{content.posts.feature_one.PostProperties.AuthorName}}">{{content.posts.feature_one.PostProperties.AuthorName}}</a> for <a href="/{{content.posts.feature_one.PostProperties.PublicationSlug}}">{{content.posts.feature_one.PostProperties.PublicationName}}</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SMALL CARD LEFT -->
+                <!-- SMALL CARD RIGHT - SPONSORED -->
+                <div class="diply-card card-right" rel="diply">
+                    <a class="card-image"
+                       style="background-image: url({{content.posts.feature_two.ThumbUrl}})"
+                       href="{{content.posts.feature_two.Url}}">
+                        <p class="card-tag">{{content.posts.feature_two.PostProperties.CategoryName}}</p>
+                    </a>
+                    <div class="card-info">
+                        <a href="{{content.posts.feature_two.Url}}" class="card-info-headline">{{content.posts.feature_two.ShortTitle}}</a>
+                        <div class="card-info-author">
+                            <p>
+                                By <a href="/profile/{{content.posts.feature_two.PostProperties.AuthorName}}">{{content.posts.feature_two.PostProperties.AuthorName}}</a> for <a href="/{{content.posts.feature_two.PostProperties.PublicationSlug}}">{{content.posts.feature_two.PostProperties.PublicationName}}</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SMALL CARD RIGHT - SPONSORED -->
+            </div>
+
+            <div class="diply-card-row clearfix">
+                <!-- SMALL CARD LEFT -->
+                <div class="diply-card card-left">
+                    <a class="card-image"
+                       style="background-image: url({{content.posts.feature_three.ThumbUrl}})"
+                       href="{{content.posts.feature_three.Url}}">
+                        <p class="card-tag">{{content.posts.feature_three.PostProperties.CategoryName}}</p>
+                    </a>
+                    <div class="card-info">
+                        <a href="{{content.posts.feature_three.Url}}" class="card-info-headline">{{content.posts.feature_three.ShortTitle}}</a>
+                        <div class="card-info-author">
+                            <p>
+                                By <a href="/profile/{{content.posts.feature_three.PostProperties.AuthorName}}">{{content.posts.feature_three.PostProperties.AuthorName}}</a> for <a href="/{{content.posts.feature_three.PostProperties.PublicationSlug}}">{{content.posts.feature_three.PostProperties.PublicationName}}</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SMALL CARD LEFT -->
+                <!-- SMALL CARD RIGHT - SPONSORED -->
+                <div class="diply-card card-right" rel="diply">
+                    <a class="card-image"
+                       style="background-image: url({{content.posts.feature_four.ThumbUrl}})"
+                       href="{{content.posts.feature_four.Url}}">
+                        <p class="card-tag">{{content.posts.feature_four.PostProperties.CategoryName}}</p>
+                        <div class="card-tag-img" style=""></div>
+                    </a>
+                    <div class="card-info">
+                        <a href="{{content.posts.feature_four.Url}}" class="card-info-headline">{{content.posts.feature_four.ShortTitle}}</a>
+                        <div class="card-info-author">
+                            <p>
+                                By <a href="/profile/{{content.posts.feature_four.PostProperties.AuthorName}}">{{content.posts.feature_four.PostProperties.AuthorName}}</a> for <a href="/{{content.posts.feature_four.PostProperties.PublicationSlug}}">{{content.posts.feature_four.PostProperties.PublicationName}}</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SMALL CARD RIGHT - SPONSORED -->
+            </div>
+
+            <!-- Vid Card -->
+            <div class="diply-card-row clearfix">
+                <!-- LARGE CARD -->
+                <div class="diply-card card-wide">
+                    <a class="card-image"
+                       style="background-image: url({{content.posts.feature_large.ThumbUrl}})"
+                       href="{{content.posts.feature_large.Url}}">
+                        <p class="card-tag">{{content.posts.feature_large.PostProperties.CategoryName}}</p>
+                        <!--<div class="card-tag-img" style=""></div>-->
+                    </a>
+                    <div class="card-info">
+                        <a href="{{content.posts.feature_large.Url}}" class="card-info-headline">{{content.posts.feature_large.Title}}</a>
+                        <div class="card-info-author">
+                            <div class="card-info-author-img" style="background-image: url({{content.posts.feature_large.PostProperties.AuthorImageUrl}})"></div>
+                            <p>
+                                By <a href="/profile/{{content.posts.feature_large.PostProperties.AuthorName}}">{{content.posts.feature_large.PostProperties.AuthorName}}</a><br />for <a href="/{{content.posts.feature_large.PostProperties.PublicationSlug}}">{{content.posts.feature_large.PostProperties.PublicationName}}</a>
+                            </p>
+                        </div>
+                        <p class="card-info-summary">{{content.posts.feature_large.PostProperties.Excerpt}}
+                        </p>
+                        <a class="card-info-more" href="javascript:void(0)">Read This <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <!-- END LARGE CARD -->
+            </div>
+
+            <!-- Create Card-->
+            <!--div class="diply-card-row clearfix hidden-xs">
+                <div class="diply-card card-create">
+                    <div class="create-header display-table">
+                        <div class="display-cell" style="text-align:center;">
+                            <h3 class="create-card-title">Join the Diply Community!</h3>
+                            <a href="javascript:void(0)" class="diply-cta-btn" id="cta-btn">Start Creating</a>
+                        </div>
+                    </div>
+                    <div class="create-container">
+                        <a href="javascript:void(0)" class="diply-signup-btn diply-signup-facebook">
+                            <i class="fa fa-facebook"></i>
+                            &nbsp;Sign Up With Facebook
+                        </a>
+                        <a href="javascript:void(0)" class="diply-signup-btn diply-signup-twitter">
+                            <i class="fa fa-twitter"></i>
+                            &nbsp;Sign Up with Twitter
+                        </a>
+                        <hr />
+                        Already Have An Account? <a href="javascript:void(0)">Sign In</a>
+                    </div>
+                </div>
+            </div-->
+
+        </div>
+        <!-- Sidebar -->
+        <ng-include class="diply-sidebar hidden-md hidden-sm" src="'/Content/static/diply-new-angular/src/app/sidebar/sidebar.html'"></ng-include>
+        <!-- Sidebar [END]-->
+    <!--</div>-->
+        <div class="diply-home-footer">
+            <img src="/Content/static/diply-new-angular/src/images/logo_blue.svg" />
+            <div class="home-footer-links">
+                <a href="/static/about">About</a>
+                <!--<a href="mailto:info@goviralinc.com">Contact</a>-->
+                <a href="/static/terms">Terms of Service</a>
+                <a href="/static/advertise">Advertise</a>
+            </div>
+        </div>
+</div>
+
+
+<!-- Dat Footer -->
+<!--<ng-include src="''"></ng-include>-->
+<!-- /Dat Footer -->

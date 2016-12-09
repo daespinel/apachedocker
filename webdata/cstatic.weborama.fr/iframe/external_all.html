@@ -1,0 +1,138 @@
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+var r=parseInt(Math.random()*1000000);
+var t=new Date().getTime();
+var Config = {
+    cookieName : '_xttrk_all',
+    trackers : {
+        'PIXEL' : [
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=google_id&d.u=http%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dweborama_dmp%26google_cm',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=appnexus_id&d.u=http%3A%2F%2Fib.adnxs.com%2Fgetuidnb%3Fhttp%3A%2F%2Faimfar.solution.weborama.fr%2Ffcgi-bin%2Fdispatch.fcgi%3Fd.A%3Dtp%26d.k%3Dappnexus_id%26d.v%3D%24UID',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=videology_id&d.u=http%3A//sync.tidaltv.com/genericusersync.ashx%3Fdpid%3D29',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=criteo_id&d.u=http%3A//dis.eu.criteo.com/dis/dis.aspx%3Fdr%3D1%26p1%3Dv%253d2%2526wi%253d7735250%2526pt1%253d0%2526pt2%253d1%26t1%3DsendEvent%26p%3D13226%26c%3D2%26resptype%3Dgif',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=tubemogul_id&d.u=http%3A//rtd.tubemogul.com/upi/pid/I4EAHwnE%3Fredir%3Dhttp%253A//aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi%253Fd.A%253Dtp%2526d.k%253Dtubemogul_id%2526d.v%253D%2524%257BUSER_ID%257D',
+            'https://wam-yahoo.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=yahoo_id&d.u=https%3A//cms.analytics.yahoo.com/cms%3Fpartner_id%3DWEBMA',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=criteov2_id&d.u=http%3A%2F%2Fgum.criteo.com%2Fsync%3Fc%3D13%26a%3D1%26r%3D1%26u%3Dhttp%253A%252F%252Faimfar.solution.weborama.fr%252Ffcgi-bin%252Fdispatch.fcgi%253Fd.A%253Dtp%2526d.k%253Dcriteov2_id%2526d.v%253D%2540USERID%2540',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=mediamath_id&d.u=http%3A%2F%2Fpixel.mathtag.com%2Fsync%2Fimg%3Fmt_exid%3D10014%26redir%3Dhttp%253A%252F%252Faimfar.solution.weborama.fr%252Ffcgi-bin%252Fdispatch.fcgi%253Fd.A%253Dtp%2526d.k%253Dmediamath_id%2526d.v%253D%255BMM_UUID%255D',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=rd&d.k=rubicon&d.u=http%3a%2f%2ftap.rubiconproject.com%2foz%2ffeeds%2fweborama%2ftokens%3fpk%3dJQXH-IBB29RJW%26afu%3d%7bWEBO_CID%7d',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=radiumone_id&d.u=http%3A%2F%2Frs.gwallet.com%2Fr1%2Fcm%2Fp79r' + t
+        ],
+        'IFRAME' : [
+           'https://aimfar.solution.weborama.fr/fcgi-bin/external_tracking.fcgi?country=FR&r=' + r,
+           'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=prx&g.r=' + r
+        ],
+        'JAVASCRIPT' : [
+            'https://wam.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cj&d.k=graphinium'
+        ]
+    },
+    trackersSSL : {
+        'PIXEL' : [
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=google_id&d.u=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dweborama_dmp%26google_cm',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=appnexus_id&d.u=https%3A%2F%2Fib.adnxs.com%2Fgetuidnb%3Fhttps%3A%2F%2Faimfar.solution.weborama.fr%2Ffcgi-bin%2Fdispatch.fcgi%3Fd.A%3Dtp%26d.k%3Dappnexus_id%26d.v%3D%24UID',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=videology_id&d.u=https%3A//sync.tidaltv.com/genericusersync.ashx%3Fdpid%3D29',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=criteo_id&d.u=https%3A//dis.eu.criteo.com/dis/dis.aspx%3Fdr%3D1%26p1%3Dv%253d2%2526wi%253d7735250%2526pt1%253d0%2526pt2%253d1%26t1%3DsendEvent%26p%3D13226%26c%3D2%26resptype%3Dgif',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=tubemogul_id&d.u=https%3A//rtd.tubemogul.com/upi/pid/I4EAHwnE%3Fredir%3Dhttps%253A//aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi%253Fd.A%253Dtp%2526d.k%253Dtubemogul_id%2526d.v%253D%2524%257BUSER_ID%257D',
+            'https://wam-yahoo.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=yahoo_id&d.u=https%3A//cms.analytics.yahoo.com/cms%3Fpartner_id%3DWEBMA',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=criteov2_id&d.u=https%3A%2F%2Fgum.criteo.com%2Fsync%3Fc%3D13%26a%3D1%26r%3D1%26u%3Dhttps%253A%252F%252Faimfar.solution.weborama.fr%252Ffcgi-bin%252Fdispatch.fcgi%253Fd.A%253Dtp%2526d.k%253Dcriteov2_id%2526d.v%253D%2540USERID%2540',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=mediamath_id&d.u=https%3A%2F%2Fpixel.mathtag.com%2Fsync%2Fimg%3Fmt_exid%3D10014%26redir%3Dhttps%253A%252F%252Faimfar.solution.weborama.fr%252Ffcgi-bin%252Fdispatch.fcgi%253Fd.A%253Dtp%2526d.k%253Dmediamath_id%2526d.v%253D%255BMM_UUID%255D',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=rd&d.k=rubicon&d.u=https%3a%2f%2ftap.rubiconproject.com%2foz%2ffeeds%2fweborama%2ftokens%3fpk%3dJQXH-IBB29RJW%26afu%3d%7bWEBO_CID%7d',
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cr&d.k=radiumone_id&d.u=https%3A%2F%2Frs.gwallet.com%2Fr1%2Fcm%2Fp79r' + t
+          ],
+        'IFRAME' : [
+            'https://aimfar.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=prx&g.r=' + r
+        ],
+        'JAVASCRIPT' : [
+            'https://wam.solution.weborama.fr/fcgi-bin/dispatch.fcgi?d.A=cj&d.k=graphinium'
+        ]
+    }
+};
+
+var Utils = {
+    areCookiesEnabled : function () {
+        var cookieEnabled = (navigator.cookieEnabled) ? true : false,
+            ua = navigator.userAgent.toLowerCase(),
+            isIE = (ua.indexOf('msie') !== -1 || ua.indexOf('trident') !== -1);
+
+        // try to set a test cookie if we can't see any cookies and we're using
+        // either a browser that doesn't support navigator.cookieEnabled
+        // or IE (which always returns true for navigator.cookieEnabled)
+        if ((navigator.cookieEnabled === undefined) || isIE) {
+            document.cookie = "__wtestcookie";
+            cookieEnabled = (document.cookie.indexOf("__wtestcookie") !== -1) ? true : false;
+        }
+        return cookieEnabled;
+    },
+
+    /**
+     * Returns true when we are in an SSL environment
+     */
+    isSSL : function () {
+        if ("javas" + String() + "cript:" === document.location.protocol) {
+            return "https:" === parent.document.location.protocol;
+        }
+        return "https:" === document.location.protocol;
+    },
+
+    writeTrackerPIXEL : function (trackerUrl) {
+        document.write("<img src=\"" + trackerUrl + "\" width=1 height=1 />");
+    },
+
+    writeTrackerIFRAME : function (trackerUrl) {
+        document.write("<iframe src=\"" + trackerUrl + "\" width=1 height=1 frameborder=0 style=\"border:0px\" ></iframe>");
+    },
+
+    writeTrackerJAVASCRIPT : function (trackerUrl) {
+        document.write("<scr"+"ipt src=\"" + trackerUrl + "\" type=\"text/javascript\" ></sc"+"ript>");
+    }
+};
+
+(function (doc) {
+    var isCookieSet,
+        today = new Date(),
+        year,
+        expiryDate,
+        cookieLifetime = 7, // cookieLifetime is in days
+        trackerIncrement,
+        seconds;
+
+    // try to detect if the user has already been synced on this domain using a cookie.
+    isCookieSet = doc.cookie.match('(^|;) ?' + Config.cookieName + '=([^;]*)(;|$)');
+
+    // if the cookie is set or cookies are not supported, leave the function. (stop propagation)
+    if (isCookieSet || Utils.areCookiesEnabled() === false) {
+        return;
+    }
+
+    // calculate expiry date
+    year = today.getYear() < 2000 ? today.getYear() + 1900 : today.getYear();
+    expiryDate = new Date(year, today.getMonth(), today.getDate() + cookieLifetime).toGMTString();
+
+    // set the cookie if it was not set before.
+    doc.cookie = Config.cookieName + '=1; expires=' + expiryDate + '; path=/;';
+
+    // call trackers
+    var trackers = Utils.isSSL() ? Config.trackersSSL : Config.trackers;
+    seconds  = today.getSeconds();
+    for (trackerIncrement = 0; trackerIncrement < trackers['PIXEL'].length; trackerIncrement++) {
+        if (trackerIncrement == 4 && seconds % 10 != 3) {
+            continue;
+        }
+        if (trackerIncrement == 6) {
+            continue;
+        }
+        if (trackerIncrement == 9 && seconds % 10 != 9) {
+            continue;
+        }
+        Utils.writeTrackerPIXEL(trackers['PIXEL'][trackerIncrement]);
+    }
+    for (trackerIncrement = 0; trackerIncrement < trackers['IFRAME'].length; trackerIncrement++) {
+        Utils.writeTrackerIFRAME(trackers['IFRAME'][trackerIncrement]);
+    }
+    for (trackerIncrement = 0; trackerIncrement < trackers['JAVASCRIPT'].length; trackerIncrement++) {
+        Utils.writeTrackerJAVASCRIPT(trackers['JAVASCRIPT'][trackerIncrement]);
+    }
+}(document));
+</script>
+</body></html>

@@ -1,0 +1,1 @@
+crtg_content = ''; (function(){document.cookie = 'crtg_rta=' + escape(crtg_content) + '; path=/; expires=Wed, 18 Nov 2015 07:36:09 GMT; domain=leboncoin.fr';})();

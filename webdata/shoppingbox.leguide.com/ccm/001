@@ -1,0 +1,631 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+    <style>
+        body {
+        color: #666;
+        font-family: arial;
+        width: 100%;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        height: 200px;
+        margin: 0;
+        }
+        /* Arrows */
+
+        .slick-prev,
+        .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 37px;
+        height: 82px;
+        margin-top: -41px;
+        padding: 0;
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+        }
+        .slick-prev:hover,
+        .slick-prev:focus,
+        .slick-next:hover,
+        .slick-next:focus {
+        color: transparent;
+        outline: none;
+        background: transparent;
+        }
+
+        .slick-prev {
+        left: 20px;
+        }
+        .slick-next {
+        right: 20px;
+        }
+
+        /* Content */
+        .header {
+        position: relative;
+        /*height: 30px;
+        width: 100%;*/
+        width: auto;
+        background-color: #356bb3;
+        border: 1px solid #cccccc;
+        border-bottom-color: #fff;
+        }
+        .header a {
+        display: inline-block;
+        overflow: hidden;
+        position: absolute;
+        top: 3px;
+        right: -1px;
+        z-index: 1;
+        }
+        .item-button-retargeting{
+        color: #014596;
+        font-size: 12px;
+        overflow: hidden;
+        background-color: #fff;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        border-radius: 9px;
+        border-color: #014596;
+        border: 2px solid;
+        font-weight: bold;
+        min-width: 20px;
+        min-height: 20px;
+        padding: 0;
+        outline: none;
+        cursor: pointer;
+        }
+        .brand-product {
+        position: relative;
+        margin-top: -15px;
+        padding: 0 20px;
+        }
+        .brand-list {
+        padding-left: 3px;
+        position: relative;
+        margin-bottom: 0px;
+        }
+        .slick-slide {
+        border-right: 1px solid #f0f0f0;
+        box-sizing: border-box;
+        padding: 0 10px;
+        cursor: pointer;
+        position: relative;
+        }
+        .item-div-img {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        margin: 2px 0 3px 0;
+        }
+        .item-img {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        }
+        .item-discount {
+        position: absolute;
+        top: 4%;
+        left: 3.3%;
+        margin: 0 !important;
+        padding: .3em;
+        color:#fff;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #cc190f;
+        }
+
+        .item-div-price {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        }
+        .item-product, .item-div-price div, .item-shop {
+        margin-bottom: 4px;
+        }
+        .item-div-price div {
+        text-align: center;
+        overflow: hidden;
+        display: table;
+        width: 100%;
+        }
+        .item-product, .item-shop {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        }
+        .item-product{
+        font-size: 12px;
+        font-family: arial;
+        font-weight: bold;
+        color: #333;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: block;
+        }
+        .item-price-reduc {
+        font-size: 10px;
+        font-family: arial;
+        color: #999;
+        text-decoration: line-through;
+        overflow: hidden;
+        text-align: right;
+        /*line-height: 21px;*/
+        display: table-cell;
+        }
+        .item-price {
+        font-size: 15px;
+        font-family: arial;
+        color: #cc190f;
+        font-weight: bold;
+        overflow: hidden;
+        display: table-cell;
+        }
+        .item-shop {
+        font-size: 12px;
+        font-family: arial;
+        font-weight: bold;
+        color: #333;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: block;
+        }
+        .item-button {
+        min-height: 25px;
+        width: 90px;
+        background-color: #D10B22;
+        color: #fff;
+        font-weight: bold;
+        font-size: 11px;
+        font-family: arial;
+        border: 0;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin: auto;
+        display: block;
+        }
+
+        /* Pagination */
+        .slick-dots {
+        list-style-type: none;
+        padding: 0;
+        position: absolute;
+        top: -30px;
+        left: 10px;
+        text-align: center;
+        width: 100%;
+        }
+        .slick-dots li {
+        display: inline-block;
+        padding-right: 6px;
+        }
+        .slick-dots li button {
+        background-color: #f0f0f0;
+        display: inline-block;
+        width: 31px;
+        height: 25px;
+        color: #014596;
+        border: 0;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        padding-right: 6px;
+        }
+        .slick-dots .slick-active button {
+        background-color: #014596;
+        color: #fff;
+        }
+        .brand-slick .slick-prev,
+        .brand-slick .slick-next {
+        position: absolute;
+        margin-top: 0;
+        top: 45%;
+        width: 19px;
+        height: 32px;
+        }
+        .brand-slick .slick-prev {
+        left: -19px;
+        background: url(https://cimg.leguide.com/img/partner/ccm/fleche_gauche.png) no-repeat 0 0;
+        }
+
+        .brand-slick .slick-next {
+        right: -19px;
+        background: url(https://cimg.leguide.com/img/partner/ccm/fleche_droite.png) no-repeat 0 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header"  
+        style="visibility:hidden"
+        
+        >
+            <a href="https://www.leguide.com/information/fr/legal" target="_blank">
+            <button class="item-button-retargeting" type="button">i</button>
+        </a>
+    </header>
+
+
+    <div class="brand-product brand-product--promotion">
+        <ul class="brand-list brand-product-list brand-slick js-brand-slick clearfix">
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2080101/28025906/62330/2802590621966511/8778/1445237705413?h=56bbc255038f36bebcf4f1dda3853393ea60a589');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/2802590621966511/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">LEXMARK cartouches n°10...</span>
+                    <div>
+                        
+                        <span class="item-price">90.23 &euro;</span>
+                    </div>
+                    <span class="item-shop">PixPlace - Pi...</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/28025906/62330/2802590622830694/8778/1445237705413?h=8d3d089708033451ac7c3a8639f4882267381761');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/2802590622830694/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">HP Pc portables 17-G 00...</span>
+                    <div>
+                        
+                        <span class="item-price">473.55 &euro;</span>
+                    </div>
+                    <span class="item-shop">PixPlace - Pi...</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/28025906/62330/2802590608628475/8778/1445237705413?h=4ea5d2b29f39b5cbbe1242ed2f7c56724f74a6fa');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/2802590608628475/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">SONY Batterie Ordinateu...</span>
+                    <div>
+                        
+                        <span class="item-price">77.86 &euro;</span>
+                    </div>
+                    <span class="item-shop">PixPlace - Pi...</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/112/2155/00000112mjy32fa/8778/1445237705414?h=a5c310fe731f962d14d3d6b9877734e70de37f6a');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/00000112mjy32fa/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">APPLE MacBook PC Portab...</span>
+                    <div>
+                        
+                        <span class="item-price">1329.99 &euro;</span>
+                    </div>
+                    <span class="item-shop">Cdiscount</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/12896/1046/00012896k9j28et/8778/1445237705414?h=7cad29a679528eb558e6dfec7c5382d3d79ff3f3');return false;">
+                <div class="item-div-img">
+                    
+                    <span class="item-discount">-4 %</span>
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/00012896k9j28et/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">HP ProBook 470 G2 Offre...</span>
+                    <div>
+                        
+                        <span class="item-price-reduc">910.80 &euro;</span>
+                        
+                        <span class="item-price">870.00 &euro;</span>
+                    </div>
+                    <span class="item-shop">Boutique HP</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/124/2109/00000124583636/8778/1445237705414?h=4c5c4a1caa3f6c4adffc626daf7c63ba9eead6d6');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/00000124583636/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">PC portable 11.6 &#x27;&#x27; LEN...</span>
+                    <div>
+                        
+                        <span class="item-price">299.00 &euro;</span>
+                    </div>
+                    <span class="item-shop">Conforama</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/28025906/62330/2802590622577375/8778/1445237705414?h=d3178d057abc018f534c05aa9e38f4036dc98ee2');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/2802590622577375/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">ACME MADE Coques et sac...</span>
+                    <div>
+                        
+                        <span class="item-price">52.64 &euro;</span>
+                    </div>
+                    <span class="item-shop">PixPlace - Pi...</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/112/2155/00000112mjve2fa/8778/1445237705414?h=c54af9a6fda3c7828d92c3d4ce7e2476f761eb0c');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/00000112mjve2fa/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">Apple MacBook Air PC Po...</span>
+                    <div>
+                        
+                        <span class="item-price">999.99 &euro;</span>
+                    </div>
+                    <span class="item-shop">Cdiscount</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/112/2155/00000112bunasuoff3/8778/1445237705414?h=ea1764f6ecb3dc5d56f294e55e19a875c9c50610');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/00000112bunasuoff3/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">ASUS PC Portable X751MA...</span>
+                    <div>
+                        
+                        <span class="item-price">429.99 &euro;</span>
+                    </div>
+                    <span class="item-shop">Cdiscount</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/28025906/62330/2802590608260897/8778/1445237705414?h=2e3d49127891c9c0eed04dbb2e2588c1e6f9fb66');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/2802590608260897/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">APPLE Batterie Ordinate...</span>
+                    <div>
+                        
+                        <span class="item-price">77.86 &euro;</span>
+                    </div>
+                    <span class="item-shop">PixPlace - Pi...</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/124/2109/00000124588272/8778/1445237705414?h=432c8033f02298881a79519469c68332434b0c31');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/00000124588272/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">PC portable 17,3 pouces...</span>
+                    <div>
+                        
+                        <span class="item-price">499.00 &euro;</span>
+                    </div>
+                    <span class="item-shop">Conforama</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2010100/28004276/4498/28004276149760/8778/1445237705414?h=178719c7d5ae22efa2d812fd871527e36383c227');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/28004276149760/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">Unité Centrale TC-705 -...</span>
+                    <div>
+                        
+                        <span class="item-price">599.99 &euro;</span>
+                    </div>
+                    <span class="item-shop">Top Office</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/12896/1046/00012896k9j25et/8778/1445237705414?h=4c036403c18f185f4393dd7bff2bf65dca9c404e');return false;">
+                <div class="item-div-img">
+                    
+                    <span class="item-discount">-20 %</span>
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/00012896k9j25et/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">PC portable HP ProBook ...</span>
+                    <div>
+                        
+                        <span class="item-price-reduc">1462.80 &euro;</span>
+                        
+                        <span class="item-price">1176.00 &euro;</span>
+                    </div>
+                    <span class="item-shop">Boutique HP</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/28025906/62330/2802590622298578/8778/1445237705414?h=d4d3030cc4962824de47cff4f1b006404af82c7a');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/2802590622298578/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">MICROSOFT Surface Pro 3...</span>
+                    <div>
+                        
+                        <span class="item-price">1606.31 &euro;</span>
+                    </div>
+                    <span class="item-shop">PixPlace - Pi...</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/28002846/3688/28002846lcyr5/8778/1445237705414?h=e490bab12c3e8a0b5309c79f2a1fb4c138667c36');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/28002846lcyr5/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">Lenovo B70-80 80MR - Co...</span>
+                    <div>
+                        
+                        <span class="item-price">867.13 &euro;</span>
+                    </div>
+                    <span class="item-shop">Maxiburo</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+            <li class="item brand-product-item" onclick=window.open('/click/ccm/001/2090201/112/2155/0000011259441707/8778/1445237705414?h=d2ec3c5a031f64a5e262dac6326159d93a493255');return false;">
+                <div class="item-div-img">
+                    
+                    
+                    <img class="item-img" src="https://csimg.leguide.com/srv/FR/0000011259441707/T/95x95/C/FFFFFF/url/image.jpg" alt="Img" />
+                    
+                </div>
+                <div class="item-div-price">
+                    <span class="item-product">LENOVO PC Portable Idea...</span>
+                    <div>
+                        
+                        <span class="item-price">349.99 &euro;</span>
+                    </div>
+                    <span class="item-shop">Cdiscount</span>
+                    <button class="item-button" type="button">Voir l'offre</button>
+                </div>
+
+            </li>
+            
+        </ul>
+    </div>
+    <script>
+        $(document).ready(function() {
+            jQuery(".js-brand-slick").slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+                arrows: true,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                pauseOnHover : false,
+                responsive: [
+                    {
+                        breakpoint: 900,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 751,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4
+                        }
+                    },
+                    {
+                        breakpoint: 501,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    },
+                    {
+                        breakpoint: 400,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+

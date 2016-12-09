@@ -1,0 +1,115 @@
+/* bloc suggestion */
+
+.suggestionSearch{
+    position: absolute;
+    width: 207px;
+    z-index: 999;
+	display:none;
+}
+
+.suggestionSearch .suggestionBottom{
+    padding-bottom: 5px; margin-left: 6px;
+    background: url("../img/shadowbottomsuggestion.png") repeat-x bottom left;
+}
+
+.suggestionSearch .suggestionContent{
+    padding-left: 0px;
+    background: url("../img/shadowleftsuggestion.png") repeat-y top left;
+}
+
+.suggestionSearch .suggestionInner{
+    background: #FFF;
+    border: 1px solid #cacaca;
+}
+
+.suggestionSearch li{
+    display: block;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.suggestionSearch .title{
+    text-transform: uppercase;
+    color: #000;
+    height: 26px; line-height: 26px;
+    background: #FFF url("../img/bgtitlesuggestion.png") repeat-x bottom left;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.suggestionSearch #js-suggestion-content ul:first-child li.title {
+    border-top: none;
+}
+
+.suggestionSearch li a{
+    color: #000 !important;
+    text-decoration: none;
+    display: block;
+    line-height: 1em;
+}
+
+.suggestionSearch li a:hover{
+    text-decoration: underline;
+}
+
+.suggestionSearch .allResult{
+    padding: 15px 30px 0;
+    border-top: 1px solid #dfdfdf;
+    font-size: 11px;
+}
+
+.suggestionSearch .allResult a{
+    text-decoration: underline;
+    color: #1f368b;
+    padding-bottom: 15px;
+    display: block;
+}
+
+/* selectSearch */
+
+.selectSearch{
+    overflow: hidden;
+    font-size: 12px;
+    position: relative;
+    padding: 15px 0;
+    margin: 0 15px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #ededed;
+}
+
+.selectSearch > .infoResult{
+    position: absolute;
+    top:17px; left:0px;
+}
+
+.selectSearch .select{
+    text-align: center;
+}
+
+.selectSearch .select .infoResult{
+    margin: 0 20px;
+}
+
+.normal .selectSearch{
+    font-size: 14px;
+}
+
+.big .selectSearch{
+    font-size: 16px;
+}
+
+.selectSearch .pagination{
+    position: absolute;
+    top: 17px; right:0px;
+}
+
+.selectSearch .infoResult{
+    text-transform: uppercase;
+    color: #1f368b;
+}
+
+.selectSearch .infoResult span{
+    font-weight: bold;
+}

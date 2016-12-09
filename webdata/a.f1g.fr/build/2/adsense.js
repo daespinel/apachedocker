@@ -1,0 +1,1 @@
+;var adisplaynormal = true;

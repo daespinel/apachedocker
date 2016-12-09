@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Sofinco</title>
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="ad.size" content="width=160,height=600">
+  <style>
+  html, body { margin: 0; height: 100%; width: 100%; font-size: 12px; background: #fff; }
+  #ad { width:158px; height: 598px; display: block; background: #00aaa5; position: relative; top:0; left:0; overflow: hidden; border: solid 1px #000; }
+
+  #ad img { width: 100%; display: block; margin: 0; }
+  #content { position: relative; top:0; left:0; z-index: 100; width: 100%; overflow: hidden; height: 100%; }
+  #content > div { position: absolute; z-index: 5; opacity: 0; }
+ #content div#star { top:13px; left:2px; z-index: 20; width: 154px; }
+  #text1 { top:215px; left:6px; }
+  #text2 { top:297px; left:26px; }
+  #euro { top:324px; left:112px; }
+  #content div#cta { top:356px; left:20px; cursor: pointer; z-index: 120; }
+  #content div#field { top:321px; left:28px; z-index: 110; }
+  #field input { border:solid 1px #1e7f7c; padding:0 7px; width: 65px; height: 22px; line-height:22px; text-align: right; font-size: 12px; font-family:Verdana, Arial, sans-serif; font-weight: bold; }
+  #intro { position: absolute; top:0; left:0; z-index: 100; width: 100%; height: 100%; }
+  #intro > div { position: absolute; z-index: 5; opacity: 0; }
+  #intro1 { top:108px; left:2px; }
+  #intro2 { top:140px; left:2px; }
+  #intro3 { top:171px; left:2px; }
+  #intro4 { top:196px; left:2px; }
+  #intro5 { top:224px; left:66px; }
+  #button { top:0; left:0; position: absolute; z-index: 100; width: 100%; height: 100%; display: block; }
+  #ad .bottom { position: absolute; bottom:-150px; left:0; width:100%; height: 125px; display: block; background: #fff; z-index: 20; opacity: 0; }
+
+  #ad .animate { -webkit-animation-fill-mode: forwards; -moz-animation-fill-mode: forwards; -o-animation-fill-mode: forwards; animation-fill-mode: forwards; }
+  #intro1.show, #intro2.show { -webkit-animation: showLeft 0.5s ease-out; -moz-animation:  showLeft 0.5s ease-out; -o-animation: showLeft 0.5s ease-out; animation: showLeft 0.5s ease-out; opacity: 0; }
+  #intro1.end, #intro2.end { left:2px; opacity: 1; }
+  #intro3.show, #intro4.show { -webkit-animation: showAlpha 0.5s ease-out; -moz-animation:  showAlpha 0.5s ease-out; -o-animation: showAlpha 0.5s ease-out; animation: showAlpha 0.5s ease-out; opacity: 0; }
+  #intro3.end, #intro4.end { opacity: 1; }
+  #intro5.show { -webkit-animation: showAlpha 0.5s ease-out; -moz-animation: showAlpha 0.5s ease-out; -o-animation: showAlpha 0.5s ease-out; animation: showAlpha 0.5s ease-out; opacity: 0; }
+  #intro5.end { opacity: 1; }
+  #intro1.hide, #intro2.hide, #intro3.hide, #intro4.hide, #intro5.hide { -webkit-animation: hideAlpha 0.5s ease-out; -moz-animation:  hideAlpha 0.5s ease-out; -o-animation: hideAlpha 0.5s ease-out; animation: hideAlpha 0.5s ease-out; }
+  #intro1.end2, #intro2.end2, #intro3.end2, #intro4.end2, #intro5.end2 { opacity: 0; }
+  #bottom1.show, #bottom2.show { -webkit-animation: showBottom 1s ease-in-out; -moz-animation: showBottom 1s ease-in-out; -o-animation: showBottom 1s ease-in-out; animation: showBottom 1s ease-in-out; bottom: -150px; }
+  #bottom1.end, #bottom2.end { bottom: 0; opacity: 1; }
+  #bottom2.hide { -webkit-animation: hideBottom 1s ease-in-out; -moz-animation:  hideBottom 1s ease-in-out; -o-animation: hideBottom 1s ease-in-out; animation: hideBottom 1s ease-in-out; bottom: 0; }
+  #bottom2.end2 { bottom: -150px; }
+  #logo { position: absolute; right:6px; bottom:50px; width:90%; display: block; }
+  #ml { position: absolute; left:0px; top:14px; display: block; }
+  #star.show { -webkit-animation: showScale 1s ease-in; -moz-animation:  showScale 1s ease-in; -o-animation: showScale 1s ease-in; animation: showScale 1s ease-in; -webkit-transform: 50% 50%; transform: 50% 50%; }
+  #star.end { opacity: 1; }
+  #text1.show, #text2.show, #field.show, #euro.show { -webkit-animation: showAlpha 0.5s ease-out; -moz-animation:  showAlpha 0.5s ease-out; -o-animation: showAlpha 0.5s ease-out; animation: showAlpha 0.5s ease-out; opacity: 0; }
+  #text1.end, #text2.end, #field.end, #euro.end { opacity: 1; }
+  #cta.show { -webkit-animation: showCTA 0.5s ease-in; -moz-animation:  showCTA 0.5s ease-in; -o-animation: showCTA 0.5s ease-in; animation: showCTA 0.5s ease-in; -webkit-transform: 50% 50%; transform: 50% 50%; opacity: 0; }
+  #cta.end { opacity: 1; }
+
+  @-webkit-keyframes showCTA {
+     0% { transform: scale(0); opacity: 1; }
+     60% { transform: scale(1.2); opacity: 1; }
+     80% { transform: scale(1); opacity: 1; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+ @-moz-keyframes showCTA {
+     0% { transform: scale(0); opacity: 1; }
+     60% { transform: scale(1.2); opacity: 1; }
+     80% { transform: scale(1); opacity: 1; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+ @-o-keyframes showCTA {
+     0% { transform: scale(0); opacity: 1; }
+     60% { transform: scale(1.2); opacity: 1; }
+     80% { transform: scale(1); opacity: 1; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+ @keyframes showCTA {
+     0% { transform: scale(0); opacity: 1; }
+     60% { transform: scale(1.2); opacity: 1; }
+     80% { transform: scale(1); opacity: 1; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+
+ @-webkit-keyframes showScale {
+     0% { transform: scale(3); opacity: 0; }
+     80% { transform: scale(0.8); opacity:1; }
+     90% { transform: scale(1.1); opacity: 1; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+ @-moz-keyframes showScale {
+     0% { transform: scale(3); opacity: 0; }
+     80% { transform: scale(0.8); opacity:1; }
+     90% { transform: scale(1.1); opacity: 1; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+ @-o-keyframes showScale {
+     0% { transform: scale(3); opacity: 0; }
+     80% { transform: scale(0.8); opacity:1; }
+     90% { transform: scale(1.1); opacity: 1; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+ @keyframes showScale {
+     0% { transform: scale(3); opacity: 0; }
+     80% { transform: scale(0.8); opacity:1; }
+     90% { transform: scale(1.1); opacity: 1; }
+     100% { transform: scale(1); opacity: 1; }
+ }
+
+ @-webkit-keyframes showBottom {
+     0%  { bottom:-150px; opacity: 1; }
+     100% { bottom: 0; opacity: 1; } 
+ }
+ @-moz-keyframes showBottom {
+     0%  { bottom:-150px; opacity: 1; }
+     100% { bottom: 0; opacity: 1; }
+ }
+ @-o-keyframes showBottom {
+     0%  { bottom:-150px; opacity: 1; }
+     100% { bottom: 0; opacity: 1; }
+ }
+ @keyframes showBottom {
+     0%  { bottom:-150px; opacity: 1; }
+     100% { bottom: 0; opacity: 1; }
+ }
+
+ @-webkit-keyframes hideBottom {
+     0%  { bottom: 0; opacity: 1; }
+     100% { bottom:-150px; opacity: 1; } 
+ }
+ @-moz-keyframes hideBottom {
+     0%  { bottom: 0; opacity: 1; }
+     100% { bottom:-150px; opacity: 1; }  
+ }
+ @-o-keyframes hideBottom {
+     0%  { bottom: 0; opacity: 1; }
+     100% { bottom:-150px; opacity: 1; }  
+ }
+ @keyframes hideBottom {
+     0%  { bottom: 0; opacity: 1; }
+     100% { bottom:-150px; opacity: 1; }  
+ }
+
+ @-webkit-keyframes showAlpha {
+     0%  { opacity: 0; }
+     100% { opacity: 1; }
+ }
+ @-moz-keyframes showAlpha {
+     0%  { opacity: 0; }
+     100% { opacity: 1; }
+ }
+ @-o-keyframes showAlpha {
+     0%  { opacity: 0; }
+     100% { opacity: 1; }
+ }
+ @keyframes showAlpha {
+     0%  { opacity: 0; }
+     100% { opacity: 1; }
+ }
+
+ @-webkit-keyframes hideAlpha {
+     0%  { opacity: 1; }
+     100% { opacity: 0; }
+ }
+ @-moz-keyframes hideAlpha {
+     0%  { opacity: 1; }
+     100% { opacity: 0; }
+ }
+ @-o-keyframes hideAlpha {
+     0%  { opacity: 1; }
+     100% { opacity: 0; }
+ }
+ @keyframes hideAlpha {
+     0%  { opacity: 1; }
+     100% { opacity: 0; }
+ }
+
+ @-webkit-keyframes showLeft {
+     0%  { left: -175px; opacity: 1; }
+     85% { left: -5px; opacity: 1; }
+     100% { left: 2px; opacity: 1; }
+ }
+ @-moz-keyframes showLeft {
+     0%  { left: -175px; opacity: 1; }
+     85% { left: -5px; opacity: 1; }
+     100% { left: 2px; opacity: 1; }
+ }
+ @-o-keyframes showLeft {
+     0%  { left: -175px; opacity: 1; }
+     85% { left: -5px; opacity: 1; }
+     100% { left: 2px; opacity: 1; }
+ }
+ @keyframes showLeft {
+     0%  { left: -175px; opacity: 1; }
+     85% { left: -5px; opacity: 1; }
+     100% { left: 2px; opacity: 1; }
+ }
+
+</style>
+</head>
+<body>
+  <div id="ad" data_url="https://56c646cc9f58f35661191763632f428a.leboncoin.fr/RealMedia/ads/click_lx.ads/divers/toutes_categories/R12/L28/1681174985/Right/Leboncoin/ELE0018777_V2/Forfait_Prospection_160x600.html/69634b6b4e3159626a6a674143567368?https://ad.atdmt.com/c/go;p=11197200799116;as=11197200799344;a=11197201118462;crs=11197201118365;cr=11197201118372;i.ts=1445240170" >
+    <div id="content">
+      <a id="button" href="https://56c646cc9f58f35661191763632f428a.leboncoin.fr/RealMedia/ads/click_lx.ads/divers/toutes_categories/R12/L28/1681174985/Right/Leboncoin/ELE0018777_V2/Forfait_Prospection_160x600.html/69634b6b4e3159626a6a674143567368?https://ad.atdmt.com/c/go;p=11197200799116;as=11197200799344;a=11197201118462;crs=11197201118365;cr=11197201118372;i.ts=1445240170" target="_blank"></a>
+      <div id="bottom1" class="animate bottom"><div id="logo"><img  src="logo.svg" alt="" /></div></div>
+      <div id="bottom2" class="animate bottom"><div id="ml"><img  src="ml.png" alt="" /></div></div>
+      <div id="intro1" class="animate"><img src="intro1.png" alt="" /></div>
+      <div id="intro2" class="animate"><img src="intro2.png" alt="" /></div>
+      <div id="intro3" class="animate"><img src="intro3.png" alt="" /></div>
+      <div id="intro4" class="animate"><img src="intro4.png" alt="" /></div>
+      <div id="intro5" class="animate"><img src="intro5.png" alt="" /></div>
+
+      <div id="star" class="animate"><img src="star.png" alt="" /></div>
+      <div id="text1" class="animate"><img src="text1.png" alt="" /></div>
+      <div id="text2" class="animate"><img src="text2.png" alt="" /></div>
+      <div id="euro" class="animate"><img src="euro.png" alt="" /></div>
+      <div id="field" class="animate">
+        <form id="form" method="POST" action="https://www.sofinco.fr/simulation-credit/pret-personnel.htm" target="_blank">
+          <input id="input" type="text" name="montant" value="" />
+        </form>
+      </div>
+      <div id="cta" class="animate"><img src="button.png" alt="" /></div>
+    </div>
+  </div>
+  <script>
+
+  function addEvent(evnt, elem, func) {
+      if (elem.addEventListener) 
+         elem.addEventListener(evnt,func,false);
+     else if (elem.attachEvent) { 
+         elem.attachEvent("on"+evnt, func);
+     }
+     else { 
+         elem[evnt] = func;
+     }
+ }
+
+ function start(_id, _begin, _end, _duration){
+  document.getElementById(_id).className += ' '+_begin;
+  setTimeout(function(){
+      if ( _id == 'bottom2' ) removeClass(_id, 'end');
+      document.getElementById(_id).className += ' '+_end; 
+      removeClass(_id, _begin);
+  }, _duration);
+}
+
+function removeClass(_id, _class){
+  var classes = document.getElementById(_id).className.split(' ');
+  var _classes = '';
+  for (var i=0; i<classes.length; i++){
+      if ( classes[i] != _class ){
+          if ( i > 0 ) _classes += ' ';
+          _classes += classes[i];
+      }
+  }
+  document.getElementById(_id).className = _classes;
+}
+
+function submit (e){
+  e.preventDefault();
+  var img = document.createElement("IMG"); 
+  img.src = ad.getAttribute("data_url");;
+  ad.appendChild(img);
+  form.submit();
+}
+
+var input = document.getElementById("input");
+var cta = document.getElementById("cta");
+var ad = document.getElementById("ad");
+var form = document.getElementById("form");
+
+input.style.display='none';
+input.value = '';
+addEvent("click", cta, submit);
+
+var delay = 0;
+setTimeout(function(){ start('bottom1', 'show', 'end', 1000) }, delay);
+delay += 750;
+setTimeout(function(){ start('intro1', 'show', 'end', 500) }, delay);
+delay += 250;
+setTimeout(function(){ start('intro2', 'show', 'end', 500) }, delay);
+delay += 1000;
+setTimeout(function(){ start('intro3', 'show', 'end', 500) }, delay);
+delay += 250;
+setTimeout(function(){ start('intro4', 'show', 'end', 500) }, delay);
+delay += 50;
+setTimeout(function(){ start('intro5', 'show', 'end', 500) }, delay);
+delay += 2000;
+setTimeout(function(){ start('intro1', 'hide', 'end2', 500) }, delay);
+setTimeout(function(){ start('intro2', 'hide', 'end2', 500) }, delay);
+setTimeout(function(){ start('intro3', 'hide', 'end2', 500) }, delay);
+setTimeout(function(){ start('intro4', 'hide', 'end2', 500) }, delay);
+setTimeout(function(){ start('intro5', 'hide', 'end2', 500) }, delay);
+delay += 0;
+setTimeout(function(){ 
+  start('star', 'show', 'end', 1000) ;
+  input.style.display='block';
+  //input.focus();
+}, delay);
+delay += 1000;
+setTimeout(function(){ start('text1', 'show', 'end', 500) }, delay);
+delay += 100;
+setTimeout(function(){ start('text2', 'show', 'end', 500) }, delay);
+delay += 300;
+setTimeout(function(){ start('field', 'show', 'end', 500) }, delay);
+setTimeout(function(){ start('euro', 'show', 'end', 500) }, delay);
+delay += 300;
+setTimeout(function(){ start('cta', 'show', 'end', 500) }, delay);
+delay += -500;
+setTimeout(function(){ start('bottom2', 'show', 'end', 1000) }, delay);
+delay += 7000;
+setTimeout(function(){ start('bottom2', 'hide', 'end2', 500) }, delay);
+
+</script>
+</body>
+</html>

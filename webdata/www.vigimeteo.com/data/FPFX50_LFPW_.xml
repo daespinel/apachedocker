@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="../bulletin_AFP.xsl" type="text/xsl"?>
+<bulletin
+	nom="Bulletin France courte échéance"
+	type_bulletin="BUL+AFP+CE"
+ 	secteur_geo="FRANCE"
+	centre_redacteur="CNP"
+	date_heure_production="19/10/2015 07:54"
+	validite="20151019">
+<observation><![CDATA[
+Voici maintenant les températures relevées à 07 heures, suivies des maximales prévues cet après-midi :
+Lille     :  9/14    .Paris    :  6/15    .Strasbourg :  2/12 
+Brest     :  6/16    .Bordeaux :  9/18    .Nantes     :  7/16 
+Toulouse  : 14/21    .Lyon     :  7/14    .Clermont-F :  5/12 
+Marseille : 14/19    .Ajaccio  : 12/23 ]]></observation>
+<groupe nom="aujourdhui">
+     <date><![CDATA[
+Aujourd'hui lundi 19 :]]></date>
+     <titre><![CDATA[Le temps est généralement calme et sec, assez doux; le ciel est gris au Nord, plus lumineux ailleurs.
+]]></titre>
+     <temps><![CDATA[Au nord de la Seine, le ciel est bas et gris, avec quelques pluies éparses près de la Manche. Ces nuages s'étendent de la Normandie à l'Alsace en cours de matinée, et ne laissent place qu'à quelques trouées l'après-midi. 
+Plus au Sud le ciel est variable, avec de belles éclaircies de la façade Atlantique à la Provence, malgré des bancs de nuages élevés parfois épais, un ciel plus mitigé ailleurs. Sur le Roussillon, les vallées d'Auvergne et Rhône-Alpes en particulier, les grisailles matinales se lèvent difficilement. Le ciel reste également très chargé près des Pyrénées, avec quelques petites pluies ou bruines par moment.
+Les températures maximales s'échelonnent de 9 à 12 degrés dans l'Est, 13 à 17 à l'Ouest, 18 à 22 degrés de l'Aquitaine à la côte d'Azur, 20 à 23 en Corse. 
+Le mistral souffle timidement en vallée du Rhône, tout comme le vent de nord-est près de l'océan.
+]]></temps>
+</groupe>
+</bulletin>

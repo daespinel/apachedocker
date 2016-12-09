@@ -1,0 +1,5 @@
+
+(function($)
+{'use strict';$.fn.nativeAds=function(options)
+{options=$.extend({},$.fn.nativeAds.defaultOptions,options);return this.each(function()
+{var $this=$(this);$.ajax({url:'/index/_xhr_display_nativeads',type:'post',dataType:'json',data:({partner:options.partner}),success:function(data){$this.html(data.html).find('.jNativeAdsMoreDialog').nativeAdsMoreDialog();}});});};$.fn.nativeAds.defaultOptions={partner:''};}(jQuery));

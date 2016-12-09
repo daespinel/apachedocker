@@ -1,0 +1,36 @@
+<html>
+<head><title>DV static</title></head>
+<body>
+<script type="text/javascript">
+function getCookie(c_name)
+{
+var i,x,y,ARRcookies=document.cookie.split(";");
+for (i=0;i<ARRcookies.length;i++)
+{
+  x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+  y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+  x=x.replace(/^\s+|\s+$/g,"");
+  if (x==c_name)
+    {
+    return unescape(y);
+    }
+  }
+}
+var cookie=getCookie("DVID");
+if (cookie!=null && cookie!="")
+{
+	var lu=getCookie("lu");
+	if (lu!=null && lu!="")
+	{
+		var currentTime = new Date()
+		a=(currentTime.getTime()/1000)-lu;
+		if (a > 86400)  {
+			this.location.href = "https://t.datvantage.com/rt.php?webo=1&lu="+a;
+		}
+	} else {
+		this.location.href = "https://t.datvantage.com/rt.php?webo=1&nolu";
+	}
+}
+</script>
+</body>
+</html>

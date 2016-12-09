@@ -1,0 +1,381 @@
+@charset "utf-8";
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,menu,time,mark,audio,video{border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline}
+html,body{height:100%}
+a img,fieldset{border:0}
+a *,label,button,input[type=image],input[type=button],input[type=submit]{cursor:pointer}
+ol{list-style-position:inside}
+ul{list-style:none}
+strong{font-weight:bold}
+em{font-style:italic}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+sub{vertical-align:sub;font-size:smaller}
+sup{vertical-align:super;font-size:smaller}
+table{border-collapse:collapse;border-spacing:0}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+hr{border:0;border-top:1px solid #ccc;display:block;height:1px;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+article,aside,figure,footer,header,hgroup,nav,section{display:block}
+html{overflow-y:scroll;-webkit-font-smoothing:antialiased}
+/* Modif */body{background:#fff;color:#404040;font-family:Arial,sans-serif;font-size:62.5%;line-height:1.2}
+a{color:#000;text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-weight:bold}
+textarea,input,select{font:12px Arial,sans-serif}
+input[type=search]{-webkit-appearance:none}
+input[type="radio"]{height:14px;vertical-align:text-bottom;width:14px}
+input[type="checkbox"]{vertical-align:bottom;*vertical-align:baseline}
+.ie6 input{vertical-align:text-bottom}
+button{background:0;border:0;font-family:Arial,sans-serif;margin:0;outline:0;overflow:visible;padding:0}
+button::-moz-focus-inner{border:0;padding:0}
+button span{position:relative;!margin:-1px 0 -2px}
+pre,code,kbd,samp{font-family:monospace,sans-serif}
+pre{padding:15px;white-space:pre;white-space:pre-wrap;white-space:pre-line;word-wrap:break-word}
+.coin{background-repeat:no-repeat;display:block;font-size:4px!important;line-height:1!important;font-weight:normal;height:4px;position:absolute;width:4px;zoom:1}
+.coin_hg{background-position:0 0;top:0;left:0}
+.coin_hd{background-position:right 0;top:0;right:0}
+.coin_bd{background-position:right bottom;bottom:0;right:0}
+.coin_bg{background-position:left bottom;bottom:0;left:0}
+.invisible{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);position:absolute!important}
+.masque{background:0!important;border:0!important;display:block!important;float:none!important;height:1px!important;list-style:none!important;margin:-1px 0 0 -1px!important;position:absolute!important;overflow:hidden!important;padding:0!important;width:1px!important}
+.clear{clear:both}
+.center{text-align:center}
+.f_left{display:inline;float:left}
+.f_right{display:inline;float:right}
+.clearfix{zoom:1}
+.clearfix:before,.clearfix:after{content:"\0020";display:block;font-size:0;height:0;visibility:hidden}
+.clearfix:after{clear:both}
+#global{margin:0 auto;width:98em}
+.ielt9 #global,.ie9 #global{width:98.15em}
+#header{padding:3em 0;position:relative}
+/* Modif */#contenu{clear:both;padding:0 0 1.8em;overflow: hidden;}
+.template_2 #colonne{float:left;width:23.6em}
+.template_2 #principal{float:right;width:73.2em}
+.ielt8 .template_2 #principal{width:73.25em}
+/* Modif */#footer{background:url(indimages/fonds/bg_footer.png) center 0 no-repeat;font-size:1.2em;line-height: 1.5;padding: 0.78em 0;text-align:center}
+#evitement{position:absolute;left:-999em}
+#header #logo{display:inline;float:left;margin:0 2em 0 .8em;width:20.9em}
+#header #logo img{display:block;width:100%}
+/* Modif */#header #acces_profils{float:left;font:normal normal 1.7em/1.2 Arial,Sans-Serif;margin:.588em 0 0}
+#header #acces_profils li{border-left:1px dotted #cfcfd0;display:inline;float:left;padding:0 .7em}
+#header #acces_profils li:first-child{border-left:0;padding-left:0}
+#header #acces_profils li.actif{color:#d00019}
+#header #acces_profils li *{float:left}
+#header #acces_profils li a{color:#8a8a8e}
+#header #acces_profils li a:hover{color:#333}
+#header #acces_profils li.actif a{color:#d00019}
+#header #acces_profils li strong{background:url(indimages/pictos/pi_profil_actif.png) 0 center no-repeat;color:#d00019;font-weight:normal;padding:0 0 0 26px}
+#header .changer_caisse_epargne{background:url(indimages/pictos/pi_changer_caisse.png) right center no-repeat;color:#999;line-height:1.4;padding:0 15px 0 0;position:absolute;right:0;text-decoration:underline;top:.8em}
+#header .changer_caisse_epargne:hover{color:#d00019}
+#header #liens_rapides{float:right;margin:.3em 0 0;zoom:1}
+#header #liens_rapides li{border-right:1px dotted #cfcfd0;display:inline;float:left;margin:0 1.2em 0 0;position:relative}
+#header #liens_rapides li a{background:url(indimages/pictos/pi_liens_rapides.png) no-repeat;float:left;height:24px;margin:0 1.2em 0 0;text-indent:-9999px}
+#header #liens_rapides li.cfn a{background-position:0 -75px;width:24px}
+#header #liens_rapides li.contact a{background-position:0 0;width:20px}
+#header #liens_rapides li.agence a{background-position:0 -26px;width:22px}
+#header #liens_rapides li.aide a{background-position:0 -52px;width:21px}
+#header #liens_rapides li a span{background:url(indimages/textes/txt_infobulle_header.png) no-repeat;display:none;height:29px;position:absolute;top:-30px}
+#header #liens_rapides li a:hover span{display:block}
+#header #liens_rapides li.cfn a span{background-position:0 -87px;left:-27px;width:74px}
+#header #liens_rapides li.contact a span{background-position:0 0;left:-22px;width:62px}
+#header #liens_rapides li.agence a span{background-position:0 -29px;left:-30px;width:84px}
+#header #liens_rapides li.aide a span{background-position:0 -58px;left:-55px;width:150px}
+#header #form_recherche_header{background:url(indimages/fonds/bg_recherche_header.png) 0 0 no-repeat;float:right;height:23px;overflow:hidden;padding:3px 25px 3px 3px;position:relative;width:149px}
+#header #form_recherche_header.focus{background-position:0 -29px}
+#header #form_recherche_header a{background:url(indimages/boutons/btn_rechercher_header.png) no-repeat;position:absolute;width:20px;height:20px;right:10px;top:5px}
+#header #form_recherche_header input.texte{background:#fff;border:0;color:#5c5c5c;font-size:11px;height:23px;outline:0;padding:0 5px;width:135px;zoom:1}
+.ielt9 #header #form_recherche_header input.texte{padding-top:4px;height:19px}
+#header #form_recherche_header input.btn{position:absolute;right:10px;top:5px}
+/* Modif */#navigation{background:#f5f8f9 url(indimages/fonds/bg_navigation.png) 0 bottom repeat-x;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;font:normal normal 1.4em/4 Arial,Sans-Serif;margin:0 0 2.15em;padding:0 0 1px;position:relative;text-align:center;float:left}
+#navigation .coin{background-image:url(indimages/fonds/bg_navigation_coins.png)}
+#navigation .coin_bd,#navigation .coin_bg{bottom:-1px}
+#navigation ul li{background:url(indimages/fonds/bg_navigation_sep.png) 0 bottom no-repeat;float:left;padding:0 0 0 0;position:relative}
+#navigation ul li a{color:#59595e;display:block;float:left;height:4em;position:relative;width:13.07em}
+#navigation ul li.long a{line-height:1.2;height:2.428em;padding:.786em 0}
+#navigation ul li:last-child a{-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0}
+#navigation ul li a:hover{background:#ebf1f3 url(indimages/fonds/bg_navigation_on.png) 0 bottom repeat-x}
+#navigation ul li a:hover .coin{background-image:url(indimages/fonds/bg_navigation_coins_on.png)}
+#navigation ul li.actif a,#navigation ul li.actif a:hover{background:#de0029 url(indimages/fonds/bg_navigation_actif.png) 0 bottom repeat-x;color:#fff}
+#navigation ul li.actif a .coin,#navigation ul li.actif a:hover .coin{background-image:url(indimages/fonds/fonds/bg_navigation_coins_actif.png)}
+#navigation ul li#btn_acces_comptes{background:#ebf1f3 url(indimages/fonds/bg_acces_comptes.png) 0 bottom repeat-x;-webkit-border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px;height:3.286em;padding:10px 10px 0 10px;text-align:left}
+#navigation ul li#btn_acces_comptes a{background:#8f9091 url(indimages/fonds/bg_btn_acces_comptes.png) 0 0 repeat-x;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#fff;line-height:2.5;height:auto;margin:0 auto;padding:0 .714em 0 0;position:relative;width:auto}
+#navigation ul li#btn_acces_comptes a:hover{background-color:#737476;background-image:url(indimages/fonds/bg_btn_acces_comptes_on.png)}
+#navigation ul li#btn_acces_comptes.actif a,#navigation ul li#btn_acces_comptes.actif a:hover{background-color:#c30025;background-image:url(indimages/fonds/bg_btn_acces_comptes_actif.png)}
+#navigation ul li#btn_acces_comptes a span{background:url(indimages/pictos/pi_acces_comptes.png) 0 0 no-repeat;background:url(indimages/pictos/pi_acces_comptes_ie.png) 0 50% repeat-y\9;display:block;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:0 0 0 45px;width:11.64em}
+.ielt9 #navigation ul li#btn_acces_comptes a span,.ie9 #navigation ul li#btn_acces_comptes a span{width:11.639em}
+#navigation ul li#btn_acces_comptes a:hover span{background-image:url(indimages/pictos/pi_acces_comptes_on.png);background-image:url(indimages/pictos/pi_acces_comptes_on_ie.png)\9}
+#navigation ul li#btn_acces_comptes.actif a span,#navigation ul li#btn_acces_comptes.actif a:hover span{background-image:url(indimages/pictos/pi_acces_comptes_actif.png);background-image:url(indimages/pictos/pi_acces_comptes_actif_ie.png)\9}
+#navigation ul li#btn_acces_comptes a span .coin_bd,#navigation ul li#btn_acces_comptes a span .coin_bg{bottom:0}
+#navigation ul li#btn_acces_comptes a span .coin{background-image:url(indimages/fonds/bg_btn_acces_comptes_coins.png)}
+#navigation ul li#btn_acces_comptes a:hover span .coin{background-image:url(indimages/fonds/bg_btn_acces_comptes_coins_on.png)}
+#navigation ul li#btn_acces_comptes.actif a span .coin,#navigation ul li#btn_acces_comptes.actif a:hover span .coin{background-image:url(indimages/fonds/bg_btn_acces_comptes_coins_actif.png)}
+#toolbar_identite{background:#f7f7f7 url(indimages/fonds/bg_toolbar_identite.png) 0 0 repeat-x;border-top:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;font-size:1.1em;margin:0 0 2.73em;padding:.73em 1.18em;position:relative}
+#toolbar_identite p,#toolbar_identite ul,#toolbar_identite ul li{display:inline-block;vertical-align:middle}
+.ielt8 #toolbar_identite p,.ielt8 #toolbar_identite ul,.ielt8 #toolbar_identite ul li{display:inline;zoom:1}
+#toolbar_identite p{color:#000;line-height:1.4}
+#toolbar_identite ul{line-height:1.5;font-weight:bold;margin:0 0 0 1.81em}
+#toolbar_identite ul li{border-left:1px solid #ddd;padding:.9em 1.18em}
+#toolbar_identite ul li a{background:0 center no-repeat;color:#333;display:inline-block;padding:0 0 0 27px}
+#toolbar_identite ul li a:hover{color:#d00019}
+#toolbar_identite ul li.messagerie a{background-image:url(indimages/pictos/pi_messagerie.png)}
+#toolbar_identite ul li.deconnexion a{background-image:url(indimages/pictos/pi_deconnexion.png)}
+/* Modif */#colonne .bloc_col{font:normal normal 1.3em/1.2 Arial,Sans-Serif;margin:0 0 1.92em;overflow:hidden}
+#colonne .bloc_col .coin{height:4px;width:4px}
+#colonne .bloc_col .coin_hg{top:-1px;left:-1px}
+#colonne .bloc_col .coin_hd{top:-1px;right:-1px}
+#colonne .bloc_col .coin_bd{bottom:-1px;right:-1px}
+#colonne .bloc_col .coin_bg{bottom:-1px;left:-1px}
+#colonne .bloc_col h2{background:#979899 url(indimages/fonds/bg_bloc_col_titre.png) 0 0 repeat-x;border:1px solid #a3a4a6;border-bottom:0;-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;color:#fff;font-weight:normal;position:relative;zoom:1}
+#colonne .bloc_col_ferme h2{-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+#colonne .bloc_col h2 .coin{background-image:url(indimages/fonds/bg_bloc_col_coins_titre.png)}
+#colonne .bloc_col h2 .coin_bd,#colonne .bloc_col h2 .coin_bg{bottom:0;display:none}
+#colonne .bloc_col_ferme h2 .coin_bd,#colonne .bloc_col_ferme h2 .coin_bg{display:block}
+/* Modif */#colonne .bloc_col h2 span{display:block;padding:.77em 2.69em .77em .92em;zoom:1;}
+#colonne .bloc_col_ferme h2 span{background-image:url(indimages/pictos/pi_bloc_col_ferme_24.png);_background-image:url(indimages/pictos/pi_bloc_col_ferme.png)}
+#colonne .bloc_col ul li{border:1px solid #ececec;border-bottom-color:#fff}
+#colonne .bloc_col ul li:last-child{border-bottom-color:#d8d8d8;-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}
+#colonne .bloc_col ul li.actif{border-color:#b00021 #a90a25}
+#colonne .bloc_col ul li a{background:#e6e7e7 url(indimages/fonds/bg_bloc_col_lien.png) 0 0 repeat-x;color:#59595e;display:block;padding:.77em .7em .77em .92em;position:relative;zoom:1}
+#colonne .bloc_col ul li a:hover{background-color:#cfd0d0;background-image:url(indimages/fonds/bg_bloc_col_lien_on.png)}
+#colonne .bloc_col ul li.actif a,#colonne .bloc_col ul li.actif a:hover{background-color:#a50f26;background-image:url(indimages/fonds/bg_bloc_col_lien_actif.png);color:#fff}
+#colonne .bloc_col ul li a .coin{background-image:url(indimages/fonds/bg_bloc_col_coins_lien.png)}
+#colonne .bloc_col ul li a:hover .coin{background-image:url(indimages/fonds/bg_bloc_col_coins_lien_on.png)}
+#colonne .bloc_col ul li.actif a .coin,#colonne .bloc_col ul li.actif a:hover .coin{background-image:url(indimages/fonds/bg_bloc_col_coins_lien_actif.png)}
+#colonne #identite_col h2{background-image:url(indimages/fonds/bg_bloc_col_titre_identite.png)}
+#colonne #identite_col ul li{border-color:#6d6e70 #7f8183 #d8d8d8}
+#colonne #identite_col ul li a{background:#6d6e6f url(indimages/fonds/bg_bloc_col_lien_identite.png) repeat-x;color:#fff}
+#colonne #identite_col ul li a .coin{background-image:url(indimages/fonds/bg_bloc_col_coins_lien_identite.png)}
+#colonne #identite_col ul li a span{background:url(indimages/pictos/pi_bloc_col_quitter_24.png) right center no-repeat;_background:url(indimages/pictos/pi_bloc_col_quitter_24.png) right center no-repeat;display:block}
+#footer ul,#footer ul li{display:inline}
+#footer ul li{border-left:1px dotted #d8d8d8;padding:0 .45em}
+#footer ul li:first-child{border-left:0} /* Ajout */#footer ul div+li{border-left:0}
+#footer ul li a{color:#59595e}
+/* Modif */#footer ul li a:hover{color:#D00019}
+#footer ul li.actif a,#footer ul li.actif a:hover{color:#d00019}
+#footer ul li#change_affichage a{background:url(indimages/pictos/pi_change_affichage.png) right center no-repeat;color:#333;padding:0 20px 0 0}
+.popup_contenu{background:#f5f7f8 url(indimages/fonds/bg_popup_contenu.png) 0 bottom repeat-x;border:1px solid;border-color:#f5f7f8 #f2f2f2 #d7d7d7;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;height:650px;padding:15px;width:605px}
+.popup_contenu h2{font:normal normal 2.8em/1.2 Arial,Sans-Serif;color:#181e1e;margin:0 0 15px}
+.popup_contenu p{font-size:1.1em;line-height:1.4;margin:15px 0}
+#accueil_part #mise_en_avant_part{background:#dedede url(indimages/fonds/bg_hp_particuliers_part_1.png) 0 0 repeat-x;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 2px #666;-moz-box-shadow:0 1px 2px #666;box-shadow:0 1px 2px #666;display:block;margin:0 0 3em;position:relative;zoom:1;filter:progid:DXImageTransform.Microsoft.Shadow(color='#BABABA',Direction='135',Strength=1)\9}
+#accueil_part #mise_en_avant_part:hover{background-color:#dbdbdb;background-image:url(indimages/fonds/bg_hp_particuliers_part_1_on.png)}
+#accueil_part #mise_en_avant_part .part_1{background:url(indimages/visuels/vi_hp_particuliers.jpg) 52em 0 no-repeat;height:287px}
+#accueil_part #mise_en_avant_part:hover .part_1{background-position:52em -287px}
+#accueil_part #mise_en_avant_part .part_1 h2{background:url(indimages/textes/txt_hp_particuliers_part_1.png) 0 0 no-repeat;height:287px;margin:0 0 0 9.2em;text-indent:-999em;width:337px}
+#accueil_part #mise_en_avant_part:hover .part_1 h2{background-position:0 -287px}
+#accueil_part #mise_en_avant_part .part_2{background:#c40025 url(indimages/fonds/bg_hp_particuliers_part_2.png) 0 0 repeat-x;-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;color:#fff;height:6.9em;padding:2em 0 0 3em;position:relative}
+#accueil_part #mise_en_avant_part:hover .part_2{background-image:url(indimages/fonds/bg_hp_particuliers_part_2_on.png)}
+#accueil_part #mise_en_avant_part .part_2 h3{font:normal normal 2.4em/1 Arial,Sans-Serif;margin:0 0 .21}
+#accueil_part #mise_en_avant_part .part_2 p{font-size:1.1em}
+#accueil_part #mise_en_avant_part .part_2 .acces{color:#fff;display:block;font-size:1.1em;line-height:1.4;height:6.27em;padding:1.82em 5.27em 0 0;position:absolute;text-align:right;top:0;right:0;width:38.36em;zoom:1}
+#accueil_part #encart_sante p{padding:0 5.45em 0 0}
+#accueil_pro .bloc_info .bi_cont{background:url(indimages/boutons/btn_encart_hp_pro.png) right center no-repeat;background:url(indimages/boutons/btn_encart_hp_pro_ie.png) right center no-repeat\9;border-radius:3px \0/;padding:2em 41px 0 2em;height:14.2em}
+#accueil_pro .bloc_info h2{color:#d80c2a;font:normal normal 2.2em/1 Impact,Arial,Sans-Serif;margin:0 0 .46em;text-transform:uppercase}
+#accueil_pro .bloc_info p{font:normal normal 1.2em/1.4 Arial,Sans-Serif;width:20.42em}
+#accueil_pro .bloc_info .visuel{background:url(indimages/visuels/vi_hp_pro.png) no-repeat;bottom:0;height:162px;position:absolute;right:41px;width:443px}
+#accueil_pro .encart_professionnels .visuel{background-position:0 0}
+#accueil_pro .encart_entreprises .visuel{background-position:0 -162px}
+#accueil_pro .encart_eco_sociale .visuel{background-position:0 -324px}
+#accueil_pro .encart_secteur_public .visuel{background-position:0 -486px}
+#accueil_pro .encart_logement_social .visuel{background-position:0 -648px}
+#accueil_pro .encart_immobilier_pro .visuel{background-position:0 -810px}
+#principal .bloc_principal{padding:1em 0 0 1.5em;position:relative}
+#principal .bloc_principal h1{font:normal normal 2.8em/1.2 Arial,Sans-Serif;color:#181e1e;margin:0 0 .18em}
+#principal .bloc_principal p{font-size:1.1em;line-height:1.4}
+#principal .bloc_principal .visuel{float:right;margin:0 0 0 1em}
+.grille_ligne{margin:0 0 1.2em;zoom:1}
+.grille_ligne:before,.grille_ligne:after{content:"\0020";display:block;font-size:0;height:0;visibility:hidden}
+.grille_ligne:after{clear:both}
+/* Modif */.grille_ligne .module{float:left;margin-right:1.06em;zoom:1}
+.grille_ligne .mod_16,.grille_ligne .mod_dernier{margin-right:0}
+.grille_ligne .mod_1{width:5em}
+.grille_ligne .mod_2{width:11.2em}
+.grille_ligne .mod_3{width:17.4em}
+/* Modif */.grille_ligne .mod_4{width:23.4em; margin-right:1.3em;}/* Ajout */ .grille_ligne > .module.mod_4:first-child{margin-left: 2px;}/* Ajout */ .ielt9 .grille_ligne > .module.mod_4:first-child{margin-left: 0;}/* Ajout */ .grille_ligne .mod_4.mod_dernier { margin-right: 0; }/* Ajout */.ie9 .grille_ligne .mod_4{width:23.6em; margin-right:1.06em;}/* Ajout */.ie9 .grille_ligne .mod_4.mod_dernier { margin-right: 0; }/* Ajout */.ielt9 .grille_ligne .mod_4{width:23.8em; margin-right:0.90em;}/* Ajout */.ielt9 .grille_ligne .mod_4.mod_dernier { margin-right: 0; }/* Ajout */.ielt9 .grille_ligne .mod_4 .bi_cont_image img{ margin-left:1px;}
+.grille_ligne .mod_5{width:29.8em}
+.grille_ligne .mod_6{width:36em}
+.grille_ligne .mod_7{width:42.2em}
+.grille_ligne .mod_8{width:48.4em}/* Ajout */.grille_ligne > .module.mod_8:first-child{margin-left: 1px;}
+.grille_ligne .mod_9{width:54.6em}
+.grille_ligne .mod_10{width:60.8em}
+.grille_ligne .mod_11{width:67em}
+.grille_ligne .mod_12{width:73.2em}
+.grille_ligne .mod_13{width:79.4em}
+.grille_ligne .mod_14{width:85.6em}
+.grille_ligne .mod_15{width:91.8em}
+.grille_ligne .mod_16{width:98em}
+/* Modif */.grille_ligne .module .bloc_info{background:#fff right bottom repeat-x;border:1px solid #fff;-webkit-box-shadow:0 0 1px #666;-moz-box-shadow:0 0 1px #666;box-shadow:0 0 1px #666;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;display:block;position:relative;}/* Ajout */.ielt9 .grille_ligne .module .bloc_info{border:1px solid #ddd;}/* Ajout */.ie9 .grille_ligne .module .bloc_info{box-shadow:0 0 2px #666;}/* Ajout */.ie9 .grille_ligne .module .bloc_info:hover{box-shadow:0 0 4px #666;}
+/* Modif */.grille_ligne .module .bloc_info:hover{-webkit-box-shadow:0px 1px 3px #666;-moz-box-shadow:0px 1px 3px #666;box-shadow:0px 1px 3px #666;left:0;top:0;}/* Ajout */.ielt9 .grille_ligne .module .bloc_info:hover{/*border:1px solid #999;*/border-bottom:1px solid #BABABA;filter:progid:DXImageTransform.Microsoft.Shadow(color='#BABABA',Direction='135',Strength=2)}
+.grille_ligne .module .bi_type_1{background-color:#fcfcfc;background-image:url(indimages/fonds/bg_bi_type_1.png)}
+.grille_ligne .module .bi_type_1:hover{background-color:#fbfbfb;background-image:url(indimages/fonds/bg_bi_type_1_on.png)}
+.grille_ligne .module .bi_type_2{background-image:url(indimages/fonds/bg_bi_type_2.png);background-repeat:no-repeat}
+.grille_ligne .module .bi_type_2:hover{background-image:url(indimages/fonds/bg_bi_type_2_on.png)}
+.grille_ligne .module .bi_type_3{background-color:#f7f8f8}
+.grille_ligne .module .bi_type_3:hover{background-color:#f5f6f5}
+.grille_ligne .module .bloc_info .bi_cont{overflow:hidden;position:relative;zoom:1;height:14.2em;min-height:14.2em;max-height:14.2em;padding:12px}
+.ie8 .grille_ligne .module .bloc_info .bi_cont{height:14.3em;min-height:14.3em;max-height:14.3em;}
+.grille_ligne .module .bloc_info h2{color:#181e1e;font:normal normal 1.8em/1.2 Arial,Sans-Serif;margin:0 0 .28em}
+.grille_ligne .module .bi_type_2 h2{color:#e20e25}
+.grille_ligne .module .bloc_info p{color:#404040;font-size:1.1em;line-height:1.4;margin:0 0 .9em}
+.grille_ligne .module .bloc_info .vi_f_droite{float:right;margin:0 0 0 1em}
+.grille_ligne .bi_cont .pngfix{position:absolute;right:0%;bottom:0%;}
+.grille_ligne .mod_4 .ba_cont .pngfix{position:absolute;right:3%;bottom:3%;}
+.grille_ligne .mod_8 .ba_cont .pngfix{position:absolute;right:5%;bottom:3%;}
+.grille_ligne .mod_12 .ba_cont .pngfix{position:absolute;right:3%;bottom:0%;}
+.grille_ligne .mod_12 .ba_cont_banniere .pngfix{position:absolute;right:0%;bottom:0%;}
+.grille_ligne .module .bloc_info .vi_a_droite{text-align:right}
+.grille_ligne .module .bloc_info .vi_abs_bd{bottom:0;position:absolute;right:.5em}
+.grille_ligne .module .bloc_info .vi_f_droite img,.grille_ligne .module .bloc_info .vi_abs_bd img{display:block}
+/* Modif */.grille_ligne .module .bloc_acces{background:#fff;border:1px solid #fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 0 1px #666;-moz-box-shadow:0 0 1px #666;box-shadow:0 0 1px #666;display:block;position:relative;}/* Ajout */.ie9 .grille_ligne .module .bloc_acces{box-shadow:0 0 2px #666;}/* Ajout */.ie9 .grille_ligne .module .bloc_acces:hover{box-shadow:0 0 4px #666;}/* Ajout */.ielt9 .grille_ligne .module .bloc_acces{border:1px solid #ddd;border-bottom:1px solid #ddd;}
+/* Modif */.grille_ligne .module .bloc_acces:hover{-webkit-box-shadow:0 1px 3px #666;-moz-box-shadow:0 1px 3px #666;box-shadow:0 1px 3px #666;left:0;top:0;}/* Ajout */.ielt9 .grille_ligne .module .bloc_acces:hover{border-bottom:1px solid #BABABA;filter:progid:DXImageTransform.Microsoft.Shadow(color='#BABABA',Direction='135',Strength=2)}
+.grille_ligne .module .bloc_acces .ba_cont{background:#fcfcfc url(indimages/fonds/bg_bi_type_1.png) 0 bottom repeat-x;-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;margin:0 0 1px;height:14.7em;min-height:14.7em;max-height:14.7em;padding:12px;position:relative}
+.grille_ligne .module .bloc_acces .ba_cont_image{background:#fcfcfc url(indimages/fonds/bg_bi_type_1.png) 0 bottom repeat-x;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:0 0 1px;display:table;position:relative;height:16.7em;max-height:16.7em;padding:2px}/* Ajout */.grille_ligne .module .bloc_acces .ba_cont_image img{ margin-left: -2px; }/* Ajout */.ie9 .grille_ligne .module .bloc_acces .ba_cont_image, .ielt9 .grille_ligne .module .bloc_acces .ba_cont_image { padding-right: 0; }
+/* Modif */.grille_ligne .module .bloc_acces_banniere{background:#fff;border:0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;display:block;position:relative}
+.ielt7 .grille_ligne .module .bloc_acces .ba_cont{height:14.7em;min-height:14.7em;max-height:14.7em}
+.grille_ligne .module .bloc_acces_banniere .ba_cont_banniere{-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;margin:0 0 1px;height:14.7em;max-height:14.7em;padding:12px;position:relative}
+.grille_ligne .module .bloc_acces .ba_cont_image .innerContainer{display:table-cell;vertical-align:middle;width:100%;margin:0 auto;text-align:center;height:14.7em;min-height:14.7em;max-height:14.7em}
+.ie7 .grille_ligne .module .bloc_acces .ba_cont_image {height:auto;max-height:none}
+.ie7 .grille_ligne .module .bloc_acces .ba_cont_image img {margin-left:0px}
+.ie7 .grille_ligne .module .bloc_acces .ba_cont_image .innerContainer *{vertical-align:middle}
+.ie7 .grille_ligne .module .bloc_acces .ba_cont_image .innerContainer span{display:inline-block;height:100%}
+.ie7 .grille_ligne .module .bloc_acces .ba_cont_image .innerContainer img{margin-top:2px}
+/* Modif */.grille_ligne .module .bloc_acces:hover .ba_cont{background-color:#fbfbfb;background-image:url(indimages/fonds/bg_bi_type_1.png)}
+/* Modif */.grille_ligne .module .bloc_acces_banniere .ba_cont_banniere h1{color: #D00019;font:normal normal 2.2em/1.2 Arial,Sans-Serif;margin:0 0 10px}
+/* Modif */.grille_ligne .module .bloc_acces .ba_cont h2,.grille_ligne .module .bloc_info .bi_cont h2{color: #D00019;font:bold 1.6em/1.2 Arial,Sans-Serif;margin:0 0 .56em}
+/* Modif */.grille_ligne .module .bloc_acces .ba_cont p,.grille_ligne .module .bloc_info .bi_cont p,.grille_ligne .module .bloc_acces_banniere .ba_cont_banniere p{color:#404040;font-size:1.2em;line-height:1.4;margin:.91em 0}
+.grille_ligne .module .bloc_acces .ba_cont .visuel{float:right;margin:0 0 0 1em}
+/* Modif */.grille_ligne .module .bloc_acces .ba_footer,.grille_ligne .module .bloc_acces .ba_footer_clear{border-top:1px solid #dedede;border-bottom:1px solid #eaeaea;-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;font:normal normal 1.2em/2.08 Arial,Sans-Serif;padding:0 1em;position:relative;text-align:right}
+.grille_ligne .module .bloc_conseil .ba_footer{background:#fcffe5;color:#e69e33}
+.grille_ligne .module .bloc_outil .ba_footer{background:#e1e1e1;color:#434343}
+.grille_ligne .module .bloc_produit .ba_footer{background:#fae5e9;color:#e9000a}
+.grille_ligne .module .bloc_actualite .ba_footer{background:#e9fae5;color:#6c6}
+.grille_ligne .module .bloc_acces .ba_footer span{background:0 center no-repeat;display:inline-block;padding:0 0 0 20px}
+.grille_ligne .module .bloc_conseil .ba_footer span{background-image:url(indimages/pictos/pi_ba_conseil.png)}
+.grille_ligne .module .bloc_outil .ba_footer span{background-image:url(indimages/pictos/pi_ba_outil.png)}
+.grille_ligne .module .bloc_produit .ba_footer span{background-image:url(indimages/pictos/pi_ba_footer.png)}
+#ind-authentify{width:205px}
+#globalDeiInd #ind-authentify{width:212px}
+#ind-authentify h1{color:#d00019;font:normal normal 1.5em/1.2 Arial,Sans-Serif;margin:0 0 5px;font-weight:700}
+#ind-authentify .titre_acces_compte{background:url(indimages/pictos/pi_cadenas.png) left center no-repeat;padding-left:20px}
+#ind-authentify .none{display:none}
+#ind-authentify #particulieronglets{background:url(content_top_34.png) no-repeat 0 32px;min-height:220px}
+#ind-authentify h3{font-size:18px;padding:0 0 5px 0}
+#ind-authentify #cadreconnect{width:100%;margin-left:-6px}
+#cadreconnect .content{min-height:125px;padding:2px 0 1px 1px}
+#ind-authentify #movo{padding-left:3px;margin:0}
+#ind-authentify #womanpc{width:505px;height:100%;margin:3px 0 0 0;background:url(cadre_womanpc.jpg) top left no-repeat}
+#ind-authentify #womanpc h4{padding:0;padding-right:205px;margin:18px 0 10px 18px}
+#ind-authentify #womanpc p{padding:0;padding-right:205px;margin:0 0 5px 18px;line-height:12px}
+#ind-authentify #pauth-content{width:505px;height:100%;margin:3px 0 0 0;background:url(webprotexion2empty.jpg) top left no-repeat}
+#ind-authentify #pauth-content h4{padding:0;padding-right:205px;margin:18px 0 10px 18px}
+#ind-authentify #pauth-content p{padding:0;padding-right:205px;margin:0 0 5px 18px;line-height:12px}
+#ind-authentify #cadre-auth{width:184px;height:100%;margin-left:2px;background:url(content-gris_fond.png) top left repeat-y}
+#ind-authentify #auth-pied{clear:both;background:url(content-or_pied.png) top left no-repeat;background-color:#FFF;font-size:1px;height:3px}
+#ind-authentify ul.authtop{height:41px;width:170px}
+#globalDeiInd #ind-authentify ul.authtop{height:41px;width:182px;background:#bdbdbd none repeat-x scroll 0 0;border-radius:4px 4px 0 0;padding:10px 0 0 10px}
+#ind-authentify ul.authtop li{margin:2px 0 0 10px;padding-left:8px;background:url(puce.png) no-repeat 0 5px}
+#ind-authentify .title{font-size:11px;color:#424242;margin:5px 0 5px -3px}
+#ind-authentify .touches{height:1%;margin:0 0 8px 3px}
+#ind-authentify .touches img{text-align:center}
+#formauth #authlogin,#formauth #authpassw{padding:.2em .5em;font-size:11px}
+#formauth #authlogin{width:115px;margin:-2px 0 2px 6px}
+#formauth #authpassw{width:55px;margin:-3px 0 4px 12px}
+#formauth .btnvalid{padding-bottom:1px;padding-right:12px;margin:-3px 0 2px 0}
+#formauth .btneffacer{padding-top:5px;padding-right:0;margin:-10px 0 22px}
+.know-more-or{width:170px;background:url(know-more-or-top.png) top left no-repeat;margin:8px 0 0 6px;padding-top:3px}
+.know-more-or .more-list{border-left:1px solid #cac8c6;border-right:1px solid #cac8c6;float:left;margin-top:-15px;width:110px;padding-left:50px}
+.know-more-or .more-content{clear:both;height:15px;background-color:#FFF}
+.know-more-or li{background:url(puce.png) 0 5px no-repeat;clear:both;margin-left:10px;width:100%;padding-left:8px}
+.know-more-or .more-bottom{clear:both;font-size:1px;background:url(know-more-or-bottom.png) bottom left no-repeat;height:4px}
+#ind-authentify #sabonner a{display:block;margin-left:20px;padding-bottom:10px;width:87px;height:18px;background:url(sabonner.png) top left no-repeat}
+#ind-authentify #ptsforts{padding:0;margin:0;width:510px;min-height:120px;margin-left:-12px}
+#ptsforts .content{padding-left:5px;margin:0;height:100%}
+#ptsforts .content div{width:90px;background:url(degrade_gris.png) 0 30px no-repeat;margin:0 4px 0 4px}
+#ptsforts h4{text-transform:uppercase;font-size:10px;display:block;height:18px;margin:0;padding:20px 0 0 0;line-height:22px;text-align:center;font-weight:bold}
+#ptsforts h4#fonct{background:url(ptsforts_fonct.png) top center no-repeat}
+#ptsforts h4#secur{background:url(ptsforts_secu.png) top center no-repeat}
+#ptsforts h4#simpl{background:url(ptsforts_simpl.png) top center no-repeat}
+#ptsforts h4#dispo{background:url(ptsforts_dispo.png) top center no-repeat}
+#ptsforts h4#tarif{background:url(ptsforts_tarifs.png) top center no-repeat}
+#ptsforts p{width:90px;margin:0 0 10px 0;padding:0}
+.loadingauth{background:url(loading.gif) no-repeat;margin:15px 0 0 10px;color:#424242;width:160px;height:16px;display:block;padding-left:20px!important;font-size:11px;font-weight:bold}
+#ind-authentify #accescertification .ou{position:relative;top:-7px;height:15px;width:148px;left:13px}
+#ind-authentify #accescertification .btnhelp{margin:10px 15px 0 0}
+#ind-authentify .messErreur{color:#D00019;padding-top:3px;padding-right:6px;padding-bottom:0;padding-left:6px;text-align:justify}
+#ind-authentify .pavePasAbonne{background:#f7f7f7 none repeat scroll 0 0;border-radius:4px 4px 4px 4px;font-size:1.1em;margin:15px 0 30px;padding:6px 6px;position:relative;width:184px}
+#ind-authentify #auth-content{min-height:100%;height:1%}
+#globalDeiInd #ind-authentify .cadre-int{background:#bdbdbd none repeat-x scroll 0 0;border-radius:0 0 4px 4px;font-size:1.1em;padding:6px 6px;position:relative;width:180px;margin-bottom:4px}
+#globalDeiInd #ind-authentify #m_Identification_LOGIN_m_ClavierVirtuel_clavierparticulier{border-radius:4px 4px 4px 4px}
+#ind-authentify .int-content{min-height:48px;padding-bottom:5px;height:1%;background:#FFF none repeat scroll 0 0;border-radius:4px 4px 4px 4px}
+#globalDeiInd #ind-authentify .int-content{padding:0 0 10px 0}
+#ind-authentify .int-content input[type="password"]{font-family:Arial}
+#ind-authentify .int-pied{font-size:1px;height:4px}
+#ind-authentify .block-authent{background:#bdbdbd repeat-x scroll 0 0;border-radius:4px 4px 4px 4px;font-size:1.1em;padding:6px 6px;-moz-border-radius:4px;position:relative;z-index:0}
+#ind-authentify .liens_authen{margin:15px 0 20px 0}
+#ind-authentify .liens_authen li{background:url(puce.png) no-repeat 0 5px;float:left}
+#ind-authentify .liens_authen li a{margin:0 10px 0 10px;color:#d00019;font-weight:700}
+#ind-authentify .souscrire{margin:10px 0 10x 0;height:30px}
+#ind-authentify .souscrire span{background:url(indimages/boutons/btn_majeur.png) repeat-x scroll 0 0 #f7f7f7;border-radius:4px 4px 4px 4px;border-top:1px solid #ddd;font-size:1.1em;margin:0 0 30px;padding:8px 13px;color:#fff;position:relative}
+.cadreauthent{background:repeat-x scroll 0 0 #ebebeb;-display:inline-block;border-radius:4px 4px 4px 4px;font-size:1.1em;margin:0 0 30px;padding:8px 7px 8px 8px;position:relative;width:215 px}
+#ind-caisse{margin-bottom:20px;padding:10px 0 0 10px;clear:both;height:1%}
+#ind-caisse p{padding:3px 0 0 9px}
+#ind-caisse h3{margin:0;padding:0 0 0 7px}
+#ind-caisse h4{margin:2px 0 10px 5px}
+#ind-authentify .souligne{text-decoration:underline}
+#ind-authentify .aideIdentTitle{text-align:center;font:normal normal 1.6em/1.6 Arial,sans-serif}
+#ind-authentify .aideIdentAbonnement{text-align:center;font-size:1.1em;}
+#contacts{background:repeat-x scroll 0 0 #EBEBEB;border-radius:4px 4px 4px 4px;font-size:1.1em;padding:8px;position:relative;display:inline-block;}
+#contacts .pavecontacts{background:url("indimages/fonds/bg_toolbar_identite.png") repeat-x scroll 0 0 #F7F7F7;border-radius:4px 4px 4px 4px;font-size:1.1em;padding:4px;position:relative;margin:0 5px 12px 0;-webkit-box-shadow:1px 1px 3px #444;-moz-box-shadow:1px 1px 3px #444;box-shadow:1px 1px 3px #444;}
+#contacts .paveconseiller{background:url("indimages/fonds/bg_toolbar_identite.png") repeat-x scroll 0 0 #F7F7F7;border-radius:4px 4px 4px 4px;font-size:1.1em;padding:10px;position:relative;margin:0 5px 12px 0;-webkit-box-shadow:1px 1px 3px #444;-moz-box-shadow:1px 1px 3px #444;box-shadow:1px 1px 3px #444;}
+#contacts .pavegauche{float:left;width:300px;margin:0 5px;}
+#contacts .pavedroit{float:left;width:300px;margin-left:50px;}
+#contacts .contactEmail{color:#D00019;font-weight:bold;}
+#contacts .imgTelephone{background:transparent url(picto_tel_cc.png) no-repeat scroll 1px 3px;padding-left:20px;}
+#contacts .imgEmail{background:transparent url(picto_mail_cc.png) no-repeat scroll 3px 4px;padding-left:20px;}
+#contacts .contactTelephone{font-weight:bold;}
+#contacts h1{color:#D00019;font:normal normal 1.7em/1.2 Arial, Sans-Serif; /* 18px */margin:0 0 8px;font-weight:700;}
+#contacts h2{font:normal normal 1.8em/1.2 Arial, Sans-Serif; /* 18px */margin:0 0 5px 0;font-weight:700;}
+#contacts  p{color:#404040;line-height:1.4;}
+.cadrepopupcontacts{background:none repeat-x scroll 0 0 #FBFBFB;border-radius:4px 4px 4px 4px;border-top:1px solid #DDDDDD;font-size:1.1em;height:680px;margin:0 0 30px;padding:0px;position:relative;width:620px;}
+/* Modif */#toolbar_produit{background-color:#fff;border-bottom:0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;font-size:1.1em;margin:0 0 20px;position:relative;height:35px}
+#toolbar_produit p,#toolbar_produit ul,#toolbar_produit ul li{display:inline-block;vertical-align:top}
+.ielt8 #toolbar_produit p,.ielt8 #toolbar_produit ul,.ielt8 #toolbar_produit ul li{display:inline;zoom:1}
+#toolbar_produit p{color:#000;line-height:1.4}
+#toolbar_produit ul{line-height:1.5;font-weight:bold;margin:0}
+/* Modif */#toolbar_produit ul li{/*border-left:1px solid #ddd;*/padding-left:10px;height:29px;padding-top:6px}
+#toolbar_produit ul li.envoyer a{background:url(indimages/pictos/pi_actions.png) no-repeat;color:#333;padding:0 0 0 35px}
+#toolbar_produit ul li.imprimer a{background:url(indimages/pictos/pi_actions.png) center no-repeat;color:#333;padding:0 0 0 35px}
+#toolbar_produit ul li.envoyer a{background-position:8px 0;width:8px}
+#toolbar_produit ul li.imprimer{padding-top:10px;height:25px}
+#toolbar_produit ul li.imprimer a{background-position:8px -32px;width:15px}
+#toolbar_produit ul li.envoyer{padding-top:10px;height:25px}
+#toolbar_produit ul li.envoyer a:hover{background-position:8px -16px;width:15px}
+#toolbar_produit ul li.imprimer a:hover{background-position:8px -48px;width:15px}
+/* Modif */#toolbar_produit .boutonretour{padding-left:10px;padding-top:0}
+#toolbar_produit .boutonretour span{font-size:1.1em;color:#969696;padding:8px 8px;margin-top:0}
+#toolbar_produit ul li.facebook{width:180px}
+#toolbar_produit ul li.twitter{border-left:none;width:110px}
+/* Modif */#toolbar_produit ul li.retourunivers{/*background-color:#e9e9e9;*/vertical-align:top;/*background-color:#e0e0e0;border-top:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;*/font-size:1.1em;position:relative}
+#toolbar_produit ul li.google{width:70px}
+.zone_pagecomposee_onglets .ProseCelluleEntete{background-color:#959597}
+.zone_pagecomposee_onglets #t_details .t_detail .t_slogan{color:#000}
+.zone_pagecomposee_onglets #t_details h3{color:#d00019;margin:0;padding:0}
+
+/* FOOTER */
+.footer{background: url("bg_footer.png") no-repeat scroll center 30px transparent;clear:both;padding:40px 0 20px 0;text-align:center;line-height:1.5;}
+.ie7 .footer{padding:30px 0 20px 0;}
+.footer ul{margin:0 20px;}
+.footer ul li{display:inline;background:url("border-identity.png") repeat-y left top;list-style-type:none;margin-right:0.5em;padding-left:0.6em;}
+.footer ul li:first-child{background:none;padding-left:0;}
+.footer ul li a{text-decoration:none;}
+.footer ul li a:hover{color:#D00019;}
+.footer .change_affichage{padding-right:20px;background:url("pi_change_affichage.png") no-repeat right center;}
+.footerBg {background:#f6f6f9;margin-bottom:20px;overflow:hidden;}
+.footerContent{background:url(footer-bg-col4.png) repeat top center;overflow:hidden;margin:20px 0;padding:0 10px 20px 10px;text-align:left;font-size: 1.2em;}
+.c5{background:url(footer-bg-col5.png) repeat top center;}
+.footerContent h2{color:#666;font-size:1.1em;font-weight:bold;margin-top:9px;}
+.footerC4{float:left;padding:0 8px 0 10px;width:220px;}
+.footerC5{float:left;padding:0 10px;width:170px;}
+.footerContent ul{margin:5px 0 0;padding:0 0 0 2px;}
+.footerContent ul li, .footerContent ul li:first-child{background:url(pi-disc.png) no-repeat 0 7px;display:block;margin:0;padding:0 0 0 10px;text-align:left;line-height: 1.5em;}
+.footerContent ul li a{color: #666;}
+.footerContent ul li a:hover{color: #d00019;}

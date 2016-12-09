@@ -1,0 +1,1217 @@
+/*
+
+Theme Name: Boutons Charte
+Version: 3.3
+Date: 23-01-2015
+Author: Steffi Rakotozafy / Manuel Chamorro
+Author URI: https://www.lestudioweb.net/guidelines
+
+Update: 
+- 3.3 : Suppression des ombres/ombres 3d
+- 3.2.4 : Ajout du btn-inverse pour btn-ghost
+- 3.2.3 : Ajout du -webkit-font-smoothing: antialiased; sur a, button, span, div
+- 3.2.2 : Ajout du lien base
+- 3.2.1 : Ajout du -webkit-tap-highlight pour enlever le fond gris transparent sur les appareils iOS.
+- 3.2.0 : Ajout du .sfrRN Ã  la place de #rSfr.
+
+*/
+.sfrDom a.chevron-base,
+.sfrRN a.chevron-base,
+.sfrDom button.chevron-base,
+.sfrRN button.chevron-base,
+.sfrDom span.chevron-base,
+.sfrRN span.chevron-base,
+.sfrDom div.chevron-base,
+.sfrRN div.chevron-base {
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  text-align: left;
+  font-family: Arial;
+  font-size: 13px;
+}
+.sfrDom a.chevron-base:hover,
+.sfrRN a.chevron-base:hover,
+.sfrDom button.chevron-base:hover,
+.sfrRN button.chevron-base:hover,
+.sfrDom span.chevron-base:hover,
+.sfrRN span.chevron-base:hover,
+.sfrDom div.chevron-base:hover,
+.sfrRN div.chevron-base:hover {
+  text-decoration: underline;
+}
+.sfrDom a.chevron-base.chevron-touch,
+.sfrRN a.chevron-base.chevron-touch,
+.sfrDom button.chevron-base.chevron-touch,
+.sfrRN button.chevron-base.chevron-touch,
+.sfrDom span.chevron-base.chevron-touch,
+.sfrRN span.chevron-base.chevron-touch,
+.sfrDom div.chevron-base.chevron-touch,
+.sfrRN div.chevron-base.chevron-touch {
+  display: block!important;
+}
+.sfrDom a.chevron-base:before,
+.sfrRN a.chevron-base:before,
+.sfrDom button.chevron-base:before,
+.sfrRN button.chevron-base:before,
+.sfrDom span.chevron-base:before,
+.sfrRN span.chevron-base:before,
+.sfrDom div.chevron-base:before,
+.sfrRN div.chevron-base:before {
+  content: " ";
+  background-image: url("//static.s-sfr.fr/media/sprite-chevron-v3.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.sfrDom a.chevron-base.chevron-1,
+.sfrRN a.chevron-base.chevron-1,
+.sfrDom button.chevron-base.chevron-1,
+.sfrRN button.chevron-base.chevron-1,
+.sfrDom span.chevron-base.chevron-1,
+.sfrRN span.chevron-base.chevron-1,
+.sfrDom div.chevron-base.chevron-1,
+.sfrRN div.chevron-base.chevron-1 {
+  padding-left: 10px;
+}
+.sfrDom a.chevron-base.chevron-1:before,
+.sfrRN a.chevron-base.chevron-1:before,
+.sfrDom button.chevron-base.chevron-1:before,
+.sfrRN button.chevron-base.chevron-1:before,
+.sfrDom span.chevron-base.chevron-1:before,
+.sfrRN span.chevron-base.chevron-1:before,
+.sfrDom div.chevron-base.chevron-1:before,
+.sfrRN div.chevron-base.chevron-1:before {
+  width: 4px;
+  height: 8px;
+  left: 0;
+}
+.sfrDom a.chevron-base.chevron-1.chevron-right,
+.sfrRN a.chevron-base.chevron-1.chevron-right,
+.sfrDom button.chevron-base.chevron-1.chevron-right,
+.sfrRN button.chevron-base.chevron-1.chevron-right,
+.sfrDom span.chevron-base.chevron-1.chevron-right,
+.sfrRN span.chevron-base.chevron-1.chevron-right,
+.sfrDom div.chevron-base.chevron-1.chevron-right,
+.sfrRN div.chevron-base.chevron-1.chevron-right {
+  padding-left: 0;
+  padding-right: 10px;
+}
+.sfrDom a.chevron-base.chevron-1.chevron-right:before,
+.sfrRN a.chevron-base.chevron-1.chevron-right:before,
+.sfrDom button.chevron-base.chevron-1.chevron-right:before,
+.sfrRN button.chevron-base.chevron-1.chevron-right:before,
+.sfrDom span.chevron-base.chevron-1.chevron-right:before,
+.sfrRN span.chevron-base.chevron-1.chevron-right:before,
+.sfrDom div.chevron-base.chevron-1.chevron-right:before,
+.sfrRN div.chevron-base.chevron-1.chevron-right:before {
+  left: auto;
+  right: 0;
+}
+.sfrDom a.chevron-base.chevron-2,
+.sfrRN a.chevron-base.chevron-2,
+.sfrDom button.chevron-base.chevron-2,
+.sfrRN button.chevron-base.chevron-2,
+.sfrDom span.chevron-base.chevron-2,
+.sfrRN span.chevron-base.chevron-2,
+.sfrDom div.chevron-base.chevron-2,
+.sfrRN div.chevron-base.chevron-2 {
+  padding-left: 15px;
+}
+.sfrDom a.chevron-base.chevron-2:before,
+.sfrRN a.chevron-base.chevron-2:before,
+.sfrDom button.chevron-base.chevron-2:before,
+.sfrRN button.chevron-base.chevron-2:before,
+.sfrDom span.chevron-base.chevron-2:before,
+.sfrRN span.chevron-base.chevron-2:before,
+.sfrDom div.chevron-base.chevron-2:before,
+.sfrRN div.chevron-base.chevron-2:before {
+  width: 9px;
+  height: 10px;
+  left: 0;
+}
+.sfrDom a.chevron-base.chevron-2.chevron-right,
+.sfrRN a.chevron-base.chevron-2.chevron-right,
+.sfrDom button.chevron-base.chevron-2.chevron-right,
+.sfrRN button.chevron-base.chevron-2.chevron-right,
+.sfrDom span.chevron-base.chevron-2.chevron-right,
+.sfrRN span.chevron-base.chevron-2.chevron-right,
+.sfrDom div.chevron-base.chevron-2.chevron-right,
+.sfrRN div.chevron-base.chevron-2.chevron-right {
+  padding-left: 0;
+  padding-right: 15px;
+}
+.sfrDom a.chevron-base.chevron-2.chevron-right:before,
+.sfrRN a.chevron-base.chevron-2.chevron-right:before,
+.sfrDom button.chevron-base.chevron-2.chevron-right:before,
+.sfrRN button.chevron-base.chevron-2.chevron-right:before,
+.sfrDom span.chevron-base.chevron-2.chevron-right:before,
+.sfrRN span.chevron-base.chevron-2.chevron-right:before,
+.sfrDom div.chevron-base.chevron-2.chevron-right:before,
+.sfrRN div.chevron-base.chevron-2.chevron-right:before {
+  left: auto;
+  right: 0;
+}
+.sfrDom a.chevron-base.chevron-3,
+.sfrRN a.chevron-base.chevron-3,
+.sfrDom button.chevron-base.chevron-3,
+.sfrRN button.chevron-base.chevron-3,
+.sfrDom span.chevron-base.chevron-3,
+.sfrRN span.chevron-base.chevron-3,
+.sfrDom div.chevron-base.chevron-3,
+.sfrRN div.chevron-base.chevron-3 {
+  padding-left: 23px;
+  font-size: 13px;
+}
+.sfrDom a.chevron-base.chevron-3:before,
+.sfrRN a.chevron-base.chevron-3:before,
+.sfrDom button.chevron-base.chevron-3:before,
+.sfrRN button.chevron-base.chevron-3:before,
+.sfrDom span.chevron-base.chevron-3:before,
+.sfrRN span.chevron-base.chevron-3:before,
+.sfrDom div.chevron-base.chevron-3:before,
+.sfrRN div.chevron-base.chevron-3:before {
+  width: 16px;
+  height: 16px;
+  left: 0;
+}
+.sfrDom a.chevron-base.chevron-3.chevron-right,
+.sfrRN a.chevron-base.chevron-3.chevron-right,
+.sfrDom button.chevron-base.chevron-3.chevron-right,
+.sfrRN button.chevron-base.chevron-3.chevron-right,
+.sfrDom span.chevron-base.chevron-3.chevron-right,
+.sfrRN span.chevron-base.chevron-3.chevron-right,
+.sfrDom div.chevron-base.chevron-3.chevron-right,
+.sfrRN div.chevron-base.chevron-3.chevron-right {
+  padding-left: 0;
+  padding-right: 23px;
+}
+.sfrDom a.chevron-base.chevron-3.chevron-right:before,
+.sfrRN a.chevron-base.chevron-3.chevron-right:before,
+.sfrDom button.chevron-base.chevron-3.chevron-right:before,
+.sfrRN button.chevron-base.chevron-3.chevron-right:before,
+.sfrDom span.chevron-base.chevron-3.chevron-right:before,
+.sfrRN span.chevron-base.chevron-3.chevron-right:before,
+.sfrDom div.chevron-base.chevron-3.chevron-right:before,
+.sfrRN div.chevron-base.chevron-3.chevron-right:before {
+  left: auto;
+  right: 0;
+}
+.sfrDom a.chevron-base.chevron-4,
+.sfrRN a.chevron-base.chevron-4,
+.sfrDom button.chevron-base.chevron-4,
+.sfrRN button.chevron-base.chevron-4,
+.sfrDom span.chevron-base.chevron-4,
+.sfrRN span.chevron-base.chevron-4,
+.sfrDom div.chevron-base.chevron-4,
+.sfrRN div.chevron-base.chevron-4 {
+  padding-left: 27px;
+  font-size: 14px;
+}
+.sfrDom a.chevron-base.chevron-4:before,
+.sfrRN a.chevron-base.chevron-4:before,
+.sfrDom button.chevron-base.chevron-4:before,
+.sfrRN button.chevron-base.chevron-4:before,
+.sfrDom span.chevron-base.chevron-4:before,
+.sfrRN span.chevron-base.chevron-4:before,
+.sfrDom div.chevron-base.chevron-4:before,
+.sfrRN div.chevron-base.chevron-4:before {
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: -1px;
+}
+.sfrDom a.chevron-base.chevron-4.chevron-right,
+.sfrRN a.chevron-base.chevron-4.chevron-right,
+.sfrDom button.chevron-base.chevron-4.chevron-right,
+.sfrRN button.chevron-base.chevron-4.chevron-right,
+.sfrDom span.chevron-base.chevron-4.chevron-right,
+.sfrRN span.chevron-base.chevron-4.chevron-right,
+.sfrDom div.chevron-base.chevron-4.chevron-right,
+.sfrRN div.chevron-base.chevron-4.chevron-right {
+  padding-left: 0;
+  padding-right: 27px;
+}
+.sfrDom a.chevron-base.chevron-4.chevron-right:before,
+.sfrRN a.chevron-base.chevron-4.chevron-right:before,
+.sfrDom button.chevron-base.chevron-4.chevron-right:before,
+.sfrRN button.chevron-base.chevron-4.chevron-right:before,
+.sfrDom span.chevron-base.chevron-4.chevron-right:before,
+.sfrRN span.chevron-base.chevron-4.chevron-right:before,
+.sfrDom div.chevron-base.chevron-4.chevron-right:before,
+.sfrRN div.chevron-base.chevron-4.chevron-right:before {
+  left: auto;
+  right: 0;
+}
+.sfrDom a.chevron-base.chevron-5,
+.sfrRN a.chevron-base.chevron-5,
+.sfrDom button.chevron-base.chevron-5,
+.sfrRN button.chevron-base.chevron-5,
+.sfrDom span.chevron-base.chevron-5,
+.sfrRN span.chevron-base.chevron-5,
+.sfrDom div.chevron-base.chevron-5,
+.sfrRN div.chevron-base.chevron-5 {
+  padding-left: 15px;
+  font-size: 14px;
+  font-family: "SFR-Bold";
+}
+.sfrDom a.chevron-base.chevron-5:before,
+.sfrRN a.chevron-base.chevron-5:before,
+.sfrDom button.chevron-base.chevron-5:before,
+.sfrRN button.chevron-base.chevron-5:before,
+.sfrDom span.chevron-base.chevron-5:before,
+.sfrRN span.chevron-base.chevron-5:before,
+.sfrDom div.chevron-base.chevron-5:before,
+.sfrRN div.chevron-base.chevron-5:before {
+  width: 8px;
+  height: 14px;
+  left: 0;
+}
+.sfrDom a.chevron-base.chevron-5.chevron-right,
+.sfrRN a.chevron-base.chevron-5.chevron-right,
+.sfrDom button.chevron-base.chevron-5.chevron-right,
+.sfrRN button.chevron-base.chevron-5.chevron-right,
+.sfrDom span.chevron-base.chevron-5.chevron-right,
+.sfrRN span.chevron-base.chevron-5.chevron-right,
+.sfrDom div.chevron-base.chevron-5.chevron-right,
+.sfrRN div.chevron-base.chevron-5.chevron-right {
+  padding-left: 0;
+  padding-right: 15px;
+}
+.sfrDom a.chevron-base.chevron-5.chevron-right:before,
+.sfrRN a.chevron-base.chevron-5.chevron-right:before,
+.sfrDom button.chevron-base.chevron-5.chevron-right:before,
+.sfrRN button.chevron-base.chevron-5.chevron-right:before,
+.sfrDom span.chevron-base.chevron-5.chevron-right:before,
+.sfrRN span.chevron-base.chevron-5.chevron-right:before,
+.sfrDom div.chevron-base.chevron-5.chevron-right:before,
+.sfrRN div.chevron-base.chevron-5.chevron-right:before {
+  left: auto;
+  right: 0;
+}
+.sfrDom a.chevron-base.chevron-primary.chevron-1:before,
+.sfrRN a.chevron-base.chevron-primary.chevron-1:before,
+.sfrDom button.chevron-base.chevron-primary.chevron-1:before,
+.sfrRN button.chevron-base.chevron-primary.chevron-1:before,
+.sfrDom span.chevron-base.chevron-primary.chevron-1:before,
+.sfrRN span.chevron-base.chevron-primary.chevron-1:before,
+.sfrDom div.chevron-base.chevron-primary.chevron-1:before,
+.sfrRN div.chevron-base.chevron-primary.chevron-1:before {
+  background-position: -139px -71px;
+}
+.sfrDom a.chevron-base.chevron-primary.chevron-2:before,
+.sfrRN a.chevron-base.chevron-primary.chevron-2:before,
+.sfrDom button.chevron-base.chevron-primary.chevron-2:before,
+.sfrRN button.chevron-base.chevron-primary.chevron-2:before,
+.sfrDom span.chevron-base.chevron-primary.chevron-2:before,
+.sfrRN span.chevron-base.chevron-primary.chevron-2:before,
+.sfrDom div.chevron-base.chevron-primary.chevron-2:before,
+.sfrRN div.chevron-base.chevron-primary.chevron-2:before {
+  background-position: -386px -133px;
+}
+.sfrDom a.chevron-base.chevron-primary.chevron-3:before,
+.sfrRN a.chevron-base.chevron-primary.chevron-3:before,
+.sfrDom button.chevron-base.chevron-primary.chevron-3:before,
+.sfrRN button.chevron-base.chevron-primary.chevron-3:before,
+.sfrDom span.chevron-base.chevron-primary.chevron-3:before,
+.sfrRN span.chevron-base.chevron-primary.chevron-3:before,
+.sfrDom div.chevron-base.chevron-primary.chevron-3:before,
+.sfrRN div.chevron-base.chevron-primary.chevron-3:before {
+  background-position: -326px -130px;
+}
+.sfrDom a.chevron-base.chevron-primary.chevron-4:before,
+.sfrRN a.chevron-base.chevron-primary.chevron-4:before,
+.sfrDom button.chevron-base.chevron-primary.chevron-4:before,
+.sfrRN button.chevron-base.chevron-primary.chevron-4:before,
+.sfrDom span.chevron-base.chevron-primary.chevron-4:before,
+.sfrRN span.chevron-base.chevron-primary.chevron-4:before,
+.sfrDom div.chevron-base.chevron-primary.chevron-4:before,
+.sfrRN div.chevron-base.chevron-primary.chevron-4:before {
+  background-position: -260px -128px;
+}
+.sfrDom a.chevron-base.chevron-primary.chevron-5,
+.sfrRN a.chevron-base.chevron-primary.chevron-5,
+.sfrDom button.chevron-base.chevron-primary.chevron-5,
+.sfrRN button.chevron-base.chevron-primary.chevron-5,
+.sfrDom span.chevron-base.chevron-primary.chevron-5,
+.sfrRN span.chevron-base.chevron-primary.chevron-5,
+.sfrDom div.chevron-base.chevron-primary.chevron-5,
+.sfrRN div.chevron-base.chevron-primary.chevron-5 {
+  color: #636397;
+}
+.sfrDom a.chevron-base.chevron-primary.chevron-5:before,
+.sfrRN a.chevron-base.chevron-primary.chevron-5:before,
+.sfrDom button.chevron-base.chevron-primary.chevron-5:before,
+.sfrRN button.chevron-base.chevron-primary.chevron-5:before,
+.sfrDom span.chevron-base.chevron-primary.chevron-5:before,
+.sfrRN span.chevron-base.chevron-primary.chevron-5:before,
+.sfrDom div.chevron-base.chevron-primary.chevron-5:before,
+.sfrRN div.chevron-base.chevron-primary.chevron-5:before {
+  background-position: -70px -68px;
+}
+.sfrDom a.chevron-base.chevron-ec.chevron-1:before,
+.sfrRN a.chevron-base.chevron-ec.chevron-1:before,
+.sfrDom button.chevron-base.chevron-ec.chevron-1:before,
+.sfrRN button.chevron-base.chevron-ec.chevron-1:before,
+.sfrDom span.chevron-base.chevron-ec.chevron-1:before,
+.sfrRN span.chevron-base.chevron-ec.chevron-1:before,
+.sfrDom div.chevron-base.chevron-ec.chevron-1:before,
+.sfrRN div.chevron-base.chevron-ec.chevron-1:before {
+  background-position: -139px -101px;
+}
+.sfrDom a.chevron-base.chevron-ec.chevron-2:before,
+.sfrRN a.chevron-base.chevron-ec.chevron-2:before,
+.sfrDom button.chevron-base.chevron-ec.chevron-2:before,
+.sfrRN button.chevron-base.chevron-ec.chevron-2:before,
+.sfrDom span.chevron-base.chevron-ec.chevron-2:before,
+.sfrRN span.chevron-base.chevron-ec.chevron-2:before,
+.sfrDom div.chevron-base.chevron-ec.chevron-2:before,
+.sfrRN div.chevron-base.chevron-ec.chevron-2:before {
+  background-position: -386px -92px;
+}
+.sfrDom a.chevron-base.chevron-ec.chevron-3:before,
+.sfrRN a.chevron-base.chevron-ec.chevron-3:before,
+.sfrDom button.chevron-base.chevron-ec.chevron-3:before,
+.sfrRN button.chevron-base.chevron-ec.chevron-3:before,
+.sfrDom span.chevron-base.chevron-ec.chevron-3:before,
+.sfrRN span.chevron-base.chevron-ec.chevron-3:before,
+.sfrDom div.chevron-base.chevron-ec.chevron-3:before,
+.sfrRN div.chevron-base.chevron-ec.chevron-3:before {
+  background-position: -326px -89px;
+}
+.sfrDom a.chevron-base.chevron-ec.chevron-4:before,
+.sfrRN a.chevron-base.chevron-ec.chevron-4:before,
+.sfrDom button.chevron-base.chevron-ec.chevron-4:before,
+.sfrRN button.chevron-base.chevron-ec.chevron-4:before,
+.sfrDom span.chevron-base.chevron-ec.chevron-4:before,
+.sfrRN span.chevron-base.chevron-ec.chevron-4:before,
+.sfrDom div.chevron-base.chevron-ec.chevron-4:before,
+.sfrRN div.chevron-base.chevron-ec.chevron-4:before {
+  background-position: -260px -86px;
+}
+.sfrDom a.chevron-base.chevron-ec.chevron-5,
+.sfrRN a.chevron-base.chevron-ec.chevron-5,
+.sfrDom button.chevron-base.chevron-ec.chevron-5,
+.sfrRN button.chevron-base.chevron-ec.chevron-5,
+.sfrDom span.chevron-base.chevron-ec.chevron-5,
+.sfrRN span.chevron-base.chevron-ec.chevron-5,
+.sfrDom div.chevron-base.chevron-ec.chevron-5,
+.sfrRN div.chevron-base.chevron-ec.chevron-5 {
+  color: #aa6f2e;
+}
+.sfrDom a.chevron-base.chevron-ec.chevron-5:before,
+.sfrRN a.chevron-base.chevron-ec.chevron-5:before,
+.sfrDom button.chevron-base.chevron-ec.chevron-5:before,
+.sfrRN button.chevron-base.chevron-ec.chevron-5:before,
+.sfrDom span.chevron-base.chevron-ec.chevron-5:before,
+.sfrRN span.chevron-base.chevron-ec.chevron-5:before,
+.sfrDom div.chevron-base.chevron-ec.chevron-5:before,
+.sfrRN div.chevron-base.chevron-ec.chevron-5:before {
+  background-position: -70px -98px;
+}
+.sfrDom a.chevron-base.chevron-red.chevron-1:before,
+.sfrRN a.chevron-base.chevron-red.chevron-1:before,
+.sfrDom button.chevron-base.chevron-red.chevron-1:before,
+.sfrRN button.chevron-base.chevron-red.chevron-1:before,
+.sfrDom span.chevron-base.chevron-red.chevron-1:before,
+.sfrRN span.chevron-base.chevron-red.chevron-1:before,
+.sfrDom div.chevron-base.chevron-red.chevron-1:before,
+.sfrRN div.chevron-base.chevron-red.chevron-1:before {
+  background-position: -139px -41px;
+}
+.sfrDom a.chevron-base.chevron-red.chevron-2:before,
+.sfrRN a.chevron-base.chevron-red.chevron-2:before,
+.sfrDom button.chevron-base.chevron-red.chevron-2:before,
+.sfrRN button.chevron-base.chevron-red.chevron-2:before,
+.sfrDom span.chevron-base.chevron-red.chevron-2:before,
+.sfrRN span.chevron-base.chevron-red.chevron-2:before,
+.sfrDom div.chevron-base.chevron-red.chevron-2:before,
+.sfrRN div.chevron-base.chevron-red.chevron-2:before {
+  background-position: -386px -51px;
+}
+.sfrDom a.chevron-base.chevron-red.chevron-3:before,
+.sfrRN a.chevron-base.chevron-red.chevron-3:before,
+.sfrDom button.chevron-base.chevron-red.chevron-3:before,
+.sfrRN button.chevron-base.chevron-red.chevron-3:before,
+.sfrDom span.chevron-base.chevron-red.chevron-3:before,
+.sfrRN span.chevron-base.chevron-red.chevron-3:before,
+.sfrDom div.chevron-base.chevron-red.chevron-3:before,
+.sfrRN div.chevron-base.chevron-red.chevron-3:before {
+  background-position: -326px -48px;
+}
+.sfrDom a.chevron-base.chevron-red.chevron-4:before,
+.sfrRN a.chevron-base.chevron-red.chevron-4:before,
+.sfrDom button.chevron-base.chevron-red.chevron-4:before,
+.sfrRN button.chevron-base.chevron-red.chevron-4:before,
+.sfrDom span.chevron-base.chevron-red.chevron-4:before,
+.sfrRN span.chevron-base.chevron-red.chevron-4:before,
+.sfrDom div.chevron-base.chevron-red.chevron-4:before,
+.sfrRN div.chevron-base.chevron-red.chevron-4:before {
+  background-position: -260px -46px;
+}
+.sfrDom a.chevron-base.chevron-red.chevron-5,
+.sfrRN a.chevron-base.chevron-red.chevron-5,
+.sfrDom button.chevron-base.chevron-red.chevron-5,
+.sfrRN button.chevron-base.chevron-red.chevron-5,
+.sfrDom span.chevron-base.chevron-red.chevron-5,
+.sfrRN span.chevron-base.chevron-red.chevron-5,
+.sfrDom div.chevron-base.chevron-red.chevron-5,
+.sfrRN div.chevron-base.chevron-red.chevron-5 {
+  color: #e2001a;
+}
+.sfrDom a.chevron-base.chevron-red.chevron-5:before,
+.sfrRN a.chevron-base.chevron-red.chevron-5:before,
+.sfrDom button.chevron-base.chevron-red.chevron-5:before,
+.sfrRN button.chevron-base.chevron-red.chevron-5:before,
+.sfrDom span.chevron-base.chevron-red.chevron-5:before,
+.sfrRN span.chevron-base.chevron-red.chevron-5:before,
+.sfrDom div.chevron-base.chevron-red.chevron-5:before,
+.sfrRN div.chevron-base.chevron-red.chevron-5:before {
+  background-position: -70px -38px;
+}
+.sfrDom a.chevron-base.chevron-off,
+.sfrRN a.chevron-base.chevron-off,
+.sfrDom button.chevron-base.chevron-off,
+.sfrRN button.chevron-base.chevron-off,
+.sfrDom span.chevron-base.chevron-off,
+.sfrRN span.chevron-base.chevron-off,
+.sfrDom div.chevron-base.chevron-off,
+.sfrRN div.chevron-base.chevron-off {
+  color: #CCC;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+.sfrDom a.chevron-base.chevron-off.chevron-1:before,
+.sfrRN a.chevron-base.chevron-off.chevron-1:before,
+.sfrDom button.chevron-base.chevron-off.chevron-1:before,
+.sfrRN button.chevron-base.chevron-off.chevron-1:before,
+.sfrDom span.chevron-base.chevron-off.chevron-1:before,
+.sfrRN span.chevron-base.chevron-off.chevron-1:before,
+.sfrDom div.chevron-base.chevron-off.chevron-1:before,
+.sfrRN div.chevron-base.chevron-off.chevron-1:before {
+  background-position: -139px -131px;
+}
+.sfrDom a.chevron-base.chevron-off.chevron-2:before,
+.sfrRN a.chevron-base.chevron-off.chevron-2:before,
+.sfrDom button.chevron-base.chevron-off.chevron-2:before,
+.sfrRN button.chevron-base.chevron-off.chevron-2:before,
+.sfrDom span.chevron-base.chevron-off.chevron-2:before,
+.sfrRN span.chevron-base.chevron-off.chevron-2:before,
+.sfrDom div.chevron-base.chevron-off.chevron-2:before,
+.sfrRN div.chevron-base.chevron-off.chevron-2:before {
+  background-position: -388px -171px;
+}
+.sfrDom a.chevron-base.chevron-off.chevron-3:before,
+.sfrRN a.chevron-base.chevron-off.chevron-3:before,
+.sfrDom button.chevron-base.chevron-off.chevron-3:before,
+.sfrRN button.chevron-base.chevron-off.chevron-3:before,
+.sfrDom span.chevron-base.chevron-off.chevron-3:before,
+.sfrRN span.chevron-base.chevron-off.chevron-3:before,
+.sfrDom div.chevron-base.chevron-off.chevron-3:before,
+.sfrRN div.chevron-base.chevron-off.chevron-3:before {
+  background-position: -326px -168px;
+}
+.sfrDom a.chevron-base.chevron-off.chevron-4:before,
+.sfrRN a.chevron-base.chevron-off.chevron-4:before,
+.sfrDom button.chevron-base.chevron-off.chevron-4:before,
+.sfrRN button.chevron-base.chevron-off.chevron-4:before,
+.sfrDom span.chevron-base.chevron-off.chevron-4:before,
+.sfrRN span.chevron-base.chevron-off.chevron-4:before,
+.sfrDom div.chevron-base.chevron-off.chevron-4:before,
+.sfrRN div.chevron-base.chevron-off.chevron-4:before {
+  background-position: -260px -166px;
+}
+.sfrDom a.chevron-base.chevron-off.chevron-5:before,
+.sfrRN a.chevron-base.chevron-off.chevron-5:before,
+.sfrDom button.chevron-base.chevron-off.chevron-5:before,
+.sfrRN button.chevron-base.chevron-off.chevron-5:before,
+.sfrDom span.chevron-base.chevron-off.chevron-5:before,
+.sfrRN span.chevron-base.chevron-off.chevron-5:before,
+.sfrDom div.chevron-base.chevron-off.chevron-5:before,
+.sfrRN div.chevron-base.chevron-off.chevron-5:before {
+  background-position: -70px -128px;
+}
+.sfrDom a.btn-base,
+.sfrRN a.btn-base,
+.sfrDom button.btn-base,
+.sfrRN button.btn-base,
+.sfrDom span.btn-base,
+.sfrRN span.btn-base,
+.sfrDom div.btn-base,
+.sfrRN div.btn-base {
+  outline: none;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding: 7px 16px;
+  vertical-align: top;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  color: #1c1c1c;
+  border: 1px solid #c5c6c7;
+  -webkit-transition: background 200ms ease, border 200ms ease;
+  -moz-transition: background 200ms ease, border 200ms ease;
+  -ms-transition: background 200ms ease, border 200ms ease;
+  transition: background 200ms ease, border 200ms ease;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  border-radius: 4px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.sfrDom a.btn-base.caps,
+.sfrRN a.btn-base.caps,
+.sfrDom button.btn-base.caps,
+.sfrRN button.btn-base.caps,
+.sfrDom span.btn-base.caps,
+.sfrRN span.btn-base.caps,
+.sfrDom div.btn-base.caps,
+.sfrRN div.btn-base.caps {
+  text-transform: uppercase;
+}
+.sfrDom a.btn-base.btn-touch,
+.sfrRN a.btn-base.btn-touch,
+.sfrDom button.btn-base.btn-touch,
+.sfrRN button.btn-base.btn-touch,
+.sfrDom span.btn-base.btn-touch,
+.sfrRN span.btn-base.btn-touch,
+.sfrDom div.btn-base.btn-touch,
+.sfrRN div.btn-base.btn-touch {
+  padding: 8px 16px!important;
+  font-size: 13px!important;
+  font-family: "SFR-Bold" !important;
+  font-weight: normal!important;
+}
+.sfrDom a.btn-base:hover,
+.sfrRN a.btn-base:hover,
+.sfrDom button.btn-base:hover,
+.sfrRN button.btn-base:hover,
+.sfrDom span.btn-base:hover,
+.sfrRN span.btn-base:hover,
+.sfrDom div.btn-base:hover,
+.sfrRN div.btn-base:hover {
+  border-color: #c5c6c7;
+  background-color: #f7f7f7;
+}
+.sfrDom a.btn-base:active,
+.sfrRN a.btn-base:active,
+.sfrDom button.btn-base:active,
+.sfrRN button.btn-base:active,
+.sfrDom span.btn-base:active,
+.sfrRN span.btn-base:active,
+.sfrDom div.btn-base:active,
+.sfrRN div.btn-base:active {
+  border-color: #c5c6c7;
+  background-color: #ebebeb;
+}
+.sfrDom a.btn-base[class*="icon"]:before,
+.sfrRN a.btn-base[class*="icon"]:before,
+.sfrDom button.btn-base[class*="icon"]:before,
+.sfrRN button.btn-base[class*="icon"]:before,
+.sfrDom span.btn-base[class*="icon"]:before,
+.sfrRN span.btn-base[class*="icon"]:before,
+.sfrDom div.btn-base[class*="icon"]:before,
+.sfrRN div.btn-base[class*="icon"]:before {
+  content: " ";
+  background-image: url("//static.s-sfr.fr/media/sprite-chevron-v3.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.sfrDom a.btn-base.btn-big,
+.sfrRN a.btn-base.btn-big,
+.sfrDom button.btn-base.btn-big,
+.sfrRN button.btn-base.btn-big,
+.sfrDom span.btn-base.btn-big,
+.sfrRN span.btn-base.btn-big,
+.sfrDom div.btn-base.btn-big,
+.sfrRN div.btn-base.btn-big {
+  padding: 10px 16px;
+  font-size: 16px;
+  font-family: "SFR-Bold", "SFR-Regular", Arial, Sans-serif;
+}
+.sfrDom a.btn-base.btn-big[class*="icon"]:before,
+.sfrRN a.btn-base.btn-big[class*="icon"]:before,
+.sfrDom button.btn-base.btn-big[class*="icon"]:before,
+.sfrRN button.btn-base.btn-big[class*="icon"]:before,
+.sfrDom span.btn-base.btn-big[class*="icon"]:before,
+.sfrRN span.btn-base.btn-big[class*="icon"]:before,
+.sfrDom div.btn-base.btn-big[class*="icon"]:before,
+.sfrRN div.btn-base.btn-big[class*="icon"]:before {
+  width: 13px;
+  height: 18px;
+  background-position: -199px -8px;
+}
+.sfrDom a.btn-base.btn-big.icon-left,
+.sfrRN a.btn-base.btn-big.icon-left,
+.sfrDom button.btn-base.btn-big.icon-left,
+.sfrRN button.btn-base.btn-big.icon-left,
+.sfrDom span.btn-base.btn-big.icon-left,
+.sfrRN span.btn-base.btn-big.icon-left,
+.sfrDom div.btn-base.btn-big.icon-left,
+.sfrRN div.btn-base.btn-big.icon-left {
+  padding-left: 39px;
+}
+.sfrDom a.btn-base.btn-big.icon-left:before,
+.sfrRN a.btn-base.btn-big.icon-left:before,
+.sfrDom button.btn-base.btn-big.icon-left:before,
+.sfrRN button.btn-base.btn-big.icon-left:before,
+.sfrDom span.btn-base.btn-big.icon-left:before,
+.sfrRN span.btn-base.btn-big.icon-left:before,
+.sfrDom div.btn-base.btn-big.icon-left:before,
+.sfrRN div.btn-base.btn-big.icon-left:before {
+  left: 16px;
+}
+.sfrDom a.btn-base.btn-big.icon-right,
+.sfrRN a.btn-base.btn-big.icon-right,
+.sfrDom button.btn-base.btn-big.icon-right,
+.sfrRN button.btn-base.btn-big.icon-right,
+.sfrDom span.btn-base.btn-big.icon-right,
+.sfrRN span.btn-base.btn-big.icon-right,
+.sfrDom div.btn-base.btn-big.icon-right,
+.sfrRN div.btn-base.btn-big.icon-right {
+  padding-right: 39px;
+}
+.sfrDom a.btn-base.btn-big.icon-right:before,
+.sfrRN a.btn-base.btn-big.icon-right:before,
+.sfrDom button.btn-base.btn-big.icon-right:before,
+.sfrRN button.btn-base.btn-big.icon-right:before,
+.sfrDom span.btn-base.btn-big.icon-right:before,
+.sfrRN span.btn-base.btn-big.icon-right:before,
+.sfrDom div.btn-base.btn-big.icon-right:before,
+.sfrRN div.btn-base.btn-big.icon-right:before {
+  right: 16px;
+}
+.sfrDom a.btn-base.btn-big.btn-ghost,
+.sfrRN a.btn-base.btn-big.btn-ghost,
+.sfrDom button.btn-base.btn-big.btn-ghost,
+.sfrRN button.btn-base.btn-big.btn-ghost,
+.sfrDom span.btn-base.btn-big.btn-ghost,
+.sfrRN span.btn-base.btn-big.btn-ghost,
+.sfrDom div.btn-base.btn-big.btn-ghost,
+.sfrRN div.btn-base.btn-big.btn-ghost {
+  background-color: transparent;
+  border-color: #FFF;
+  color: #FFF;
+}
+.sfrDom a.btn-base.btn-big.btn-ghost:hover,
+.sfrRN a.btn-base.btn-big.btn-ghost:hover,
+.sfrDom button.btn-base.btn-big.btn-ghost:hover,
+.sfrRN button.btn-base.btn-big.btn-ghost:hover,
+.sfrDom span.btn-base.btn-big.btn-ghost:hover,
+.sfrRN span.btn-base.btn-big.btn-ghost:hover,
+.sfrDom div.btn-base.btn-big.btn-ghost:hover,
+.sfrRN div.btn-base.btn-big.btn-ghost:hover {
+  background-color: #FFF;
+  border-color: #FFF;
+  color: #3e3838;
+}
+.sfrDom a.btn-base.btn-big.btn-ghost.btn-inverse,
+.sfrRN a.btn-base.btn-big.btn-ghost.btn-inverse,
+.sfrDom button.btn-base.btn-big.btn-ghost.btn-inverse,
+.sfrRN button.btn-base.btn-big.btn-ghost.btn-inverse,
+.sfrDom span.btn-base.btn-big.btn-ghost.btn-inverse,
+.sfrRN span.btn-base.btn-big.btn-ghost.btn-inverse,
+.sfrDom div.btn-base.btn-big.btn-ghost.btn-inverse,
+.sfrRN div.btn-base.btn-big.btn-ghost.btn-inverse {
+  color: #1a171b;
+  border-color: #1a171b;
+}
+.sfrDom a.btn-base.btn-normal,
+.sfrRN a.btn-base.btn-normal,
+.sfrDom button.btn-base.btn-normal,
+.sfrRN button.btn-base.btn-normal,
+.sfrDom span.btn-base.btn-normal,
+.sfrRN span.btn-base.btn-normal,
+.sfrDom div.btn-base.btn-normal,
+.sfrRN div.btn-base.btn-normal {
+  font-size: 13px;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 7px 16px;
+  vertical-align: top;
+}
+.sfrDom a.btn-base.btn-normal *,
+.sfrRN a.btn-base.btn-normal *,
+.sfrDom button.btn-base.btn-normal *,
+.sfrRN button.btn-base.btn-normal *,
+.sfrDom span.btn-base.btn-normal *,
+.sfrRN span.btn-base.btn-normal *,
+.sfrDom div.btn-base.btn-normal *,
+.sfrRN div.btn-base.btn-normal * {
+  font-family: Arial;
+}
+.sfrDom a.btn-base.btn-normal[class*="icon"]:before,
+.sfrRN a.btn-base.btn-normal[class*="icon"]:before,
+.sfrDom button.btn-base.btn-normal[class*="icon"]:before,
+.sfrRN button.btn-base.btn-normal[class*="icon"]:before,
+.sfrDom span.btn-base.btn-normal[class*="icon"]:before,
+.sfrRN span.btn-base.btn-normal[class*="icon"]:before,
+.sfrDom div.btn-base.btn-normal[class*="icon"]:before,
+.sfrRN div.btn-base.btn-normal[class*="icon"]:before {
+  width: 13px;
+  height: 16px;
+  background-position: -438px -15px;
+}
+.sfrDom a.btn-base.btn-normal.icon-left,
+.sfrRN a.btn-base.btn-normal.icon-left,
+.sfrDom button.btn-base.btn-normal.icon-left,
+.sfrRN button.btn-base.btn-normal.icon-left,
+.sfrDom span.btn-base.btn-normal.icon-left,
+.sfrRN span.btn-base.btn-normal.icon-left,
+.sfrDom div.btn-base.btn-normal.icon-left,
+.sfrRN div.btn-base.btn-normal.icon-left {
+  padding-left: 39px;
+}
+.sfrDom a.btn-base.btn-normal.icon-left:before,
+.sfrRN a.btn-base.btn-normal.icon-left:before,
+.sfrDom button.btn-base.btn-normal.icon-left:before,
+.sfrRN button.btn-base.btn-normal.icon-left:before,
+.sfrDom span.btn-base.btn-normal.icon-left:before,
+.sfrRN span.btn-base.btn-normal.icon-left:before,
+.sfrDom div.btn-base.btn-normal.icon-left:before,
+.sfrRN div.btn-base.btn-normal.icon-left:before {
+  left: 16px;
+}
+.sfrDom a.btn-base.btn-normal.icon-right,
+.sfrRN a.btn-base.btn-normal.icon-right,
+.sfrDom button.btn-base.btn-normal.icon-right,
+.sfrRN button.btn-base.btn-normal.icon-right,
+.sfrDom span.btn-base.btn-normal.icon-right,
+.sfrRN span.btn-base.btn-normal.icon-right,
+.sfrDom div.btn-base.btn-normal.icon-right,
+.sfrRN div.btn-base.btn-normal.icon-right {
+  padding-right: 39px;
+}
+.sfrDom a.btn-base.btn-normal.icon-right:before,
+.sfrRN a.btn-base.btn-normal.icon-right:before,
+.sfrDom button.btn-base.btn-normal.icon-right:before,
+.sfrRN button.btn-base.btn-normal.icon-right:before,
+.sfrDom span.btn-base.btn-normal.icon-right:before,
+.sfrRN span.btn-base.btn-normal.icon-right:before,
+.sfrDom div.btn-base.btn-normal.icon-right:before,
+.sfrRN div.btn-base.btn-normal.icon-right:before {
+  right: 16px;
+}
+.sfrDom a.btn-base.btn-micro,
+.sfrRN a.btn-base.btn-micro,
+.sfrDom button.btn-base.btn-micro,
+.sfrRN button.btn-base.btn-micro,
+.sfrDom span.btn-base.btn-micro,
+.sfrRN span.btn-base.btn-micro,
+.sfrDom div.btn-base.btn-micro,
+.sfrRN div.btn-base.btn-micro {
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 4px 15px;
+  vertical-align: top;
+}
+.sfrDom a.btn-base.btn-micro *,
+.sfrRN a.btn-base.btn-micro *,
+.sfrDom button.btn-base.btn-micro *,
+.sfrRN button.btn-base.btn-micro *,
+.sfrDom span.btn-base.btn-micro *,
+.sfrRN span.btn-base.btn-micro *,
+.sfrDom div.btn-base.btn-micro *,
+.sfrRN div.btn-base.btn-micro * {
+  font-family: Arial;
+}
+.sfrDom a.btn-base.btn-primary,
+.sfrRN a.btn-base.btn-primary,
+.sfrDom button.btn-base.btn-primary,
+.sfrRN button.btn-base.btn-primary,
+.sfrDom span.btn-base.btn-primary,
+.sfrRN span.btn-base.btn-primary,
+.sfrDom div.btn-base.btn-primary,
+.sfrRN div.btn-base.btn-primary {
+  color: #FFF;
+  background-color: #636397;
+  border-color: #636397;
+}
+.sfrDom a.btn-base.btn-primary:hover,
+.sfrRN a.btn-base.btn-primary:hover,
+.sfrDom button.btn-base.btn-primary:hover,
+.sfrRN button.btn-base.btn-primary:hover,
+.sfrDom span.btn-base.btn-primary:hover,
+.sfrRN span.btn-base.btn-primary:hover,
+.sfrDom div.btn-base.btn-primary:hover,
+.sfrRN div.btn-base.btn-primary:hover {
+  background-color: #8e8ab3;
+  border-color: #8e8ab3;
+}
+.sfrDom a.btn-base.btn-primary:active,
+.sfrRN a.btn-base.btn-primary:active,
+.sfrDom button.btn-base.btn-primary:active,
+.sfrRN button.btn-base.btn-primary:active,
+.sfrDom span.btn-base.btn-primary:active,
+.sfrRN span.btn-base.btn-primary:active,
+.sfrDom div.btn-base.btn-primary:active,
+.sfrRN div.btn-base.btn-primary:active {
+  background-color: #494973;
+  border-color: #494973;
+}
+.sfrDom a.btn-base.btn-primary.btn-inverse,
+.sfrRN a.btn-base.btn-primary.btn-inverse,
+.sfrDom button.btn-base.btn-primary.btn-inverse,
+.sfrRN button.btn-base.btn-primary.btn-inverse,
+.sfrDom span.btn-base.btn-primary.btn-inverse,
+.sfrRN span.btn-base.btn-primary.btn-inverse,
+.sfrDom div.btn-base.btn-primary.btn-inverse,
+.sfrRN div.btn-base.btn-primary.btn-inverse {
+  color: #636397;
+}
+.sfrDom a.btn-base.btn-primary.btn-inverse:hover,
+.sfrRN a.btn-base.btn-primary.btn-inverse:hover,
+.sfrDom button.btn-base.btn-primary.btn-inverse:hover,
+.sfrRN button.btn-base.btn-primary.btn-inverse:hover,
+.sfrDom span.btn-base.btn-primary.btn-inverse:hover,
+.sfrRN span.btn-base.btn-primary.btn-inverse:hover,
+.sfrDom div.btn-base.btn-primary.btn-inverse:hover,
+.sfrRN div.btn-base.btn-primary.btn-inverse:hover {
+  color: #636397;
+}
+.sfrDom a.btn-base.btn-primary.btn-inverse:active,
+.sfrRN a.btn-base.btn-primary.btn-inverse:active,
+.sfrDom button.btn-base.btn-primary.btn-inverse:active,
+.sfrRN button.btn-base.btn-primary.btn-inverse:active,
+.sfrDom span.btn-base.btn-primary.btn-inverse:active,
+.sfrRN span.btn-base.btn-primary.btn-inverse:active,
+.sfrDom div.btn-base.btn-primary.btn-inverse:active,
+.sfrRN div.btn-base.btn-primary.btn-inverse:active {
+  color: #636397;
+}
+.sfrDom a.btn-base.btn-primary.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN a.btn-base.btn-primary.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom button.btn-base.btn-primary.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN button.btn-base.btn-primary.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom span.btn-base.btn-primary.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN span.btn-base.btn-primary.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom div.btn-base.btn-primary.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN div.btn-base.btn-primary.btn-inverse.btn-big[class*="icon"]:before {
+  background-position: -199px -128px;
+}
+.sfrDom a.btn-base.btn-primary.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN a.btn-base.btn-primary.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom button.btn-base.btn-primary.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN button.btn-base.btn-primary.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom span.btn-base.btn-primary.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN span.btn-base.btn-primary.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom div.btn-base.btn-primary.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN div.btn-base.btn-primary.btn-inverse.btn-normal[class*="icon"]:before {
+  background-position: -438px -99px;
+}
+.sfrDom a.btn-base.btn-ec,
+.sfrRN a.btn-base.btn-ec,
+.sfrDom button.btn-base.btn-ec,
+.sfrRN button.btn-base.btn-ec,
+.sfrDom span.btn-base.btn-ec,
+.sfrRN span.btn-base.btn-ec,
+.sfrDom div.btn-base.btn-ec,
+.sfrRN div.btn-base.btn-ec {
+  color: #FFF;
+  background-color: #aa6f2e;
+  border-color: #aa6f2e;
+}
+.sfrDom a.btn-base.btn-ec:hover,
+.sfrRN a.btn-base.btn-ec:hover,
+.sfrDom button.btn-base.btn-ec:hover,
+.sfrRN button.btn-base.btn-ec:hover,
+.sfrDom span.btn-base.btn-ec:hover,
+.sfrRN span.btn-base.btn-ec:hover,
+.sfrDom div.btn-base.btn-ec:hover,
+.sfrRN div.btn-base.btn-ec:hover {
+  background-color: #c47f35;
+  border-color: #c47f35;
+}
+.sfrDom a.btn-base.btn-ec:active,
+.sfrRN a.btn-base.btn-ec:active,
+.sfrDom button.btn-base.btn-ec:active,
+.sfrRN button.btn-base.btn-ec:active,
+.sfrDom span.btn-base.btn-ec:active,
+.sfrRN span.btn-base.btn-ec:active,
+.sfrDom div.btn-base.btn-ec:active,
+.sfrRN div.btn-base.btn-ec:active {
+  background-color: #a36a2c;
+  border-color: #a36a2c;
+}
+.sfrDom a.btn-base.btn-ec.btn-inverse,
+.sfrRN a.btn-base.btn-ec.btn-inverse,
+.sfrDom button.btn-base.btn-ec.btn-inverse,
+.sfrRN button.btn-base.btn-ec.btn-inverse,
+.sfrDom span.btn-base.btn-ec.btn-inverse,
+.sfrRN span.btn-base.btn-ec.btn-inverse,
+.sfrDom div.btn-base.btn-ec.btn-inverse,
+.sfrRN div.btn-base.btn-ec.btn-inverse {
+  color: #aa6f2e;
+}
+.sfrDom a.btn-base.btn-ec.btn-inverse:hover,
+.sfrRN a.btn-base.btn-ec.btn-inverse:hover,
+.sfrDom button.btn-base.btn-ec.btn-inverse:hover,
+.sfrRN button.btn-base.btn-ec.btn-inverse:hover,
+.sfrDom span.btn-base.btn-ec.btn-inverse:hover,
+.sfrRN span.btn-base.btn-ec.btn-inverse:hover,
+.sfrDom div.btn-base.btn-ec.btn-inverse:hover,
+.sfrRN div.btn-base.btn-ec.btn-inverse:hover {
+  color: #aa6f2e;
+}
+.sfrDom a.btn-base.btn-ec.btn-inverse:active,
+.sfrRN a.btn-base.btn-ec.btn-inverse:active,
+.sfrDom button.btn-base.btn-ec.btn-inverse:active,
+.sfrRN button.btn-base.btn-ec.btn-inverse:active,
+.sfrDom span.btn-base.btn-ec.btn-inverse:active,
+.sfrRN span.btn-base.btn-ec.btn-inverse:active,
+.sfrDom div.btn-base.btn-ec.btn-inverse:active,
+.sfrRN div.btn-base.btn-ec.btn-inverse:active {
+  color: #aa6f2e;
+}
+.sfrDom a.btn-base.btn-ec.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN a.btn-base.btn-ec.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom button.btn-base.btn-ec.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN button.btn-base.btn-ec.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom span.btn-base.btn-ec.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN span.btn-base.btn-ec.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom div.btn-base.btn-ec.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN div.btn-base.btn-ec.btn-inverse.btn-big[class*="icon"]:before {
+  background-position: -199px -88px;
+}
+.sfrDom a.btn-base.btn-ec.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN a.btn-base.btn-ec.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom button.btn-base.btn-ec.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN button.btn-base.btn-ec.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom span.btn-base.btn-ec.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN span.btn-base.btn-ec.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom div.btn-base.btn-ec.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN div.btn-base.btn-ec.btn-inverse.btn-normal[class*="icon"]:before {
+  background-position: -438px -71px;
+}
+.sfrDom a.btn-base.btn-red,
+.sfrRN a.btn-base.btn-red,
+.sfrDom button.btn-base.btn-red,
+.sfrRN button.btn-base.btn-red,
+.sfrDom span.btn-base.btn-red,
+.sfrRN span.btn-base.btn-red,
+.sfrDom div.btn-base.btn-red,
+.sfrRN div.btn-base.btn-red {
+  color: #FFF;
+  background-color: #e2001a;
+  border-color: #e2001a;
+}
+.sfrDom a.btn-base.btn-red:hover,
+.sfrRN a.btn-base.btn-red:hover,
+.sfrDom button.btn-base.btn-red:hover,
+.sfrRN button.btn-base.btn-red:hover,
+.sfrDom span.btn-base.btn-red:hover,
+.sfrRN span.btn-base.btn-red:hover,
+.sfrDom div.btn-base.btn-red:hover,
+.sfrRN div.btn-base.btn-red:hover {
+  background-color: #f70923;
+  border-color: #f70923;
+}
+.sfrDom a.btn-base.btn-red:active,
+.sfrRN a.btn-base.btn-red:active,
+.sfrDom button.btn-base.btn-red:active,
+.sfrRN button.btn-base.btn-red:active,
+.sfrDom span.btn-base.btn-red:active,
+.sfrRN span.btn-base.btn-red:active,
+.sfrDom div.btn-base.btn-red:active,
+.sfrRN div.btn-base.btn-red:active {
+  background-color: #be141f;
+  border-color: #be141f;
+}
+.sfrDom a.btn-base.btn-red.btn-inverse,
+.sfrRN a.btn-base.btn-red.btn-inverse,
+.sfrDom button.btn-base.btn-red.btn-inverse,
+.sfrRN button.btn-base.btn-red.btn-inverse,
+.sfrDom span.btn-base.btn-red.btn-inverse,
+.sfrRN span.btn-base.btn-red.btn-inverse,
+.sfrDom div.btn-base.btn-red.btn-inverse,
+.sfrRN div.btn-base.btn-red.btn-inverse {
+  color: #e2001a;
+}
+.sfrDom a.btn-base.btn-red.btn-inverse:hover,
+.sfrRN a.btn-base.btn-red.btn-inverse:hover,
+.sfrDom button.btn-base.btn-red.btn-inverse:hover,
+.sfrRN button.btn-base.btn-red.btn-inverse:hover,
+.sfrDom span.btn-base.btn-red.btn-inverse:hover,
+.sfrRN span.btn-base.btn-red.btn-inverse:hover,
+.sfrDom div.btn-base.btn-red.btn-inverse:hover,
+.sfrRN div.btn-base.btn-red.btn-inverse:hover {
+  color: #e2001a;
+}
+.sfrDom a.btn-base.btn-red.btn-inverse:active,
+.sfrRN a.btn-base.btn-red.btn-inverse:active,
+.sfrDom button.btn-base.btn-red.btn-inverse:active,
+.sfrRN button.btn-base.btn-red.btn-inverse:active,
+.sfrDom span.btn-base.btn-red.btn-inverse:active,
+.sfrRN span.btn-base.btn-red.btn-inverse:active,
+.sfrDom div.btn-base.btn-red.btn-inverse:active,
+.sfrRN div.btn-base.btn-red.btn-inverse:active {
+  color: #e2001a;
+}
+.sfrDom a.btn-base.btn-red.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN a.btn-base.btn-red.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom button.btn-base.btn-red.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN button.btn-base.btn-red.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom span.btn-base.btn-red.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN span.btn-base.btn-red.btn-inverse.btn-big[class*="icon"]:before,
+.sfrDom div.btn-base.btn-red.btn-inverse.btn-big[class*="icon"]:before,
+.sfrRN div.btn-base.btn-red.btn-inverse.btn-big[class*="icon"]:before {
+  background-position: -199px -48px;
+}
+.sfrDom a.btn-base.btn-red.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN a.btn-base.btn-red.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom button.btn-base.btn-red.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN button.btn-base.btn-red.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom span.btn-base.btn-red.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN span.btn-base.btn-red.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrDom div.btn-base.btn-red.btn-inverse.btn-normal[class*="icon"]:before,
+.sfrRN div.btn-base.btn-red.btn-inverse.btn-normal[class*="icon"]:before {
+  background-position: -438px -43px;
+}
+.sfrDom a.btn-base.btn-off,
+.sfrRN a.btn-base.btn-off,
+.sfrDom button.btn-base.btn-off,
+.sfrRN button.btn-base.btn-off,
+.sfrDom span.btn-base.btn-off,
+.sfrRN span.btn-base.btn-off,
+.sfrDom div.btn-base.btn-off,
+.sfrRN div.btn-base.btn-off {
+  cursor: default!important;
+  text-shadow: 0 1px 0 #FFF!important;
+  background-color: #f7f6f6!important;
+  color: #bdbdbd!important;
+  border-color: #e4e4e4!important;
+}
+.sfrDom a.btn-base.btn-off:hover,
+.sfrRN a.btn-base.btn-off:hover,
+.sfrDom button.btn-base.btn-off:hover,
+.sfrRN button.btn-base.btn-off:hover,
+.sfrDom span.btn-base.btn-off:hover,
+.sfrRN span.btn-base.btn-off:hover,
+.sfrDom div.btn-base.btn-off:hover,
+.sfrRN div.btn-base.btn-off:hover,
+.sfrDom a.btn-base.btn-off:active,
+.sfrRN a.btn-base.btn-off:active,
+.sfrDom button.btn-base.btn-off:active,
+.sfrRN button.btn-base.btn-off:active,
+.sfrDom span.btn-base.btn-off:active,
+.sfrRN span.btn-base.btn-off:active,
+.sfrDom div.btn-base.btn-off:active,
+.sfrRN div.btn-base.btn-off:active {
+  background-color: #f7f6f6!important;
+}
+.sfrDom a.btn-base.btn-off.btn-big[class*="icon"]:before,
+.sfrRN a.btn-base.btn-off.btn-big[class*="icon"]:before,
+.sfrDom button.btn-base.btn-off.btn-big[class*="icon"]:before,
+.sfrRN button.btn-base.btn-off.btn-big[class*="icon"]:before,
+.sfrDom span.btn-base.btn-off.btn-big[class*="icon"]:before,
+.sfrRN span.btn-base.btn-off.btn-big[class*="icon"]:before,
+.sfrDom div.btn-base.btn-off.btn-big[class*="icon"]:before,
+.sfrRN div.btn-base.btn-off.btn-big[class*="icon"]:before {
+  background-position: -199px -168px;
+}
+.sfrDom a.btn-base.btn-off.btn-normal[class*="icon"]:before,
+.sfrRN a.btn-base.btn-off.btn-normal[class*="icon"]:before,
+.sfrDom button.btn-base.btn-off.btn-normal[class*="icon"]:before,
+.sfrRN button.btn-base.btn-off.btn-normal[class*="icon"]:before,
+.sfrDom span.btn-base.btn-off.btn-normal[class*="icon"]:before,
+.sfrRN span.btn-base.btn-off.btn-normal[class*="icon"]:before,
+.sfrDom div.btn-base.btn-off.btn-normal[class*="icon"]:before,
+.sfrRN div.btn-base.btn-off.btn-normal[class*="icon"]:before {
+  background-position: -438px -129px;
+}
+.sfrDom a.btn-base.btn-inverse,
+.sfrRN a.btn-base.btn-inverse,
+.sfrDom button.btn-base.btn-inverse,
+.sfrRN button.btn-base.btn-inverse,
+.sfrDom span.btn-base.btn-inverse,
+.sfrRN span.btn-base.btn-inverse,
+.sfrDom div.btn-base.btn-inverse,
+.sfrRN div.btn-base.btn-inverse {
+  border-color: #c5c6c7;
+  background-color: #fff;
+}
+.sfrDom a.btn-base.btn-inverse:hover,
+.sfrRN a.btn-base.btn-inverse:hover,
+.sfrDom button.btn-base.btn-inverse:hover,
+.sfrRN button.btn-base.btn-inverse:hover,
+.sfrDom span.btn-base.btn-inverse:hover,
+.sfrRN span.btn-base.btn-inverse:hover,
+.sfrDom div.btn-base.btn-inverse:hover,
+.sfrRN div.btn-base.btn-inverse:hover {
+  border-color: #c5c6c7;
+  background-color: #f7f7f7;
+}
+.sfrDom a.btn-base.btn-inverse:active,
+.sfrRN a.btn-base.btn-inverse:active,
+.sfrDom button.btn-base.btn-inverse:active,
+.sfrRN button.btn-base.btn-inverse:active,
+.sfrDom span.btn-base.btn-inverse:active,
+.sfrRN span.btn-base.btn-inverse:active,
+.sfrDom div.btn-base.btn-inverse:active,
+.sfrRN div.btn-base.btn-inverse:active {
+  border-color: #c5c6c7;
+  background-color: #ebebeb;
+}
+@media only screen and (max-width: 1024px) {
+  .sfrDom a.btn-base,
+  .sfrRN a.btn-base,
+  .sfrDom button.btn-base,
+  .sfrRN button.btn-base,
+  .sfrDom span.btn-base,
+  .sfrRN span.btn-base,
+  .sfrDom div.btn-base,
+  .sfrRN div.btn-base {
+    padding: 8px 16px!important;
+    font-size: 13px!important;
+    font-family: "SFR-Bold" !important;
+    font-weight: normal!important;
+  }
+}
+.sfrDom a.lien-base,
+.sfrRN a.lien-base,
+.sfrDom button.lien-base,
+.sfrRN button.lien-base,
+.sfrDom span.lien-base,
+.sfrRN span.lien-base,
+.sfrDom div.lien-base,
+.sfrRN div.lien-base {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #004c9e;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
+.sfrDom a.lien-base:hover,
+.sfrRN a.lien-base:hover,
+.sfrDom button.lien-base:hover,
+.sfrRN button.lien-base:hover,
+.sfrDom span.lien-base:hover,
+.sfrRN span.lien-base:hover,
+.sfrDom div.lien-base:hover,
+.sfrRN div.lien-base:hover {
+  text-decoration: underline;
+}

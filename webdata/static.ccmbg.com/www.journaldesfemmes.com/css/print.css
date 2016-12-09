@@ -1,0 +1,166 @@
+/*******************************************************************************
+
+-- PRINT --
+
+Author      :   CCM Benchmark / Front end team
+
+Description :   C'est ici qu'on gère la version imprimé du site
+
+*******************************************************************************/
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+* { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+a, a:visited { text-decoration: underline; }
+/*a[href]:after { content: " (" attr(href) ")"; }*/
+abbr[title]:after { content: " (" attr(title) ")"; }
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+thead { display: table-header-group; } /* h5bp.com/t */
+tr, img { page-break-inside: avoid; }
+img { max-width: 100% !important; }
+@page { margin: 0.5cm; }
+p, h2, h3 { orphans: 3; widows: 3; }
+h2, h3 { page-break-after: avoid; }
+
+
+/*
+-- Version imprimé
+----------------------------------------------------------------------------- */
+
+body{
+    font-size: 100%;
+    line-height: 1.3;
+}
+form[role=search],
+.header_log,
+nav[role=navigation],
+footer[role=contentinfo],
+.layout_right,
+.app_author_box .details,
+.ccmcss_breadcrumb,
+.header_fb_log,
+.ba,
+.ccmcss_paginator,
+.fb-comments,
+.print_bt,
+.ccmcss_cms_figure__img .app_btn--ico,
+.ccmcss_cms_figure__img .app_button_nav_next,
+.ccmcss_cms_figure__img .app_button_nav_prev{ display: none }
+
+h1{ font-size: 30px }
+header[role=banner] h1,
+header[role=banner] h2,
+header[role=banner] h3{ margin: 0; display:none }
+
+.app_author_box img{ float: left; margin-right: 10px }
+
+/* mise en page article (tous les types confondus) */
+article{
+    border: 1px solid #666;
+    padding: 20px;
+}
+article header,
+article header h1{ margin: 0 !important; padding: 0 !important; line-height: 1.3 }
+article h1{ padding-top: 12px !important }
+article .entry{    
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
+    page-break-inside: avoid;
+    border-top: none !important;
+    border-bottom: 1px solid #666 !important;
+}
+article .marqueur_module{ margin-bottom: 0 !important }
+.app_entry_diapo .entry{
+    padding: 0 0 20px !important;
+    margin-top: 0 !important;
+}
+article .entry:last-child{
+    margin: 0;
+    padding: 0;
+    border: none !important;
+}
+article .entry:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+article .entry figure.center{ max-width: 50%; margin: 20px auto }
+article .entry figure.ccmcss_cms_figure--left  { max-width: 50%; float: left; margin: 20px 20px 20px 0; }
+article .entry figure.ccmcss_cms_figure--right { max-width: 50%; float: right; margin: 0 20px 20px 20px; }
+.sommaire-defaut img,
+.app_entry_lead img,
+.app_entry_news .grid_left img{ float: left; margin: 15px 15px 15px 0 }
+
+article .entry .app_entry_kicker{
+    display: block;
+    font-size: 18px;
+    color: #666;
+    text-transform: uppercase;
+}
+
+article .entry ul,
+article .entry li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+article .app_author_box{ padding: 20px; background: #efefef; border-bottom: 1px solid #666 }
+article .app_author_box dl,
+article .entry h1,
+article .entry h2,
+article .entry h4{ margin: 0; page-break-after: avoid; }
+
+header[role=banner] .logo img{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ccmcss_cms_table{
+  clear: both;
+}
+.ccmcss_cms_table table{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.ccmcss_cms_table caption{
+  font-weight: bold;
+}
+.ccmcss_cms_table tr{ margin: 0 }
+.ccmcss_cms_table thead th{
+  font-size: 0.778em;
+  font-weight: normal;
+}
+.ccmcss_cms_table caption,
+.ccmcss_cms_table thead th{
+  padding: 5px 10px;
+  color: #fff;
+  text-align: left;
+  background-color: #666666;
+  border: 1px solid #48494a;
+}
+.ccmcss_cms_table tfoot td{
+  padding: 3px 6px;
+  color: #666666;
+  font-size: 0.667em;
+  border: 1px solid #ccc;
+}
+.ccmcss_cms_table tbody th{
+  font-size: 0.778em;
+  font-weight: normal;
+  padding: 5px 10px;
+  background-color: #ebebeb;
+  border: 1px solid #ccc;
+}
+.ccmcss_cms_table tbody td{
+  font-size: 0.778em;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+.ccmcss_cms_figure__img img{ width: auto !important; height: auto !important }
+

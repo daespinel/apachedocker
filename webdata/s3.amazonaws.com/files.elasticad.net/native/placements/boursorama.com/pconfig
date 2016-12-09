@@ -1,0 +1,6 @@
+if(window.ean) {
+                    window.ean.initPlacement(
+                        /*BEGIN_JSON*/
+                        [{"type":"native","pid":"4496","placementID":"4166537","articlePID":"401","method":"update","link":"http:\/\/quantum-advertising.com\/performance.html","status":"active","inventory_company_id":"1001","inventory_master_company_id":"1001","expandable":false,"accept_auto_expandable":false,"sharing":false,"video_teaser":false,"default_creative":"","skip_visibility_test":false,"template":{"images_size":{"image_square":"78x56","brand_logo":"15x15"},"max_chars":{"title":82,"summary":200},"selector_index":3,"allowed_urls":["http:\/\/www.boursorama.com\/","http:\/\/www.boursorama.com\/home"],"selector":[".carousel-linear-items .news.article-small.article-horizontal"],"template_html":["<figure class=\"ead_4496\"><a href=\"{link}\" class=\"ea_link\" target=\"_blank\"><img src=\"{image_square}\" class=\"ea_image\" width=\"78\" height=\"56\"><\/a><\/figure><header><aside role=\"contentinfo\"><span><time pubdate=\"pubdate\" class=\"time-long\"><a href=\"{brand_url}\" class=\"ea_link\" target=\"_blank\" style=\" color: #aaa;\">{brand_name}<\/a><\/time><\/span><\/aside><h5 class=\"\"><a href=\"{link}\" class=\"ea_link\" target=\"_blank\">{title}<\/a><\/h5><\/header><div class=\"cb\"><\/div>"]}}]
+                /*END_JSON*/
+                );}

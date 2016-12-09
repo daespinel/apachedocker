@@ -1,0 +1,483 @@
+/* Eulerian Analytics #478009751 */
+_oEa.website("sfr-fr");
+var _EaCP = {"cgip" : _oEa.hcgi
+,"tp":{"":""}
+};
+_oEa.jsbwr = {
+ 's'   : '//eu.euleriancdn.net/ea-misc/js/domwrite.js',
+ 'pre' : function(){ _oEaDWR.capture(); },
+ 'post': function(){ _oEaDWR.render(_oEa.b); }
+};
+if (typeof _oEa.gloadtimeout !== 'function') {
+ _oEa.gloadtimeout = function( to, id, tg ) {};
+}
+_oEa.mtrun = function() {
+/* {ccmt:5,ccmth:6,v:0,hdlr:tag} */
+try{
+/* Native */
+var google_tag_params = window.google_tag_params = {ecomm_pagetype : "homepage",path : "/web/homepages/accueil/accueil",uid : "",type : "",codepromo : "",prdamount : "",ref : "",scart : "",rubrique : "",marchand : "marchand",typedachat : "",segmentjoya : "",url : "https://www.sfr.fr/",prdname : "",pta : "",profildetaille : "99",reference_telephone : "",clientmultipack : "",prdquantity : "",pageprecedente : "",eligibilitefibre : "",CSUid : "",clientauthentifie : "1",scartcumul : "",payment : "",dfpc : "",device : "d",eligibiliteADSL : "",BU : "",prdparammarque : "",profile : "premiere_visite"};/* <![CDATA[ */var google_remarketing_only = window.google_remarketing_only = true;var google_conversion_id = window.google_conversion_id = 1069857640;var google_custom_params = window.google_custom_params = google_tag_params;/* ]]> */_oEa.gloadjsbwr("https://www.googleadservices.com/pagead/conversion.js");
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:46,ccmth:52,v:0,hdlr:tag} */
+try{
+/* Native */
+_oEa.gloadtimeout(5000,"EMfNwnYS.kZtdivW2fsezxB5Ho1TSSoJGLWBf2Y-",_oEa.gloadimg("https://adventori.com/tracker/cookieSync?uid=11468518098890970966&brand=16248107"));
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:73,ccmth:80,v:0,hdlr:tag} */
+try{
+/* JS */
+ /* !mtembedjs */
+_oEa.gloadtimeout(
+5000,
+"EMfNwnYS.kZtdivW2c5PzZuswRkUqvs7pdeaCv4-",
+_oEa.gloadjssrc("","\n"+
+"      window._troq = window._troq || [];\n"+
+"	_troq.push(['tagid', '6546487-cf7d38fcc0552fdae6d59be6d4b583da']);\n"+
+"	_troq.push(['rtgauthent', '1']);\n"+
+"	_troq.push(['rtgtypeligne', '99']);\n"+
+"  _troq.push(['email', '']);\n"+
+"  _troq.push(['rtgoptin', '']);\n"+
+"\n"+
+"	(function () {\n"+
+"		var ts = document.createElement('script');\n"+
+"		ts.type = 'text/javascript';\n"+
+"		ts.async = true;\n"+
+"		ts.src = '//mmtro.com/tro.js';\n"+
+"		var s = document.getElementsByTagName('script')[0];\n"+
+"		s.parentNode.insertBefore(ts, s);\n"+
+"	})();\n"+
+"","")
+);
+ /* /!mtembedjs */
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:138,ccmth:154,v:0,hdlr:tag} */
+try{
+/* Native */
+_oEa.gloadtimeout(5000,"DEQwyRwgEDJm_8YpRfhJJQoJT8HyPRhMcXDYiVgC",_oEa.gloadimg("https://rs.gwallet.com/r1/cm/p64r?478009751"));
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:167,ccmth:195,v:0,hdlr:tag} */
+try{
+/* JS */
+ /* !mtembedjs */
+_oEa.gloadtimeout(
+5000,
+"DEQwyRwgEDJm_8YpRfhDmFFJvfOsQVcoN5SK6wZn",
+_oEa.gloadjssrc("//static.criteo.net/js/ld/ld.js","","var criteoId = 15270;\n"+
+"\n"+
+"var eatm_brand = \"sfr\";\n"+
+"var eatm_pageType = \"content\";\n"+
+"var prdref = \"\";\n"+
+"prdref += prdref.length && eatm_brand == \"red\" ? \"_red\" : \"\";\n"+
+"\n"+
+"function eatm_criteoGetSegmentId ()\n"+
+"{\n"+
+"	var toi = \"\";\n"+
+"	var section = \"home\";\n"+
+"	var brand = \"sfr\";\n"+
+"	\n"+
+"	if (section)\n"+
+"	{\n"+
+"		toi = brand + \"_\" + section;\n"+
+"	}\n"+
+"	\n"+
+"	return toi;\n"+
+"}\n"+
+"\n"+
+"window.criteo_q = window.criteo_q || [];\n"+
+"var criteoArgs = [];\n"+
+"criteoArgs.push({\n"+
+"	event:		\"setAccount\",\n"+
+"	account:	criteoId\n"+
+"});\n"+
+"\n"+
+"criteoArgs.push({\n"+
+"	event:		\"setCustomerId\",\n"+
+"	id:			\"\"\n"+
+"});\n"+
+"\n"+
+"criteoArgs.push({\n"+
+"	event:		\"setSiteType\",\n"+
+"	type:		\"d\"\n"+
+"});\n"+
+"\n"+
+"if (eatm_criteoGetSegmentId() != \"\")\n"+
+"{\n"+
+"	var tmp = {ui_section: eatm_criteoGetSegmentId()};\n"+
+"	\n"+
+"	if (eatm_pageType == \"content\")\n"+
+"	{\n"+
+"		tmp['event'] = \"viewHome\";\n"+
+"	}\n"+
+"	else if (eatm_pageType == \"product\")\n"+
+"	{\n"+
+"		tmp['event'] = \"viewItem\";\n"+
+"		tmp['item'] = prdref;\n"+
+"	}\n"+
+"	else if (eatm_pageType == \"basket\")\n"+
+"	{\n"+
+"		tmp['event'] = \"viewBasket\";\n"+
+"		tmp['item'] = [{id: prdref, price: \"\", quantity: \"\"}];\n"+
+"	}\n"+
+"	\n"+
+"	criteoArgs.push(tmp);\n"+
+"}\n"+
+"\n"+
+"criteoArgs.push({\n"+
+"	event:				\"setData\",\n"+
+"	ui_page_name:		\"/web/homepages/accueil/accueil\",\n"+
+"	ui_identification:	\"1\",\n"+
+"	ui_porteur:			\"\",\n"+
+"	ui_type_conversion:	\"\",\n"+
+"	ui_fin_contrat:		\"\",\n"+
+"	ui_eligibilite:		\"\"\n"+
+"});\n"+
+"\n"+
+"window.criteo_q.push(criteoArgs);")
+);
+ /* /!mtembedjs */
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:169,ccmth:197,v:0,hdlr:tag} */
+try{
+/* JS */
+ /* !mtjssrc */
+var brand = "sfr";
+var section = "home";
+var eligibility = "";
+brand = brand || "null";
+section = section || "null";
+eligibility = eligibility || "null";
+var img = document.createElement('img');
+var src = '//rs.gwallet.com/r1/pixel/x26177r?SiteID=' + brand + '&Site_section=' + section;
+src += '&Site_Page=content&Browser=Google Chrome 40&OS=Linux';
+src += '&ISP=enst.fr&Marchand=marchand&ClientType=prospect&Eligibility=' + eligibility;
+img.src = src;
+img.style.display = "none";
+document.body.appendChild(img);
+ /* /!mtembedjs */
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:178,ccmth:211,v:0,hdlr:tag} */
+try{
+/* JS */
+ /* !mtembedjs */
+_oEa.gloadtimeout(
+5000,
+"DEQwyRwgEDJm_8YpRfh8xeS.Ny2C0YvMzYiVdAMn",
+_oEa.gloadjssrc("","","// Tag générique Facebook Custom Audience\n"+
+"function fbCustomAudience (f,b,e,v,n,t,s)\n"+
+"{\n"+
+"	if(f.fbq)\n"+
+"	{\n"+
+"		return;\n"+
+"	}\n"+
+"	\n"+
+"	n=f.fbq=function()\n"+
+"	{\n"+
+"		if (n.callMethod)\n"+
+"		{\n"+
+"			n.callMethod.apply(n,arguments);\n"+
+"		}\n"+
+"		else\n"+
+"		{\n"+
+"			n.queue.push(arguments);\n"+
+"		}\n"+
+"	};\n"+
+"	\n"+
+"	if(!f._fbq)\n"+
+"	{\n"+
+"		f._fbq=n;\n"+
+"	}\n"+
+"	\n"+
+"	n.push=n;\n"+
+"	n.loaded=1;\n"+
+"	n.version='2.0';\n"+
+"	n.queue=[];\n"+
+"	t=b.createElement(e);\n"+
+"	t.async=1;\n"+
+"	t.src=v;\n"+
+"	s=b.getElementsByTagName(e)[0];\n"+
+"	s.parentNode.insertBefore(t,s);\n"+
+"}\n"+
+"\n"+
+"fbCustomAudience (window, document, 'script', '//connect.facebook.net/en_US/fbevents.js');\n"+
+"\n"+
+"fbq('init', '379022708963516');\n"+
+"\n"+
+"\n"+
+"// Tags spécifiques\n"+
+"function eatm_criteoGetSegmentId ()\n"+
+"{\n"+
+"	var toi = \"\";\n"+
+"	var section = \"home\";\n"+
+"	var brand = \"sfr\";\n"+
+"	\n"+
+"	if (section)\n"+
+"	{\n"+
+"		toi = brand + \"_\" + section;\n"+
+"	}\n"+
+"	\n"+
+"	return toi;\n"+
+"}\n"+
+"\n"+
+"var eatm_orderMatter = \"\";\n"+
+"var eatm_brand = \"sfr\";\n"+
+"var eatm_pagetype = \"content\";\n"+
+"var type = \"\";\n"+
+"var prdref = \"\";\n"+
+"prdref += prdref.length && eatm_brand == \"red\" ? \"_red\" : \"\";\n"+
+"\n"+
+"var extraData = {\n"+
+"	content_name:		\"/web/homepages/accueil/accueil\",\n"+
+"	content_category:	eatm_criteoGetSegmentId(),\n"+
+"	custom_param2: \"\",\n"+
+"	custom_param3: \"prospect\"\n"+
+"};\n"+
+"\n"+
+"fbq('track', 'PageView', extraData);\n"+
+"\n"+
+"// Ajout d'informations produit\n"+
+"if (prdref.length > 0)\n"+
+"{\n"+
+"	//extraData.content_ids = [];\n"+
+"	extraData.content_ids = [prdref];\n"+
+"	extraData.value = '';\n"+
+"	extraData.currency = 'EUR';\n"+
+"}\n"+
+"\n"+
+"if (eatm_pagetype == \"basket\")\n"+
+"{\n"+
+"	fbq('track', 'AddToCart', extraData);\n"+
+"}\n"+
+"else if (eatm_pagetype == \"order\" && eatm_orderMatter == \"1\")\n"+
+"{\n"+
+"	extraData.custom_param1 = \"\";\n"+
+"	fbq('track', 'Purchase', extraData);\n"+
+"}\n"+
+"else if (eatm_pagetype == \"estimate\" && type == \"click2call\")\n"+
+"{\n"+
+"	fbq('track', 'Lead', extraData);\n"+
+"}")
+);
+ /* /!mtembedjs */
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:182,ccmth:215,v:0,hdlr:tag} */
+try{
+/* Native */
+_oEa.gloadtimeout(5000,"DEQwyRwgEDJm_8YpRfjR0QPuuArq72YOAO6k5YpT",_oEa.gloadimg("https://gum.criteo.com/sync?c=12&r=1&u=https://elr.sfr.fr/rpset/sfr-fr/pix1x1.gif%3Fcgumid%3D%40USERID%40"));
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:187,ccmth:220,v:0,hdlr:tag} */
+try{
+/* Native */
+_oEa.gloadtimeout(5000,"DEQwyRwgEDJm_8YpRfi64xvyNMa2IwdDlWMzbXWu",_oEa.gloadiframe("https://ad.atdmt.com/m/a.html;m=11252200392896;noscript=1?p_id=5663902065140506965&p_user_id=11468518098890970966&p_ts=1445237887"));
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:190,ccmth:223,v:0,hdlr:tag} */
+try{
+/* JS */
+ /* !mtembedjs */
+_oEa.gloadtimeout(
+5000,
+"DEQwyRwgEDJm_8YpRfgVYS2UjJl1wt81Ligq.nzJ",
+_oEa.gloadjssrc("","","window.GoogleAnalyticsObject = 'ga';\n"+
+"\n"+
+"window.ga = function(){\n"+
+"	window.ga.q.push(arguments);\n"+
+"};\n"+
+"\n"+
+"window.ga.q = [];\n"+
+"\n"+
+"window.ga.l = (new Date()).getTime();\n"+
+"var script   = document.createElement('script');\n"+
+"script.src   = '//www.google-analytics.com/analytics.js';\n"+
+"script.async = true;\n"+
+"var firstScript = document.getElementsByTagName('script')[0];\n"+
+"firstScript.parentNode.insertBefore(script, firstScript);\n"+
+"\n"+
+"function translatePageType(p)\n"+
+"{\n"+
+"	return (\n"+
+"		p == 'basket' ? 'cart' :\n"+
+"		p == 'order' ? 'purchase' :\n"+
+"		p.match(/product/i) ? p :\n"+
+"		'other'\n"+
+"	);\n"+
+"}\n"+
+"\n"+
+"function getCookie(cname) {\n"+
+"    var name = cname + \"=\";\n"+
+"    var ca = document.cookie.split(';');\n"+
+"    for(i=0; i<ca.length; i++) {\n"+
+"        var c = ca[i];\n"+
+"        while (c.charAt(0)==' '){c = c.substring(1);}\n"+
+"        if (c.indexOf(name) == 0){return c.substring(name.length,c.length);}\n"+
+"    }\n"+
+"    return \"\";\n"+
+"}\n"+
+"\n"+
+"function setCookie(cname, cvalue, exdays) {\n"+
+"    var d = new Date();\n"+
+"    d.setTime(d.getTime() + (exdays*24*60*60*1000));\n"+
+"    var expires = \"expires=\"+d.toUTCString();\n"+
+"    document.cookie = cname + \"=\" + cvalue + \"; \" + expires;\n"+
+"}\n"+
+"\n"+
+"\n"+
+"var ref = \"\";\n"+
+"var userId = \"\";\n"+
+"var prdref = \"\";\n"+
+"var brand = \"sfr\";\n"+
+"var section = \"home\";\n"+
+"var pageType = \"content\";\n"+
+"var checkoutStep = \"\";\n"+
+"var orderMatter = \"\";\n"+
+"var eligibility = \"\";\n"+
+"var type = \"\";\n"+
+"var orderGroupType = \"\";\n"+
+"var marchand = \"marchand\";\n"+
+"var transaction = getCookie('ga_transaction_' + ref) == \"\" && pageType == \"order\" && orderMatter == 1; // On évite la duplication des ventes\n"+
+"var amount = \"\";\n"+
+"\n"+
+"\n"+
+"ga('create', 'UA-57307952-1', 'auto');\n"+
+"ga('require', 'linkid');\n"+
+"ga('require', 'displayfeatures');\n"+
+"ga('require', 'ec');\n"+
+"\n"+
+"ga('set', 'page', '/web/homepages/accueil/accueil');\n"+
+"\n"+
+"if (userId.length)\n"+
+"{\n"+
+"	ga('set', '&uid', userId);\n"+
+"}\n"+
+"\n"+
+"if (prdref.length)\n"+
+"{\n"+
+"	ga('ec:addProduct', {\n"+
+"		'id':			prdref,\n"+
+"		'name':			'',\n"+
+"		'price':		'',\n"+
+"		'quantity':		1\n"+
+"	});\n"+
+"\n"+
+"	if (pageType == \"product\")\n"+
+"	{\n"+
+"		ga('ec:setAction', 'detail');\n"+
+"	}\n"+
+"	else if (pageType == \"basket\")\n"+
+"	{\n"+
+"		ga('ec:setAction', 'add');\n"+
+"	}\n"+
+"	else if (transaction)\n"+
+"	{\n"+
+"		ga('ec:setAction', 'purchase', {\n"+
+"			'id':			ref,\n"+
+"			'revenue':		amount\n"+
+"		});\n"+
+"		\n"+
+"		setCookie(\"ga_transaction_\" + ref, \"1\", 2);\n"+
+"	}\n"+
+"}\n"+
+"\n"+
+"if (checkoutStep.length)\n"+
+"{\n"+
+"	ga('ec:setAction', 'checkout', {'step': checkoutStep});\n"+
+"}\n"+
+"\n"+
+"ga('set', 'contentGroup1', brand);\n"+
+"ga('set', 'contentGroup2', section);\n"+
+"ga('set', 'contentGroup3', marchand == \"marchand\" ? \"Oui\" : \"Non\");\n"+
+"\n"+
+"ga('set', 'dimension1', brand);\n"+
+"ga('set', 'dimension2', section);\n"+
+"ga('set', 'dimension7', translatePageType(pageType));\n"+
+"ga('set', 'dimension8', prdref);\n"+
+"ga('set', 'dimension9', amount);\n"+
+"\n"+
+"if (eligibility.length)\n"+
+"{\n"+
+"	ga('set', 'dimension3', eligibility);\n"+
+"}\n"+
+"\n"+
+"ga('set', 'dimension4', 'prospect');\n"+
+"\n"+
+"if (transaction)\n"+
+"{\n"+
+"	ga('set', 'dimension5', type);\n"+
+"	ga('set', 'dimension6', orderGroupType);\n"+
+"}\n"+
+"\n"+
+"if (pageType == \"estimate\" && type == \"test-eligibilite\")\n"+
+"{\n"+
+"	ga('send', 'event', 'Test Eligibilite', eligibility);\n"+
+"}\n"+
+"else if (pageType == \"basket\")\n"+
+"{\n"+
+"	ga('send', 'event', 'Panier', brand + \"_\" + section);	\n"+
+"}\n"+
+"else\n"+
+"{\n"+
+"  ga('send', 'pageview');\n"+
+"  \n"+
+"  if (transaction)\n"+
+"  {\n"+
+"    ga('send', 'event', 'Purchase', orderGroupType, type, {'nonInteraction': 1});\n"+
+"  }\n"+
+"}")
+);
+ /* /!mtembedjs */
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:201,ccmth:234,v:0,hdlr:tag} */
+try{
+/* Native */
+_oEa.gloadtimeout(5000,"DEQwyRwgEDJm_8YpRfivuKy49QjywyyQOf8OXftU",_oEa.gloadimg("https://cm.g.doubleclick.net/pixel?google_nid=eulerian_dmp&google_cm&ethost=elr.sfr.fr&etws=sfr-fr"));
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:207,ccmth:240,v:0,hdlr:tag} */
+try{
+/* JS */
+ /* !mtembedjs */
+_oEa.gloadtimeout(
+5000,
+"DEQwyRwgEDJm_8YpRfhMPM4qodke9JOeTBs42Jq9",
+_oEa.gloadjssrc("//cdn.tradelab.fr/tag/132b495b40.js","var pagetype = \"content\";\n"+
+"\n"+
+"var extra_info = {\n"+
+"  'brand':        'sfr', \n"+
+"  'section':      'home', \n"+
+"  'pagetype':     'content', \n"+
+"  'eligibility':  '', \n"+
+"  'clientType':   'prospect'\n"+
+"};\n"+
+"\n"+
+"if (pagetype == \"order\")\n"+
+"{\n"+
+"  extra_info.order_id = \"\";\n"+
+"  extra_info.orderGroupType = \"\";\n"+
+"}","")
+);
+ /* /!mtembedjs */
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+/* {ccmt:236,ccmth:270,v:0,hdlr:tag} */
+try{
+/* JS */
+ /* !mtembedjs */
+_oEa.gloadtimeout(
+5000,
+"DEQwyRwgEDJm_8YpRfhjcOpiw2bAI.2z3VENVeu7",
+_oEa.gloadjssrc("","","_oEa.uparam({'ab_test_1': \"7/8\"});")
+);
+ /* /!mtembedjs */
+ /* /mtjs */
+}catch(e){_oEa.log('ETM',e);}
+};
+_oEa.mtrun();
+_oEa.websiteend();
+ /* end !config */

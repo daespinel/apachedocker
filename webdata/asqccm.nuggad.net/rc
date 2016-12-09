@@ -1,0 +1,12 @@
+var nuggad_on=1;(function() {
+  window._adexc = window._adexc || [];
+     window.nugg_kv = window.nugg_kv || {};
+     window.nugg_kv.nuggsid=2145198114;
+     window.nugg_kv.nuggn=13981984;
+    window._adexc.push(
+    ['_kv',JSON.stringify(window.nugg_kv)]
+  );
+var axd = document.createElement('script'); axd.type = 'text/javascript'; axd.async = true;
+    axd.src = ('https:' === document.location.protocol ? 'https://' : 'https://') + 'dmp.theadex.com/d/244/575/s/adex.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(axd, s);
+})();

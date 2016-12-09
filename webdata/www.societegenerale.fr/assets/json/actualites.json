@@ -1,0 +1,35 @@
+{
+  "bandeau":
+  {
+    "lien": "https://logs128.xiti.com/go.url?xts=412253&xtor=AD-1001422&url=https://www.lequizdespiliers.societegenerale.com",
+    "initial_height" : "218px",
+    "initial_background_position" : "center",
+    "media_query_string" : "(max-width: 500px)",
+    "media_query_height" : "120px",
+    "media_query_background_position" : "center"
+  },
+  "cartes":
+  {
+    "lien": "https://www.particuliers.societegenerale.fr/essentiel_quotidien/paylib.html#xtor=AD-1001421",
+    "titre": "JEU PAYLIB",
+    "texte": "Jusqu'au 28 octobre, 200 codes de réduction de 100 € mis en jeu !"
+  },
+  "jeunes":
+  {
+    "lien": "https://logs128.xiti.com/go.url?xts=412253&xtor=AD-1001318url=https://www.pret-rentree.fr",
+    "titre": "PRÊT ÉTUDIANT A 0%",
+    "texte": "Financez vos projets sans justificatif de dépenses."
+  },
+  "pro":
+  {
+    "lien": "https://professionnels.societegenerale.fr/financements/jet_professionnel.html",
+    "titre": "FINANCEMENT PRO",
+    "texte": "Une réponse en 24h pour un crédit jusqu’à 50 000 EUR"
+  },
+  "ent":
+  {
+    "lien": "https://entreprises.societegenerale.fr/",
+    "titre": "entreprises",
+    "texte": "A vos côtés pour vous proposer des solutions sur mesure."
+  }
+}

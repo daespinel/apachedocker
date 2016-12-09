@@ -1,0 +1,109 @@
+function OAS_RICH(position) {
+if (position == 'BottomRight') {
+document.write ('<!-- BEGIN JS TAG - linternaute.com news mtf - HP Pave2 MTF  < - DO NOT MODIFY --><center><script type="text/javascript">document.write(');
+document.write ("'");
+document.write ('<script src="https://ib.adnxs.com/ttj?id=1201630&size=300x250&promo_sizes=300x250&promo_alignment=center&referrer=linternaute.com&cb=1682090773&pt1=https://ba.commentcamarche.net/3/fr_linternaute/L14/1682090773@BottomRight?RM_Exclude=ASQ" type="text/javascript"><');
+document.write ("'");
+document.write ('+');
+document.write ("'");
+document.write ('/script>');
+document.write ("'");
+document.write (');</script></center><!-- END TAG -->');
+}
+if (position == 'Frame1') {
+document.write ('<!-- BEGIN JS TAG - linternaute.com news atf - HP Pave1 ATF  < - DO NOT MODIFY --><center><script type="text/javascript">document.write(');
+document.write ("'");
+document.write ('<script src="https://ib.adnxs.com/ttj?id=1201625&size=300x600&promo_sizes=300x600&promo_alignment=center&referrer=linternaute.com&cb=270794097&pt1=https://ba.commentcamarche.net/3/fr_linternaute/L14/270794097@Frame1?RM_Exclude=ASQ" type="text/javascript"><');
+document.write ("'");
+document.write ('+');
+document.write ("'");
+document.write ('/script>');
+document.write ("'");
+document.write (');</script></center><!-- END TAG -->');
+}
+if (position == 'Position4') {
+document.write ('<style type="text/css">\n');
+document.write ('\n');
+document.write ('div.box.publi-info { padding-bottom:0; border: 1px solid #D8D8D8; padding: 15px; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; line-height:20px;}\n');
+document.write ('\n');
+document.write ('#global #droite div.box.publi-info { width:270px; }\n');
+document.write ('\n');
+document.write ('div.box.publi-info div.titre {color:#cf0118;margin-bottom:5px; font-size:16px; font-weight:bold;text-transform: uppercase;}\n');
+document.write ('\n');
+document.write ('div.box.publi-info p.sous-titre {color:#214e92; margin-bottom:0;}\n');
+document.write ('\n');
+document.write ('div.box.publi-info a {color: #A21460;}\n');
+document.write ('\n');
+document.write ('div.box.publi-info a:hover {color: #4A99CF;}\n');
+document.write ('\n');
+document.write ('div.box.publi-info p { margin-bottom:5px; }\n');
+document.write ('\n');
+document.write ('div.box.publi-info p.pied { font-size:10px;margin:0; font-family:verdana; font-size:8px; background:url(https://r.linter.fr/femmes/image/habillage/pictos/puces/grise.png) 0 6px no-repeat; padding-left:8px;}\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('div.box.partenaires { padding:10px;  background: url("https://r.linter.fr/femmes/image/habillage/background/degrade_gris.png") repeat-x left top #F1F1F1; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; line-height:20px;    border: 1px solid #D8D8D8;}\n');
+document.write ('\n');
+document.write ('#global #droite div.box.partenaires { width:280px; }\n');
+document.write ('\n');
+document.write ('div.box.partenaires div.titre { font-weight:normal; color:#333; font-size:16px; text-transform: uppercase;margin-bottom: 15px;}\n');
+document.write ('\n');
+document.write ('div.box.partenaires ul { list-style:none; }\n');
+document.write ('\n');
+document.write ('div.box.partenaires li { margin-bottom:10px;  float: left;    margin-right: 5px; }\n');
+document.write ('\n');
+document.write ('div.box.partenaires a { color:#333; text-decoration:none; }\n');
+document.write ('\n');
+document.write ('div.box.partenaires img { border: 1px solid #D8D8D8;  float: left;   margin: 0 0 8px;    padding: 3px;margin-right: 10px; }\n');
+document.write ('\n');
+document.write ('</style>      \n');
+document.write ('\n');
+document.write ('   <div class="publi-info">\n');
+document.write ('\n');
+document.write ('           \n');
+document.write ('\n');
+document.write ('   <div class="box bordure contributif partenaires">\n');
+document.write ('\n');
+document.write ('        \n');
+document.write ('\n');
+document.write ('  <div class="titre"><a href="https://www.linternaute.com/info-marques/">Nos offres partenaires</a></div>\n');
+document.write ('\n');
+document.write ('        <ul class="inline">\n');
+document.write ('\n');
+document.write ('<li>\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_linternaute/L14/177140392/Position4/OasDefault/reseau_box_janv15/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023513178519469.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/50743/" title="glace"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/reseau_box_janv15//boc_glace.gif" /></a>\n');
+document.write ('\n');
+document.write ('           		<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_linternaute/L14/177140392/Position4/OasDefault/reseau_box_janv15/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023513178519469.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/50743/" title="letudiante">Percez les secrets de l’Antarctique - au cin&eacute;ma le 21 octobre</a></li>\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<li>\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_linternaute/L14/177140392/Position4/OasDefault/reseau_box_janv15/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023513178519469.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/50641/" title="grandjour"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/reseau_box_janv15//appeltexte-It2.jpg" /></a>\n');
+document.write ('\n');
+document.write ('           		<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_linternaute/L14/177140392/Position4/OasDefault/reseau_box_janv15/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023513178519469.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/50641/" title="triumph">It lingerie : Triumph c&eacute;l&egrave;bre Amourette</a></li>\n');
+document.write ('\n');
+document.write ('        </ul>\n');
+document.write ('\n');
+document.write ('        <div style="clear:both;"></div>\n');
+document.write ('\n');
+document.write ('    </div>\n');
+document.write ('\n');
+document.write ('    \n');
+document.write ('\n');
+document.write ('</div>');
+}
+if (position == 'TopLeft') {
+document.write ('<script type="text/javascript" src="https://as.ebz.io/api/choixPubJS.htm?pid=305360&screenLayer=1&mode=NONE&home=https://www.linternaute.com/"></script>\n');
+document.write ('\n');
+document.write ('<script language="JavaScript" src="https://ba.commentcamarche.net/RealMedia/ads/cap.cgi?c=ftjdf&dv=1&e=1d&s=1"></script>');
+}
+if (position == 'x01') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_linternaute/254171651/x01/default/empty.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/default/empty.gif"  width="1" height="1" alt="" BORDER=0 border="0"></a>');
+}
+if (position == 'x02') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_linternaute/L14/83051219/x02/OasDefault/int_inflow_ebuzzing_2014/empty2.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/int_inflow_ebuzzing_2014/empty2.gif"  alt=""  border="0"></a>');
+}
+}

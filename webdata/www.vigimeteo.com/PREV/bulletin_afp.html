@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	   "https://www.w3.org/TR/html4/strict.dtd">
+<html lang="fr-FR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META NAME="Description" CONTENT="Prévisions  de Météo-France bulletin AFP" />
+<META NAME="Publisher" CONTENT="Météo-France">
+<META NAME="Author" LANG="fr" CONTENT="C G" /> 
+<META NAME="Date" CONTENT=" 2 JUIL  2015 "/>
+<META NAME="viewport" CONTENT="user-scalable=yes,width=device-with"/>
+<META NAME="Keywords" CONTENT="meteo,météo,meteofrance,meteo paris,previsions, alerte,pluie,neige,verglas,orage,vagues,rafales,pression,tempete "/>
+<meta name="robots" content="noindex, nofollow">
+
+<title>Pr&eacute;visions de M&eacute;t&eacute;o-France bulletin</title>
+
+
+<style type="text/css">
+
+           #innerDiv {
+                position:  absolute;
+				z-index: 2;
+            }
+			
+			body{
+				font-family: Arial,  sans-serif 
+				font-size: 12px;
+			}
+			
+			  .gris {
+		width: 10px;
+		background: #F8F8F8;
+		text-align: justify;
+      }
+	
+
+</style>
+
+ <script>
+ var flag_afp=0;
+
+var dateinsert
+var datej=""
+var titre="";
+var temps="";
+var datej1=""
+var titre1="";
+var temps1="";
+
+var bul_nom="";
+
+var AFP="../data/FPFX50_LFPW_.xml"
+function loadXMLDoc(dname)
+{
+	if (window.XMLHttpRequest)
+	  {// code for IE7+, Firefox, Chrome, Opera, Safari
+	  xhttp=new XMLHttpRequest();
+	  }
+	else
+	  {// code for IE6, IE5
+	  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	  }
+	xhttp.open("GET",dname,false);
+	xhttp.send();
+	return xhttp.responseXML;
+} 
+
+
+function get_afp(AFP){
+		var hsh = new Date();
+		var alea=(hsh.getFullYear()-2000)*365*24*60+hsh.getMonth()*60*24*30+hsh.getDay()*60*24+hsh.getHours()*60  + hsh.getMinutes(); 
+		var get_url=""+AFP+"?"+alea+"";
+		var xmlDoc=loadXMLDoc(get_url); // lecture 
+		if(xmlDoc==null){
+			datej=""
+			flag_afp=1;
+			return;
+
+		}
+		if(xmlDoc.getElementsByTagName("bulletin")[0]==null){
+				datej=""
+				flag_afp=1;
+				return;
+
+		}
+		bul_nom=xmlDoc.getElementsByTagName("bulletin")[0].getAttribute("nom");
+		dateinsert=xmlDoc.getElementsByTagName("bulletin")[0].getAttribute("date_heure_production");
+		
+		
+		
+		dateprevue=xmlDoc.getElementsByTagName("bulletin")[0].getAttribute("validite")
+
+		x=xmlDoc.getElementsByTagName("groupe")[0].getAttribute("nom");
+	// ie n'est pas perturbé par le RC alors que les autres les comptent pour des noeuds vides
+		var c=xmlDoc.getElementsByTagName("groupe")[0].childNodes;
+		var j=0;
+		for (var i=0; i<c.length; i++)  {
+			 if( c[i].childNodes[0]==undefined) continue
+	  			if(j==0){
+					datej= c[i].childNodes[0].data
+					j++
+				}
+				else if(j==1){
+					titre= c[i].childNodes[0].data
+					j++
+				}
+				else if(j==2){
+					temps= c[i].childNodes[0].data
+					j++
+				}
+ 		 }
+// demain
+		if(xmlDoc.getElementsByTagName("groupe")[1]==undefined){
+			 datej1="";
+			 titre1="";
+			 temps1="";
+			 
+		}
+		else{
+		c=xmlDoc.getElementsByTagName("groupe")[1].childNodes;
+		var j=0;
+		for (var i=0; i<c.length; i++)  {
+			 if( c[i].childNodes[0]==undefined) continue
+	  			if(j==0){
+					datej1= c[i].childNodes[0].data
+					j++
+				}
+				else if(j==1){
+					titre1= c[i].childNodes[0].data
+					j++
+				}
+				else if(j==2){
+					temps1= c[i].childNodes[0].data
+					j++
+				}
+ 		 }
+		}
+		flag_afp=1;
+}
+//************************
+var MAX_M=30;// nb mots
+var VIDEO=1; // lien video
+dx_afp=650 // largeur bloc
+if(VIDEO==0) MAX_M+=2
+
+function affiche_afp(){
+
+
+
+		if(datej==""){ // bulletin afp indisponible
+			 txt=""
+			 return(txt);
+		}
+
+		//remplace RC 10 par <br>
+			var tempf="";
+			for(var i=0;i<temps.length;i++){
+				var c=temps.charAt(i)
+				if(temps.charCodeAt(i)!=10){// recherche 0A
+					tempf+=c;
+				}
+				else{
+					tempf+="<br>&nbsp;&nbsp;&nbsp;&nbsp;";
+				}
+			}
+			var tempf2="";
+			for(var i=0;i<temps1.length;i++){
+				var c=temps1.charAt(i)
+				if(temps1.charCodeAt(i)!=10){
+					tempf2+=c;
+				}
+				else{  // on remplace RC par 
+					tempf2+="<br>&nbsp;&nbsp;&nbsp;&nbsp;";
+				}
+			}
+			
+			var mot=titre.split(" ")
+					
+				var titre1="";
+				var max_mot=mot.length
+				if(max_mot>MAX_M) max_mot=MAX_M;
+				for(var i=0;i<max_mot;i++){
+					if(titre1.length+mot[i].length>270) break;
+					titre1+=mot[i]+" "
+				}
+				var txt="<table width='"+dx_afp+"' border='0' cellspacing='0' cellpadding='0'  >";  
+			//	txt+="<tr bgcolor='#FFFFFF' >  <td class='gris' >&nbsp</td><td   width='"+dx_afp+"'   height='18' align='center' bgcolor='#F8F8F8'  style='font-family: Arial,sans-serif  ;font-size: 14px'  ><strong> "+bul_nom+"</strong><br> </td> <td class='gris' >&nbsp</td>   </tr>";
+			//	txt+="<tr bgcolor='#FFFFFF' > <td class='gris' >&nbsp</td> <td   width='"+dx_afp+"'   height='20' align='center' bgcolor='#F8F8F8'  style='font-family: Arial,sans-serif'  >(&eacute;mis&nbsp;le&nbsp;"+dateinsert+") </td>  <td class='gris' >&nbsp</td>  </tr>";
+				
+				if(VIDEO==1) txt+="<tr bgcolor='#FFFFFF' >  <td class='gris' >&nbsp</td><td   width='"+dx_afp+"'  height='30' align='left' bgcolor='#F8F8F8'    style='font-family: Arial,sans-serif;text-align:justify; color: #084B8A  ;font-size: 12px' > <strong> "+datej+"</strong>&nbsp;&nbsp;"+titre1+"&nbsp;...&nbsp;<a href='https://www.meteofrance.com/meteo-infos/bulletin-france' target='_parent' >Lire la suite</a>&nbsp;...&nbsp;<a href='https://www.youtube.com/channel/UCnBToLuuyq7Qn5j7e5BRhaw' target='_blank' >Voir la vidéo</a></td>  <td class='gris' >&nbsp</td>  </tr>";
+				else  txt+="<tr bgcolor='#FFFFFF' >  <td class='gris' >&nbsp</td><td   width='"+dx_afp+"'  height='30' align='left' bgcolor='#F8F8F8'    style='font-family: Arial,sans-serif;text-align:justify; color: #084B8A  ;font-size: 12px' > <strong> "+datej+"</strong>&nbsp;&nbsp;"+titre1+"&nbsp;...&nbsp;<a href='https://www.meteofrance.com/meteo-infos/bulletin-france' target='_parent' >Lire la suite</a>&nbsp;...&nbsp;</td>  <td class='gris' >&nbsp</td>  </tr>";
+					
+				//txt+="<tr bgcolor='#FFFFFF' > <td class='gris' >&nbsp</td> <td   width='"+dx_afp+"'   height='12' align='left' bgcolor='#F8F8F8'   style='font-family: Arial,sans-serif;text-align:justify' ><p  style='font-family: Arial,sans-serif;text-align:justify'>&nbsp;&nbsp;"+tempf+"</p></td> <td class='gris' >&nbsp</td>   </tr>";
+				
+				if(datej1!=""){
+					//txt+="<tr bgcolor='#FFFFFF' > <td class='gris' >&nbsp</td> <td   width='"+dx_afp+"'  height='30' align='left' bgcolor='#F8F8F8'  style='font-family: Arial,sans-serif;text-align:justify; color: #084B8A  ;font-size: 12px' >  <strong>"+datej1+"</strong>&nbsp;&nbsp;"+titre1+"<a href='https://www.meteofrance.com/meteo-infos/bulletin-france' target='_parent' > Lire la suite...</a></td> <td class='gris' >&nbsp</td>   </tr>";
+				//	txt+="<tr bgcolor='#FFFFFF' > <td class='gris' >&nbsp</td> <td   width='"+dx_afp+"'   height='12' align='left' bgcolor='#F8F8F8'  style='font-family: Arial,sans-serif;text-align:justify' ><p  style='font-family: Arial,sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp; "+tempf2+"</p></td>  <td class='gris' >&nbsp</td>  </tr>";
+				}
+				
+			//	txt+="<tr bgcolor='#F8F8F8'>    <td  height='2'    align='center' ></td> <td class='gris' >&nbsp</td><td class='gris' >&nbsp</td> </tr>";
+				txt+="</table>";
+				
+				return(txt);
+
+}
+
+
+get_afp(AFP)
+var texte=affiche_afp()
+document.write(""+texte+"")
+ </script>   
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+    <script src="//ns.sascdn.com/diff/templates/js/banner/sas-clicktag-2.0.js"></script>
+    <script type="text/javascript">var clickTag="";</script>
+    <style type="text/css">
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del,dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+        a{text-decoration: none;}
+        body { line-height: 1; background: grey; }
+        #container { position: absolute; top: 0; left: 0; width: 1000px; height: 90px; background: #ffffff; border: 1px solid black; overflow: hidden !important; box-sizing: border-box; cursor: pointer;}
+        #logo{ position: absolute; top: 8px; left: 50%; margin-left: -123px; width: 247px; height: 80px; opacity: 0; transform-origin: 0% 0%; transform: scale(0.9);}
+        #txt1_content{position: absolute; top: 0px; left: 0; width: 728px; height: 90px; z-index: 3; overflow: hidden;}
+        #txt1{ position: absolute; top: 0px; left: 250px; width: 550px; height: 170px; display: none; opacity: 0; transform-origin: 50% 0%; transform: scale(0.75); z-index: 3;}
+        #txt1_img{ position: absolute; top: 0px; left: 250px; width: 550px; height: 170px; display: none;  transform-origin: 50% 0%; transform: scale(0.75); z-index: 3;}
+        #taux{ position: absolute; top: 15px; left: 1000px; width: 310px; height: 164px; transform-origin: 50% 0%; transform: scale(0.85); z-index: 2;}
+        #cta{ position: absolute; top: 30px; left: 1000px; width: 235px; height: 180px; transform-origin: 50% 100%; transform: scale(1); z-index: 1;}
+        #logo_fin{ position: absolute; top: 8px; left: 8px; width: 108px; height: 23px; background-image: url('images/logo.png'); background-size: 108px 35px; background-repeat: no-repeat; opacity: 0; z-index: 4;}
+        #mention{ position: absolute; bottom: 3px; right: 3px; width: 103px; height: 8px; opacity: 0;}
+    </style>
+</head>
+<body>
+<a onClick="window.open(clickTag, '_blank')">
+<div id="container">
+    <img id="logo" src="images/logo.png">
+    <div id="txt1_content">
+        <img id="txt1_img" src="images/txt1.png">
+        <img id="txt1" src="">
+    </div>
+    <img id="taux" src="images/taux.png">
+    <img id="cta" src="images/cta.png">
+    <div id="logo_fin"></div>
+    <img id="mention" src="images/mention.png">
+</div>
+</a>
+<script>
+(function(e,t){function w(e){return e.replace(/([a-z])([A-Z])/,"$1-$2").toLowerCase()}function E(e){return r?r+e:e.toLowerCase()}var n="",r,i,s,o={Webkit:"webkit",Moz:"",O:"o"},u=window.document,a=u.createElement("div"),f=/^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i,l,c,h,p,d,v,m,g,y,b={};e.each(o,function(e,i){if(a.style[e+"TransitionProperty"]!==t){n="-"+e.toLowerCase()+"-";r=i;return false}});l=n+"transform";b[c=n+"transition-property"]=b[h=n+"transition-duration"]=b[d=n+"transition-delay"]=b[p=n+"transition-timing-function"]=b[v=n+"animation-name"]=b[m=n+"animation-duration"]=b[y=n+"animation-delay"]=b[g=n+"animation-timing-function"]="";e.fx={off:r===t&&a.style.transitionProperty===t,speeds:{_default:400,fast:200,slow:600},cssPrefix:n,transitionEnd:E("TransitionEnd"),animationEnd:E("AnimationEnd")};e.fn.animate=function(n,r,i,s,o){if(e.isFunction(r))s=r,i=t,r=t;if(e.isFunction(i))s=i,i=t;if(e.isPlainObject(r))i=r.easing,s=r.complete,o=r.delay,r=r.duration;if(r)r=(typeof r=="number"?r:e.fx.speeds[r]||e.fx.speeds._default)/1e3;if(o)o=parseFloat(o)/1e3;return this.anim(n,r,i,s,o)};e.fn.anim=function(n,r,i,s,o){var u,a={},E,S="",x=this,T,N=e.fx.transitionEnd,C=false;if(r===t)r=e.fx.speeds._default/1e3;if(o===t)o=0;if(e.fx.off)r=0;if(typeof n=="string"){a[v]=n;a[m]=r+"s";a[y]=o+"s";a[g]=i||"linear";N=e.fx.animationEnd}else{E=[];for(u in n)if(f.test(u))S+=u+"("+n[u]+") ";else a[u]=n[u],E.push(w(u));if(S)a[l]=S,E.push(l);if(r>0&&typeof n==="object"){a[c]=E.join(", ");a[h]=r+"s";a[d]=o+"s";a[p]=i||"linear"}}T=function(t){if(typeof t!=="undefined"){if(t.target!==t.currentTarget)return;e(t.target).unbind(N,T)}else e(this).unbind(N,T);C=true;e(this).css(b);s&&s.call(this)};if(r>0){this.bind(N,T);setTimeout(function(){if(C)return;T.call(x)},r*1e3+25)}this.size()&&this.get(0).clientLeft;this.css(a);if(r<=0)setTimeout(function(){x.each(function(){T.call(this)})},0);return this};a=null})(Zepto)
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){anim_banner();});
+    var izi=Math.random();
+    $('#txt1').attr('src', 'images/txt1.gif?v='+izi);
+    function anim_banner(){
+        setTimeout(function(){$("#logo").animate({opacity: 1}, 500, 'linear');}, 250);
+        setTimeout(function(){$("#logo").animate({opacity: 0}, 500, 'linear');}, 1500);
+        setTimeout(function(){$("#txt1").css({display:'block'});}, 2000);
+        setTimeout(function(){$("#txt1").animate({opacity: 1}, 1000, 'linear');}, 2000);
+        setTimeout(function(){$("#txt1").css({display:'none'});}, 3600);
+        setTimeout(function(){$("#txt1_img").css({display:'block'});}, 3600);
+        // setTimeout(function(){$("#txt1_content").animate({width: 329}, 500, 'easeInOut');}, 3680);
+        setTimeout(function(){$("#txt1_img").animate({left: "150px"}, 500, 'easeInOut');}, 3680);
+        // setTimeout(function(){$("#txt1_img").animate({left: "-15px"}, 500, 'easeInOut');}, 3680);
+        setTimeout(function(){$("#taux").animate({left:450}, 500, 'easeInOut');}, 3680);
+        // setTimeout(function(){$("#taux").animate({left:300}, 500, 'easeInOut');}, 3680);
+        setTimeout(function(){$("#mention").animate({opacity: 1}, 300, 'easeInOut');}, 4000);
+        // setTimeout(function(){$("#txt1_img").animate({left: "-55px"}, 300, 'easeInOut');}, 5200);
+        setTimeout(function(){$("#txt1_img").animate({left: "60px"}, 300, 'easeInOut');}, 5200);
+        setTimeout(function(){$("#taux").animate({left: 345}, 300, 'easeInOut');}, 5200);
+        // setTimeout(function(){$("#taux").animate({left: 218}, 300, 'easeInOut');}, 5200);
+        setTimeout(function(){$("#cta").animate({left: 540}, 250, 'easeInOut');}, 5200);
+        // setTimeout(function(){$("#cta").animate({left: 400}, 250, 'easeInOut');}, 5200);
+        setTimeout(function(){$("#logo_fin").animate({opacity: 1}, 500, 'easeInOut');}, 5400);
+        $("#container").mouseover(function(){$("#cta").animate({scale: 0.95}, 250, 'easeOut');});
+        $("#container").mouseleave(function(){$("#cta").animate({scale: 1}, 250, 'easeOut');});
+    };
+</script>
+</body>
+</html>

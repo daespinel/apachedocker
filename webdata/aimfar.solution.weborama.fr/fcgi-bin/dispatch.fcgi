@@ -1,0 +1,1 @@
+webo_parseProfile({"socio_demographics":{"social_class":"22","age":"0","gender":"8"},"clusters":["77"],"audiences":["478","480","481","482","489"]});

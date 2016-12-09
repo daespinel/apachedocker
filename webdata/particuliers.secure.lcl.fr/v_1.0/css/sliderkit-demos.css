@@ -1,0 +1,31 @@
+/** 
+ *  sliderkit-demos.css
+ *	> CSS code for demos
+ *  
+ *  This file is part of Slider Kit jQuery plugin.
+ *  http://www.kyrielles.net/sliderkit/
+ *  
+ *  Copyright (c) 2010-2012 Alan Frog
+ *  Licensed under the GNU General Public License
+ *  See <license.txt> or <http://www.gnu.org/licenses/>
+ *
+ */
+
+/*
+ *  NEWS SLIDERS
+ *  ------------------------------------------------
+ */
+
+/*---------------------------------
+ *  News slider > Minimal
+ *---------------------------------*/
+.newslider-minimal{width:260px;height:80px;}
+
+/* Navbar */
+.newslider-minimal .sliderkit-panels{float:left;position:relative;width:235px; margin-top: 6px;}
+.newslider-minimal .sliderkit-panel{height:50px; }
+.newslider-minimal .sliderkit-panel a:link, .newslider-minimal .sliderkit-panel a:visited {display:block; color: #263F92;}
+.newslider-minimal .sliderkit-panel a:hover{text-decoration:underline;}
+
+/* Buttons > Disable */
+.newslider-minimal .sliderkit-legend{float:left; margin: 10px 10px 0 0;}

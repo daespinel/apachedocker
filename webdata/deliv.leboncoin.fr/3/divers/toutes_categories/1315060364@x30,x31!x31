@@ -1,0 +1,18 @@
+document.write ('<!--Leboncoin/ELE0024701-->\n');
+document.write ('<img src="https://aramis.commander1.com/v3/?tcs=1995&cmp=pr_leboncoin_nativeads_17&med=ri&chn=partners&src=leboncoin" style="display: none" />\n');
+document.write ('	<div class="oas-nativ-ads">\n');
+document.write ('    <a href="https://deliv.leboncoin.fr/RealMedia/ads/click_lx.ads/divers/toutes_categories/L24/341525021/x31/Leboncoin/ELE0024701/aramis_OI006642_annonce17.html/69634b6b4e3159626a6a674143567368?" target="_blank" class="oas-link">\n');
+document.write ('        <div class="oas-nativ-ad">\n');
+document.write ('            <div class="date">Annonce sponsoris&eacute;e</div>\n');
+document.write ('            <div class="oas-product-picture">\n');
+document.write ('                <img src="https://deliv.leboncoin.fr/RealMedia/ads/Creatives/Leboncoin/ELE0024701//160x120_native-ads-leboncoin-3-reprise-toutes-marques-et-tout-kilometrage.jpg" alt="">\n');
+document.write ('            </div>\n');
+document.write ('            <div class="detail">\n');
+document.write ('                <div class="oas-product-title">Combien vaut votre voiture?</div>\n');
+document.write ('                <div class="oas-product-text"><span>Estimez votre voiture en 2 minutes<br>Reprise et paiement en 24h</span></div>\n');
+document.write ('                <div class="oas-product-link">www.aramisauto.com</div>\n');
+document.write ('            </div>\n');
+document.write ('<div class="clear"></div>\n');
+document.write ('        </div>\n');
+document.write ('    </a>\n');
+document.write ('</div><img src="https://deliv.leboncoin.fr/5/divers/toutes_categories/L24/341525021/x31/Leboncoin/ELE0024701/aramis_OI006642_annonce17.html/69634b6b4e3159626a6a674143567368?_RM_EMPTY_&" style="display: none" >');

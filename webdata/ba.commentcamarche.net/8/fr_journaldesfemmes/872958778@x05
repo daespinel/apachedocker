@@ -1,0 +1,5 @@
+function OAS_RICH(position) {
+if (position == 'x05') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/935015397/x05/default/empty.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/default/empty.gif"  width="1" height="1" alt="" BORDER=0 border="0"></a>');
+}
+}

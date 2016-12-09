@@ -1,0 +1,1413 @@
+
+header.sfrNC {
+  font-size: 12px;
+  color: #1C1C1C;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 0;
+  display: block!important;
+  z-index: 40000;
+}
+header.sfrNC * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  text-align: left;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  -webkit-font-smoothing: auto;
+}
+header.sfrNC article,
+header.sfrNC aside,
+header.sfrNC details,
+header.sfrNC figcaption,
+header.sfrNC figure,
+header.sfrNC footer,
+header.sfrNC header,
+header.sfrNC hgroup,
+header.sfrNC menu,
+header.sfrNC nav,
+header.sfrNC section {
+  display: block;
+}
+header.sfrNC body {
+  line-height: 1;
+}
+header.sfrNC ol,
+header.sfrNC ul {
+  list-style: none;
+}
+header.sfrNC blockquote,
+header.sfrNC q {
+  quotes: none;
+}
+header.sfrNC blockquote:before,
+header.sfrNC blockquote:after,
+header.sfrNC q:before,
+header.sfrNC q:after {
+  content: '';
+  content: none;
+}
+header.sfrNC table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header.sfrNC a {
+  text-decoration: none;
+}
+header.sfrNC a:active,
+header.sfrNC a:focus,
+header.sfrNC a:hover {
+  text-decoration: none;
+}
+header.sfrNC .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+header.sfrNC .hidden {
+  display: none!important;
+}
+header.sfrNC .list-inline {
+  padding-left: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+header.sfrNC .list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+header.sfrNC .list-inline > li:first-child {
+  padding-left: 0;
+}
+header.sfrNC .list-inline > li:last-child {
+  padding-right: 0;
+}
+header.sfrNC .pull-right {
+  float: right !important;
+}
+header.sfrNC .pull-left {
+  float: left !important;
+}
+header.sfrNC .text-center {
+  text-align: center;
+}
+header.sfrNC .desktop {
+  display: block!important;
+}
+header.sfrNC .mobile,
+header.sfrNC .tablet {
+  display: none;
+}
+header.sfrNC strong {
+  font-weight: bold;
+}
+header.sfrNC .content {
+  max-width: 984px;
+  min-width: 720px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header.sfrNC .myosotis-btn,
+header.sfrNC .myosotis-link,
+header.sfrNC .caramel-btn,
+header.sfrNC .caramel-link {
+  display: inline-block !important;
+  margin: 0;
+}
+header.sfrNC .myosotis-btn {
+  font-size: 100% !important;
+  font: inherit !important;
+  line-height: 1.2em !important;
+  text-align: left !important;
+  position: relative !important;
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  background: #616197 !important;
+  border: 1px solid #616197 !important;
+  font-size: 16px !important;
+  font-family: "SFR-Regular" !important;
+  padding: 11px 16px !important;
+  color: #FFF !important;
+  box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -moz-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -webkit-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  transition: all 0.2s !important;
+  text-decoration: none !important;
+  vertical-align: bottom !important;
+}
+header.sfrNC .myosotis-btn:hover {
+  border: 1px solid #8e8ab3 !important;
+  background: #8e8ab3 !important;
+  box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -moz-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -webkit-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+}
+header.sfrNC .myosotis-btn:active {
+  border: 1px solid #a36a2c !important;
+  background: #494973 !important;
+  box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -moz-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -webkit-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-3d {
+  box-shadow: 0px 0px 0px transparent !important;
+  -moz-box-shadow: 0px 0px 0px transparent !important;
+  -webkit-box-shadow: 0px 0px 0px transparent !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-3d span.shadow {
+  height: 30px !important;
+  position: absolute !important;
+  width: 138px !important;
+  bottom: -35px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  background: transparent url("//static.s-sfr.fr/media/shadow-btn-3d-6.png") no-repeat !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-simple {
+  font-size: 13px !important;
+  font-family: Arial !important;
+  font-weight: bold !important;
+  padding: 7px 16px !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-simple * {
+  font-family: Arial !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-simple i {
+  background: transparent url("//static.s-sfr.fr/media/new-arrow-small.png") no-repeat !important;
+  width: 13px !important;
+  height: 16px !important;
+  background-position: 0 0 !important;
+  margin-left: 10px !important;
+  margin-right: 0px!important;
+  display: inline-block !important;
+  vertical-align: bottom !important;
+  position: relative !important;
+  top: 0px !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-simple.myosotis-btn-simple-important-plus {
+  font-size: 16px!important;
+  font-weight: normal!important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-simple.myosotis-btn-simple-important-plus i {
+  top: -1px !important;
+}
+header.sfrNC .myosotis-btn i {
+  background: transparent url("//static.s-sfr.fr/media/icon-new-arrow-1.png") no-repeat !important;
+  width: 14px !important;
+  height: 20px !important;
+  background-position: 0 0 !important;
+  margin-right: 10px !important;
+  display: inline-block !important;
+  vertical-align: bottom !important;
+  position: relative !important;
+  top: 1px !important;
+}
+header.sfrNC .myosotis-btn.caps {
+  text-transform: uppercase !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse {
+  color: #616197 !important;
+  border: 1px solid #d8d8d8 !important;
+  background: #f3f4f4 !important;
+  box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.15) !important;
+  -moz-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.15) !important;
+  -webkit-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.15) !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse:hover {
+  border: 1px solid #d8d8d8 !important;
+  background: #FFF !important;
+  box-shadow: 0px 2px 3px rgba(131, 131, 131, 0.175) !important;
+  -moz-box-shadow: 0px 2px 3px rgba(131, 131, 131, 0.175) !important;
+  -webkit-box-shadow: 0px 2px 3px rgba(131, 131, 131, 0.175) !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse:active {
+  border: 1px solid #d8d8d8 !important;
+  background: #e6e6e6 !important;
+  box-shadow: 0px 2px 3px rgba(131, 131, 131, 0.175) !important;
+  -moz-box-shadow: 0px 2px 3px rgba(131, 131, 131, 0.175) !important;
+  -webkit-box-shadow: 0px 2px 3px rgba(131, 131, 131, 0.175) !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-simple:active {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #e3e3e3)) !important;
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #efefef 0%, #e3e3e3 100%) !important;
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #efefef 0%, #e3e3e3 100%) !important;
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #efefef 0%, #e3e3e3 100%) !important;
+  /* IE10+ */
+  background: linear-gradient(to bottom, #efefef 0%, #e3e3e3 100%) !important;
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#e3e3e3', GradientType=0) !important;
+  /* IE6-9 */
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-disabled {
+  cursor: default !important;
+  text-shadow: 0 1px 0 #FFF !important;
+  background: #f0f0f0 !important;
+  color: #b4b4b4 !important;
+  box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.12) !important;
+  -moz-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.12) !important;
+  -webkit-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.12) !important;
+  border-color: #e4e4e4 !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-disabled i {
+  display: none !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-disabled:hover,
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-disabled:active {
+  background: #f0f0f0 !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-disabled.myosotis-btn-disabled-v2 {
+  background: #fff !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-disabled.myosotis-btn-disabled-v2:hover,
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-disabled.myosotis-btn-disabled-v2:active {
+  background: #fff !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse.myosotis-btn-3d span.shadow {
+  display: none !important;
+}
+header.sfrNC .myosotis-btn.myosotis-btn-inverse i {
+  background: transparent url("//static.s-sfr.fr/media/icon-new-arrow-inverse.png") no-repeat !important;
+}
+header.sfrNC .myosotis-link {
+  font-family: "SFR-Regular" !important;
+  font-size: 16px !important;
+  color: #222 !important;
+  display: inline-block !important;
+  height: 20px !important;
+  padding-top: 1px !important;
+  padding-right: 30px !important;
+  background: transparent url("//static.s-sfr.fr/media/fleche-droite-myosotis.png") right top no-repeat !important;
+  text-decoration: none !important;
+}
+header.sfrNC .myosotis-link:hover {
+  background-position: right -40px !important;
+  text-decoration: underline !important;
+}
+header.sfrNC .myosotis-link.caps {
+  text-transform: uppercase !important;
+}
+header.sfrNC .myosotis-link.tiny {
+  font-size: 13px !important;
+  background: transparent url("//static.s-sfr.fr/media/fleche-droite-myosotis-tiny.png") right top no-repeat !important;
+  padding-right: 25px !important;
+}
+header.sfrNC .myosotis-link.tiny:hover {
+  background-position: right -32px !important;
+}
+header.sfrNC .myosotis-pad {
+  border: 1px solid #f2f1f1 !important;
+  background: #fefcfc !important;
+  display: block !important;
+  padding: 3px !important;
+  text-decoration: none !important;
+  color: black !important;
+  width: 353px !important;
+  height: 115px !important;
+  transition: all 0.2s !important;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  -webkit-box-shadow: 1px 2px 7px -1px #aaaaaa;
+  -moz-box-shadow: 1px 2px 7px -1px #aaaaaa;
+  box-shadow: 1px 2px 7px -1px #aaaaaa;
+  border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+}
+header.sfrNC .myosotis-pad * {
+  font-family: "Arial" !important;
+  display: block !important;
+  transition: all 0.2s !important;
+}
+header.sfrNC .myosotis-pad > span {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+}
+header.sfrNC .myosotis-pad > span span {
+  margin-left: 9px !important;
+}
+header.sfrNC .myosotis-pad span > span:first-child {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  padding-top: 16px !important;
+  margin-bottom: 15px !important;
+}
+header.sfrNC .myosotis-pad span > span:first-child + span {
+  font-size: 13px !important;
+  line-height: 20px !important;
+}
+header.sfrNC .myosotis-pad span > span:first-child + span + span {
+  background: url("//static.s-sfr.fr/media/chevron-myosotis.png") no-repeat center center #eeeeee !important;
+  width: 94px !important;
+  height: 100% !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  border-radius: 0 4px 4px 0 !important;
+  -moz-border-radius: 0 4px 4px 0 !important;
+  -webkit-border-radius: 0 4px 4px 0 !important;
+}
+header.sfrNC .myosotis-pad:hover {
+  border: 1px solid #cfcbf5 !important;
+}
+header.sfrNC .myosotis-pad:hover > span {
+  background: url("//static.s-sfr.fr/media/bg-pad-myosotis-hover.png") repeat-x bottom !important;
+}
+header.sfrNC .myosotis-pad:hover span > span:first-child + span + span {
+  background: url("//static.s-sfr.fr/media/chevron-myosotis-hover.png") no-repeat center center #555480 !important;
+}
+header.sfrNC .myosotis-pad:active span > span:first-child + span + span {
+  background: url("//static.s-sfr.fr/media/chevron-myosotis-hover.png") no-repeat center center #8e8ab3 !important;
+}
+header.sfrNC .caramel-btn {
+  font-size: 100% !important;
+  font: inherit !important;
+  line-height: 1.2em !important;
+  text-align: left !important;
+  position: relative !important;
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  background: #aa6f2e !important;
+  border: 1px solid #aa6f2e !important;
+  font-size: 16px !important;
+  font-family: "SFR-Regular" !important;
+  padding: 11px 16px !important;
+  color: #FFF !important;
+  box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -moz-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -webkit-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  transition: all 0.2s !important;
+  text-decoration: none !important;
+  vertical-align: bottom !important;
+}
+header.sfrNC .caramel-btn:hover {
+  border: 1px solid #c47f35 !important;
+  background: #c47f35 !important;
+  box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -moz-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -webkit-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+}
+header.sfrNC .caramel-btn:active {
+  border: 1px solid #a36a2c !important;
+  background: #a36a2c !important;
+  box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -moz-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+  -webkit-box-shadow: 0px 2px 2px rgba(131, 131, 131, 0.4) !important;
+}
+header.sfrNC .caramel-btn.caramel-btn-3d {
+  box-shadow: 0px 0px 0px transparent !important;
+  -moz-box-shadow: 0px 0px 0px transparent !important;
+  -webkit-box-shadow: 0px 0px 0px transparent !important;
+}
+header.sfrNC .caramel-btn.caramel-btn-3d span.shadow {
+  height: 30px !important;
+  position: absolute !important;
+  width: 138px !important;
+  bottom: -35px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  background: transparent url("//static.s-sfr.fr/media/shadow-btn-3d-6.png") no-repeat !important;
+}
+header.sfrNC .caramel-btn.caramel-btn-simple {
+  font-size: 13px !important;
+  font-family: Arial !important;
+  font-weight: bold !important;
+  padding: 7px 16px !important;
+}
+header.sfrNC .caramel-btn.caramel-btn-simple * {
+  font-family: Arial !important;
+}
+header.sfrNC .caramel-btn.caramel-btn-simple i {
+  background: transparent url("//static.s-sfr.fr/media/new-arrow-small.png") no-repeat !important;
+  width: 13px !important;
+  height: 16px !important;
+  background-position: 0 0 !important;
+  margin-left: 10px !important;
+  margin-right: 0px!important;
+  display: inline-block !important;
+  vertical-align: bottom !important;
+  position: relative !important;
+  top: 0px !important;
+}
+header.sfrNC .caramel-btn.caramel-btn-simple.caramel-btn-simple-important-plus {
+  font-size: 16px!important;
+  font-weight: normal!important;
+}
+header.sfrNC .caramel-btn.caramel-btn-simple.caramel-btn-simple-important-plus i {
+  top: -1px !important;
+}
+header.sfrNC .caramel-btn i {
+  background: transparent url("//static.s-sfr.fr/media/icon-new-arrow-1.png") no-repeat !important;
+  width: 14px !important;
+  height: 20px !important;
+  background-position: 0 0 !important;
+  margin-right: 10px !important;
+  display: inline-block !important;
+  vertical-align: bottom !important;
+  position: relative !important;
+  top: 1px !important;
+}
+header.sfrNC .caramel-btn.caps {
+  text-transform: uppercase !important;
+}
+header.sfrNC .caramel-link {
+  font-family: "SFR-Regular" !important;
+  font-size: 16px !important;
+  color: #222 !important;
+  display: inline-block !important;
+  height: 20px !important;
+  padding-top: 1px !important;
+  padding-right: 30px !important;
+  background: transparent url("//static.s-sfr.fr/media/fleche-droite-myosotis-2.png") right top no-repeat !important;
+  text-decoration: none !important;
+  background-position: right -84px !important;
+}
+header.sfrNC .caramel-link:hover {
+  background-position: right -124px !important;
+  text-decoration: underline !important;
+}
+header.sfrNC .caramel-link.caps {
+  text-transform: uppercase !important;
+}
+header.sfrNC .caramel-link.tiny {
+  font-size: 13px !important;
+  background: transparent url("//static.s-sfr.fr/media/fleche-droite-myosotis-2-tiny.png") right -67px no-repeat !important;
+  padding-right: 25px !important;
+}
+header.sfrNC .caramel-link.tiny:hover {
+  background-position: right -99px !important;
+}
+header.sfrNC .myosotis-list {
+  list-style: none;
+  padding: 0;
+}
+header.sfrNC .myosotis-list li {
+  background: url(//static.s-sfr.fr/media/arrow-myosotis.png) no-repeat 0 5px;
+  padding: 2px 10px;
+}
+header.sfrNC .myosotis-list.list-style-2 li {
+  background: url(//static.s-sfr.fr/media/myosotis-list-2.png) no-repeat 0 4px;
+  padding-left: 15px;
+}
+header.sfrNC .top-header {
+  height: 32px;
+  background-color: #3d3d44;
+}
+header.sfrNC .top-header ul > li a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #f2f2f2;
+}
+header.sfrNC .top-header ul > li,
+header.sfrNC .top-header ul > li > a {
+  color: #f2f2f2;
+  line-height: 32px;
+}
+header.sfrNC .top-header .assistance-link a {
+  display: inline-block;
+  border: 1px solid #8b8b8f;
+  border-radius: 3px;
+  margin-left: 44px;
+  padding-left: 17px;
+  padding-right: 17px;
+  line-height: 20px;
+}
+header.sfrNC .top-header .assistance-link a:hover {
+  background-color: #4a4a53;
+  border-bottom: 1px solid #8b8b8f;
+}
+header.sfrNC .top-header .assistance-link.assistance-link--red a {
+    border: 1px solid #e2001a!important;
+    background-color: #e2001a!important;
+    margin-left :0;
+    padding: 0 8px;
+    font-weight: bold;
+}
+header.sfrNC .main-header {
+  background-color: #4a4a53;
+  height: 80px;
+}
+header.sfrNC .main-header > .content {
+  position: relative;
+}
+header.sfrNC .main-header ul > li {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+header.sfrNC .main-header ul > li a:hover {
+  text-decoration: none;
+}
+header.sfrNC .main-header ul > li a {
+  font: 18px 'SFR-Thin';
+  line-height: 42px;
+  color: #ffffff;
+}
+header.sfrNC .main-header .logo {
+  float: left;
+  width: 8.5%;
+  height: 80px;
+  padding-top: 10px;
+}
+header.sfrNC .main-header .pillars {
+  float: left;
+  padding-top: 10px;
+  width: 46%;
+  min-width: 400px;
+  height: 80px;
+}
+header.sfrNC .main-header .pillars p {
+  font-size: 11px;
+  color: #b2b2b2;
+  text-transform: uppercase;
+}
+header.sfrNC .main-header .pillars ul > li {
+  position: relative;
+}
+header.sfrNC .main-header .pillars ul > li.active a {
+  font-family: 'SFR-Bold';
+  -webkit-font-smoothing: antialiased;
+}
+header.sfrNC .main-header .pillars ul > li.active.hasMenu:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  background: url(//static.s-sfr.fr/media/menu-arrow-up.png) 50% 0 no-repeat;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+}
+header.sfrNC .main-header .account {
+  float: right;
+  width: 33%;
+  height: 80px;
+  padding-top: 23px;
+}
+header.sfrNC .main-header .account > ul {
+  white-space: nowrap;
+  text-align: right;
+}
+header.sfrNC .main-header .account > ul li {
+  position: relative;
+}
+header.sfrNC .main-header .account > ul li > a > i:before {
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+header.sfrNC .main-header .account > ul li > a > i.sfr-icon-arrow-down:before,
+header.sfrNC .main-header .account > ul li > a > i.sfr-icon-arrow-up:before {
+  font-size: 14px;
+}
+header.sfrNC .main-header .account .badge {
+  display: block;
+  position: absolute;
+  min-width: 18px;
+  padding-right: 6px;
+  padding-left: 3px;
+  height: 18px;
+  top: 5px;
+  left: 55%;
+  background-color: #e2001a;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 18px;
+  color: #FFF;
+  font-weight: bold;
+}
+header.sfrNC .main-header .account .badge > i:before {
+  font-size: 8px;
+  line-height: 18px;
+}
+header.sfrNC .main-header .account .dropdown-menu {
+  top: 38px;
+}
+header.sfrNC .main-header .dropdown-menu {
+  position: absolute;
+  right: 0;
+  display: block;
+  z-index: 40001;
+}
+header.sfrNC .main-header .logged,
+header.sfrNC .main-header .unlogged {
+  /*display: none;*/
+  background-color: #FFF;
+  border: 1px solid #4a4a53;
+  width: 182px;
+  padding: 10px 10px 20px 10px;
+  text-align: center;
+  position: relative;
+}
+header.sfrNC .main-header .logged h4,
+header.sfrNC .main-header .unlogged h4 {
+  text-align: center;
+  font: 17px 'SFR-Regular';
+  font-style: italic;
+  line-height: 40px;
+}
+header.sfrNC .main-header .logged h4 i,
+header.sfrNC .main-header .unlogged h4 i {
+  color: #707177;
+}
+header.sfrNC .main-header .logged p,
+header.sfrNC .main-header .unlogged p {
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+header.sfrNC .main-header .logged .arrow-up,
+header.sfrNC .main-header .unlogged .arrow-up {
+  display: block;
+  width: 17px;
+  height: 10px;
+  background: url(//static.s-sfr.fr/media/menu-arrow-up.png) 0 0 no-repeat;
+  position: absolute;
+  top: -9px;
+  right: 50px;
+}
+header.sfrNC .main-header .logged .myosotis-btn,
+header.sfrNC .main-header .unlogged .myosotis-btn {
+  font-size: 15px !important;
+  line-height: 15px !important;
+  padding: 7px 10px !important;
+}
+header.sfrNC .main-header .logged ul > li,
+header.sfrNC .main-header .unlogged ul > li {
+  padding: 0;
+}
+header.sfrNC .main-header .logged ul > li a,
+header.sfrNC .main-header .unlogged ul > li a {
+  padding-left: 13px;
+  padding-right: 13px;
+  display: block;
+  height: 40px;
+  font: 14px Arial, Helvetica;
+  line-height: 40px;
+  color: #1a171b;
+}
+header.sfrNC .main-header .logged ul > li a i,
+header.sfrNC .main-header .unlogged ul > li a i {
+  color: #b7b7b7;
+}
+header.sfrNC .main-header .logged ul > li a i.sfr-icon-remove-circ:before,
+header.sfrNC .main-header .unlogged ul > li a i.sfr-icon-remove-circ:before {
+  font-size: 18px;
+}
+header.sfrNC .main-header .logged ul > li a:hover,
+header.sfrNC .main-header .unlogged ul > li a:hover {
+  color: #FFF;
+  background-color: #636397;
+}
+header.sfrNC .main-header .logged {
+  padding: 0;
+}
+header.sfrNC .main-header .search {
+  display: block;
+  border-top: none!important;
+  position: absolute;
+  top: 27px;
+  left: 53%;
+  background-color: #3d3d44;
+  width: 10%;
+  height: 32px;
+  border-radius: 3px;
+  transition: width 300ms ease-out, background-color 300ms ease-out;
+}
+header.sfrNC .main-header .search input {
+  display: block;
+  height: 32px;
+  width: 100%;
+  border: none;
+  background: none transparent;
+  font: 14px Arial, Helvetica;
+  line-height: 32px;
+  color: #1a171b;
+  padding-left: 30px;
+}
+header.sfrNC .main-header .search input:focus {
+  outline: 0;
+}
+header.sfrNC .main-header .search.focused {
+  width: 47%;
+  background-color: #f2f2f2;
+}
+header.sfrNC .main-header .search.focused input {
+  display: block;
+}
+header.sfrNC .main-header .search.focused .icon-add-on {
+  color: #3d3d44;
+}
+header.sfrNC .main-header .search .icon-add-on {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  float: right;
+  display: block;
+  line-height: 32px;
+  text-align: center;
+  color: #FFF;
+  transition: color 300ms ease-out;
+}
+header.sfrNC .main-header .search .icon-add-on i:before {
+  font-size: 16px;
+  line-height: 32px;
+}
+header.sfrNC .main-header:before,
+header.sfrNC .main-header:after {
+  content: " ";
+  display: table;
+}
+header.sfrNC .main-header:after {
+  clear: both;
+}
+header.sfrNC .sub-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d2d2d2;
+}
+header.sfrNC .sub-header ul {
+  font-size: 0;
+}
+header.sfrNC .sub-header ul li {
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  background-image: url(//static.s-sfr.fr/media/sub-header-divider.png?nocacheplz);
+  background-position: 100% 50% ;
+  background-repeat: no-repeat;
+  height: 76px;
+}
+header.sfrNC .sub-header ul li a {
+  line-height: 74px;
+  font-family: 'SFR-Thin';
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #121212;
+}
+header.sfrNC .sub-header ul li a:hover span {
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+header.sfrNC .sub-header ul li img {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+header.sfrNC .sub-header ul li:last-child {
+  border-right: none;
+  background-image: none;
+}
+header.sfrNC .sub-header ul li.active {
+  /*
+            &:after{
+              content:"";
+              display: block;
+              width:17px;
+              height: 10px;
+              background: url(//static.s-sfr.fr/media/menu-arrow-up.png) 0 0 no-repeat;
+              position: absolute;
+              top:-9px;
+              left: 163px;
+            }
+            */
+  position: relative;
+  background-color: #FFF;
+}
+header.sfrNC .sub-header ul li.active a {
+  font-family: 'SFR-Regular';
+  line-height: 73px;
+}
+header.sfrNC .sub-header ul li.active:after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #F00;
+}
+header.sfrNC .main-header .logo img {
+    width: 62px;
+    height: 62px;
+}
+@media only screen and (max-width: 984px) {
+  header.sfrNC .tab-hidden {
+    display: none;
+  }
+  header.sfrNC .main-header .pillars ul > li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  header.sfrNC .main-header .account {
+    min-width: 0;
+    width: auto;
+  }
+}
+/* END HEADER */
+@media only screen and (max-width: 870px) {
+  .text-custom {
+    display: none!important;
+  }
+  header.sfrNC .main-header .search {
+    left: 58%;
+  }
+  header.sfrNC .main-header .search.focused {
+    width: 42%;
+  }
+  header.sfrNC .main-header .account .user .username {
+    display: none!important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header.sfrNC .desktop {
+    display: none!important;
+  }
+  header.sfrNC .mobile,
+  header.sfrNC .tablet {
+    display: block;
+    min-height: 50px;
+  }
+  header.sfrNC .drop-shadow {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+  }
+  header.sfrNC .drop-shadow.open {
+    z-index: 40501;
+    -webkit-animation: fadeIn 300ms;
+    animation: fadeIn 300ms;
+    display: block;
+    opacity: 1;
+  }
+  header.sfrNC .main-header {
+    height: 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    left: 0;
+    -webkit-transition: left 300ms;
+    -moz-transition: left 300ms;
+    -o-transition: left 300ms;
+    transition: left 300ms;
+  }
+  header.sfrNC .main-header.push {
+    width: 100%;
+    position: fixed;
+    z-index: 41000;
+  }
+  header.sfrNC .main-header.push.right {
+    left: 210px;
+  }
+  header.sfrNC .main-header.push.left {
+    left: -210px;
+  }
+  header.sfrNC .main-header.push.rightFull {
+    left: 100%;
+  }
+  header.sfrNC .main-header .logo {
+    float: none;
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  header.sfrNC .main-header .logo img {
+    width: 30px;
+    height: 30px;
+  }
+  header.sfrNC .main-header .menu {
+    white-space: nowrap;
+  }
+  header.sfrNC .main-header .menu i:before {
+    line-height: 50px;
+  }
+  header.sfrNC .main-header .menu li,
+  header.sfrNC .main-header .menu li a {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+  }
+  header.sfrNC .side-bar {
+    position: fixed;
+    overflow: scroll;
+    z-index: 41000;
+    top: 0;
+    width: 210px;
+    background-color: #3d3d44;
+    height: 100%;
+  }
+  header.sfrNC .side-bar .sign-in {
+    background-color: #ebebf0;
+    font: 16px 'SFR-Regular';
+    font-style: italic;
+    line-height: 64px;
+    position: relative;
+    overflow: hidden;
+  }
+  header.sfrNC .side-bar .sign-in i:before {
+    color: #6f6f76;
+  }
+  header.sfrNC .side-bar .sign-in:after {
+    position: absolute;
+    width: 10px;
+    height: 200%;
+    top: 0;
+    left: 0;
+    box-shadow: inset 2px -4px 5px rgba(0, 0, 0, 0.3);
+    content: "";
+    display: block;
+  }
+  @-webkit-keyframes fromLeft {
+    0% {
+      left: -210px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  @keyframes fromLeft {
+    0% {
+      left: -210px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  header.sfrNC .side-bar .fromLeft {
+    -webkit-animation-name: fromLeft;
+    animation-name: fromLeft;
+  }
+  @-webkit-keyframes toLeft {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -210px;
+    }
+  }
+  @keyframes toLeft {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -210px;
+    }
+  }
+  header.sfrNC .side-bar .toLeft {
+    -webkit-animation-name: toLeft;
+    animation-name: toLeft;
+  }
+  @-webkit-keyframes fromRight {
+    0% {
+      right: -210px;
+    }
+    100% {
+      right: 0;
+    }
+  }
+  @keyframes fromRight {
+    0% {
+      right: -210px;
+    }
+    100% {
+      right: 0;
+    }
+  }
+  header.sfrNC .side-bar .fromRight {
+    -webkit-animation-name: fromRight;
+    animation-name: fromRight;
+  }
+  @-webkit-keyframes toRight {
+    0% {
+      right: 0;
+      display: block;
+    }
+    99% {
+      right: -210px;
+    }
+    100% {
+      display: none;
+    }
+  }
+  @keyframes toRight {
+    0% {
+      right: 0;
+      display: block;
+    }
+    99% {
+      right: -210px;
+    }
+    100% {
+      display: none;
+    }
+  }
+  header.sfrNC .side-bar .toRight {
+    -webkit-animation-name: toRight;
+    animation-name: toRight;
+  }
+  header.sfrNC .side-bar.left {
+    left: -210px;
+    transition: width 300ms ease-out;
+  }
+  header.sfrNC .side-bar.left.open {
+    -webkit-animation: fromLeft 300ms;
+    animation: fromLeft 300ms;
+    display: block;
+    left: 0;
+  }
+  header.sfrNC .side-bar.left.close {
+    -webkit-animation: toLeft 300ms;
+    animation: toLeft 300ms;
+    left: -210px;
+  }
+  header.sfrNC .side-bar.left.full-open {
+    background-color: #FFF;
+    display: block;
+    left: 0;
+    width: 100%;
+  }
+  header.sfrNC .side-bar.left.full-open:after {
+    transition: width 300ms ease-out;
+    width: 100%;
+  }
+  header.sfrNC .side-bar.left.full-open ul {
+    background-color: #FFF;
+  }
+  header.sfrNC .side-bar.left.full-open ul li {
+    border-top: 1px solid #BBB;
+    border-bottom: transparent;
+  }
+  header.sfrNC .side-bar.left.full-open ul li a {
+    color: #111;
+  }
+  header.sfrNC .side-bar.left.full-open .search-wrapper {
+    padding-left: 60px;
+  }
+  header.sfrNC .side-bar.left.full-open .search-wrapper .search .icon-add-on {
+    left: 10px;
+  }
+  header.sfrNC .side-bar.left.full-open .search-wrapper .search input {
+    padding-left: 14px;
+  }
+  header.sfrNC .side-bar.left ul.white {
+    position: relative;
+    overflow: hidden;
+  }
+  header.sfrNC .side-bar.left ul.white:after {
+    position: absolute;
+    width: 10px;
+    height: 200%;
+    top: 0;
+    right: 0;
+    box-shadow: inset -2px -4px 5px rgba(0, 0, 0, 0.3);
+    content: "";
+    display: block;
+  }
+  header.sfrNC .side-bar.right {
+    right: -210px;
+    background-color: #4a4a53;
+  }
+  header.sfrNC .side-bar.right.open {
+    -webkit-animation: fromRight 300ms;
+    animation: fromRight 300ms;
+    display: block;
+    right: 0;
+  }
+  header.sfrNC .side-bar.right.close {
+    -webkit-animation: toRight 300ms;
+    animation: toRight 300ms;
+    right: -210px;
+  }
+  header.sfrNC .side-bar.right ul li i:before {
+    color: #6f6f76;
+  }
+  header.sfrNC .side-bar.right:after {
+    position: absolute;
+    width: 10px;
+    height: 200%;
+    top: 0;
+    left: 0;
+    box-shadow: inset 2px -4px 5px rgba(0, 0, 0, 0.3);
+    content: "";
+    display: block;
+  }
+  header.sfrNC .side-bar .search-wrapper {
+    background-color: #3d3d44;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  header.sfrNC .side-bar .search-wrapper:after {
+    position: absolute;
+    width: 10px;
+    height: 200%;
+    top: 0;
+    right: 0;
+    box-shadow: inset -2px -4px 5px rgba(0, 0, 0, 0.3);
+    content: "";
+    display: block;
+  }
+  header.sfrNC .side-bar .search {
+    border-radius: 3px;
+    border: 1px solid #DEDEDE;
+    height: 44px;
+    background-color: #FFF;
+  }
+  header.sfrNC .side-bar .search input {
+    float: left;
+    height: 42px;
+    width: 100%;
+    border: none;
+    background: none;
+    font: 14px 'SFR-Regular', Arial, Helvetica;
+    line-height: 44px;
+    color: #9c9e9f;
+    padding-left: 30px;
+  }
+  header.sfrNC .side-bar .search input:focus {
+    color: #1a171b;
+    outline: 0;
+  }
+  header.sfrNC .side-bar .search .icon-add-on {
+    width: 32px;
+    position: absolute;
+    height: 44px;
+    float: left;
+    display: block;
+    line-height: 44px;
+    text-align: center;
+    color: #afafaf;
+  }
+  header.sfrNC .side-bar .search .icon-add-on i:before {
+    font-size: 20px;
+    line-height: 44px;
+  }
+  header.sfrNC .side-bar ul li {
+    border-top: 1px solid #44444d;
+    border-bottom: 1px solid #333339;
+  }
+  header.sfrNC .side-bar ul li ul {
+    display: none;
+  }
+  header.sfrNC .side-bar ul li a {
+    display: block;
+    height: 40px;
+    padding-left: 14px;
+    font-family: 'SFR-Regular', Arial, Helvetica;
+    font-size: 15px;
+    color: #FFF;
+    line-height: 40px;
+  }
+  header.sfrNC .side-bar ul li.active > a {
+    font-family: 'SFR-Bold';
+    border-left: 6px solid #e2001a;
+  }
+  header.sfrNC .side-bar ul li.active ul:after {
+    border-top: transparent;
+  }
+  header.sfrNC .side-bar ul li.open ul {
+    display: block;
+  }
+  header.sfrNC .side-bar ul li.open ul li {
+    border-bottom: transparent;
+    border-top: 1px solid #414149;
+  }
+  header.sfrNC .side-bar ul li.open ul li a {
+    border-left: 6px solid #3e3e45;
+  }
+  header.sfrNC .side-bar ul li.open ul li.active > a {
+    font-family: 'SFR-Bold';
+    border-left: 6px solid #e2001a;
+  }
+  header.sfrNC .side-bar ul li.open ul:after {
+    border-top: transparent;
+  }
+  header.sfrNC .side-bar ul:after {
+    display: block;
+    content: "";
+    border-top: 1px solid #44444d;
+  }
+  header.sfrNC .side-bar ul.white {
+    background-color: #4a4a53;
+  }
+  header.sfrNC .side-bar ul.white li {
+    border-top: 1px solid #4f4f58;
+    border-bottom: 1px solid #3b3b42;
+  }
+  header.sfrNC .side-bar ul.white li a {
+    height: 69px;
+    font-size: 16px;
+    line-height: 69px;
+    color: #FFF;
+  }
+  header.sfrNC .side-bar ul.white:after {
+    border-top: transparent;
+  }
+}
+/* POP IN */
+header.sfrNC .popin {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+header.sfrNC .popin .popin-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  zoom: 1;
+  background-color: #000000;
+  background-color: transparent \9;
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+header.sfrNC .popin .popin-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+header.sfrNC .popin .popin-close {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background: #636397;
+  color: white;
+  font-size: 46px;
+}
+header.sfrNC .popin .popin-close .popin-close__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+header.sfrNC .popin .popin-content {
+  width: 100%;
+  overflow: hidden;
+}
+header.sfrNC .popin .popin-body {
+  width: 890px;
+  margin: 24px auto !important;
+  background-color: white;
+  position: relative;
+  font-size: 0;
+}
+header.sfrNC .popin.open {
+  display: block;
+}
+header.sfrNC .popin .table {
+  display: table;
+}
+header.sfrNC .popin .table-row {
+  display: table-row;
+}
+header.sfrNC .popin .table-cell {
+  display: table-cell;
+}
+header.sfrNC .popin .align-middle {
+  vertical-align: middle;
+}
+header.sfrNC .popin .popin-authent {
+  width: 847px;
+}
+header.sfrNC .popin .popin-bloc {
+  position: relative;
+  width: 423px;
+  height: 350px;
+  font-size: 14px;
+  float: left;
+}
+header.sfrNC .popin ul {
+  list-style: square !important;
+  padding-left: 14px;
+  font-family: Arial;
+}
+header.sfrNC .popin li {
+  margin: 10px 0;
+  list-style: square !important;
+}
+header.sfrNC .popin p {
+  font-weight: bold;
+  font-family: Arial;
+}
+header.sfrNC .popin span {
+  font: 24px 'SFR-Light';
+  display: block;
+  margin-bottom: 30px;
+}
+header.sfrNC .popin-bloc div {
+  padding: 30px 30px 20px !important;
+}
+header.sfrNC .popin .btn-wrapper {
+  position: absolute !important;
+  bottom: 20px;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+header.sfrNC .popin .popin-bloc-alt {
+  background: #eee;
+}
+header.sfrNC .popin a {
+  color: #FFF;
+  background-color: #636397;
+  border-color: #636397;
+  font: 16px 'SFR-Bold';
+  padding: 12px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: background 200ms ease, border 200ms ease;
+  -moz-transition: background 200ms ease, border 200ms ease;
+  -ms-transition: background 200ms ease, border 200ms ease;
+  transition: background 200ms ease, border 200ms ease;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  border-radius: 4px !important;
+}
+header.sfrNC .popin a:hover {
+  background-color: #8e8ab3;
+}
+header.sfrNC .header-link--red {
+    background-color: #e2001a;
+    font-weight: bold;
+}

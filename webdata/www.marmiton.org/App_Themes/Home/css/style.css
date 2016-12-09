@@ -1,0 +1,307 @@
+
+/* Panel Trouver une recette */
+.PanelTrouverUnerecette
+{
+    width: 208px;
+}
+.PanelTrouverUnerecette .TBPTopImage
+{
+    background-image: url(../../Home/img/panels/panel.trouver_une_recette.haut.png2);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 27px;
+    border-width: 0px;
+}
+.PanelTrouverUnerecette .TBPCentralContainer
+{
+    background-color: #F2F63F;
+    border-left: solid 1px #AAAAAA;
+    border-right: solid 1px #AAAAAA;
+}
+.PanelTrouverUnerecette .TBPBottomImage
+{
+    background-image: url(../../Home/img/panels/panel.trouver_une_recette.bas.png2);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 17px;
+    border-width: 0px;
+}
+
+/* Panel Menu Semaine*/
+.PanelMenuSemaine
+{
+    width: 208px;
+}
+.PanelMenuSemaine .TBPTopImage
+{
+    background-image: url(../../Home/img/panels/panel.menu_semaine.haut.png2);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 27px;
+    border-width: 0px;
+}
+.PanelMenuSemaine .TBPCentralContainer
+{
+    background-color: #F2F63F;
+    border-left: solid 1px #AAAAAA;
+    border-right: solid 1px #AAAAAA;
+}
+.PanelMenuSemaine .TBPBottomImage
+{
+    background-image: url(../../Home/img/panels/panel.menu_semaine.bas.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px;
+    border-width: 0px;
+}
+
+.panel_menuweek_item
+{
+    line-height: 2.5ex;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 0px;
+    border-top: solid 1px white;
+}
+
+/* Panel Inscription newsletter */
+.PanelInscriptionNewsLetter
+{
+    width: 208px;
+}
+.PanelInscriptionNewsLetter .TBPTopImage
+{
+    background-image: url(../../Common/img/panels/panel.nu.haut.208x9.a2a2a2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 9px;
+    border-width: 0px;
+}
+.PanelInscriptionNewsLetter .TBPCentralContainer
+{
+    background-color: white;
+    border-left: solid 1px #A2A2A2;
+    border-right: solid 1px #A2A2A2;
+}
+.PanelInscriptionNewsLetter .TBPBottomImage
+{
+    background-image: url(../../Common/img/panels/panel.nu.bas.208x9.a2a2a2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 9px;
+    border-width: 0px;
+}
+
+
+/* Panel Tout Frais */
+.PanelToutFrais
+{
+    width: 208px;
+}
+.PanelToutFrais .TBPTopImage
+{
+    background-image: url(../../Home/img/panels/panel.tout_frais.haut.png2);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 34px;
+    border-width: 0px;
+}
+.PanelToutFrais .TBPCentralContainer
+{
+    background-color: white;
+    border-left: solid 1px #A2A2A2;
+    border-right: solid 1px #A2A2A2;
+}
+.PanelToutFrais .TBPBottomImage
+{
+    background-image: url(../../Home/img/panels/panel.tout_frais.bas.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 9px;
+    border-width: 0px;
+}
+
+.panel_toutfrais
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.panel_toutfrais ul
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.panel_toutfrais li
+{
+    color: #555454;
+    line-height: 2.5ex;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 1px;
+    list-style-type: none;
+    border-top: solid 1px white;
+}
+
+.panel_toutfrais li a
+{
+    color: #555454;
+}
+
+
+/* Panel Photos Hasard */
+.PanelPhotosHasard
+{
+    width: 208px;
+}
+.PanelPhotosHasard .TBPTopImage
+{
+    background-image: url(../../Home/img/panels/panel.recette_au_hasard.haut.png2);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 28px;
+    border-width: 0px;
+}
+.PanelPhotosHasard .TBPCentralContainer
+{
+    background-color: #F2F63F;
+    border-left: solid 1px #AAAAAA;
+    border-right: solid 1px #AAAAAA;
+}
+.PanelPhotosHasard .TBPBottomImage
+{
+    background-image: url(../../Home/img/panels/panel.menu_semaine.bas.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25px;
+    border-width: 0px;
+}
+
+/* Panel Photos Semaine */
+.PanelPhotosSemaine
+{
+    width: 208px;
+}
+.PanelPhotosSemaine .TBPTopImage
+{
+    background-image: url(../../Home/img/panels/panel.photos_semaine.haut.png2);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 28px;
+    border-width: 0px;
+}
+.PanelPhotosSemaine .TBPCentralContainer
+{
+    background-color: #F2F63F;
+    border-left: solid 1px #AAAAAA;
+    border-right: solid 1px #AAAAAA;
+}
+.PanelPhotosSemaine .TBPBottomImage
+{
+    background-image: url(../../Home/img/panels/panel.photos_semaine.bas.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25px;
+    border-width: 0px;
+}
+
+
+/* Panel Sondage */
+.PanelSondage
+{
+    width: 208px;
+}
+.PanelSondage .TBPTopImage
+{
+    background-image: url(../../Home/img/panels/panel.photos_semaine.haut.png2);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 28px;
+    border-width: 0px;
+}
+.PanelSondage .TBPCentralContainer
+{
+    background-color: #F2F63F;
+    border-left: solid 1px #AAAAAA;
+    border-right: solid 1px #AAAAAA;
+}
+.PanelSondage .TBPBottomImage
+{
+    background-image: url(../../Home/img/panels/panel.photos_semaine.bas.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25px;
+    border-width: 0px;
+}
+
+/* Panel Mots gourmands */
+.PanelMotsGourmands
+{
+    width: 653px;
+}
+.PanelMotsGourmands .TBPTopImage
+{
+    background-image: url(../../Home/img/panels/panel.mots-gourmands.haut.png2);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30px;
+    border-width: 0px;
+}
+.PanelMotsGourmands .TBPCentralContainer
+{
+    background-color: white;
+    border-left: solid 1px #A2A2A2;
+    border-right: solid 1px #A2A2A2;
+}
+.PanelMotsGourmands .TBPBottomImage
+{
+    background-image: url(../../Home/img/panels/panel.mots-gourmands.bas.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px;
+    border-width: 0px;
+}
+
+/* Panel Communaute */
+
+.panel_communaute ul
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.panel_communaute li
+{
+    background: url(../img/panels/bulette.verte.png) 0px 5px no-repeat;
+    line-height: 2.5ex;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 0px;
+    list-style-type: none;
+    border-top: solid 1px white;
+}
+
+
+/* Panel Quelques Idees */
+
+.panel_quelquesidees, a.panel_quelquesidees:link, a.panel_quelquesidees:visited, a.panel_quelquesidees:active
+{
+    text-decoration: none;
+    font-size: 7.5pt;
+}
+

@@ -1,0 +1,42 @@
+<!-- header-mask [MASK]-->
+<div class="header-mask" ng-controller="HeaderController">
+    <!-- Header Container [Columns go here]-->
+    <div class="header-container">
+
+
+
+        <div class="header-column" ng-repeat="column in columns track by $index">
+            <!-- Column Item---------------------------------------------[SET 1]  -->
+            <a class="header-column-item" ng-repeat="tile in columns[$index]" href="{{tile.Url}}" alt="..." style="background:url({{tile.ThumbUrl}})no-repeat top center; background-size:cover;">
+                <!-- column-item-info [Only shows on hover]-->
+                <div class="column-item-info">
+                    <span class="h3 white">{{tile.Title}}</span>
+                    <!--<span class="header-sm-attr white">By dandeering for Diply News</span>-->
+                </div>
+                <i class="fa fa-chevron-circle-right"></i>
+            </a>
+            <!-- Column Item-->
+        </div>
+
+    </div><!-- header-container -->
+    <!-- diply-header-brand -->
+    <div class="diply-header-brand">
+        <!-- header-brand-logo -->
+        <div class="header-brand-logo">
+        </div>
+        <!-- header-brand-slogan -->
+    </div><!-- diply-header-brand [END]-->
+</div><!-- header-wrapper [MASK]-->
+<!-- Triangle Masks -->
+<!-- header-controller.js - Mask Behaviour -->
+<div class="triangle-mask">
+    <div class="triangle-left"></div>
+    <div class="triangle-right"></div>
+</div>
+
+<!-- Create Inspire Share -->
+<div class="create-wrap">
+    <div class="create-inspire-share">
+
+    </div>
+</div>  

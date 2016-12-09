@@ -1,0 +1,218 @@
+/* ========================================
+ * --------------------
+ * @author: Millie Maruani <millie.maruani@backstory.fr>
+ * @changelog:
+ * OCT - 01 - 2014: V 0.2
+ * ======================================== */
+
+.browsers,
+.i_infos_wrapper {
+	color:#666;
+}
+.navi a, .navi {
+	color:#333;
+}
+
+.browsers {
+	padding:30px;
+	font-size:13px;
+}
+
+.ie6 .browsers {
+	width:600px;
+}
+
+.browsers h2 {
+	font-family: Arial, sans-serif;
+	border-bottom: 1px dotted #C3C4C6;
+	font-size: 1.3em;
+	margin-top: 0;
+	padding-bottom: 3px;
+	color: #D00019;
+}
+
+div.navi {
+    background: #f5f5f5;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    float: left;
+    height: 145px;
+    margin-top: 10px;
+    text-align: center;
+    width: 135px;
+   
+}
+
+div.navi a{
+   text-decoration: underline;
+}
+div.navi a:hover{
+  color:#d00019;
+}
+
+
+
+div.navi + div.navi {
+    margin-left: 17px;
+}
+
+
+div.content_top {
+	margin:20px 0;
+}
+
+div.navi h3 {
+   margin: 1em 0 0;
+   font-size:1.1em;
+   font-weight:normal;
+}
+
+div.navi a img {
+   padding-bottom:8px;
+   display: block;
+   margin: 0 auto;
+}
+
+.browsers .buttons {
+	clear:both;
+	text-align:center;
+	margin-top:30px;
+}
+
+.i_infos_wrapper {
+	position:relative;
+	background: #f5f5f5;
+	padding: 20px 0;
+	font-size:13px;
+}
+
+.i_infos_wrapper.cnil_warning {
+	padding: 10px 0;
+}
+
+.i_infos {
+	position:relative;
+	display:table-cell;
+    vertical-align: middle;
+	background: none;
+	height: 50px;
+    padding: 0px 50px 0px 70px;
+}
+.i_infos h2 {
+	margin:0;
+	font-size:12px;
+	font-weight: bold;
+	color: #D00019;
+}
+
+.i_infos_wrapper  a.bouton-croix {
+    background: url("cnil/boutons/btn_fermer_popup.png") no-repeat scroll 0 12px;
+    cursor: pointer;
+    display: block;
+    outline: medium none;
+    overflow: hidden;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: -5px;
+    top: 0px;
+    margin-top: 0;
+    z-index: 2;
+}
+
+.i_infos_wrapper.cnil_warning  a.bouton-croix {
+    top: 50%;
+    margin-top: -25px;
+    right: -10px;
+}
+
+.ie6 .i_infos_wrapper.cnil_warning  a.bouton-croix {
+    top: 20px;
+    margin-top: 0;
+}
+
+.picto_infos {
+	 background: url("cnil/picto_infos.png") no-repeat scroll 0 0;
+	 width:28px;
+	 height:60px;
+	 position:absolute;
+	 left:25px;
+	 top:50%;
+	 margin-top:-14px;
+	 z-index:3;
+}
+
+.ie6 .picto_infos {
+	top:30px;
+	margin-top:0;
+}
+
+.cnil_warning .picto_infos {
+	 background: url("cnil/picto_cookie.png") no-repeat scroll 0 0;
+}
+
+.i_infos_wrapper  a.bouton-carre {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 4;
+}
+
+/* Style du bouton carré de DEI */
+
+a.bouton-carre {
+    /*-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("cnil/fond_bouton.png") repeat-x scroll left top #8c8c8c;
+    border-color: #999 #999 #717171;
+    border-image: none;
+    border:none;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;*/
+    display: inline-block;
+     *display:inline; zoom:1; /*hack ie7*/
+    font-family: Arial,Sans-Serif;
+    /*font-size: 1em;*/
+    font-size: 13px;
+    line-height: 26px;
+    height:26px;
+    min-width: 84px;
+    padding: 2px 13px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    
+    background: url("cnil/boutons/btn_majeur.png") repeat-x scroll 0 0 #f7f7f7;
+    color: #fff;
+    z-index:5;
+}
+
+a.bouton-carre:hover {
+    background-color: #7a7979;
+    background-position:0 -31px;
+    /*border: 1px solid transparent;*/
+    color: #fff;
+}
+.ie7 a.bouton-carre:hover {
+    /*border: 1px solid #717171;*/
+}
+.ie6 a.bouton-carre {
+	/*display:block;
+    width:86px;
+    height:23px; */
+   top:50px; 
+   width:84px;
+  
+   
+}
+a.bouton-carre:focus, a.bouton-carre:active, a.bouton-carre.active {
+    background-color: #b10021;
+    /*background-position: 0 -152px;
+    border: 1px solid transparent;*/
+    color: #fff;
+    text-shadow: none;
+}
+

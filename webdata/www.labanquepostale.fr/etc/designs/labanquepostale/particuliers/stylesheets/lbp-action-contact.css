@@ -1,0 +1,122 @@
+.actions-contacts {
+  margin: 20px 0;
+  clear: both;
+}
+.actions-contacts ul {
+  padding: 20px 60px;
+  border-top: 1px solid #b1b2b4;
+  border-bottom: 1px solid #b1b2b4;
+  list-style-type: none;
+}
+.actions-contacts ul:before,
+.actions-contacts ul:after {
+  content: " ";
+  display: table;
+}
+.actions-contacts ul:after {
+  clear: both;
+}
+.actions-contacts li {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+}
+.actions-contacts li a {
+  display: table;
+  height: 72px;
+  color: #000000;
+  line-height: 72px;
+}
+.actions-contacts li a:hover,
+.actions-contacts li a:focus {
+  color: #17479e;
+}
+.actions-contacts li a:hover .legend,
+.actions-contacts li a:focus .legend {
+  text-decoration: underline;
+}
+.actions-contacts li .icon {
+  display: table-cell;
+  line-height: 1em;
+  vertical-align: middle;
+}
+.actions-contacts li .icon-phone {
+  font-size: 4em;
+}
+.actions-contacts li .icon-location {
+  font-size: 4.5em;
+}
+.actions-contacts li .icon-advisor {
+  font-size: 3.5em;
+}
+.actions-contacts li .legend {
+  display: table-cell;
+  font: 0.9em 'AvenirLTStd85Heavy', Arial, sans-serif;
+  vertical-align: middle;
+}
+.actions-contacts li .legend span {
+  font-size: .70em;
+}
+.actions-contacts.style-corporate ul {
+  padding: 20px 85px;
+}
+.actions-contacts.style-corporate ul li {
+  width: 45%;
+  margin-left: 5%;
+}
+.actions-contacts.style-corporate ul li a .legend {
+  font: 0.9375em 'AvenirLTStd85Heavy', Arial, sans-serif;
+  line-height: 1.1em;
+}
+.actions-contacts.style-corporate ul li a .legend b {
+  font: 1.5em 'AvenirLTStd95Black', Arial, sans-serif;
+}
+.actions-contacts.style-corporate ul li a .legend span {
+  display: block;
+  font: 0.75em Verdana, Tahoma, sans-serif;
+  line-height: 1.2em;
+}
+@media (max-width: 767px) {
+  .actions-contacts ul {
+    margin: 20px 0 0;
+    padding: 20px 0;
+  }
+  .actions-contacts ul li a {
+    height: auto;
+  }
+  .actions-contacts ul li .icon {
+    height: 72px;
+    line-height: 72px;
+  }
+  .actions-contacts ul li .icon span {
+    vertical-align: middle;
+  }
+  .actions-contacts ul li a,
+  .actions-contacts ul li .icon,
+  .actions-contacts ul li .legend {
+    display: block;
+    margin: 0;
+  }
+  .actions-contacts.style-corporate ul {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .actions-contacts ul {
+    padding: 20px 0;
+  }
+  .actions-contacts.style-corporate ul {
+    padding: 20px 20px;
+  }
+}
+@media (min-width: 768px) {
+  .actions-contacts .icon {
+    display: inline-block;
+  }
+  .actions-contacts .legend {
+    display: inline-block;
+    margin-left: 12px;
+    text-align: left;
+    vertical-align: 7px;
+  }
+}

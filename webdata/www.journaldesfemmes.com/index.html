@@ -1,0 +1,1562 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="fr" class="no-js ie6 lt-ie9 lt-ie8 lt-ie7 oldie"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="fr" class="no-js ie7 lt-ie9 lt-ie8 oldie"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="fr" class="no-js ie8 lt-ie9 oldie"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="fr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="fr" class="no-js"> <!--<![endif]-->
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# journaldesfemmes: https://ogp.me/ns/fb/journaldesfemmes#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Femme : Le Journal des Femmes, magazine féminin...</title>
+        <script>var Asl=function(t){this.conf=t,this.init()};Asl.prototype={conf:{},writers:{},isZen:!1,loaded:null,positionsToWrite:[],positionsLoaded:[],eventPushed:{},callbackFunc:{firstLoad:[],slotLoaded:[],allSlotLoaded:[]},init:function(){var t=this.getScreenName();for(var i in this.conf.positions){var n=this.getParametersForPosition(i,t);n!==!1&&this.positionsToWrite.push(i)}return this.pushCallbackFunc("firstLoad",this.pushEvent),this.initZen()},pushEvent:function(t){if(this.eventPushed!==!0){if("undefined"==typeof _gaq&&"undefined"==typeof gaCCMBG)return void setTimeout(function(){asl.pushEvent(t)},50);var i="fail";1==t?i="success":0==t&&(i="fail"),"undefined"!=typeof _gaq&&_gaq.push(["_trackEvent","oas_loaded",i,null,null,!0]),"undefined"!=typeof gaCCMBG&&gaCCMBG("send",{hitType:"event",eventCategory:"oas_loaded",eventAction:i,nonInteraction:!0}),this.eventPushed=!0}},pushCallbackFunc:function(t,i){return"function"==typeof i&&"undefined"!=typeof this.callbackFunc[t]&&this.callbackFunc[t].push(i),this},execCallbackFunc:function(t,i){if("[object Array]"===Object.prototype.toString.call(this.callbackFunc[t]))for(var n=0,e=this.callbackFunc[t].length;e>n;n++)"function"==typeof this.callbackFunc[t][n]&&this.callbackFunc[t][n](i);return this},initZen:function(){for(var t=document.cookie.split("; "),i=null,n=0;n<t.length;n++)if(i=t[n].split("="),"asl_zen"===i[0])return this.isZen=!0,this;if(window.location.search.search(/utm_medium=(e)?mail/gi)>0){var e=new Date;e.setTime(e.getTime()+5*6e4),document.cookie="asl_zen=1; expires="+e.toUTCString()+"; path=/",this.isZen=!0}return this},getScreenWidth:function(){var t=document.documentElement;return"undefined"!=typeof t&&"undefined"!=typeof t.clientWidth&&0!=t.clientWidth?t.clientWidth:window.screen.width},getScreenName:function(){var t,i=this.getScreenWidth();for(t in this.conf.screens){var n=this.conf.screens[t];if(!n.min&&!n.max)return t;if(n.min&&n.max){if(i>=n.min&&i<=n.max)return t}else{if(n.min&&i>n.min)return t;if(n.max&&i<n.max)return t}}},getClientByScreen:function(t){return this.conf.screens[t].client},isInsvePosition:function(t){return this.isZen&&this.conf.positions[t].insve===!0},getParametersForPosition:function(t,i){return this.isInsvePosition(t)?!1:this.conf.positions[t].mapping&&this.conf.positions[t].mapping[i]?this.conf.positions[t].mapping[i]:!1},setLoadedPosition:function(t,i){return this.execCallbackFunc("slotLoaded",i),this.positionsLoaded.indexOf(t)!==-1?this:(this.positionsLoaded.push(t),this.isLoaded()===!0&&this.initPositionsLoaded().execCallbackFunc("allSlotLoaded",i),this)},isLoaded:function(){return this.positionsToWrite.length===this.positionsLoaded.length},initPositionsLoaded:function(){return this.positionsLoaded=[],this},write:function(t){if(this.conf.positions[t]){var i=this.getScreenName(),n=this.getParametersForPosition(t,i);if(n!==!1)return this.notice&&this.notice(t),this.writers[this.getClientByScreen(i)](t,n)}}};
+Asl.prototype.inject=function(from){var match=from.match(/<!--\[(([^ ]+)=(.*))\]-->/);null!==match&&("undefined"!=typeof JSON&&"undefined"!=typeof JSON.parse?window[match[2]]=JSON.parse(match[3]):eval(""+match[2]+"="+match[3]+";"))};Asl.prototype.fallback=function(t){if(t){var e=[],r=0,i=function(){return"undefined"==typeof jQuery?void setTimeout(i,50):void jQuery.ajax({type:"get",url:t,data:{p:e.join(",")},success:function(t){for(var e in t)switch(typeof t[e]){case"string":jQuery("#ba_"+e).html(t[e]);break;case"object":if(t[e].html&&jQuery("#ba_"+e).html(t[e].html),t[e].scripts)if("string"==typeof t[e].scripts)jQuery.ajax({url:t[e].scripts,dataType:"script",cache:!0});else if(jQuery.isArray(t[e].scripts))for(var r=0,i=t[e].scripts.length;i>r;++r)jQuery.ajax({url:t[e].scripts[r],dataType:"script",cache:!0})}}})};OAS_RICH=function(t){e.push(t),clearTimeout(r),r=setTimeout(i,250)}}};Asl.prototype.writers.sas = function (pos, params) {sasmobile(params['pageId'], params['formatId'], params['target']);};Asl.prototype.writers.oas = function (pos, params) {if(typeof OAS_RICH !== 'undefined') { OAS_RICH(params); }};asl = new Asl({screens: {"mobile":{"max":480,"client":"sas"},"tablet":{"min":480,"max":1024,"client":"oas"},"desktop":{"min":1024,"client":"oas"}},positions: {"x01":{"insve":false,"mapping":{"tablet":"x01","desktop":"x01"}},"x02":{"insve":true,"mapping":{"mobile":{"pageId":"76282\/564875","formatId":"13534","target":""},"tablet":"x59","desktop":"x02"}},"TopLeft":{"insve":true,"mapping":{"tablet":"x49","desktop":"TopLeft"}},"Right":{"insve":false,"mapping":{"tablet":"x29","desktop":"Right"}},"Position1":{"insve":false,"mapping":{"desktop":"Position1"}},"Position2":{"insve":false,"mapping":{"tablet":"x39","desktop":"Position2"}},"Right2":{"insve":false,"mapping":{"desktop":"Right2"}},"Position4":{"insve":false,"mapping":{"desktop":"Position4"}}},clients: {"sas":{"pageId":"","formatId":"","target":"","loaded":2},"oas":{"url":"http:\/\/ba.commentcamarche.net\/","query":["home=1"],"sitepage":"fr_journaldesfemmes","sameOriginHostname":"ba.journaldesfemmes.com","loaded":2}}});OAS_AD = function (pos) {asl.write(pos);};function sasmobile(a,s,t){1==sas_masterflag?(sas_masterflag=0,sas_master="M"):sas_master="S",asl.loaded=0,document.write("<scr"+"ipt onload=\"javascript:asl.execCallbackFunc('firstLoad', 1); asl.loaded=1;\""+" onerror=\"javascript:asl.execCallbackFunc('firstLoad', 0);\" "+'src="https://mobile.smartadserver.com/call2/pubmj/'+a+"/"+s+"/"+sas_master+"/"+sas_tmstp+"/"+escape(t)+'?"></scr'+"ipt>")}function sascc(a,s){var t=new Image;t.src="https://mobile.smartadserver.com/"+"/h/mcp?imgid="+a+"&pgid="+s+"&uid=[uid]"+"&tmstp="+sas_tmstp+"&tgt=[targeting]"}sas_tmstp=Math.round(1e10*Math.random()),sas_masterflag=1;!function(e){var a,n=e.conf.clients.oas,r=[];"object"==typeof n.query&&(r=n.query);var i=[],t=e.conf.positions,o=e.getScreenName();if("oas"===e.getClientByScreen(o)){for(var s in t){var c=e.getParametersForPosition(s,o);c!==!1&&i.push(c)}if(0!==i.length){a=i.join(",");var l=n.url,g=navigator.userAgent.indexOf("Safari")>-1&&navigator.userAgent.indexOf("Chrome")==-1;g&&n.sameOriginHostname&&(l="//"+n.sameOriginHostname+"/"),e.isZen&&r.push("noinsve"),e.loaded=0,document.write("<scr"+'ipt type="text/javascript" onload="javascript:asl.execCallbackFunc(\'firstLoad\', 1);asl.loaded=1"'+' onerror="asl.execCallbackFunc(\'firstLoad\', 0);" src="'+l+"4/"+n.sitepage+"/1"+new String(Math.random()).substring(2,11)+"@"+a+"?"+r.join("&")+'"></scr'+"ipt>")}}}(asl);</script><script>if (typeof OAS_RICH != 'undefined') { asl.inject(OAS_RICH.toString()); } if (typeof OAS_RICH == 'undefined') { asl.fallback('/api/layout/ads'); }</script>    <meta property="og:title" content="Femme : Le Journal des Femmes, magazine féminin..." />
+<meta property="og:description" content="Mode, déco, cuisine, beauté, psycho! Découvrez les conseils, témoignages, dossiers et reportages du Journal des Femmes. Et ses nombreux services." />
+<meta http-equiv="refresh" content="360" />
+<meta name="description" content="Mode, déco, cuisine, beauté, psycho! Découvrez les conseils, témoignages, dossiers et reportages du Journal des Femmes. Et ses nombreux services." />
+<meta http-equiv="Content-Language" content="fr" />
+<meta name="apple-itunes-app" content="app-id=374923042, affiliate-data=at=1l3v7Mj&ct=JDF" /><link rel="canonical" href="https://www.journaldesfemmes.com/" /><link href="https://static.ccmbg.com/www.journaldesfemmes.com/css/print.css?201510161110" rel="stylesheet" type="text/css" media="print" />
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Libre+Baskerville:400,400italic" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://static.ccmbg.com/fc/css.php?m=components&v=201509081654" rel="stylesheet" type="text/css" media="" />
+<link href="https://static.ccmbg.com/www.journaldesfemmes.com/asset/css?m=*|home-channel&amp;v=201510161110" rel="stylesheet" type="text/css" media="screen" /><link rel="shortcut icon" href="https://static.ccmbg.com/www.journaldesfemmes.com/favicon.ico?201510161110" />
+<link rel="apple-touch-icon" href="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/iconiphone.png?201510161110"/>
+<link rel="apple-touch-icon-precomposed" href="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/iconiphone.png?201510161110"/>
+<meta itemprop="image" content="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/iconiphone.png?201510161110" />
+<link rel="search" type="application/opensearchdescription+xml" href="/litesearch.xml" /><script type="text/javascript">
+    var _gaq = _gaq || [],
+        _custom_var_tech = _custom_var_tech || [];
+    if (typeof asl == 'object' && typeof asl.loaded == 'number') {
+        _custom_var_tech.push('oas' + asl.loaded);
+    }
+
+            _gaq.push(['_setAccount', 'UA-314706-7']);
+                    _gaq.push(['_setCustomVar', 1, 'app\/ccmcms', 'root', 3]);
+            _gaq.push(['_setCustomVar', 2, 'cat\/root', 'unknown', 3]);
+            _gaq.push(['_setCustomVar', 3, 'format\/unknown', 'unknown', 3]);
+            _gaq.push(['_setCustomVar', 4, 'tech\/all', _custom_var_tech.join('|'), 3]);
+            _gaq.push(['_setCustomVar', 5, 'author', 'unknown', 3]);
+        _gaq.push(['_trackPageview']);
+
+    if ((typeof ua_supp) != 'undefined') {
+        for (var key in ua_supp) {
+            if (ua_supp.hasOwnProperty(key)) {
+                _gaq.push([key+'._setAccount', ua_supp[key]]);
+                _gaq.push([key+'._setCustomVar', 1, 'app\/ccmcms', 'root', 3]);
+                _gaq.push([key+'._setCustomVar', 2, 'cat\/root', 'unknown', 3]);
+                _gaq.push([key+'._setCustomVar', 3, 'format\/unknown', 'unknown', 3]);
+                _gaq.push([key+'._setCustomVar', 4, 'tech\/all', _custom_var_tech.join('|'), 3]);
+                _gaq.push([key+'._setCustomVar', 5, 'author', 'unknown', 3]);
+                _gaq.push([key+'._trackPageview']);
+            }
+        }
+    }
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+<script type="text/javascript">
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] ||
+        function() {
+        	(i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'gaCCMBG');
+    gaCCMBG('create', 'UA-53157678-3');
+                    gaCCMBG('set', 'dimension1', 'ccmcms');
+                                gaCCMBG('set', 'dimension2', 'root');
+                                gaCCMBG('set', 'dimension3', 'unknown');
+                                gaCCMBG('set','dimension4',_custom_var_tech.join('|'));
+                                gaCCMBG('set', 'dimension5', 'unknown');
+                                gaCCMBG('set', 'dimension6', 'unknown');
+                
+    if (typeof asl == 'object' && typeof asl.loaded == 'number') {
+        gaCCMBG('set', 'dimension7', 'oas' + asl.loaded);
+    }
+
+    gaCCMBG('send', 'pageview');
+</script>        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.journaldesfemmes.com/",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.journaldesfemmes.com/recherche/?f_libelle={query}&valide=trouver",
+                "query-input": "required name=query"
+            }
+        }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="journaldesfemmes home tag-type-channel ccmcss-doc app--rwd">
+
+    <div id="fb-root"></div>
+    <div class="ccmcss_offcanvas_1">
+        <div class="ccmcss_offcanvas_2">
+
+            <!-- headerdebbloc -->
+
+
+<header class="ccmcss_rwd_header">
+    <div class="ccmcss_rwd_header__top">
+        <a href="javascript:void(0)" onClick="_gaq.push(['_trackEvent', 'global', 'header/responsive', 'burger/click', 1]);" id="jMenuResp" class="ccmcss_rwd_header__burger" aria-hidden="true" data-icomoon="&#59064;"></a>
+        <a href="javascript:void(0)" onClick="_gaq.push(['_trackEvent', 'global', 'header/responsive', 'search/click', 1]);" id="jSearchResp" class="ccmcss_rwd_header__search" aria-hidden="true" data-icomoon="&#59007;"></a>
+        <a href="https://www.journaldesfemmes.com/">
+            <img class="ccmcss_rwd_header__logo" src="https://static.ccmbg.com/www.journaldesfemmes.com/img/logo_jdf.svg" onerror="this.src='https://static.ccmbg.com/www.journaldesfemmes.com/img/logo_rwd.png'; this.onerror=null;" alt="Le Journal des femmes">
+        </a>
+    </div>
+
+    <div class="ccmcss_rwd_search">
+        <div class="ccmcss_rwd_search__form ccmcss_form ccmcss_form--inline">
+                        <form action="https://www.journaldesfemmes.com/recherche/" method="get" id="content_search_form">
+                <fieldset>
+                    <legend>Rechercher</legend>
+                    <div style="position: relative;" class="ccmcss_form__line grid_row grid--norwd">
+                        <div class="grid_col w100">
+                                                        <input placeholder="Recherche" type="search" name="f_libelle" placeholder="Recherche" />
+                                                    </div>
+                        <div class="grid_col">
+                            <button>
+                                <span class="ccmcss_btn ccmcss_btn--primary" aria-hidden="true" data-icomoon="&#59007;"></span>
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <nav class="ccmcss_rwd_header__nav">
+        <div class="ccmcss_rwd_header__log grid_row grid_row--fixed grid--norwd">
+            
+                <div class="grid_col w50">
+                    <a href="https://journaldesfemmes.com/register/"
+                       rel="nofollow">S'inscrire</a>
+                </div>
+
+                <div class="grid_col w50">
+                    <a href="https://www.journaldesfemmes.com/account/login">Connexion</a>
+                </div>
+                    </div>
+
+
+        <ul>
+                            <li class="nav_selected nav_home">
+                    <a href="https://www.journaldesfemmes.com/"
+                       aria-hidden=true                        >Accueil</a>
+                                    </li>
+
+                            <li class="nav_mode">
+                    <a href="https://www.journaldesfemmes.com/mode/"
+                                               >Mode</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://mode.journaldesfemmes.com/forum/">Forum</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/fashion-week/">Fashion Week</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/defiles/">Défilés</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mode/tenue-mariage/">Tenue de mariage</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mode/robe-jupe/">Robes et jupes</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mode/chemise-femme/">Tops, chemises</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mode/chaussures-femme/">Chaussures</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mode/sacs-a-main/">Sacs à main</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mode/silhouette/">Morpho</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mode/conseil/">Conseils</a></li>
+                                                            <li><a aria-hidden="true" href="https://mailing.ccmbg.com/archive/list-78-1">Newsletter</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mode/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_beaute">
+                    <a href="https://www.journaldesfemmes.com/beaute/"
+                                               >Beauté</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://beaute.journaldesfemmes.com/forum/">Forum</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/coiffure/">Coiffure</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/maquillage/">Maquillage</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/minceur/">Minceur</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/soin-visage/">Soins visage</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/soin-corps/">Soins corps</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/soin-anti-age/">Anti-âge</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/parfum/">Parfum</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/changez-de-coiffure/">Studio de coiffure</a></li>
+                                                            <li><a aria-hidden="true" href="https://mailing.ccmbg.com/archive/list-80-1?originesiteccm=jdf">Newsletter</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/beaute-ethnique/">Beauté éthnique</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/beaute/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_luxe">
+                    <a href="https://www.journaldesfemmes.com/luxe/"
+                                               >Luxe</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/defiles/">Défilés</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/luxe/bijoux-joaillerie/">Joaillerie</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/luxe/horlogerie-montre/">Horlogerie</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/luxe/accessoires-luxe/">Accessoires de luxe</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/luxe/sacs-de-luxe/">It bags</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/luxe/detours/">Détours</a></li>
+                                                            <li><a aria-hidden="true" href="https://mailing.ccmbg.com/archive/list-74-1?originesiteccm=jdf">Newsletter</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/luxe/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_deco">
+                    <a href="https://deco.journaldesfemmes.com"
+                                               >Déco</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://decoration.journaldesfemmes.com/forum/">Forum déco</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco-jardin.journaldesfemmes.com/forum/">Forum jardin</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/salon/">Séjour</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/cuisine/">Cuisine</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/salle-de-bains/">Salle de bains</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/chambre/">Chambre</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/petit-espace/">Petits espaces</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/couleur/">Couleur et déco</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/jardin/">Jardin & balcon</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/loisirs-creatifs/">Loisirs créatifs</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/art-de-la-table/">Déco de table</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/temoignage/">Témoignages</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com/pratique/">Fiches pratiques</a></li>
+                                                            <li><a aria-hidden="true" href="https://mailing.ccmbg.com/archive/list-76-1?originesiteccm=jdf">Newsletter</a></li>
+                                                            <li><a aria-hidden="true" href="https://deco.journaldesfemmes.com" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_famille">
+                    <a href="https://www.journaldesfemmes.com/maman/"
+                                               >Maman</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://maman.journaldesfemmes.com/forum/">Forum</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/grossesse/">Grossesse</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/bebe/">Bébé</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/enfant/">Enfant</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/ado/">Ados</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/pere/">Papa</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/prenoms/">Prénoms</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/pratique/mailing/maternite/toutes/">Calendrier de grossesse</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/ecole">Annuaire des écoles</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/creches">Annuaire des crèches</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/pratique/">Conseils pratiques</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/maternite">Guide des maternités</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/questionnaire/test/">Psychos-tests</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/nom-de-famille/">Noms de famille</a></li>
+                                                            <li><a aria-hidden="true" href="https://mailing.ccmbg.com/archive/list-81-1?originesiteccm=jdf">Newsletter</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/maman/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_mariage">
+                    <a href="https://www.journaldesfemmes.com/mariage/"
+                                               >Mariage</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://mariage.journaldesfemmes.com/forum/">Forum</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/robe-mariee/">Robe de mariée</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/alliance-bague/">Alliance</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/coiffure-mariage/">Coiffure</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/decoration-mariage/">Déco de mariage</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/faire-part/">Faire-part</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/vos-mariages/">Vos mariages</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/salon-du-mariage/">Salons du mariage</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/photo/">Photos</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/mariage/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_couple">
+                    <a href="https://www.journaldesfemmes.com/couple/"
+                                               >Couple</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://couple.journaldesfemmes.com/forum/">Forum couple</a></li>
+                                                            <li><a aria-hidden="true" href="https://couple.journaldesfemmes.com/forum/sexo-112">Forum sexo</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/couple/seduction/">Séduction</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/couple/vie-a-deux/">Vie à deux</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/couple/sexo/">Sexo</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/couple/rupture/">Rupture</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/couple/questionnaire/test/">Tests amour</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/couple/questionnaire/quiz/">Quiz sexo</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/couple/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_sante">
+                    <a href="https://sante.journaldesfemmes.com"
+                                               >Santé</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://sante-medecine.journaldesfemmes.com/forum/">Forum Santé Médecine</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante-medecine.journaldesfemmes.com/contents/">Encyclo</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante-medecine.journaldesfemmes.com/faq/">Pratique</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/allergie/">Allergies </a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/genital-urinaire/contraception/">Contraception</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/genital-urinaire/">Gynéco</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/dent-bouche/">Dents</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/nutrition-digestion/">Nutrition</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/coeur-cardiologie/">Cardio</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/peau-dermatologie/">Dermato</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/muscle-os/">Rhumato</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/yeux/">Ophtalmo</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/nerf-cerveau/">Neuro</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/medicaments">Médicaments</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com/calories">Calories</a></li>
+                                                            <li><a aria-hidden="true" href="https://mailing.ccmbg.com/archive/list-79-1?originesiteccm=jdf">Newsletter</a></li>
+                                                            <li><a aria-hidden="true" href="https://sante.journaldesfemmes.com" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_cuisiner">
+                    <a href="https://cuisine.journaldesfemmes.com"
+                                               >Cuisine</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://cuisiner.journaldesfemmes.com/forum/">Forum</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/toutes-les-recettes/">Recettes</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-entree">Entrées</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-plat-viande">Viandes</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-plat-poisson-fruit-de-mer">Poissons</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-dessert">Desserts</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-express">Recettes express</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-chef">Recettes de chefs</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-cuisine-du-monde">Cuisine du monde</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-cuisine-legere">Recettes minceur</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/recette-facile">Recettes facile</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com/encyclopedie/">Encyclopédie</a></li>
+                                                            <li><a aria-hidden="true" href="https://mailing.ccmbg.com/archive/list-86-1?originesiteccm=jdf">Newsletter</a></li>
+                                                            <li><a aria-hidden="true" href="https://cuisine.journaldesfemmes.com" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_people">
+                    <a href="https://www.journaldesfemmes.com/people/"
+                                               >People</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/people/actualite/">Actus people</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/people/photo/">Photos people</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/people/interview/">Interview people</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/people/amour/couple-stars/">Couples de stars</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/look-de-star/">Look de stars</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/people/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_societe">
+                    <a href="https://www.journaldesfemmes.com/societe/"
+                                               >Societe</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://journaldesfemmes.com/forum/">Forum</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/societe/combats-de-femmes/">Combats de femmes</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/societe/carriere/">Carrière</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/societe/environnement/">Environnement</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/societe/phenomenes-criminels/">Faits-divers</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/societe/phenomenes-de-societe/">Phénomènes de société</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/art-vivre/">Art de vivre</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/societe/magazine/">Magazine</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/societe/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                            <li class="nav_loisirs">
+                    <a href="https://www.journaldesfemmes.com/loisirs/"
+                                               >Loisirs</a>
+                                            <button class="app_nav__sub--collapse jNavSubCollapse" aria-hidden="true" data-icon="&#x2e;"></button>
+                        <ul>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/loisirs/auto/">Auto</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/loisirs/sorties/">Sorties</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/loisirs/voyages/">Voyages</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/loisirs/musique/">Musique</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/loisirs/livres/">Livres</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/loisirs/tv/">TV</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/loisirs/cinema/">Cinema</a></li>
+                                                            <li><a aria-hidden="true" href="https://www.journaldesfemmes.com/loisirs/" class="lighted">Tous les articles</a></li>
+                                                    </ul>
+                                    </li>
+
+                    </ul>
+
+
+    </nav>
+
+</header>
+
+<header   role="banner">
+
+    <div class="header_top">
+        <div class="layout">
+
+                        <div class="header_top__logo">
+                <a href="https://www.journaldesfemmes.com/" class="logo" ></a>
+            </div>
+
+                        <div class="header_top__ad header_top_oas"></div>
+
+            <div class="header_top__last">
+                <div class="grid_row gutter">
+                    <div class="grid_col grid_col--middle">
+                        <ul class="header_social">
+                            <li>
+                                <a class="header_social__fb" target="_blank" href="https://www.facebook.com/pages/Journal-des-Femmes/162484097109285?v=wall" aria-hidden="true" data-icomoon="&#59242;"></a>
+                            </li>
+                            <li><a class="header_social__pt" target="_blank" href="https://www.pinterest.com/journaldfemmes/" aria-hidden="true" data-icomoon="&#59303;"></a></li>
+                            <li><a class="header_social__tw" target="_blank" href="https://twitter.com/#!/journalDfemmes" aria-hidden="true" data-icomoon="&#59246;"></a></li>
+                            <li><a class="header_social__gg" target="_blank" href="https://plus.google.com/102595839239473007498/posts" aria-hidden="true" data-icomoon="&#59238;"></a></li>
+                        </ul>
+                    </div>
+                    <div class="grid_col grid_col--middle">
+
+                        
+                        <div class="header_log jHeaderDisconnected">
+                            <ul>
+                                <li><a id="subscribe" href="https://journaldesfemmes.com/register/" rel="nofollow">S'inscrire</a></li>
+                                <li><a class="login" href="https://www.journaldesfemmes.com/account/login" data-login-action="https://www.journaldesfemmes.com/journaldesfemmes.com/profile/https_login/" data-password-url="https://journaldesfemmes.com/profile/forgot_password" data-register-url="https://journaldesfemmes.com/register/" rel="nofollow">Connexion</a></li>
+                            </ul>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <form role="search" method="get" action="https://www.journaldesfemmes.com/recherche/">
+                    <fieldset>
+                        <legend>Moteur de recherche</legend>
+
+                                                <input placeholder="Recherche" type="search" name="f_libelle" placeholder="Recherche" />
+                        
+                        <button aria-hidden="true" data-icon="&#x21;"></button>
+                    </fieldset>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="header_nav">
+        <nav role="navigation">
+            <div class="layout">
+                <ul class="nav_main">
+                                            <li class="jHeaderContent nav_selected  nav_home">
+                                                        <a href="https://www.journaldesfemmes.com/"
+                               aria-hidden=true                               data-icon="&#x2d;"                            >&nbsp;</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_mode">
+                                                        <div class="sbnav ">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://mode.journaldesfemmes.com/forum/"><span class="icon_text">Forum</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/fashion-week/"><span class="icon_text">Fashion Week</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/defiles/"><span class="icon_text">Défilés</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mode/tenue-mariage/"><span class="icon_text">Tenue de mariage</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mode/robe-jupe/"><span class="icon_text">Robes et jupes</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mode/chemise-femme/"><span class="icon_text">Tops, chemises</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mode/chaussures-femme/"><span class="icon_text">Chaussures</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mode/sacs-a-main/"><span class="icon_text">Sacs à main</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mode/silhouette/"><span class="icon_text">Morpho</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mode/conseil/"><span class="icon_text">Conseils</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://mailing.ccmbg.com/archive/list-78-1"><span class="icon_text">Newsletter</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mode/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="128">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/mode/"
+                                                                                          >Mode</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_beaute">
+                                                        <div class="sbnav ">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://beaute.journaldesfemmes.com/forum/"><span class="icon_text">Forum</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/coiffure/"><span class="icon_text">Coiffure</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/maquillage/"><span class="icon_text">Maquillage</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/minceur/"><span class="icon_text">Minceur</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/soin-visage/"><span class="icon_text">Soins visage</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/soin-corps/"><span class="icon_text">Soins corps</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/soin-anti-age/"><span class="icon_text">Anti-âge</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/parfum/"><span class="icon_text">Parfum</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/changez-de-coiffure/"><span class="icon_text">Studio de coiffure</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://mailing.ccmbg.com/archive/list-80-1?originesiteccm=jdf"><span class="icon_text">Newsletter</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/beaute-ethnique/"><span class="icon_text">Beauté éthnique</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/beaute/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="188">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/beaute/"
+                                                                                          >Beauté</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_luxe">
+                                                        <div class="sbnav ">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/defiles/"><span class="icon_text">Défilés</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/luxe/bijoux-joaillerie/"><span class="icon_text">Joaillerie</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/luxe/horlogerie-montre/"><span class="icon_text">Horlogerie</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/luxe/accessoires-luxe/"><span class="icon_text">Accessoires de luxe</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/luxe/sacs-de-luxe/"><span class="icon_text">It bags</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/luxe/detours/"><span class="icon_text">Détours</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://mailing.ccmbg.com/archive/list-74-1?originesiteccm=jdf"><span class="icon_text">Newsletter</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/luxe/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="145">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/luxe/"
+                                                                                          >Luxe</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_deco">
+                                                        <div class="sbnav ">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://decoration.journaldesfemmes.com/forum/"><span class="icon_text">Forum déco</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco-jardin.journaldesfemmes.com/forum/"><span class="icon_text">Forum jardin</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/salon/"><span class="icon_text">Séjour</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/cuisine/"><span class="icon_text">Cuisine</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/salle-de-bains/"><span class="icon_text">Salle de bains</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/chambre/"><span class="icon_text">Chambre</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/petit-espace/"><span class="icon_text">Petits espaces</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/couleur/"><span class="icon_text">Couleur et déco</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/jardin/"><span class="icon_text">Jardin & balcon</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/loisirs-creatifs/"><span class="icon_text">Loisirs créatifs</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/art-de-la-table/"><span class="icon_text">Déco de table</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/temoignage/"><span class="icon_text">Témoignages</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com/pratique/"><span class="icon_text">Fiches pratiques</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://mailing.ccmbg.com/archive/list-76-1?originesiteccm=jdf"><span class="icon_text">Newsletter</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://deco.journaldesfemmes.com" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="13">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://deco.journaldesfemmes.com"
+                                                                                          >Déco</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_famille">
+                                                        <div class="sbnav ">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://maman.journaldesfemmes.com/forum/"><span class="icon_text">Forum</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/grossesse/"><span class="icon_text">Grossesse</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/bebe/"><span class="icon_text">Bébé</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/enfant/"><span class="icon_text">Enfant</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/ado/"><span class="icon_text">Ados</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/pere/"><span class="icon_text">Papa</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/prenoms/"><span class="icon_text">Prénoms</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/pratique/mailing/maternite/toutes/"><span class="icon_text">Calendrier de grossesse</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/ecole"><span class="icon_text">Annuaire des écoles</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/creches"><span class="icon_text">Annuaire des crèches</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/pratique/"><span class="icon_text">Conseils pratiques</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/maternite"><span class="icon_text">Guide des maternités</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/questionnaire/test/"><span class="icon_text">Psychos-tests</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/nom-de-famille/"><span class="icon_text">Noms de famille</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://mailing.ccmbg.com/archive/list-81-1?originesiteccm=jdf"><span class="icon_text">Newsletter</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/maman/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="65">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/maman/"
+                                                                                          >Maman</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_mariage">
+                                                        <div class="sbnav ">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://mariage.journaldesfemmes.com/forum/"><span class="icon_text">Forum</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/robe-mariee/"><span class="icon_text">Robe de mariée</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/alliance-bague/"><span class="icon_text">Alliance</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/coiffure-mariage/"><span class="icon_text">Coiffure</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/decoration-mariage/"><span class="icon_text">Déco de mariage</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/faire-part/"><span class="icon_text">Faire-part</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/vos-mariages/"><span class="icon_text">Vos mariages</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/salon-du-mariage/"><span class="icon_text">Salons du mariage</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/photo/"><span class="icon_text">Photos</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/mariage/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="51">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/mariage/"
+                                                                                          >Mariage</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_couple">
+                                                        <div class="sbnav ">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://couple.journaldesfemmes.com/forum/"><span class="icon_text">Forum couple</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://couple.journaldesfemmes.com/forum/sexo-112"><span class="icon_text">Forum sexo</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/couple/seduction/"><span class="icon_text">Séduction</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/couple/vie-a-deux/"><span class="icon_text">Vie à deux</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/couple/sexo/"><span class="icon_text">Sexo</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/couple/rupture/"><span class="icon_text">Rupture</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/couple/questionnaire/test/"><span class="icon_text">Tests amour</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/couple/questionnaire/quiz/"><span class="icon_text">Quiz sexo</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/couple/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="2489684">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/couple/"
+                                                                                          >Couple</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_sante">
+                                                        <div class="sbnav back">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante-medecine.journaldesfemmes.com/forum/"><span class="icon_text">Forum Santé Médecine</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante-medecine.journaldesfemmes.com/contents/"><span class="icon_text">Encyclo</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante-medecine.journaldesfemmes.com/faq/"><span class="icon_text">Pratique</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/allergie/"><span class="icon_text">Allergies </span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/genital-urinaire/contraception/"><span class="icon_text">Contraception</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/genital-urinaire/"><span class="icon_text">Gynéco</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/dent-bouche/"><span class="icon_text">Dents</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/nutrition-digestion/"><span class="icon_text">Nutrition</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/coeur-cardiologie/"><span class="icon_text">Cardio</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/peau-dermatologie/"><span class="icon_text">Dermato</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/muscle-os/"><span class="icon_text">Rhumato</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/yeux/"><span class="icon_text">Ophtalmo</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/nerf-cerveau/"><span class="icon_text">Neuro</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/medicaments"><span class="icon_text">Médicaments</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com/calories"><span class="icon_text">Calories</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://mailing.ccmbg.com/archive/list-79-1?originesiteccm=jdf"><span class="icon_text">Newsletter</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://sante.journaldesfemmes.com" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="30">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://sante.journaldesfemmes.com"
+                                                                                          >Santé</a>
+
+                                                            <ul class="sm_link" style="display:none;">
+                                    
+                                            <li class="sm_link" style="display:none;">
+                                                <a href="https://sante-medecine.journaldesfemmes.com/forum/">Forum Santé Médecine</a>
+                                            </li>
+                                            
+                                            <li class="sm_link" style="display:none;">
+                                                <a href="https://sante-medecine.journaldesfemmes.com/contents/">Encyclo</a>
+                                            </li>
+                                            
+                                            <li class="sm_link" style="display:none;">
+                                                <a href="https://sante-medecine.journaldesfemmes.com/faq/">Pratique</a>
+                                            </li>
+                                                                            </ul>
+                                                        </li>
+
+                                            <li class="jHeaderContent nav_cuisiner">
+                                                        <div class="sbnav back">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisiner.journaldesfemmes.com/forum/"><span class="icon_text">Forum</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/toutes-les-recettes/"><span class="icon_text">Recettes</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-entree"><span class="icon_text">Entrées</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-plat-viande"><span class="icon_text">Viandes</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-plat-poisson-fruit-de-mer"><span class="icon_text">Poissons</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-dessert"><span class="icon_text">Desserts</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-express"><span class="icon_text">Recettes express</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-chef"><span class="icon_text">Recettes de chefs</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-cuisine-du-monde"><span class="icon_text">Cuisine du monde</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-cuisine-legere"><span class="icon_text">Recettes minceur</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/recette-facile"><span class="icon_text">Recettes facile</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com/encyclopedie/"><span class="icon_text">Encyclopédie</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://mailing.ccmbg.com/archive/list-86-1?originesiteccm=jdf"><span class="icon_text">Newsletter</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://cuisine.journaldesfemmes.com" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="91">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://cuisine.journaldesfemmes.com"
+                                                                                          >Cuisine</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_people">
+                                                        <div class="sbnav back">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/people/actualite/"><span class="icon_text">Actus people</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/people/photo/"><span class="icon_text">Photos people</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/people/interview/"><span class="icon_text">Interview people</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/people/amour/couple-stars/"><span class="icon_text">Couples de stars</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/look-de-star/"><span class="icon_text">Look de stars</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/people/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="111">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/people/"
+                                                                                          >People</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_societe">
+                                                        <div class="sbnav back">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://journaldesfemmes.com/forum/"><span class="icon_text">Forum</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/societe/combats-de-femmes/"><span class="icon_text">Combats de femmes</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/societe/carriere/"><span class="icon_text">Carrière</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/societe/environnement/"><span class="icon_text">Environnement</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/societe/phenomenes-criminels/"><span class="icon_text">Faits-divers</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/societe/phenomenes-de-societe/"><span class="icon_text">Phénomènes de société</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/art-vivre/"><span class="icon_text">Art de vivre</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/societe/magazine/"><span class="icon_text">Magazine</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/societe/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="44">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/societe/"
+                                                                                          >Societe</a>
+
+                                                    </li>
+
+                                            <li class="jHeaderContent nav_loisirs">
+                                                        <div class="sbnav back">
+                                <div class="ct">
+                                    <div class="fil">
+                                        <ul>
+                                                                                            <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/loisirs/auto/"><span class="icon_text">Auto</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/loisirs/sorties/"><span class="icon_text">Sorties</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/loisirs/voyages/"><span class="icon_text">Voyages</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/loisirs/musique/"><span class="icon_text">Musique</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/loisirs/livres/"><span class="icon_text">Livres</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/loisirs/tv/"><span class="icon_text">TV</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/loisirs/cinema/"><span class="icon_text">Cinema</span></a></li>
+                                                                                                <li><a aria-hidden="true" data-icon="&#x25;" href="https://www.journaldesfemmes.com/loisirs/" class="lighted"><span>Tous les articles</span></a></li>
+                                                                                        </ul>
+                                    </div>
+                                                                        <div class="last_posts" data-channelId="2490547">
+                                    </div>
+                                                                    </div>
+                            </div>
+                                                        <a href="https://www.journaldesfemmes.com/loisirs/"
+                                                                                          >Loisirs</a>
+
+                                                    </li>
+
+                                    </ul>
+                                    <div class="sbmenu">
+                        <ul>
+                                                        <li>
+                                    <a href="https://www.journaldesfemmes.com/fashion-week/"
+                                                                        >Fashion Week</a>
+                                </li>
+                                                        <li>
+                                    <a href="https://www.journaldesfemmes.com/voiture/"
+                                                                        >Auto</a>
+                                </li>
+                                                        <li>
+                                    <a href="https://sante.journaldesfemmes.com/psychologie/horoscope/"
+                                                                        >Horoscope</a>
+                                </li>
+                                                        <li>
+                                    <a href="https://www.journaldesfemmes.com/concours/"
+                                                                        >Concours</a>
+                                </li>
+                                                        <li>
+                                    <a href="https://www.journaldesfemmes.com/prenoms/"
+                                                                        >Guide des prénoms</a>
+                                </li>
+                                                        <li>
+                                    <a href="https://www.journaldesfemmes.com/beaute/changez-de-coiffure/"
+                                                                        >Studio de coiffure</a>
+                                </li>
+                                                        <li>
+                                    <a href="https://www.journaldesfemmes.com/questionnaire/test/"
+                                                                        >Psycho-tests</a>
+                                </li>
+                                                        <li>
+                                    <a href="https://jeux.journaldesfemmes.com/"
+                                                                        >Jeux</a>
+                                </li>
+                                                </ul>
+                                            </div>
+                
+                            </div>
+        </nav>
+    </div>   
+
+</header>
+
+<div id="alternative_sidebar_follower" class="ccmcms_social_bar ccmcms_social_bar--top" style="opacity:0;">
+    <div class="layout">
+        <p>Partager cet article</p>
+        <div class="placeholder"></div>        
+        <a class="icoShare rss" href="https://www.journaldesfemmes.com/rss.shtml">
+            <span></span>
+            RSS
+        </a>        
+        
+            </div>
+</div><div class="ccmcms_social_bar--left-ct">
+    <div class="ccmcms_social_bar ccmcms_social_bar--left" id="sidebar_follower" style="display: none">
+            
+            <a class="icoShare rss" href="https://www.journaldesfemmes.com/rss.shtml">
+                <span></span>
+                RSS
+            </a>        
+            
+                           
+    </div>
+</div><!-- headerfinbloc -->
+
+            <div class="layout layout--offcanvas   gutter">
+
+                                    <div class="ccmcss_oas_top">
+                        <div id="ba_top" class="ba top"><script>OAS_AD('Top');</script></div><div id="ba_top1" class="ba top1"><script>OAS_AD('Top1');</script></div>                    </div>
+                
+                                <div class="layout_ct">
+                    
+                    <div class="layout_ct__1">
+                        <div class="layout_ct__2">
+                                                        <div role="main" class="layout_main">
+                            <!-- SLIDER -->
+<section class="app_slider_ct app_slider_ct--channel" data-banner="Lundi 19 octobre">
+    <div id="mainSlider" class="app_slider"><div id="slider-top"><div id="slider-top_slider" class="diapo content"><div class="item-sliderjs">
+        <figure class="app_slider__figure">
+            <a href="https://www.journaldesfemmes.com/mode/magazine/1428479-tendances-mode-printemps-ete-2016/">
+                 <span class="app_slider__img" style="background-image:url(https://image-femmes.linter.fr/image/650/587947671/3020.jpg);"></span>
+                 <figcaption>
+                    <div class="app_slider__legend">
+                        <span class="app_slider__suptitle"><span>Mode</span></span>
+                        <h2 class="app_slider__title"><span>Les tendances de la saison prochaine</span></h2>
+                    </div>
+                 </figcaption>
+             </a>
+        </figure>
+        </div><div class="item-sliderjs">
+        <figure class="app_slider__figure">
+            <a href="https://www.journaldesfemmes.com/societe/magazine/avortement-histoire-d-un-combat/">
+                 <span class="app_slider__img" style="background-image:url(https://image-femmes.linter.fr/image/650/1926272467/3012.jpg);"></span>
+                 <figcaption>
+                    <div class="app_slider__legend">
+                        <span class="app_slider__suptitle"><span>Société</span></span>
+                        <h2 class="app_slider__title"><span>Avortement : histoire d'un combat</span></h2>
+                    </div>
+                 </figcaption>
+             </a>
+        </figure>
+        </div><div class="item-sliderjs">
+        <figure class="app_slider__figure">
+            <a href="https://www.journaldesfemmes.com/beaute/loccitane-divine">
+                 <span class="app_slider__img" style="background-image:url(https://image-femmes.linter.fr/image/650/868917293/2917.jpg);"></span>
+                 <figcaption>
+                    <div class="app_slider__legend">
+                        <span class="app_slider__suptitle"><span>Concours L'Occitane</span></span>
+                        <h2 class="app_slider__title"><span>20 coffrets à gagner</span></h2>
+                    </div>
+                 </figcaption>
+             </a>
+        </figure>
+        </div></div><a href="javascript:$('#slider-top_slider a.slidesjs-previous').click();return false;" class="slidesjs-previous slidesjs-navigation" aria-hidden="true" data-icon="&#x27;"><span>PRECEDENT</span></a><a href="javascript:$('#slider-top_slider a.slidesjs-next').click();return false;" class="slidesjs-next slidesjs-navigation" aria-hidden="true" data-icon="&#x23;"><span>SUIVANT</span></a></div></div>    <script>
+        var OAS_RICH_save = OAS_RICH;
+        document.write(
+            '<scr' + 'ipt src="https://ba.commentcamarche.net'
+            + '/8'
+            + '/fr_journaldesfemmes'
+            + '/' + (new String(Math.random())).substring(2, 11) + '@x05'
+            + '"><\/scr' + 'ipt>'
+        );
+    </script>
+    <script>
+        OAS_RICH('x05');
+        OAS_RICH = OAS_RICH_save;
+    </script>
+</section>
+<!-- oas position (ops)-->
+<!-- oas position (native)-->
+<section class="grid_line gutter app_channel_items_2 grid--norwd">
+            <div class="grid_left w50"><div id="half-square-top-left" class="bu_ccmeditor">
+
+        	<div class="app_channel_figure--label-in">
+        		<figure class="app_channel_figure app_channel_figure--legend-in">
+                	<a href="https://www.journaldesfemmes.com/beaute/soin-anti-age/1428197-anti-age-nuit-2015/">
+                		<span class="app_channel_img app-channel_img--bg"
+                		    style="background:url('https://image-femmes.linter.fr/image/650/1173596604/3040.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+					 	<figcaption>
+							<h2 class="app_channel_title">Des soins de nuit pour un réveil en beauté</h2>
+						</figcaption>
+				 	</a>
+        		</figure>
+        		<a href="https://www.journaldesfemmes.com/beaute/soin-anti-age/" class="app_channel_label">Beauté</a>
+        	</div>
+
+	        </div></div>
+            <div class="grid_left w50"><div id="half-square-top-right" class="bu_ccmeditor">
+
+        	<div class="app_channel_figure--label-in">
+        		<figure class="app_channel_figure app_channel_figure--legend-in">
+                	<a href="https://www.journaldesfemmes.com/mode/magazine/1429278-hm-balmain-photos-integralite-looks-collection/">
+                		<span class="app_channel_img app-channel_img--bg"
+                		    style="background:url('https://image-femmes.linter.fr/image/650/1933488225/3024.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+					 	<figcaption>
+							<h2 class="app_channel_title">H&M X Balmain, l'intégralité des photos</h2>
+						</figcaption>
+				 	</a>
+        		</figure>
+        		<a href="https://www.journaldesfemmes.com/mode/" class="app_channel_label">Mode</a>
+        	</div>
+
+	        </div></div>
+    </section>
+
+<section class="grid_row app_channel_items_5 grid--norwd">
+    <div class="grid_col">
+        <div id="quarter-square-top-left" class="bu_ccmeditor">
+
+            <figure class="app_channel_figure">
+                <a href="https://www.journaldesfemmes.com/people/magazine/1429480-.../">
+                    <span class="app_channel_img app-channel_img--bg"
+                        style="background:url('https://i-cms.journaldesfemmes.com/image_cms/400/10188016-maigreur-ces-stars-qui-nous-inquietent.jpg') 50% 50% no-repeat;background-size:cover;">
+                    </span>
+                </a>
+                <figcaption>
+                    <a href="https://www.journaldesfemmes.com/people/" class="app_channel_label">People</a>
+                    <h2 class="app_channel_title"><a href="https://www.journaldesfemmes.com/people/magazine/1429480-.../">Maigreur : ces stars qui nous inqui&egrave;tent</a></h2>
+                </figcaption>
+            </figure>
+            </div><div id="quarter-square-bottom-left" class="bu_ccmeditor">
+
+            <figure class="app_channel_figure">
+                <a href="https://deco.journaldesfemmes.com/mur-sol/1428889-peinture-ressource-sarah-lavoine/">
+                    <span class="app_channel_img app-channel_img--bg"
+                        style="background:url('https://i-cms.journaldesfemmes.com/image_cms/400/10186741-ressource-x-sarah-lavoine-des-peintures-aux-couleurs-vibrantes.jpg') 50% 50% no-repeat;background-size:cover;">
+                    </span>
+                </a>
+                <figcaption>
+                    <a href="https://deco.journaldesfemmes.com/" class="app_channel_label">D&eacute;coration</a>
+                    <h2 class="app_channel_title"><a href="https://deco.journaldesfemmes.com/mur-sol/1428889-peinture-ressource-sarah-lavoine/">Ressource X Sarah Lavoine : des peintures aux couleurs vibrantes</a></h2>
+                </figcaption>
+            </figure>
+            </div>    </div>
+    <div class="grid_col">
+        <div id="half-square-middle" class="bu_ccmeditor">
+
+        	<div class="app_channel_figure--label-in">
+        		<figure class="app_channel_figure app_channel_figure--legend-in">
+                	<a href="https://www.journaldesfemmes.com/loisirs/musique/1428997-inna-modja-interview-hotel-bamako/">
+                		<span class="app_channel_img app-channel_img--bg"
+                		    style="background:url('https://i-cms.journaldesfemmes.com/image_cms/400/10187035-inna-modja-se-revele-et-nous-envoute.jpg?#id=undefined#key=undefined#ext=undefined') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+					 	<figcaption>
+							<h2 class="app_channel_title">Inna Modja se révèle et nous envoûte</h2>
+						</figcaption>
+				 	</a>
+        		</figure>
+        		<a href="https://www.journaldesfemmes.com/loisirs/musique/" class="app_channel_label">Musique</a>
+        	</div>
+
+	        </div>    </div>
+    <div class="grid_col">
+        <div id="quarter-square-top-right" class="bu_ccmeditor">
+
+            <figure class="app_channel_figure">
+                <a href="https://www.journaldesfemmes.com/mariage/robe-mariee/1371276-collection-2016-laure-de-sagazan/">
+                    <span class="app_channel_img app-channel_img--bg"
+                        style="background:url('https://i-cms.journaldesfemmes.com/image_cms/400/10163923-laure-de-sagazan-presente-sa-collection-2016.jpg') 50% 50% no-repeat;background-size:cover;">
+                    </span>
+                </a>
+                <figcaption>
+                    <a href="https://www.journaldesfemmes.com/mariage/" class="app_channel_label">Mariage</a>
+                    <h2 class="app_channel_title"><a href="https://www.journaldesfemmes.com/mariage/robe-mariee/1371276-collection-2016-laure-de-sagazan/">Laure de Sagazan pr&eacute;sente sa collection 2016</a></h2>
+                </figcaption>
+            </figure>
+            </div><div id="quarter-square-bottom-right" class="bu_ccmeditor">
+
+            <figure class="app_channel_figure">
+                <a href="https://sante.journaldesfemmes.com/genital-urinaire/10-idees-recues-sur-le-cancer-du-sein/">
+                    <span class="app_channel_img app-channel_img--bg"
+                        style="background:url('https://i-cms.journaldesfemmes.com/image_cms/400/1015642-10-idees-recues-sur-le-cancer-du-sein.jpg') 50% 50% no-repeat;background-size:cover;">
+                    </span>
+                </a>
+                <figcaption>
+                    <a href="https://sante.journaldesfemmes.com/" class="app_channel_label">Sant&eacute;</a>
+                    <h2 class="app_channel_title"><a href="https://sante.journaldesfemmes.com/genital-urinaire/10-idees-recues-sur-le-cancer-du-sein/">10 id&eacute;es re&ccedil;ues sur le cancer du sein</a></h2>
+                </figcaption>
+            </figure>
+            </div>    </div>
+</section>
+
+    <script>
+        var OAS_RICH_save = OAS_RICH;
+        document.write(
+            '<scr' + 'ipt src="https://ba.commentcamarche.net'
+            + '/8'
+            + '/fr_journaldesfemmes'
+            + '/' + (new String(Math.random())).substring(2, 11) + '@x95'
+            + '"><\/scr' + 'ipt>'
+        );
+    </script>
+    <script>
+        OAS_RICH('x95');
+        OAS_RICH = OAS_RICH_save;
+    </script>
+
+    <h2 class="app_title_1 app_channel_section_title"><a href="actualites/">Actualités<span aria-hidden="true" class="icon-arrow-r"></span></a></h2>
+    <section class="grid_line app_channel_items_3 grid--norwd">
+
+        
+            <div class="grid_left">
+                <figure class="app_channel_figure">
+                    <a href="/loisirs/sorties/1429528-netflix-fest/">
+                        <span class="app_channel_img app-channel_img--bg"
+                              style="background:url('https://i-cms.journaldesfemmes.com/image_cms/300/10188218-on-a-teste-pour-vous-friends-au-netflix-fest.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+                        <figcaption>
+                            <h2 class="app_channel_title"><span>On a test&eacute; pour vous... Friends au Netflix Fest</span></h2>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+
+                
+            <div class="grid_left">
+                <figure class="app_channel_figure">
+                    <a href="/loisirs/musique/1429576-chansons-joie-bonheur-heureux/">
+                        <span class="app_channel_img app-channel_img--bg"
+                              style="background:url('https://i-cms.journaldesfemmes.com/image_cms/300/10188201-top-10-des-chansons-qui-rendent-heureux.png') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+                        <figcaption>
+                            <h2 class="app_channel_title"><span>Top 10 des chansons qui rendent heureux</span></h2>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+
+                
+            <div class="grid_left">
+                <figure class="app_channel_figure">
+                    <a href="/loisirs/auto/1429543-trophee-roses-des-sables-2015-arrivee-fin/">
+                        <span class="app_channel_img app-channel_img--bg"
+                              style="background:url('https://i-cms.journaldesfemmes.com/image_cms/300/10188208-trophee-roses-des-sables-2015-l-aventure-prend-fin-a-marrakech.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+                        <figcaption>
+                            <h2 class="app_channel_title"><span>Troph&eacute;e Roses des Sables 2015 : l'aventure prend fin &agrave; Marrakech</span></h2>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+
+                
+            <div class="grid_left">
+                <figure class="app_channel_figure">
+                    <a href="/societe/environnement/1429601-cop21-femmes-climat/">
+                        <span class="app_channel_img app-channel_img--bg"
+                              style="background:url('https://i-cms.journaldesfemmes.com/image_cms/300/10188209-cop21-un-appel-pour-soutenir-les-femmes.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+                        <figcaption>
+                            <h2 class="app_channel_title"><span>COP21 : un appel pour soutenir les femmes</span></h2>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+
+                
+            <div class="grid_left">
+                <figure class="app_channel_figure">
+                    <a href="/mode/magazine/1429578-gala-met-2016-theme-devoile/">
+                        <span class="app_channel_img app-channel_img--bg"
+                              style="background:url('https://i-cms.journaldesfemmes.com/image_cms/300/10188192-le-gala-du-met-2016-le-theme-devoile.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+                        <figcaption>
+                            <h2 class="app_channel_title"><span>Le Gala du Met 2016 : le th&egrave;me d&eacute;voil&eacute; !</span></h2>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+
+                
+            <div class="grid_left">
+                <figure class="app_channel_figure">
+                    <a href="/loisirs/tv/1429550-programme-tele-week-end-16-octobre-2015/">
+                        <span class="app_channel_img app-channel_img--bg"
+                              style="background:url('https://i-cms.journaldesfemmes.com/image_cms/300/10188147-le-programme-tele-du-week-end-the-voice-kids-et-kev-adams-au-lycee.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+                        <figcaption>
+                            <h2 class="app_channel_title"><span>Le programme t&eacute;l&eacute; du week-end : &quot;The Voice Kids&quot; et Kev Adams au lyc&eacute;e</span></h2>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+
+                    </section>
+
+<div class="grid_line gutter app_channel_items_2 grid--norwd">
+            <section class="grid_left w50"><div id="promo-1" class="bu_ccmeditor">
+
+        	<div class="app_channel_figure--label-in">
+        		<figure class="app_channel_figure app_channel_figure--legend-in">
+                	<a href="https://www.journaldesfemmes.com/beaute/melvita-lorbio">
+                		<span class="app_channel_img app-channel_img--bg"
+                		    style="background:url('https://image-femmes.linter.fr/image/650/816939710/2873.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+					 	<figcaption>
+							<h2 class="app_channel_title">30 Duos L'Or Bio à gagner</h2>
+						</figcaption>
+				 	</a>
+        		</figure>
+        		<a href="https://www.journaldesfemmes.com/beaute/melvita-lorbio" class="app_channel_label">Concours</a>
+        	</div>
+
+	        </div></section>
+            <section class="grid_left w50"><div id="promo-2" class="bu_ccmeditor">
+
+        	<div class="app_channel_figure--label-in">
+        		<figure class="app_channel_figure app_channel_figure--legend-in">
+                	<a href="https://deco.journaldesfemmes.com/mur-sol/1428264-parquet-blanchi/">
+                		<span class="app_channel_img app-channel_img--bg"
+                		    style="background:url('https://image-femmes.linter.fr/image/650/148569744/3039.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+					 	<figcaption>
+							<h2 class="app_channel_title">Parquet blanchi : le meilleur ami pour une déco cosy</h2>
+						</figcaption>
+				 	</a>
+        		</figure>
+        		<a href="https://deco.journaldesfemmes.com/mur-sol/" class="app_channel_label">Deco</a>
+        	</div>
+
+	        </div></section>
+    </div>
+
+<div class="grid_line gutter app_channel_items_2 grid--norwd">
+    <section class="grid_left w50">
+                    <div id="forum" class="bu_ccmeditor">
+                <h2 class="app_title_1 app_channel_section_title">
+                    <a href="https://journaldesfemmes.com/forum/">
+                        FORUM<span aria-hidden="true" class="icon-arrow-r"></span>
+                    </a>
+                </h2>
+                <div>
+                <ul>
+	<li>
+		<a href="https://mode.journaldesfemmes.com/forum/" class="tooled">Mode</a>
+		<h3><a href="https://mode.journaldesfemmes.com/forum/affich-100478-comment-s-habiller-quand-on-est-petite" class="tooled">Comment s'habiller quand on est petite ?</a></h3>
+	</li>
+	<li>
+		<a href="https://cuisiner.journaldesfemmes.com/forum/" class="tooled">Cuisine</a>
+		<h3><a href="https://cuisiner.journaldesfemmes.com/forum/affich-43618-comment-cuire-des-cuisses-de-poulet-au-four" class="tooled">Cuire des cuisses de poulet au four</a></h3>
+	</li>
+	<li>
+		<a href="https://decoration.journaldesfemmes.com/forum/" class="tooled">Déco</a>
+		<h3><a href="https://decoration.journaldesfemmes.com/forum/affich-60142-quelle-couleur-associer-avec-le-vert-anis" class="tooled">Quelle couleur associer avec le vert anis ?</a></h3>
+	</li>
+	<li>
+		<a href="https://beaute.journaldesfemmes.com/forum/" class="tooled">Beauté</a>
+		<h3><a href="https://beaute.journaldesfemmes.com/forum/affich-4831-quelles-sont-les-vertus-de-l-eau-de-rose" class="tooled">L'eau de rose, une vraie astuce beauté ?</a></h3>
+	</li>
+</ul>
+                </div>
+                </div>            </section>
+            <section class="grid_left w50"><div id="promo-3" class="bu_ccmeditor">
+
+        	<div class="app_channel_figure--label-in">
+        		<figure class="app_channel_figure app_channel_figure--legend-in">
+                	<a href="https://cuisine.journaldesfemmes.com/petit-dejeuner/recettes-de-jus-de-fruits-de-saison/">
+                		<span class="app_channel_img app-channel_img--bg"
+                		    style="background:url('https://image-femmes.linter.fr/image/650/1120512528/3038.jpg') 50% 50% no-repeat;background-size:cover;">
+                        </span>
+					 	<figcaption>
+							<h2 class="app_channel_title">25 recettes de jus de fruits de saison</h2>
+						</figcaption>
+				 	</a>
+        		</figure>
+        		<a href="https://cuisine.journaldesfemmes.com/recette-petit-dejeuner" class="app_channel_label">Cuisine</a>
+        	</div>
+
+	        </div></section>
+    </div>
+
+<!-- services -->
+<section class="app_channel_services">
+    <h2 class="app_title_1 app_channel_section_title">Services</h2>
+    <ul>
+        <li>
+            <a href="https://www.journaldesfemmes.com/prenoms/" class="app_channel_services__item">
+                <span class="app_channel_services__icon app_channel_services__icon--prenoms">
+                    <img src="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/ico_service_prenoms_off.png">
+                </span>
+                <h3 class="app_channel_services__title">Guide des prénoms</h3>
+            </a>
+        </li>
+        <li>
+            <a href="https://cuisine.journaldesfemmes.com/toutes-les-recettes/" class="app_channel_services__item">
+                <span class="app_channel_services__icon app_channel_services__icon--recettes">
+                    <img src="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/ico_service_recettes_off.png">
+                </span>
+                <h3 class="app_channel_services__title">Recettes de cuisine</h3>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.journaldesfemmes.com/beaute/minceur/regime/" class="app_channel_services__item">
+                <span class="app_channel_services__icon app_channel_services__icon--regimes">
+                    <img src="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/ico_service_regimes_off.png">
+                </span>
+                <h3 class="app_channel_services__title">Guide des régimes</h3>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.journaldesfemmes.com/maman/pratique/mailing/maternite/toutes/" class="app_channel_services__item">
+                <span class="app_channel_services__icon app_channel_services__icon--maternite">
+                    <img src="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/ico_service_maternite_off.png">
+                </span>
+                <h3 class="app_channel_services__title">Calendrier de maternité</h3>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.journaldesfemmes.com/beaute/changez-de-coiffure/" class="app_channel_services__item">
+                <span class="app_channel_services__icon app_channel_services__icon--coiffure">
+                    <img src="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/ico_service_coiffure_off.png">
+                </span>
+                <h3 class="app_channel_services__title">Studio de coiffure</h3>
+            </a>
+        </li>
+        <li>
+            <a href="https://sante.journaldesfemmes.com/poids-calcul-imc/" class="app_channel_services__item">
+                <span class="app_channel_services__icon app_channel_services__icon--poids">
+                    <img src="https://static.ccmbg.com/www.journaldesfemmes.com/img/icons/ico_service_poids_off.png">
+                </span>
+                <h3 class="app_channel_services__title">Calcul de poids idéal</h3>
+            </a>
+        </li>
+    </ul>
+</section>
+
+                            </div>
+                                                    </div>
+                    </div>
+                                        <div class="layout_right">
+                        <div id="ba_right" class="ba "><script>OAS_AD('Right');</script></div><div id="ba_position1" class="ba position1"><script>OAS_AD('Position1');</script></div>    <div class="tag-type-channel">
+    <aside class="app_channel_box">
+        <h3 class="app_title_1">Newsletter </h3>
+
+        <form class="app_form_lite" method="post" action="https://ga.ccmbg.com/ss/form.php?form=15" target="_blank">
+                            <input type="hidden" id="list_85" name="lists[]" value="85">
+                        <input type="hidden" name="format" value="h">
+            <input type="hidden" name="CustomFields[2]" id="CustomFields_2_7" value="FO Journal des Femmes" size='15' maxlength='15'>
+            <fieldset>
+                <legend>Abonnement newsletters</legend>
+                <input type="email" name="email" placeholder="Votre email">
+                <input type="submit" value="OK"></fieldset>
+        </form>
+    </aside>
+    </div>
+<aside class="app_channel_box">
+    <h3 class="app_title_1 app_channel_section_title"><a href="https://sante.journaldesfemmes.com/psychologie/horoscope/">Horoscope<span aria-hidden="true" class="icon-arrow-r"></span></a></h3>
+    <div class="grid_line gutter grid--norwd">
+        <div class="grid_left">
+            <a href="https://sante.journaldesfemmes.com/psychologie/horoscope/" class="app_channel_img"><img viewbox="true" src="https://static.ccmbg.com/www.journaldesfemmes.com/img/horoscope.png"></a>
+        </div>
+        <div class="grid_last">
+            <h3 class="app_channel_title"><a href="https://sante.journaldesfemmes.com/psychologie/horoscope/" class="app_channel_img">Découvrez ce que les astres vous réservent !</a></h3>
+        </div>
+    </div>
+</aside><div id="ba_position2" class="ba position2"><script>OAS_AD('Position2');</script></div><aside>
+<div class="fb-page" data-href="https://www.facebook.com/pages/Journal-des-Femmes/162484097109285" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Journal-des-Femmes/162484097109285"><a href="https://www.facebook.com/pages/Journal-des-Femmes/162484097109285">Journal des Femmes</a></blockquote></div></div>
+</aside><!--
+	id: 6c10774ebba1bd2e76a934073125aa5f
+	date: 19/10/15 05:17:23
+-->
+
+<!-- Include Sondage -->
+<style type="text/css">            
+	#sondage                                        { background: none repeat scroll 0 0 #303030;color: #FFF;font-family: georgia;font-size: 12px;margin-bottom: 15px;padding:15px;}
+	#sondage .block                                 { display: block;}
+	#sondage .lastBlock                             { float: none;overflow: hidden;width: auto;}
+	#sondage .lastBlock:after                       { clear: both;content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";display: block;font-size: xx-large;height: 0 !important;line-height: 0;overflow: hidden;visibility: hidden;}
+	#sondage .marR5                                 { margin-right: 5px;}            
+	#sondage h2                                     { font-family: georgia;font-size: 18px;margin-bottom:10px;text-transform: uppercase;}
+	#sondage h3                                     { color: #FFF;font-size: 14px; font-weight:bold; margin-bottom:10px; line-height:normal;}
+	#sondage a                                      { color: #7EE8FF;}
+	#sondage .propositions                          { margin-bottom: 15px;}
+	#sondage li                                     { margin: 5px 0;}
+	#sondage li input                               { display:inline-block; vertical-align:top; margin-right:5px; *margin-right:0; *position:relative; *top:-3px }
+	#sondage li label                               { display:inline-block; width:240px }
+	#sondage .propositions input                    { margin-top: 2px;}
+	#sondage .link                                  { float: right;text-decoration: underline;}
+	#sondage .link:hover                            { text-decoration: none;}            
+	#sondage .submit                                { background: #FFFFFF; background: -moz-linear-gradient(top, #FFFFFF 0%, #F4F4F4 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F4F4F4)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F4F4F4',GradientType=0 ); background: -o-linear-gradient(top, #FFFFFF 0%,#F4F4F4 100%); border: 1px solid #D5D5D5;box-shadow: 0 1px 0 #999;color: #303030;display: inline-block;font-family: "Helvetica Neue",Helvetica,Arial,default;font-size: 11px;font-weight: bold;height: 22px;line-height: 22px;padding: 0 10px;text-decoration: none;text-transform: uppercase;vertical-align: baseline; *zoom:1}
+	#sondage .submit:hover, #sondage .submit:focus  { background: #FFFFFF; background: -moz-linear-gradient(top, #FFFFFF 0%, #FBFBFB 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FBFBFB)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FBFBFB',GradientType=0 ); background: -o-linear-gradient(top, #FFFFFF 0%,#FBFBFB 100%); color: #303030;cursor: pointer;text-decoration: none;}
+	#sondage .submit:active                         { background: #F4F4F4; background: -moz-linear-gradient(top, #F4F4F4 0%, #FFFFFF 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4F4F4), color-stop(100%,#FFFFFF)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F4F4F4', endColorstr='#FFFFFF',GradientType=0 ); background: -o-linear-gradient(top, #F4F4F4 0%,#FFFFFF 100%); outline:none;}            
+</style>
+
+
+<div id="sondage">
+	<h2 class="app_title_1 app_channel_section_title"><a href="https://www.journaldesfemmes.com/questionnaire/sondage/">Sondage <span aria-hidden="true" class="icon-arrow-r"></span></a></h2>
+	<form action="https://www.journaldesfemmes.com/questionnaire/cgi/questionnaire/valide_questionnaire.php" method="post" target="_blank" name="form1">
+		<input name="f_id_sondage" value="200544" type="hidden">
+		<input name="f_id_type" value="1" type="hidden">
+		<input name="f_flag_fiche" value="0" type="hidden">
+		<input name="f_ordre_tri" value="" type="hidden">
+		<input name="f_tri" value="" type="hidden">
+		<input name="f_force" value="1" type="hidden">
+		<input name="f_fil" value="" type="hidden">
+		<script type="text/javascript">
+			nb_aleatoire = new String (Math.random());
+			nb_aleatoire = nb_aleatoire.substring (2, 12);
+			document.write('<input type="hidden" name="f_cle" value="'+ nb_aleatoire + '">');
+		
+			function EcrireCookie(nom, valeur)
+			{
+			
+			document.cookie=nom+"="+escape(valeur)+";path="+"/";
+
+			document.form1.submit();
+			
+			}
+			
+		</script>
+		<h3>Travailler moins pour travailler bien, ça vous tente ?</h3>
+		<ul class="propositions">		
+			<li><input type="radio" name="question_644193" id="reponse_2086526" value="2086526" /><label for="reponse_2086526"> Oui ! J'aurais plus de temps libre et je serais plus efficace</label></li>		
+			<li><input type="radio" name="question_644193" id="reponse_2086525" value="2086525" /><label for="reponse_2086525"> Non, je ne vois pas comment arriver à tout boucler avec du temps en moins</label></li>		
+			<li><input type="radio" name="question_644193" id="reponse_2086524" value="2086524" /><label for="reponse_2086524"> Bof, ça sent les heures supp' à plein nez</label></li>		
+			<li><input type="radio" name="question_644193" id="reponse_2086523" value="2086523" /><label for="reponse_2086523"> Pourquoi pas ? Si je gagne le même salaire...</label></li>
+		</ul>
+		
+		<input type="submit" class="submit" value="Valider">
+	</form>
+</div>
+<!-- /Include Sondage -->
+
+<div id="ba_right2" class="ba right2"><script>OAS_AD('Right2');</script></div><div id="ba_position4" class="ba position4"><script>OAS_AD('Position4');</script></div><aside class="app_channel_box">
+    <h3 class="app_title_1 app_channel_section_title"><a href="https://www.journaldesfemmes.com/temoignage/">Témoignages <span aria-hidden="true" class="icon-arrow-r"></span></a></h3>
+    <ul class="app_channel_list app_channel_list--dashed">
+			<li>
+            <span class="app_channel_detail">71 contributions</span>
+            <h3 class="app_channel_title"><a href="https://cuisine.journaldesfemmes.com/temoignage/appelatemoin/8656/que-faites-vous-avec-vos-blancs-d-oeufs/" title="Que faites-vous avec vos blancs d'oeufs ?">Que faites-vous avec vos blancs d'oeufs ?</a></h3>
+        </li>		<li>
+            <span class="app_channel_detail">125 contributions</span>
+            <h3 class="app_channel_title"><a href="https://cuisine.journaldesfemmes.com/temoignage/appelatemoin/7539/vous-etes-accro-au-pain/" title="Vous &ecirc;tes accro au pain ">Vous &ecirc;tes accro au pain </a></h3>
+        </li>		<li>
+            <span class="app_channel_detail">155 contributions</span>
+            <h3 class="app_channel_title"><a href="https://cuisine.journaldesfemmes.com/temoignage/appelatemoin/5516/que-trempez-vous-dans-votre-cafe/" title="Que trempez-vous dans votre caf&eacute; ?">Que trempez-vous dans votre caf&eacute; ?</a></h3>
+        </li>		<li>
+            <span class="app_channel_detail">23 contributions</span>
+            <h3 class="app_channel_title"><a href="https://www.journaldesfemmes.com/maman/temoignage/appelatemoin/7736/votre-enfant-est-victime-de-harcelement-a-l-ecole/" title="Votre enfant est victime de harc&egrave;lement &agrave; l'&eacute;cole ?">Votre enfant est victime de harc&egrave;lement &agrave; l'&eacute;cole ?</a></h3>
+        </li>
+	</ul>
+</aside>
+                    </div>
+                                    </div>
+
+                            </div>
+
+            <!-- footerdebbloc -->
+<footer role="contentinfo" class="ccmcss_footer">
+    <div class="layout">
+
+            
+<aside class="app_footer_linking">
+    <a href="https://election-regionale.journaldunet.com/" class="app_footer_linking_title"  title="Résultats régionales">Elections r&eacute;gionales 2015</a>
+    <ul>
+        <li><a href="https://election-regionale.journaldunet.com/resultats/angers/ville-49007" title="Résultats régionales à Angers">Angers</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/bordeaux/ville-33063" title="Résultats régionales à Bordeaux">Bordeaux</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/lille/ville-59350" title="Résultats régionales à Lille">Lille</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/marseille/ville-13055" title="Résultats régionales à Marseille">Marseille</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/montpellier/ville-34172" title="Résultats régionales à Montpellier">Montpellier</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/nice/ville-06088" title="Résultats régionales à Nice">Nice</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/nantes/ville-44109" title="Résultats régionales à Nantes">Nantes</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/rennes/ville-35238" title="Résultats régionales à Rennes">Rennes</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/strasbourg/ville-67482" title="Résultats régionales à Strasbourg">Strasbourg</a></li><!--
+        --><li><a href="https://election-regionale.journaldunet.com/resultats/toulouse/ville-31555" title="Résultats régionales à Toulouse">Toulouse</a></li>
+    </ul>
+</aside>
+
+    
+
+
+<div class="marB20">
+    <ul class="toolLinks">
+        <li><a href="https://magazinedelledonne.it/">Magazine delle donne</a></li>
+        <li><a href="https://arevistadamulher.com.br/">A Revista Da Mulher</a></li>
+        <li><a href="https://hayatouki.com">Hayatouki</a></li>
+        <li><a href="https://www.journaldesfemmes.com/magazine/qui-sommes-nous.shtml">Qui sommes-nous ?</a></li>
+        <li><a href="https://www.journaldesfemmes.com/societe/magazine/1331952-contactez-le-journal-des-femmes/">Contact</a></li>
+        <li><a href="https://www.ccmbenchmark.com/advertising/fr/">Publicité</a></li>
+        <li><a href="https://emploi.journaldunet.com/entreprise/benchmark-group/offres-emploi/206/">Recrutement</a></li>
+        <li><a href="https://www.journaldesfemmes.com/magazine/donnees-personnelles.shtml">Données personnelles</a></li>
+        <li><a href="https://www.journaldesfemmes.com/magazine/mentions-legales.shtml">Mentions légales</a></li>
+            </ul>
+</div>
+            <div class="logo">
+                <a href="https://www.ccmbenchmark.com/">
+                    <hgroup>
+                        <span>CCM Benchmark Group</span>
+                    </hgroup>
+                </a>
+            </div>
+
+            <div class="brands">
+                <a href="https://www.commentcamarche.net/" class="group_ccm" original-title="commentçamarche.net"></a>
+                <a href="https://www.journaldunet.com/" class="group_jdn" original-title="Le Journal du Net"></a>
+                <a href="https://droit-finances.commentcamarche.net/" class="group_df" original-title="Droit-finances.net"></a>
+                <a href="https://www.journaldesfemmes.com/" class="group_jdf" original-title="Journal des femmes"></a>
+                <a href="https://www.linternaute.com/" class="group_linter" original-title="linternaute.com"></a>
+                <a href="https://copainsdavant.linternaute.com/" class="group_copains" original-title="Copains d'avant"></a>
+                <a href="https://sante-medecine.commentcamarche.net/" class="group_ms" original-title="Santé-médecine.net"></a>
+            </div>
+
+            <p class="foot_links">
+                <a href="https://www.linternaute.com/actualite/" title="Infos, news">Actualit&eacute;s</a>,
+                <a href="https://www.linternaute.com/argent/" title="Finances, immobilier, fiscalit&eacute;">Argent</a>,
+                <a href="https://www.linternaute.com/auto/" title="Actualit&eacute; autombile">Auto</a>,
+                <a href="https://www.linternaute.com/bricolage/" title="Bricolage maison">Bricolage</a>,
+                <a href="https://www.linternaute.com/cinema/" title="Films &agrave; l'affiche">Cin&eacute;ma</a>,
+                <a href="https://cuisine.journaldesfemmes.com" title="Recettes cuisine">Cuisine</a>,
+                <a href="https://deco.journaldesfemmes.com" title="D&eacute;coration">D&eacute;co</a>,
+                <a href="https://www.linternaute.com/dictionnaire/fr/" title="Dico fran&ccedil;ais">Dictionnaire</a>,
+                <a href="https://www.journaldunet.com" title="Business, management">Entreprise</a>,
+                <a href="https://www.commentcamarche.net" title="Forum informatique">High-tech</a>,
+                <a href="https://www.linternaute.com/homme/" title="Sport, mode">Homme</a>,
+                <a href="https://www.jeux-gratuits.com" title="Jeux gratuits">Jeux</a>,
+                <a href="https://www.linternaute.com/loisirs/" title="Sorties, bon plans">Loisirs</a>,
+                <a href="https://www.linternaute.com/television/" title="Programme TV">Programme TV</a>,
+                <a href="https://www.linternaute.com/restaurant/" title="Guide restaurants">Restos</a>,
+                <a href="https://sante.journaldesfemmes.com" title="Magazine sant&eacute;">Sant&eacute;</a>,
+                <a href="https://www.linternaute.com/voyage/" title="Guides voyages">Voyage</a>
+            </p>
+                </div>
+</footer>
+<div id="ba_x01" class="ba x01"><script>OAS_AD('x01');</script></div><div id="ba_x02" class="ba x02"><script>OAS_AD('x02');</script></div><div id="ba_topleft" class="ba topleft"><script>OAS_AD('TopLeft');</script></div><script>
+    _eStat_Whap_loaded=0;
+    _eStat_Loaded = typeof eStatWhap != "undefined";
+</script>
+<script src='https://w.estat.com/js/whap.js' type='text/javascript'></script>
+<script>
+    if(!_eStat_Loaded && _eStat_Whap_loaded === 1){
+		_eStat_Loaded = true;
+        eStatWhap.serial("800000206960");
+        eStatWhap.send();
+    }
+</script>
+
+<script>
+    if(typeof _comscore == "undefined"){
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "13184767" });
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "https://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    }
+</script>
+
+
+<script type="text/javascript">
+if (new RegExp("iPad","i").test(navigator.userAgent) || (new RegExp("Android","i").test(navigator.userAgent) && !new RegExp("Mobile","i").test(navigator.userAgent))){
+    document.write('<!-- Liste des tags pour le site : CCM_JournalDesFemmes_Site-Tab, Format "Agence" -->');
+    document.write('<!-- Page : jdf_site-tab_interstitiel -->');
+    document.write('<!-- Format : Interstitiel 0x0 -->');
+    document.write('<scr'+'ipt type="text/javascript" src="https://mobile.smartadserver.com/call2/pubmj/58999/440650/12145/M/1445237618/[target]?[countgo]" ></scr'+'ipt>');
+}
+</script>
+
+<!-- temporary test for exploitation -->
+<script type="x-test" id="test_regexp1">
+    if(/linternaute\.com/.test(window.location.host)){}
+</script>
+<script type="x-test" id="test_regexp2">
+    if( /linternaute\.com/.test(window.location.host)){}
+</script>
+<script type="x-test" id="test_src1">
+    g.src ='//dpm.zebestof.com/675/tag.js';
+</script>
+<script type="x-test" id="test_src2">
+    g.src='//dpm.zebestof.com/675/tag.js';
+</script>
+<script type="x-test" id="test_src3">
+    g.src= '//dpm.zebestof.com/675/tag.js';
+</script>
+<script type="x-test" id="test_src4">
+    g.src = '//dpm.zebestof.com/675/tag.js';
+</script>
+<!-- temporary test for exploitation -->
+
+<!-- footerfinbloc -->
+        </div>
+    </div>
+
+    <div id="alternative_sidebar_follower" class="ccmcms_social_bar ccmcms_social_bar--top" style="opacity:0;">
+    <div class="layout">
+        <p>Partager cet article</p>
+        <div class="placeholder"></div>        
+        <a class="icoShare rss" href="https://www.journaldesfemmes.com/rss.shtml">
+            <span></span>
+            RSS
+        </a>        
+        
+            </div>
+</div><script type="text/javascript"> $data = {"common":{"lang":"FR","selfurl":"\/","status_code":"200","baseUrl":"","connected":false,"staticDomain":"http:\/\/static.ccmbg.com\/www.journaldesfemmes.com","cookieDomain":"journaldesfemmes.com","api":{"facebook":{"uid":0,"app_id":"124793081026414","application":"journaldesfemmes","ga_name":"journaldesfemmes_facebook","ga_name_error":"journaldesfemmes_debug","ga_name_tmp":"journaldesfemmes_tmp","notifications":0,"version":"v2.3"}},"GAEvents":{"click":[{"target":".app_select_navigation a[rel=prev]","category":"ccmcms\/contents","action":"header\/prev","complete":":=>function(e){ window.location = $(this).attr(\"href\"); }","preventDefault":true},{"target":".app_select_navigation a[rel=next]","category":"ccmcms\/contents","action":"header\/next","complete":":=>function(e){ window.location = $(this).attr(\"href\") }","preventDefault":true},{"target":".app_customselect__items a","category":"ccmcms\/contents","action":"header\/menu","complete":":=>function(e){ window.location = $(this).attr(\"href\"); }","preventDefault":true},{"target":".ccmcss_paginator a[rel=next]","category":"ccmcms\/contents","action":"footer\/next","complete":":=>function(e){ window.location = $(this).attr(\"href\"); }","preventDefault":true},{"target":".ccmcss_paginator a[rel=prev]","category":"ccmcms\/contents","action":"footer\/prev","complete":":=>function(e){ window.location = $(this).attr(\"href\"); }","preventDefault":true},{"target":".app_box_1--summary a","category":"ccmcms\/contents","action":"footer\/summary","complete":":=>function(e){ window.location = $(this).attr(\"href\"); }","preventDefault":true}]},"weborama":{"options":{"host":"ccmbenchmarck.solution.weborama.fr","id":468316,"section":"","subSection":"","idGroup":468397,"sectionGroup":"Journal des femmes","subSectionGroup":""}}},"ccmcms":{"services":{"config":{"start":false,"step":1,"selector":"#col_middle"},"odeditor":{"start":false},"mapstraction":{"start":false},"rating":{"start":false},"blocks":{"start":false},"facebook":{"start":true,"options":{"scopeList":"email, user_birthday, user_hometown, publish_actions, user_likes, user_actions.news"}},"socialbuttons":{"start":true,"options":{"selector":"#sidebar_follower","alternativeSelector":"#alternative_sidebar_follower","placeholder":".placeholder","resizeable":false,"minWidth":1148,"publisherId":"ra-506574dd5ff1389b","twitterVia":"journalDfemmes","socialList":["fbShare","fb","tweeter","gplus","pinterest"]}},"slider":false,"coverflow":{"start":false,"options":{"selector":".jCoverflow","maxImgWidth":150}},"contents":{"content":{"urlController":"\/c","common":{"view":{"start":false,"selector":"#col_middle"},"form":{"start":false,"selector":"#content"},"common":{"start":true,"selector":"#col_middle"}},"top":{"view":{"start":false,"selector":"#col_middle"},"form":{"start":false,"selector":"#col_middle"},"common":{"start":false,"selector":"#col_middle"}},"summary":{"start":{"start":false}}},"tag":{"common":{"start":false,"selector":"#groupDescForm"}},"embed":[]},"errors":{"controller":[]},"feeds":{"start":false,"sliderAuto":true},"header":{"start":true,"nav":{"sub":{"limit":2,"viewmode":"img","domain":"www.journaldesfemmes.com"}}},"account":{"start":false,"selector":"form[data-formaccount=\"1\"]"},"contentSlide":{"start":false},"linkedin":{"followButton":{"start":false}},"videoexpander":{"start":false,"options":{"host":"http:\/\/p.ccmbg.com\/media\/","adDomain":"jdf"}},"playlist":{"start":false,"options":{"host":"http:\/\/p.ccmbg.com\/media\/","adDomain":"jdf"}},"fileUpload":{"start":false},"croppable":{"start":false},"authorlayer":{"start":false},"fancybox":{"start":false},"newsletterdialog":{"start":false},"aprilfool":{"start":false},"thumbslider":{"start":false},"mosaiccover":{"start":false},"diaporama":{"start":false},"weborama":{"start":true},"cabestanRetargeting":{"start":true},"ciminternetgemius":{"start":true},"trackevent":{"start":true},"nativeAdsMoreDialog":{"start":false},"election":{"start":false},"ckeditor":{"start":false,"options":{"selector":".jCkEditorBlocks"}},"hammer":{"start":true}}},"ccmUIEvent":[]}</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script><script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script><script src="https://static.ccmbg.com/fc/js.php?m=front&v=201509161546" type="text/javascript"></script><script src="https://r.ccmbg.com/js.php?m=core|lang.fr&v=201510141545" type="text/javascript"></script><script src="https://static.ccmbg.com/www.journaldesfemmes.com/asset/js?m=*|home-channel&amp;v=201510151024&amp;lang=fr" class="jAppPackager"></script><script src="https://connect.facebook.net/fr_FR/all.js" type="text/javascript"></script><!--[if lte IE 7]>    
+    <script src="https://static.ccmbg.com/www.journaldesfemmes.com/assets/js/3rd-party/polyfills/fontico.lte-ie7.js"></script>
+    <script src="https://static.ccmbg.com/www.journaldesfemmes.com/assets/js/3rd-party/polyfills/selectivizr-min.js"></script>
+<![endif]--></body>
+</html>

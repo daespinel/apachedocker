@@ -1,0 +1,97 @@
+.page-wrapper .heading {
+  position: relative;
+  padding: 10px 0 30px;
+  color: #ffffff;
+}
+.page-wrapper .heading.push {
+  height: auto;
+}
+.page-wrapper .heading.push .container {
+  height: auto;
+  margin-bottom: 27px;
+}
+.page-wrapper .heading.home-corporate {
+  padding: 0 0 8px 0;
+}
+.page-wrapper .heading.home-corporate .title-page .text {
+  padding: 0;
+  display: inline;
+  font: 1em 'AvenirLTStd95Black', Arial, sans-serif;
+}
+.ie8 .page-wrapper .heading .container {
+  padding: 0 120px 0 10px;
+}
+.page-wrapper .heading .title-page {
+  margin-top: 22px;
+  margin-bottom: 11px;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.page-wrapper .heading .title-page .icon {
+  display: table-cell;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.page-wrapper .heading .title-page .text {
+  display: table-cell;
+  padding-top: 0.2em;
+  font: 1.1em/1em 'AvenirLTStd95Black', Arial, sans-serif;
+  vertical-align: middle;
+}
+.page-wrapper .heading .title-page.nouveau-hub-title-page {
+  margin-top: 46px;
+  margin-bottom: 56px;
+}
+.page-wrapper .heading .subtitle {
+  margin: 0;
+  padding: 0;
+  font: 0.938em Arial, sans-serif;
+}
+.page-wrapper .heading-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 460px;
+}
+@media (max-width: 767px) {
+  .page-wrapper .heading {
+    min-height: 240px;
+    height: auto;
+    margin-bottom: 20px;
+    padding-top: 6px;
+  }
+  .page-wrapper .heading.home-corporate {
+    padding-left: 10px;
+    min-height: 0;
+    margin: 0;
+    padding: 0 0 10px 0;
+  }
+  .page-wrapper .heading.home-corporate .title-page {
+    margin: 0 10px;
+  }
+  .page-wrapper .heading.home-corporate .title-page .text {
+    display: block;
+    font: 0.84em 'AvenirLTStd95Black', Arial, sans-serif;
+    line-height: 0.94em;
+  }
+  .page-wrapper .heading .container {
+    padding: 0 20px 0 20px;
+  }
+  .page-wrapper .heading .title-page .icon {
+    font-size: 1.6em;
+  }
+  .page-wrapper .heading .title-page .text {
+    font-size: .85em;
+  }
+}
+@media (min-width: 768px) {
+  .page-wrapper .heading .container {
+    padding: 0 100px 0 20px;
+  }
+}
+@media (min-width: 992px) {
+  .page-wrapper .heading .container {
+    padding: 0 120px 0 10px;
+  }
+}

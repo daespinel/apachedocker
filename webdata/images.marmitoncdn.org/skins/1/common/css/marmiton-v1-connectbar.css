@@ -1,0 +1,24 @@
+table.af_headerUserBarT { background-color:#FFFFFF; background-image:url(../images/connect/fond-loggin.gif); background-position:left top; background-repeat:repeat-x; border:1px solid #E5E5E5; font-family:Arial,Helvetica,sans-serif; }
+
+/* Bouton Connect */
+TABLE.boutonConnect { height:21px; }
+TABLE.boutonConnect TD.boutonConnectLeft { width:2px; height:21px; background:url(../images/connect/connect-g-c-d.gif) no-repeat 0 -30px; }
+TABLE.boutonConnect TD.boutonConnectCenter { height:21px; background:url(../images/connect/connect-g-c-d.gif) repeat-x 0 -60px; padding:0 5px; }
+TABLE.boutonConnect TD.boutonConnectCenter SPAN { font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#A9141C; font-weight:bold; background:url(../images/connect/connect-puce.gif) no-repeat left 50%; padding-left:7px; }
+TABLE.boutonConnect TD.boutonConnectCenter A { color:#A9141C; text-decoration:none; }
+TABLE.boutonConnect TD.boutonConnectCenter A:Hover { color:#A9141C; text-decoration:underline; }
+TABLE.boutonConnect TD.boutonConnectRight { width:2px; height:21px; background:url(../images/connect/connect-g-c-d.gif) no-repeat 0 0; }
+
+/* Sites Brand */
+.siteBrand { font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#cbcbcb; font-weight:bold; }
+.siteBrand A { color:#000000; text-decoration:none; padding:0 5px; }
+.siteBrand A:HOVER { color:#000000; text-decoration:underline; }
+
+/* Moteur de Recherche */
+.separationSearch { background:url(../images/connect/connect-separation.gif) no-repeat 0 0; margin-right:7px; }
+.af_searchBarInput{ background-color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size:11px; line-height:normal; font-weight:bold; color:#000000; text-transform:uppercase; border:solid 1px #ffffff; margin-left:20px; height:13px; }
+.af_searchBarOK{ background-image: url(../images/connect/ok_fond.gif); background-repeat: no-repeat; }
+.af_searchBarFond { background-image: url(../images/connect/r_fond.gif); background-repeat: no-repeat; background-color:#ffffff; height:21px; }
+
+.af_searchBarSelect, .af_searchBarSelectT { font-family: Arial, Helvetica, sans-serif; color:#000000; background:#ffffff; }
+.af_searchBarSelectT { font-weight:bold; color:#808080; background-color: #F0F0F0; font-style:normal; }

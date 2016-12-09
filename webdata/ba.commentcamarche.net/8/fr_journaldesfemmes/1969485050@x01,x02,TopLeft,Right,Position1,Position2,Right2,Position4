@@ -1,0 +1,183 @@
+function OAS_RICH(position) {
+if (position == 'Position1') {
+document.write ('<script type="text/javascript" async="async" defer="defer" crossorigin="anonymous" src="//adyoulike.omnitagjs.com"></script>');
+}
+if (position == 'Position2') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/L19/162329634/Position2/OasDefault/jdf_Triumph_amourette_hab_hp_8178-5/empty2477119477120485435485436.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/jdf_Triumph_amourette_hab_hp_8178-5/empty2477119477120485435485436.gif"  alt=""  border="0"></a>');
+}
+if (position == 'Position4') {
+document.write ('<style type="text/css">\n');
+document.write ('\n');
+document.write ('div.box.publi-info { padding-bottom:0; border: 1px solid #D8D8D8; padding: 15px; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; line-height:20px;}\n');
+document.write ('\n');
+document.write ('#global #droite div.box.publi-info { width:270px; }\n');
+document.write ('\n');
+document.write ('div.box.publi-info div.titre {color:#cf0118;margin-bottom:5px; font-size:16px; font-weight:bold;text-transform: uppercase;}\n');
+document.write ('\n');
+document.write ('div.box.publi-info p.sous-titre {color:#214e92; margin-bottom:0;}\n');
+document.write ('\n');
+document.write ('div.box.publi-info a {color: #A21460;}\n');
+document.write ('\n');
+document.write ('div.box.publi-info a:hover {color: #4A99CF;}\n');
+document.write ('\n');
+document.write ('div.box.publi-info p { margin-bottom:5px; }\n');
+document.write ('\n');
+document.write ('div.box.publi-info p.pied { font-size:10px;margin:0; font-family:verdana; font-size:8px; background:url(https://r.linter.fr/femmes/image/habillage/pictos/puces/grise.png) 0 6px no-repeat; padding-left:8px;}\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('div.box.partenaires { padding:10px;  background: url("https://r.linter.fr/femmes/image/habillage/background/degrade_gris.png") repeat-x left top #F1F1F1; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; line-height:20px;    border: 1px solid #D8D8D8;}\n');
+document.write ('\n');
+document.write ('#global #droite div.box.partenaires { width:280px; }\n');
+document.write ('\n');
+document.write ('div.box.partenaires div.titre { font-weight:normal; color:#333; font-size:16px; text-transform: uppercase;margin-bottom: 15px;}\n');
+document.write ('\n');
+document.write ('div.box.partenaires ul { list-style:none; }\n');
+document.write ('\n');
+document.write ('div.box.partenaires li { margin-bottom:10px;  float: left;    margin-right: 5px; }\n');
+document.write ('\n');
+document.write ('div.box.partenaires a { color:#333; text-decoration:none; }\n');
+document.write ('\n');
+document.write ('div.box.partenaires img { border: 1px solid #D8D8D8;  float: left;   margin: 0 0 8px;    padding: 3px;margin-right: 10px; }\n');
+document.write ('\n');
+document.write ('</style>      \n');
+document.write ('\n');
+document.write ('   <div class="publi-info">\n');
+document.write ('\n');
+document.write ('           \n');
+document.write ('\n');
+document.write ('   <div class="box bordure contributif partenaires">\n');
+document.write ('\n');
+document.write ('        \n');
+document.write ('\n');
+document.write ('  <div class="titre"><a href="https://www.linternaute.com/info-marques/">Nos offres partenaires</a></div>\n');
+document.write ('\n');
+document.write ('        <ul class="inline">\n');
+document.write ('\n');
+document.write ('<li>\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/L19/2071454944/Position4/OasDefault/reseau_box_janv15/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023513178519469.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/50743/" title="glace"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/reseau_box_janv15//boc_glace.gif" /></a>\n');
+document.write ('\n');
+document.write ('           		<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/L19/2071454944/Position4/OasDefault/reseau_box_janv15/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023513178519469.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/50743/" title="letudiante">Percez les secrets de l’Antarctique - au cin&eacute;ma le 21 octobre</a></li>\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<li>\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/L19/2071454944/Position4/OasDefault/reseau_box_janv15/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023513178519469.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/50641/" title="grandjour"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/reseau_box_janv15//appeltexte-It2.jpg" /></a>\n');
+document.write ('\n');
+document.write ('           		<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/L19/2071454944/Position4/OasDefault/reseau_box_janv15/cpc_fortuneo_DF_BoxP_GOLD_4574-3505912507022507023513178519469.html/69634b6c6431596b6b3859414441526a?https://redirection.linternaute.com/50641/" title="triumph">It lingerie : Triumph c&eacute;l&egrave;bre Amourette</a></li>\n');
+document.write ('\n');
+document.write ('        </ul>\n');
+document.write ('\n');
+document.write ('        <div style="clear:both;"></div>\n');
+document.write ('\n');
+document.write ('    </div>\n');
+document.write ('\n');
+document.write ('    \n');
+document.write ('\n');
+document.write ('</div>');
+}
+if (position == 'Right') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/L19/1335635349/Right/OasDefault/jdf_Triumph_amourette_hab_hp_8178-5/300x600.jpg/69634b6c6431596b6b3859414441526a" target="_blank"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/jdf_Triumph_amourette_hab_hp_8178-5/300x600.jpg"  alt=""  border="0"></a>');
+}
+if (position == 'Right2') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/L19/458990969/Right2/OasDefault/bloc_position_right2/empty2477119477120485435.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/bloc_position_right2/empty2477119477120485435.gif"  alt=""  border="0"></a>');
+}
+if (position == 'TopLeft') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/45165755/TopLeft/default/empty.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/default/empty.gif"  width="1" height="1" alt="" BORDER=0 border="0"></a>');
+}
+if (position == 'x01') {
+document.write ('<a href="https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/479033944/x01/default/empty.gif/69634b6c6431596b6b3859414441526a" target="_top"><img src="https://ba.commentcamarche.net/RealMedia/ads/Creatives/default/empty.gif"  width="1" height="1" alt="" BORDER=0 border="0"></a>');
+}
+if (position == 'x02') {
+document.write ('<!-- SCRIPT HABILLAGE CSS -->                          \n');
+document.write ('        <style type="text/css">\n');
+document.write ('\n');
+document.write ('            /* a renseigner */\n');
+document.write ('            body{ cursor:pointer; background:#F5F1EA url(https://ba.commentcamarche.net/RealMedia/ads/Creatives/OasDefault/jdf_Triumph_amourette_hab_hp_8178-5//habillage_autopromo.jpg) top center no-repeat !important; }  \n');
+document.write ('\n');
+document.write ('            html{ cursor: pointer }\n');
+document.write ('            #oas_top, #ba_top1, #sidebar_follower, #ba_top{ display:none !important }\n');
+document.write ('            body.app--rwd .ccmcss_offcanvas_2{ overflow: hidden; cursor:pointer; }\n');
+document.write ('            body.app--rwd .ccmcss_offcanvas_2 > *, #section > *{ cursor:default }                        \n');
+document.write ('            body > *{cursor:default }                        \n');
+document.write ('            @media (max-width: 979px){ \n');
+document.write ('                body{ background-position:50% 50px !important } \n');
+document.write ('\n');
+document.write ('                /* a renseigner */\n');
+document.write ('                .layout.layout--offcanvas{ margin-top: 200px !important } \n');
+document.write ('            }                        \n');
+document.write ('            #global{ width: 1000px !important }\n');
+document.write ('            @media (min-width: 979px){\n');
+document.write ('\n');
+document.write ('                /* a renseigner */\n');
+document.write ('                body.app--rwd header[role=');
+document.write ("'");
+document.write ('banner');
+document.write ("'");
+document.write (']{ margin-top: 200px }\n');
+document.write ('                header[role=banner],\n');
+document.write ('                footer[role=contentinfo]{width:1000px !important; margin-left:auto !important; margin-right:auto !important; }\n');
+document.write ('            }\n');
+document.write ('            body.app--rwd_menu--active{ background: none !important; }\n');
+document.write ('            body.app--rwd_menu--active .layout.layout--offcanvas{ margin-top: 0 !important; }            \n');
+document.write ('            body.app--rwd_menu--active .ccmcss_offcanvas_2{ overflow: visible }\n');
+document.write ('        </style>\n');
+document.write ('        \n');
+document.write ('        <!-- SCRIPT HABILLAGE JS -->                  \n');
+document.write ('        <script type="text/javascript">                \n');
+document.write ('            (function(w,f){var o=w.onload;w.onload=f;typeof o === ');
+document.write ("'");
+document.write ('function');
+document.write ("'");
+document.write (' && o();}(window,\n');
+document.write ('            function()\n');
+document.write ('                {                                                                                                                                                                                                                \n');
+document.write ('                var sasClickUrl = "https://ba.commentcamarche.net/RealMedia/ads/click_lx.ads/fr_journaldesfemmes/L19/336579606/x02/OasDefault/jdf_Triumph_amourette_hab_hp_8178-5/fem_RFurterer_hab_blm_2431-8515005.html/69634b6c6431596b6b3859414441526a?home=1&ASPQ_oQyaM4=XXAU-li362";\n');
+document.write ('                var sasClickTarget = "_blank";\n');
+document.write ('            \n');
+document.write ('                if (sasClickUrl != ""){\n');
+document.write ('                 function OpenWin(page) {\n');
+document.write ('                  if(sasClickTarget=="_blank")\n');
+document.write ('                   window.open(page);\n');
+document.write ('                  else\n');
+document.write ('                   document.location = page;\n');
+document.write ('                 }\n');
+document.write ('\n');
+document.write ('                 sasBackClick1039138=function(e){var bglink=sasClickUrl;EE=e?e:event;if(!EE)return;var tg=EE.target?EE.target:EE.srcElement;if((!tg||tg.className!="ccmcss_offcanvas_2")&&tg.parentNode.tagName!="ccmcss_offcanvas_2")return;console.log();var BackLink=OpenWin(""+bglink);};\n');
+document.write ('\n');
+document.write ('                 sasBackClickOld=function(e){\n');
+document.write ('                    var bglink=sasClickUrl;\n');
+document.write ('                    EE=e?e:event;\n');
+document.write ('                    if(!EE)return;\n');
+document.write ('                    var tg=EE.target?EE.target:EE.srcElement;\n');
+document.write ('                    if((!tg||tg.tagName!="HTML")&&tg.parentNode.tagName!="HTML")return;\n');
+document.write ('                    var inter = document.getElementById(');
+document.write ("'");
+document.write ('info_modale_ct');
+document.write ("'");
+document.write (');                \n');
+document.write ('                    var BackLink = (tg.tagName!="A" && (inter === null || inter.style.display === ');
+document.write ("'");
+document.write ('none');
+document.write ("'");
+document.write (') ? OpenWin(""+bglink) : false);                \n');
+document.write ('                };\n');
+document.write ('\n');
+document.write ('                    var isResponsive = document.body.className.split(" ");                \n');
+document.write ('                    for(i=0; i < isResponsive.length; i++){                    \n');
+document.write ('                        if(isResponsive[i] == "app--rwd") var oasCss = "rwd";                    \n');
+document.write ('                    }                \n');
+document.write ('                    if(oasCss){                        \n');
+document.write ('                        document.onclick=sasBackClick1039138;\n');
+document.write ('                    }else{                        \n');
+document.write ('                        document.onclick=sasBackClickOld;\n');
+document.write ('                    }                \n');
+document.write ('                }                                                                                                          \n');
+document.write ('                })\n');
+document.write ('            ); \n');
+document.write ('        </script>');
+}
+}
