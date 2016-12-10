@@ -41,8 +41,10 @@ COPY server_config/ifaces_config/ /home/server/ifaces_config/
 
 COPY config/000-default.conf /etc/apache2/sites-available/
 
-#RUN sh /usr/share/doc/apache2/examples/setup-instance 001 \
-#	&& sh /usr/share/doc/apache2/examples/setup-instance 002 \
+COPY play_deploy.py /home/
+
+RUN sh /usr/share/doc/apache2/examples/setup-instance 001 \
+	&& sh /usr/share/doc/apache2/examples/setup-instance 002 
 #	&& sh /usr/share/doc/apache2/examples/setup-instance 003 \
 #	&& sh /usr/share/doc/apache2/examples/setup-instance 004 \
 #	&& sh /usr/share/doc/apache2/examples/setup-instance 005 \
