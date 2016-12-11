@@ -18,7 +18,7 @@ from shared_params import *
 address = "192.168."
 limit = False
 countSites=1
-count=1
+count=0
 
 #-------------------------------------------------------------------------------
 # Argument parser
@@ -63,7 +63,7 @@ def hname2apache(hname, proto):
 		address = "192.168."
 #		print "count equals to ", count
 		if (proto == HTTP1):
-			x= (0 * 128) + (loss * count)
+			x= (0 * 128) + loss + (count * 3)
 #			if(countSites < 255):
 #				x= 0 * 128 + loss
 #			else:
@@ -76,7 +76,7 @@ def hname2apache(hname, proto):
 #						x= 0 * 128 + 5
 		
 		else:
-			x= (1 * 128) + (loss * count)
+			x= (1 * 128) + + loss + (count * 3)
 #			if(countSites < 255):
 #				x= 1 * 128 + loss
 #			else:
@@ -88,15 +88,9 @@ def hname2apache(hname, proto):
 #					if(loss == 2):
 #						x= 1 * 128 + 5
 		address = address + str(x)+"."
-		#address = address + str(countSites)
+		address = address + str(countSites)
 		
-		if(countSites<255):
-			address = address + str(countSites)
-			countSites +=1
-#			print "count sites", countSites
-		if(countSites == 255):
-			count +=1
-			countSites = 1
+
 
 #		if(countSites>=255):
 #			address = address + str(countSites2)
@@ -116,6 +110,8 @@ def hname2apache(hname, proto):
 						"\tSSLCertificateFile "+ssl_cert, \
 						"\tSSLCertificateKeyFile "+ssl_key, \
 						"</VirtualHost>", "", "", ""])
+	
+
 	return output
 
 
@@ -168,6 +164,14 @@ if __name__ == '__main__':
 		output[HTTP1].hosts.write(hname2hosts(hname, HTTP1))
 		output[H2].apache.write(hname2apache(hname, H2))
 		output[H2].hosts.write(hname2hosts(hname, H2))
+
+		if(countSites<255):
+#			address = address + str(countSites)
+			countSites +=1
+#			print "count sites", countSites
+		if(countSites == 255):
+			count +=1
+			countSites = 1
 
 	for i in output.values():
 		i.apache.close()
