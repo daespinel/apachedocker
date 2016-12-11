@@ -76,7 +76,7 @@ def hname2apache(hname, proto):
 #						x= 0 * 128 + 5
 		
 		else:
-			x= (1 * 128) + + loss + (count * 3)
+			x= (1 * 128) +  loss + (count * 3)
 #			if(countSites < 255):
 #				x= 1 * 128 + loss
 #			else:
@@ -160,18 +160,21 @@ if __name__ == '__main__':
 
 	# Read the hostnames file and generate configuration files
 	for hname in open(params.input, 'r').read().splitlines():
-		output[HTTP1].apache.write(hname2apache(hname, HTTP1))
-		output[HTTP1].hosts.write(hname2hosts(hname, HTTP1))
-		output[H2].apache.write(hname2apache(hname, H2))
-		output[H2].hosts.write(hname2hosts(hname, H2))
+		if hname.startswith('#'):
+			print "header"
+		else:
+			output[HTTP1].apache.write(hname2apache(hname, HTTP1))
+			output[HTTP1].hosts.write(hname2hosts(hname, HTTP1))
+			output[H2].apache.write(hname2apache(hname, H2))
+			output[H2].hosts.write(hname2hosts(hname, H2))
 
-		if(countSites<255):
-#			address = address + str(countSites)
-			countSites +=1
-#			print "count sites", countSites
-		if(countSites == 255):
-			count +=1
-			countSites = 1
+			if(countSites<255):
+#				address = address + str(countSites)
+				countSites +=1
+#				print "count sites", countSites
+			if(countSites == 255):
+				count +=1
+				countSites = 1
 
 	for i in output.values():
 		i.apache.close()
