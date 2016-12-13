@@ -97,9 +97,9 @@ def hname2apache(hname, proto):
 #			countSites2 +=1
 
 		print address
-		output = output + "\n".join(["<VirtualHost %s:%s>" % (address,APACHE_PORT_secondary), \
+		output = output + "\n".join(["<VirtualHost %s:%s>" % (address,APACHE_PORT), \
 						"\tServerName "+ words[0], \
-						"\tDocumentRoot "+os.path.join("/var/www/", words[0], "/"), \
+						"\tDocumentRoot "+os.path.join("/var/www/", words[0]+"/"), \
 						"", \
 						"\tErrorLog ${APACHE_LOG_DIR}/error.log", \
 						"\tCustomLog ${APACHE_LOG_DIR}/access.log combined", \
