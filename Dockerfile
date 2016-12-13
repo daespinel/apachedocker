@@ -82,7 +82,8 @@ CMD service ssh start \
 #	&& echo '192.168.0.3 page3.com' >> /etc/hosts \
 #	&& echo '192.168.0.4 page4.com' >> /etc/hosts \
 	&& /home/server/ifaces_config/./start_ifaces.sh start \
-	&& systemctl enable apache2-001 \
+#	&& service apache2-001 start \
+#	&& systemctl start apache2-001.service -D FOREGROUND
 	&& /usr/sbin/apache2ctl -D FOREGROUND
 
 

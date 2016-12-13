@@ -17,7 +17,7 @@ from shared_params import *
 
 address = "192.168."
 limit = False
-countSites=1
+countSites=3
 count=0
 
 #-------------------------------------------------------------------------------
@@ -99,16 +99,16 @@ def hname2apache(hname, proto):
 		print address
 		output = output + "\n".join(["<VirtualHost %s:%s>" % (address,APACHE_PORT_secondary), \
 						"\tServerName "+ words[0], \
-						"\tDocumentRoot "+os.path.join("/var/www/", words[0]), \
+						"\tDocumentRoot "+os.path.join("/var/www/", words[0], "/"), \
 						"", \
 						"\tErrorLog ${APACHE_LOG_DIR}/error.log", \
 						"\tCustomLog ${APACHE_LOG_DIR}/access.log combined", \
 						"", \
 						"\tProtocols "+proto, \
 						"", \
-						"\tSSLEngine on", \
-						"\tSSLCertificateFile "+ssl_cert, \
-						"\tSSLCertificateKeyFile "+ssl_key, \
+#						"\tSSLEngine on", \
+#						"\tSSLCertificateFile "+ssl_cert, \
+#						"\tSSLCertificateKeyFile "+ssl_key, \
 						"</VirtualHost>", "", "", ""])
 	
 

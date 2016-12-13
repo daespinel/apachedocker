@@ -30,11 +30,11 @@ IFACES_SETTINGS="/home/server/ifaces_config/server_ifaces.settings"			# Expected
 DEFAULTSETTINGS="/home/server/ifaces_config/server_ifaces.settings.defaults"		# Expected format: iface ip_addr rtt loss
 
 DEV=eth0
-MASTER_IP="192.168.0.10"
-DEFAULT_GW="192.168.0.12"
+MASTER_IP="192.168.0.1"
+DEFAULT_GW="192.168.255.255"
 DNS_PRI="127.0.0."
-NET="192.168.0."
-MASK="255.255.255.0"
+NET="192.168."
+MASK="255.255.0.0"
 
 SLEEP_TIME=2
 
