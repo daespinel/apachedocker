@@ -45,6 +45,19 @@ COPY deploy/ /home/deploy/
 
 RUN sh /usr/share/doc/apache2/examples/setup-instance 001 \
 	&& sh /usr/share/doc/apache2/examples/setup-instance 002 
+
+WORKDIR /home/deploy
+
+RUN python /home/deploy/plain_deploy.py --input /home/deploy/latency.DATA
+RUN cp /home/deploy/h1.apache /etc/apache2-001/sites-available/000-default.conf
+RUN cp /home/deploy/h2.apache /etc/apache2-002/sites-available/000-default.conf
+RUN a2enmod ssl
+
+COPY ssl_certificates/apache-001.crt /etc/apache2-001/ssl/
+COPY ssl_certificates/apache-001.key /etc/apache2-001/ssl/
+COPY ssl_certificates/apache-002.crt /etc/apache2-001/ssl/
+COPY ssl_certificates/apache-002.key /etc/apache2-001/ssl/
+
 #	&& sh /usr/share/doc/apache2/examples/setup-instance 003 \
 #	&& sh /usr/share/doc/apache2/examples/setup-instance 004 \
 #	&& sh /usr/share/doc/apache2/examples/setup-instance 005 \
@@ -58,6 +71,8 @@ RUN sh /usr/share/doc/apache2/examples/setup-instance 001 \
 #	&& a2ensite page3.conf \
 #	&& a2ensite page4.conf
 
+WORKDIR /
+
 EXPOSE 80
 EXPOSE 443
 EXPOSE 22
@@ -67,6 +82,7 @@ CMD service ssh start \
 #	&& echo '192.168.0.3 page3.com' >> /etc/hosts \
 #	&& echo '192.168.0.4 page4.com' >> /etc/hosts \
 	&& /home/server/ifaces_config/./start_ifaces.sh start \
+	&& systemctl enable apache2-001 \
 	&& /usr/sbin/apache2ctl -D FOREGROUND
 
 
