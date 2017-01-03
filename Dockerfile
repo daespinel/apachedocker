@@ -52,11 +52,13 @@ RUN python /home/deploy/plain_deploy.py --input /home/deploy/latency.DATA
 RUN cp /home/deploy/h1.apache /etc/apache2-001/sites-available/000-default.conf
 RUN cp /home/deploy/h2.apache /etc/apache2-002/sites-available/000-default.conf
 RUN a2enmod ssl
+RUN python /home/deploy/generate_faces.py --input /home/deploy/latency.DATA
+RUN cp /home/deploy/server_ifaces.settings /home/server/ifaces_config/server_ifaces.settings
 
 COPY ssl_certificates/apache-001.crt /etc/apache2-001/ssl/
 COPY ssl_certificates/apache-001.key /etc/apache2-001/ssl/
-COPY ssl_certificates/apache-002.crt /etc/apache2-001/ssl/
-COPY ssl_certificates/apache-002.key /etc/apache2-001/ssl/
+COPY ssl_certificates/apache-002.crt /etc/apache2-002/ssl/
+COPY ssl_certificates/apache-002.key /etc/apache2-002/ssl/
 
 #	&& sh /usr/share/doc/apache2/examples/setup-instance 003 \
 #	&& sh /usr/share/doc/apache2/examples/setup-instance 004 \

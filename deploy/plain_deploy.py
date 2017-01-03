@@ -57,7 +57,8 @@ def hname2apache(hname, proto):
 	#	address = 192.168.x.y 
 	#
 	output = ""   
-	for loss in [0, 1, 2]:
+#	for loss in [0, 1, 2]:
+	for loss in [0]:
 		words= hname.split()
 		# print words[2]
 		address = "192.168."
@@ -97,7 +98,7 @@ def hname2apache(hname, proto):
 #			countSites2 +=1
 
 		print address
-		output = output + "\n".join(["<VirtualHost %s:%s>" % (address,APACHE_PORT), \
+		output = output + "\n".join(["<VirtualHost %s:%s>" % (address,APACHE_PORT_secondary), \
 						"\tServerName "+ words[0], \
 						"\tDocumentRoot "+os.path.join("/var/www/", words[0]+"/"), \
 						"", \
@@ -106,9 +107,9 @@ def hname2apache(hname, proto):
 						"", \
 						"\tProtocols "+proto, \
 						"", \
-#						"\tSSLEngine on", \
-#						"\tSSLCertificateFile "+ssl_cert, \
-#						"\tSSLCertificateKeyFile "+ssl_key, \
+						"\tSSLEngine on", \
+						"\tSSLCertificateFile "+ssl_cert, \
+						"\tSSLCertificateKeyFile "+ssl_key, \
 						"</VirtualHost>", "", "", ""])
 	
 
