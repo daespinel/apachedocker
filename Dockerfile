@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER David Espinel <dafespinelsa@unal.edu.co>
-RUN apt-get update && apt-get install -y apache2 && apt-get install python -y && apt-get install openssh-server -y && apt-get install -y net-tools
+RUN apt-get update && apt-get install -y apache2 && apt-get install python -y && apt-get install openssh-server -y && apt-get install -y net-tools && apt-get install -y openssl
 
 RUN mkdir /var/run/sshd
 RUN echo 'root:screencast' | chpasswd
@@ -51,7 +51,7 @@ WORKDIR /home/deploy
 RUN python /home/deploy/plain_deploy.py --input /home/deploy/latency.DATA
 RUN cp /home/deploy/h1.apache /etc/apache2-001/sites-available/000-default.conf
 RUN cp /home/deploy/h2.apache /etc/apache2-002/sites-available/000-default.conf
-RUN a2enmod ssl
+RUN a2enmod-001 ssl
 RUN python /home/deploy/generate_faces.py --input /home/deploy/latency.DATA
 RUN cp /home/deploy/server_ifaces.settings /home/server/ifaces_config/server_ifaces.settings
 
