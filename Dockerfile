@@ -32,16 +32,18 @@ RUN sh /usr/share/doc/apache2/examples/setup-instance 001 \
 
 WORKDIR /home/deploy
 
-RUN python /home/deploy/plain_deploy.py --input /home/deploy/latency.DATA
+RUN python /home/deploy/plain_deploy.py --input /home/deploy/latency.DATA --protocol HTTP --loss 0
 RUN cp /home/deploy/h1.apache /etc/apache2-001/sites-available/000-default.conf
 RUN cp /home/deploy/h2.apache /etc/apache2-002/sites-available/000-default.conf
 RUN a2enmod-001 ssl
 RUN a2enmod-002 ssl
-RUN python /home/deploy/generate_faces.py --input /home/deploy/latency.DATA
+RUN python /home/deploy/generate_faces.py --input /home/deploy/latency.DATA --protocol HTTP --loss 0
 RUN cp /home/deploy/server_ifaces.settings /home/server/ifaces_config/server_ifaces.settings
 
 COPY config/services.sh /home/
+COPY deploy/run.sh /home/
 RUN chmod 755 /home/services.sh
+RUN chmod 755 /home/run.sh
 
 
 COPY ssl_certificates/apache-001.crt /etc/apache2-001/ssl/
@@ -49,11 +51,15 @@ COPY ssl_certificates/apache-001.key /etc/apache2-001/ssl/
 COPY ssl_certificates/apache-002.crt /etc/apache2-002/ssl/
 COPY ssl_certificates/apache-002.key /etc/apache2-002/ssl/
 
+COPY config/default-ssl.conf /etc/apache2-001/sites-available/
+COPY deploy/ssh_config /etc/ssh/
+
 WORKDIR /home
 
 EXPOSE 80
 EXPOSE 443
 EXPOSE 22
+EXPOSE 2222
 
 CMD ["/home/services.sh"]
 #CMD service ssh start \ 

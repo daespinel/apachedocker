@@ -28,6 +28,10 @@ def process_opt():
 	parser = ArgumentParser(usage=usage)
 	parser.add_argument("--input", dest="input", required=True, type=str, \
 							help="Input latency file")
+	parser.add_argument("--protocol", dest="protocol", required=True, type=str, \
+							help="Input protocol", choices=['HTTP','HTTP2'])
+	parser.add_argument("--loss", dest="loss", required=True, type=str, \
+							help="Input loss", choices=['0','1','2'])	
 
 	opt = parser.parse_args()
 	return opt
@@ -38,7 +42,7 @@ def process_opt():
 # LOCAL FUNCTIONS
 # ------------------------------------------------------------------------------
 # Produce the textual output for Apache configuration
-def hname2apache(hname, proto):
+def hname2apache(hname, proto,userloss):
 	global address
 	global countSites
 	global count
@@ -58,13 +62,13 @@ def hname2apache(hname, proto):
 	#
 	output = ""   
 #	for loss in [0, 1, 2]:
-	for loss in [0]:
-		words= hname.split()
+	loss = int(userloss)
+	words= hname.split()
 		# print words[2]
-		address = "192.168."
+	address = "192.168."
 #		print "count equals to ", count
-		if (proto == HTTP1):
-			x= (0 * 128) + loss + (count * 3)
+	if (proto == HTTP1):
+		x= (0 * 128) + loss + (count * 3)
 #			if(countSites < 255):
 #				x= 0 * 128 + loss
 #			else:
@@ -76,8 +80,8 @@ def hname2apache(hname, proto):
 #					if(loss == 2):
 #						x= 0 * 128 + 5
 		
-		else:
-			x= (1 * 128) +  loss + (count * 3)
+	else:
+		x= (1 * 128) +  loss + (count * 3)
 #			if(countSites < 255):
 #				x= 1 * 128 + loss
 #			else:
@@ -88,8 +92,8 @@ def hname2apache(hname, proto):
 #						x= 1 * 128 + 4
 #					if(loss == 2):
 #						x= 1 * 128 + 5
-		address = address + str(x)+"."
-		address = address + str(countSites)
+	address = address + str(x)+"."
+	address = address + str(countSites)
 		
 
 
@@ -97,20 +101,20 @@ def hname2apache(hname, proto):
 #			address = address + str(countSites2)
 #			countSites2 +=1
 
-		print address
-		output = output + "\n".join(["<VirtualHost %s:%s>" % (address,APACHE_PORT_secondary), \
-						"\tServerName "+ words[0], \
-						"\tDocumentRoot "+os.path.join("/var/www/", words[0]+"/"), \
-						"", \
-						"\tErrorLog ${APACHE_LOG_DIR}/error.log", \
-						"\tCustomLog ${APACHE_LOG_DIR}/access.log combined", \
-						"", \
-						"\tProtocols "+proto, \
-						"", \
-						"\tSSLEngine on", \
-						"\tSSLCertificateFile "+ssl_cert, \
-						"\tSSLCertificateKeyFile "+ssl_key, \
-						"</VirtualHost>", "", "", ""])
+	print address
+	output = output + "\n".join(["<VirtualHost %s:%s>" % (address,APACHE_PORT_secondary), \
+					"\tServerName "+ words[0], \
+					"\tDocumentRoot "+os.path.join("/var/www/", words[0]+"/"), \
+					"", \
+					"\tErrorLog ${APACHE_LOG_DIR}/error.log", \
+					"\tCustomLog ${APACHE_LOG_DIR}/access.log combined", \
+					"", \
+					"\tProtocols "+proto, \
+					"", \
+					"\tSSLEngine on", \
+					"\tSSLCertificateFile "+ssl_cert, \
+					"\tSSLCertificateKeyFile "+ssl_key, \
+					"</VirtualHost>", "", "", ""])
 	
 
 	return output
@@ -164,9 +168,11 @@ if __name__ == '__main__':
 		if hname.startswith('#'):
 			print "header"
 		else:
-			output[HTTP1].apache.write(hname2apache(hname, HTTP1))
+			if params.protocol == "HTTP":
+				output[HTTP1].apache.write(hname2apache(hname, HTTP1,params.loss))
 			output[HTTP1].hosts.write(hname2hosts(hname, HTTP1))
-			output[H2].apache.write(hname2apache(hname, H2))
+			if params.protocol == "HTTP2":
+				output[H2].apache.write(hname2apache(hname, H2,params.loss))
 			output[H2].hosts.write(hname2hosts(hname, H2))
 
 			if(countSites<255):

@@ -25,6 +25,10 @@ def process_opt():
 	parser = ArgumentParser(usage=usage)
 	parser.add_argument("--input", dest="input", required=True, type=str, \
 							help="Input latency file")
+	parser.add_argument("--protocol", dest="protocol", required=True, type=str, \
+							help="Input protocol", choices=['HTTP','HTTP2'])
+	parser.add_argument("--loss", dest="loss", required=True, type=str, \
+							help="Input loss", choices=['0','1','2'])	
 
 	opt = parser.parse_args()
 	return opt
@@ -33,25 +37,25 @@ def process_opt():
 # LOCAL FUNCTIONS
 # ------------------------------------------------------------------------------
 # Produce the textual output for Apache configuration
-def hname2faces(hname, proto):
+def hname2faces(hname, proto, userloss):
 	global address
 	global countSites
 	global count
 	global sites
 	output = ""
 #	for loss in [0, 1, 2]:
-	for loss in [0]:
-		words= hname.split()
-		address = "192.168."
-		if (proto == 0):
-			x= (0 * 128) + loss + (count * 3)
-		else:
-			x= (1 * 128) +  loss + (count * 3)
-		address = address + str(x)+"."
-		address = address + str(countSites)
-		output = output + "\n".join([str(sites) + " " + address + " "+ words[2] + "ms" + " " + str(loss) + "%" ])
-		output = output + "\n"
-		sites +=1
+	loss = int(userloss)
+	words= hname.split()
+	address = "192.168."
+	if (proto == 0):
+		x= (0 * 128) + loss + (count * 3)
+	else:
+		x= (1 * 128) +  loss + (count * 3)
+	address = address + str(x)+"."
+	address = address + str(countSites)
+	output = output + "\n".join([str(sites) + " " + address + " "+ words[2] + "ms" + " " + str(loss) + "%" ])
+	output = output + "\n"
+	sites +=1
 	return output
 
 
@@ -81,8 +85,11 @@ if __name__ == '__main__':
 		if hname.startswith('#'):
 			print "header"
 		else:
-			output["server_ifaces"].faces.write(hname2faces(hname,0))
-#			output["server_ifaces"].faces.write(hname2faces(hname,1))
+			if params.protocol == "HTTP":
+				output["server_ifaces"].faces.write(hname2faces(hname,0,params.loss))
+			if params.protocol == "HTTP2":
+				output["server_ifaces"].faces.write(hname2faces(hname,1,params.loss))
+
 			if(countSites<255):
 #				address = address + str(countSites)
 				countSites +=1
