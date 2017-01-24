@@ -93,7 +93,7 @@ reboot(){
 
 ### Stop virtual interfaces
 stop(){
-	for i in {1..9}
+	for i in {1..430}
 	do	
 		ifconfig $DEV:$i down 2>/dev/null
 	done

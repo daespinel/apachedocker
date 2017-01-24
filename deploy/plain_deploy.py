@@ -19,6 +19,7 @@ address = "192.168."
 limit = False
 countSites=4
 count=0
+latencylist=[]
 
 #-------------------------------------------------------------------------------
 # Argument parser
@@ -68,7 +69,7 @@ def hname2apache(hname, proto,userloss):
 	address = "192.168."
 #		print "count equals to ", count
 	if (proto == HTTP1):
-		x= (0 * 128) + loss + (count * 3)
+		x= (0 * 128) + loss
 #			if(countSites < 255):
 #				x= 0 * 128 + loss
 #			else:
@@ -81,7 +82,7 @@ def hname2apache(hname, proto,userloss):
 #						x= 0 * 128 + 5
 		
 	else:
-		x= (1 * 128) +  loss + (count * 3)
+		x = (1 * 128) +  loss
 #			if(countSites < 255):
 #				x= 1 * 128 + loss
 #			else:
@@ -93,7 +94,8 @@ def hname2apache(hname, proto,userloss):
 #					if(loss == 2):
 #						x= 1 * 128 + 5
 	address = address + str(x)+"."
-	address = address + str(countSites)
+	pagelatency = latency2list(float(words[2])) 
+	address = address + str(pagelatency)
 		
 
 
@@ -130,15 +132,26 @@ def hname2hosts(hname, proto):
 		return IPv6_POOL+"2"+" "+hname+"\n"
 
 
+# Produce a latency value among 70 for the giving latency of a page
+def latency2list(latency):
+	global latencylist
+	for iterl in latencylist:
+		if (latency<=iterl):
+			return latencylist.index(iterl)+4
+
 # ------------------------------------------------------------------------------
 #** MAIN **#
 if __name__ == '__main__':
 	global address
 	global countSites
 	global countSites2
+	global latencylist
 
 	# Get parameters from keyboard
 	params = process_opt()
+
+	for i in range(70):
+		latencylist.append((389.796/70)*(i+1))
 
 	# Initializing output files
 	class OutputFile():
@@ -175,13 +188,13 @@ if __name__ == '__main__':
 				output[H2].apache.write(hname2apache(hname, H2,params.loss))
 			output[H2].hosts.write(hname2hosts(hname, H2))
 
-			if(countSites<255):
+#			if(countSites<255):
 #				address = address + str(countSites)
-				countSites +=1
+#				countSites +=1
 #				print "count sites", countSites
-			if(countSites == 255):
-				count +=1
-				countSites = 1
+#			if(countSites == 255):
+#				count +=1
+#				countSites = 1
 
 	for i in output.values():
 		i.apache.close()

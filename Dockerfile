@@ -32,12 +32,12 @@ RUN sh /usr/share/doc/apache2/examples/setup-instance 001 \
 
 WORKDIR /home/deploy
 
-RUN python /home/deploy/plain_deploy.py --input /home/deploy/latency.DATA --protocol HTTP --loss 0
+RUN python /home/deploy/plain_deploy.py --input /home/deploy/latency.DATA --protocol HTTP --loss 1
 RUN cp /home/deploy/h1.apache /etc/apache2-001/sites-available/000-default.conf
 RUN cp /home/deploy/h2.apache /etc/apache2-002/sites-available/000-default.conf
 RUN a2enmod-001 ssl
 RUN a2enmod-002 ssl
-RUN python /home/deploy/generate_faces.py --input /home/deploy/latency.DATA --protocol HTTP --loss 0
+RUN python /home/deploy/generate_faces.py
 RUN cp /home/deploy/server_ifaces.settings /home/server/ifaces_config/server_ifaces.settings
 
 COPY config/services.sh /home/
